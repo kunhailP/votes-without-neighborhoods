@@ -280,7 +280,7 @@ National Election Commission (2026) Official counting-unit returns, certified el
 
 National Election Commission (n.d.) Regulations on Public Official Elections, Articles 16-2, 86(3) and 133(3), in the versions in force at each election studied; Article 86(3) as amended 24 December 2015 and Article 133(3) as amended 9 March 2018. Korean Law Information Center [in Korean]. Available at: <https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EA%B3%B5%EC%A7%81%EC%84%A0%EA%B1%B0%EA%B4%80%EB%A6%AC%EA%B7%9C%EC%B9%99> (accessed 12 October 2026).
 
-Oh, Seongtaek and Park, Iseok (2013) Yugwonjaui jaesansangtae(apateusise)ga huboja deukpyoe michineun yeonghyange gwanhan yeongu: je19dae gukhoeuiwonseongeo seoulteukbyeolsireul jungsimeuro (Voters' financial status, apartment prices and candidate vote shares: The nineteenth National Assembly election in Seoul). *Journal of Policy Development* 13(1), 171-193 [in Korean]. <https://doi.org/10.35224/kapd.2013.13.1.007>
+Oh, Seongtaek and Park, Iseok (2013) Yugwonjaui jaesansangtae(apateusise)ga huboja deukpyoe michineun yeonghyange gwanhan yeongu: je19dae gukhoeuiwonseongeo seoulteukbyeolsireul jungsimeuro (A study on the influence of voters' financial status (the market price of apartments) to the votes received of candidates: Focused on the 19th National Assembly election of Seoul district). *Journal of Policy Development* 13(1), 171-193 [in Korean]. <https://doi.org/10.35224/kapd.2013.13.1.007>
 
 Rambachan, Ashesh and Roth, Jonathan (2023) A more credible approach to parallel trends. *Review of Economic Studies* 90(5), 2555-2591. <https://doi.org/10.1093/restud/rdad018>
 
@@ -306,4 +306,4 @@ vuski (2026) *admdongkor: Administrative-dong boundaries of the Republic of Kore
 
 Wakefield, Jon (2004) Ecological inference for 2 × 2 tables. *Journal of the Royal Statistical Society: Series A* 167(3), 385-425. <https://doi.org/10.1111/j.1467-985x.2004.02046_1.x>
 
-Yun, Miyoung and Jun, Myung-Jin (2024) Jutaekgagyeok byeondongi 20dae daetongnyeong seongeo jiji jeongdang hubo byeonhwae michineun yeonghyang bunseok: jeonguk haengjeongdong danwi tupyogyeolgwareul jungsimeuro (The impact of housing price changes on swing voters in the twentieth presidential election: National voting results by administrative districts). *Journal of Korea Planning Association* 59(2), 121-132 [in Korean]. <https://doi.org/10.17208/jkpa.2024.04.59.2.121>
+Yun, Miyoung and Jun, Myung-Jin (2024) Jutaekgagyeok byeondongi 20dae daetongnyeong seongeo jiji jeongdang hubo byeonhwae michineun yeonghyang bunseok: jeonguk haengjeongdong danwi tupyogyeolgwareul jungsimeuro (The impact of housing price changes on swing voters in the 20th presidential election: Focused on national voting results by administrative districts). *Journal of Korea Planning Association* 59(2), 121-132 [in Korean]. <https://doi.org/10.17208/jkpa.2024.04.59.2.121>
