@@ -1,0 +1,44 @@
+\usepackage{fontspec}
+\usepackage{unicode-math}
+\setmainfont{TeX Gyre Termes}
+\setmathfont{TeX Gyre Termes Math}
+\usepackage{xeCJK}
+\setCJKmainfont{Noto Serif CJK KR}
+\xeCJKsetup{CJKecglue={},xCJKecglue=false}
+\xeCJKDeclareCharClass{Default}{"2018,"2019,"201C,"201D,"2013,"2014,"00B7}
+\usepackage{setspace}
+\onehalfspacing
+\usepackage{longtable,booktabs,threeparttable,tabularx,array,multirow,makecell}
+\usepackage{caption}
+\captionsetup{font=small,labelfont=bf,justification=raggedright,singlelinecheck=false,skip=4pt}
+\captionsetup[table]{position=top}
+\usepackage{float}
+\usepackage{placeins}
+\floatplacement{figure}{tbp}
+% let large figures share a page with text instead of floating to a page of their own
+\renewcommand{\topfraction}{0.85}
+\renewcommand{\bottomfraction}{0.7}
+\renewcommand{\textfraction}{0.12}
+\renewcommand{\floatpagefraction}{0.8}
+\usepackage{needspace}
+\usepackage{xurl}
+\usepackage[hang,flushmargin]{footmisc}
+\usepackage{microtype}
+\usepackage{xcolor}
+\definecolor{linkblue}{HTML}{1C5CAB}
+\AtBeginDocument{\hypersetup{colorlinks=true,linkcolor=linkblue,urlcolor=linkblue,citecolor=linkblue}}
+\newcolumntype{L}{>{\raggedright\arraybackslash}X}
+\newcolumntype{C}{>{\centering\arraybackslash}X}
+\renewcommand{\arraystretch}{1.12}
+\setlength{\parskip}{0pt}
+\widowpenalty=10000
+\clubpenalty=10000
+\usepackage{titlesec}
+\titlespacing*{\section}{0pt}{1.2em}{0.4em}
+\titlespacing*{\subsection}{0pt}{0.9em}{0.3em}
+\titleformat{\section}{\normalfont\large\bfseries}{\thesection}{0.6em}{}
+\titleformat{\subsection}{\normalfont\normalsize\bfseries}{\thesubsection}{0.6em}{}
+% line numbers for review (reviewers can cite lines)
+\usepackage[pagewise]{lineno}
+\AtBeginDocument{\linenumbers}
+\renewcommand\linenumberfont{\normalfont\tiny\color{gray}}

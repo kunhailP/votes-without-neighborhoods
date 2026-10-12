@@ -1,0 +1,18 @@
+# secrets: API keys for data.go.kr and juso.go.kr live here
+.env
+*.env
+# caches and builds
+__pycache__/
+*.pyc
+.pytest_cache/
+results/ydong/
+paper/build/*_pdf.md
+paper/build/*_docx.md
+logs/
+.DS_Store
+# large raw mobility files are not redistributed (see data/README.md)
+data/raw/mobility/*.zip
+# make stamps
+paper/tables/.stamp
+paper/figures/.stamp
+paper/build/.stamp

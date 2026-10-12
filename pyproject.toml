@@ -1,0 +1,12 @@
+[project]
+name = "vwn"
+version = "1.0.0"
+description = "Partial identification of residence-based small-area vote shares when ballots cast away from home are counted elsewhere"
+requires-python = ">=3.12"
+dependencies = ["numpy", "scipy>=1.11", "pandas", "statsmodels", "matplotlib"]
+
+[tool.setuptools]
+packages = ["vwn"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]

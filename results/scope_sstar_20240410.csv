@@ -1,0 +1,17 @@
+sg,sample,spec,movement,delta,s_lo,s_hi,s_min,lower_unrestricted
+20240410,all,slope,lambda=1,0.1,0.02109375,0.022265625,0.0,-0.18497877745458882
+20240410,all,contrast,lambda=1,0.1,0.0,0.0,0.0,-0.11681460514238388
+20240410,all,slope,lambda=1,0.2,0.0,0.0,0.0,-0.20173352676158524
+20240410,all,contrast,lambda=1,0.2,0.0,0.0,0.0,-0.12776187543203502
+20240410,all,slope,unrestricted,0.1,0.0,0.0,0.0,-0.5270211554383616
+20240410,all,contrast,unrestricted,0.1,0.0,0.0,0.0,-0.2905743562032731
+20240410,all,slope,unrestricted,0.2,0.0,0.0,0.0,-0.5340050067788428
+20240410,all,contrast,unrestricted,0.2,0.0,0.0,0.0,-0.29564218129836073
+20240410,excl_gangnam3,slope,lambda=1,0.1,0.0,0.0,0.0,-0.22422741949722608
+20240410,excl_gangnam3,contrast,lambda=1,0.1,0.0,0.0,0.0,-0.1304245868308137
+20240410,excl_gangnam3,slope,lambda=1,0.2,0.0,0.0,0.0,-0.24119555346982302
+20240410,excl_gangnam3,contrast,lambda=1,0.2,0.0,0.0,0.0,-0.14194463796992968
+20240410,excl_gangnam3,slope,unrestricted,0.1,0.0,0.0,0.0,-0.5759037386871131
+20240410,excl_gangnam3,contrast,unrestricted,0.1,0.0,0.0,0.0,-0.3030192617898299
+20240410,excl_gangnam3,slope,unrestricted,0.2,0.0,0.0,0.0,-0.5829676433707178
+20240410,excl_gangnam3,contrast,unrestricted,0.2,0.0,0.0,0.0,-0.3082972436311223

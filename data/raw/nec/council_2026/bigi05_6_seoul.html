@@ -1,0 +1,1754 @@
+﻿<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<title>중앙선거관리위원회 선거통계시스템</title>
+<script type="text/javascript" src="/common/js/jquery/jquery-1.12.1.min.js"></script>
+<link rel="stylesheet" type="text/css" href="/common/css/base_v2.css?ver=231025" />
+<link rel="stylesheet" type="text/css" href="/common/css/submains_v2.css?ver=240327" />
+<script type="text/javascript" src="/common/js/submains.js?ver=260202"></script>
+<script type="text/javascript">
+var RBtnRemoveList = ["HWP"];
+	</script>
+<script type="text/javascript" src="/common/js/search.js?ver=231025" charset="utf-8"></script>
+	<!--[if lt IE 9]>
+	    <script type="text/javascript" src="/common/js/html5shiv.js"></script>
+	<![endif]-->
+	<!--[if lte IE 9]>
+		<link type="text/css" rel="stylesheet" href="/common/css/jquery.Placeholders.monkey.patch.min.css" />
+		<script type="text/javascript" src="/common/js/placeholders.min.js"></script>
+		<script type="text/javascript" src="/common/js/jquery.Placeholders.monkey.patch.min.js"></script>
+		<script type="text/javascript">var underIE = true;</script>
+	<![endif]-->
+
+</head>
+<body class="bg">
+<div id="skipNav">
+    <a href="#container">본문 바로가기</a>
+</div>
+<div id="wrapper"> 
+	<div class="w_inner"> 
+
+	<div style="display:none;"></div>
+		<div id="header">
+    <div class="top_section">  
+        <h1><a href="/main/main_load.xhtml"><span class="blind">중앙선거관리위원회 선거통계시스템 홈으로 가기</span></a></h1>
+        <ul class="select_election sec">
+		    <li class="eleft"><a href="javascript:void(0)" class="on" title="선택됨"><span>최근선거</span></a></li>
+		    <li class="eright"><a href="/main/main_previous_load.xhtml"><span>역대선거</span></a></li>
+        </ul>
+        <ul class="t_search" >
+ 			<li class="tit"><a href="/search/searchCandidate.xhtml" >통합검색</a></li>
+ 			<li><input type="text" id="searchKeyword" class="search_input krinput" onkeypress="if(event.keyCode == 13){fn_commonSearch();return false;}" maxlength="30" title="후보자 성명 입력" placeholder="후보자 성명 입력" /></li>
+ 			<li><a href="javascript:void(0)" onclick="javascript:fn_commonSearch();" class="btn_t_search searchBtn"><span class="blind">검색</span></a></li>
+		</ul>
+        
+        <div class="s_election" id="s_election">
+            <div class="p_top">
+                <h4>선거선택</h4>
+                <p><a class="cbtn" href="javascript:void(0)"><span>닫기</span></a></p>
+            </div>
+            <div class="p_body">
+               <ul>
+					<li><a href="/main/showDocument.xhtml?electionId=0020260603&topMenuId=BI">제9회 전국동시지방선거</a></li>
+						</ul>
+            </div>
+        </div>
+        </div>
+    <div id="gnb">
+    	<h2 class="tit_elect" style="line-height:1.4;">
+			<p class="date" style="font-size:17px;">2026년 6월 3일</p>
+			<p class="title">제9회 전국동시지방선거</p>
+        </h2>
+        
+        <nav class="gnb_area">
+        	<ul class="gnblist">
+			<li>
+					<a href="/main/showDocument.xhtml?electionId=0020260603&topMenuId=BI" class="m_BIon">
+						<span>기본현황</span>
+					</a>
+					<ul class="sub_menu">
+						<li><a href="/main/showDocument.xhtml?electionId=0020260603&topMenuId=BI&secondMenuId=BIES01">선거일정</a></li>
+						<li><a href="/main/showDocument.xhtml?electionId=0020260603&topMenuId=BI&secondMenuId=BIGI04">위원회주소</a></li>
+						<li><a href="/main/showDocument.xhtml?electionId=0020260603&topMenuId=BI&secondMenuId=BIGI01">선거구수 및 정수현황</a></li>
+						<li><a href="/main/showDocument.xhtml?electionId=0020260603&topMenuId=BI&secondMenuId=BIGI05">선거구 및 읍면동현황</a></li>
+						<li><a href="/main/showDocument.xhtml?electionId=0020260603&topMenuId=BI&secondMenuId=BIPB02">선거인명부 확정상황</a></li>
+						<li><a href="/main/showDocument.xhtml?electionId=0020260603&topMenuId=BI&secondMenuId=BIAP01">사전투표소 현황</a></li>
+						<li><a href="/main/showDocument.xhtml?electionId=0020260603&topMenuId=BI&secondMenuId=BIPP01">선거일투표소 현황</a></li>
+						<li><a href="/main/showDocument.xhtml?electionId=0020260603&topMenuId=BI&secondMenuId=BICP01">개표소 현황</a></li>
+						</ul>
+				</li>	
+			<li>
+					<a href="/main/showDocument.xhtml?electionId=0020260603&topMenuId=CP" class="m_CP">
+						<span>후보자</span>
+					</a>
+					<ul class="sub_menu">
+						<li><a href="/main/showDocument.xhtml?electionId=0020260603&topMenuId=CP&secondMenuId=CPRI01">후보자 등록수</a></li>
+						<li><a href="/main/showDocument.xhtml?electionId=0020260603&topMenuId=CP&secondMenuId=CPRI03">후보자 명부</a></li>
+						<li><a href="/main/showDocument.xhtml?electionId=0020260603&topMenuId=CP&secondMenuId=CPRI04">무투표선거구 후보자명부</a></li>
+						<li><a href="/main/showDocument.xhtml?electionId=0020260603&topMenuId=CP&secondMenuId=CPRI05">사퇴/사망/등록무효</a></li>
+						<li><a href="/main/showDocument.xhtml?electionId=0020260603&topMenuId=CP&secondMenuId=CPRI06">후보자 통계</a></li>
+						</ul>
+				</li>	
+			<li>
+					<a href="/main/showDocument.xhtml?electionId=0020260603&topMenuId=CE" class="m_CE">
+						<span>선거비용</span>
+					</a>
+					<ul class="sub_menu">
+						<li><a href="/main/showDocument.xhtml?electionId=0020260603&topMenuId=CE&secondMenuId=CELA02">선거비용공개</a></li>
+						</ul>
+				</li>	
+			<li>
+					<a href="/main/showDocument.xhtml?electionId=0020260603&topMenuId=VC" class="m_VC">
+						<span>투·개표</span>
+					</a>
+					<ul class="sub_menu">
+						<li><a href="/main/showDocument.xhtml?electionId=0020260603&topMenuId=VC&secondMenuId=VCAP01">사전투표진행상황(위원회별)</a></li>
+						<li><a href="/main/showDocument.xhtml?electionId=0020260603&topMenuId=VC&secondMenuId=VCAP02">사전투표진행상황(사전투표소별)</a></li>
+						<li><a href="/main/showDocument.xhtml?electionId=0020260603&topMenuId=VC&secondMenuId=VCVP01">투표진행상황</a></li>
+						<li><a href="/main/showDocument.xhtml?electionId=0020260603&topMenuId=VC&secondMenuId=VCCP09">개표진행상황</a></li>
+						<li><a href="/main/showDocument.xhtml?electionId=0020260603&topMenuId=VC&secondMenuId=VCCP08">개표단위별 개표결과</a></li>
+						</ul>
+				</li>	
+			<li>
+					<a href="/main/showDocument.xhtml?electionId=0020260603&topMenuId=EP" class="m_EP">
+						<span>당선인</span>
+					</a>
+					<ul class="sub_menu">
+						<li><a href="/main/showDocument.xhtml?electionId=0020260603&topMenuId=EP&secondMenuId=EPEI01">당선인 명부</a></li>
+						<li><a href="/main/showDocument.xhtml?electionId=0020260603&topMenuId=EP&secondMenuId=EPEI02">무투표당선인 명부</a></li>
+						<li><a href="/main/showDocument.xhtml?electionId=0020260603&topMenuId=EP&secondMenuId=EPEI03">당선인 통계</a></li>
+						</ul>
+				</li>	
+			</ul>
+        </nav>
+		<div class="gnb_bg">
+		</div>		
+        <div class="selSecondMenu">
+        	<ul class="selSubmu">
+				<li><a  href="/main/showDocument.xhtml?electionId=0020260603&topMenuId=BI&secondMenuId=BIES01">선거일정</a></li>
+						<li><a  href="/main/showDocument.xhtml?electionId=0020260603&topMenuId=BI&secondMenuId=BIGI04">위원회주소</a></li>
+						<li><a  href="/main/showDocument.xhtml?electionId=0020260603&topMenuId=BI&secondMenuId=BIGI01">선거구수 및 정수현황</a></li>
+						<li><a class="on" title="선택됨" href="/main/showDocument.xhtml?electionId=0020260603&topMenuId=BI&secondMenuId=BIGI05">선거구 및 읍면동현황</a></li>
+						<li><a  href="/main/showDocument.xhtml?electionId=0020260603&topMenuId=BI&secondMenuId=BIPB02">선거인명부 확정상황</a></li>
+						<li><a  href="/main/showDocument.xhtml?electionId=0020260603&topMenuId=BI&secondMenuId=BIAP01">사전투표소 현황</a></li>
+						<li><a  href="/main/showDocument.xhtml?electionId=0020260603&topMenuId=BI&secondMenuId=BIPP01">선거일투표소 현황</a></li>
+						<li><a  href="/main/showDocument.xhtml?electionId=0020260603&topMenuId=BI&secondMenuId=BICP01">개표소 현황</a></li>
+						</ul>
+        </div>
+        </div>
+    </div>
+
+
+<div id="pop" style="width: 500px; height: 400px; position: absolute; border: 1px solid rgb(217, 217, 217); background-color: rgb(255, 255, 255); left: 451.5px; top: 90px; display:none" onmousedown="startDrag(event, this)">
+	<div id="pop_title" class="title"><h3 align="center" style="margin: 0; padding: 10px; background-color:#2e3d64; color: #fff;">공지사항</h3></div>
+	<div id="pop_main" style="padding: 20px;">
+		<p style="font-size:25px;">선거통계시스템 작업 안내<br><br></p>
+		<p style="font-size:18px;">선거통계시스템의 안정적 서비스를 위한 서버점검 작업으로 <br />일부서비스가 원활하지 않을 수 있음을 알려드립니다.<br><br></p>
+		<p style="font-size:16px;">☞ 작업일시<br>2023. 9. 26.(화) 18:00 ~ 9. 27.(수) 09:00<br></p>
+	</div>
+	<div id="pop_close" style="position:absolute; left:0; right: 0; bottom: 0; padding: 10px; background-color:#555; color: #fff;">
+		<div style="text-align:left">
+			<input type="checkbox" id="todayClose" class="todayClose">
+ 			<label for="todayClose">오늘하루 그만보기</label>
+			<input style="font-size: 13px; background-color: #555; color: white; padding-top: 2px; float:right;" type="button" id="buttonClose" class="buttonClose" value="창닫기" onclick="javascript:checkedFunc();">
+		</div>
+	</div>
+   </div>
+
+<script type="text/javascript">
+
+$(function(){
+	
+	var electionId = "0020260603";    
+	
+    
+	var secondMenuId = "BIGI05";
+	
+    
+	var menuId = [];
+	
+    
+    if(menuId.length > 0){
+    	for(var i=0; i <= menuId.length; i++){
+    		if(menuId[i] == secondMenuId){
+    			if (getCookie("subNoticePop") != "done") {
+    				
+    				popupOpen();
+    			}
+    		}
+    	}
+    }
+});
+
+
+
+function popupOpen() {
+	var width = $(window).width();
+	var height = $(window).height();
+	
+	$('#pop').css("z-index", "9999");
+	$('#pop').css("position", "absolute");
+	$('#pop').css("border", "1px solid #d9d9d9");
+	$('#pop').css("background-color", "#fff");
+	$('#pop').css({'left':(width - 500 )/2, 'top':(height - 500 )/2 });
+	$('#pop').show();
+}
+
+
+var img_L = 0;
+var img_T = 0;
+var targetObj;
+
+function getLeft(o) {
+	return parseInt(o.style.left.replace('px', ''));
+}
+
+function getTop(o) {
+	return parseInt(o.style.top.replace('px', ''));
+}
+
+function moveDrag(e) {
+	var e_obj = window.event? window.event : e;
+	var dmvx = parseInt(e_obj.clientX + img_L);
+	var dmvy = parseInt(e_obj.clientY + img_T);
+	
+	targetObj.style.left = dmvx+"px";
+	targetObj.style.top = dmvy+"px";
+	return false;
+}
+
+function startDrag(e, obj){
+	targetObj = obj;
+	var e_obj = window.event? window.event : e;
+	
+	img_L = getLeft(obj) - e_obj.clientX;
+	img_T = getTop(obj) - e_obj.clientY;
+	
+	document.onmousemove = moveDrag;
+	document.onmouseup = stopDrag;
+	if(e_obj.preventDefault)e_obj.preventDefault();
+}
+
+function stopDrag() {
+	document.onmousemove = null;
+	document.onmouseup = null;
+}
+
+	
+function getCookie(name) {
+	var nameOfCookie = name + "=";
+	var x = 0;
+	while (x <= document.cookie.length) {
+		var y = (x + nameOfCookie.length);
+		if (document.cookie.substring(x, y) == nameOfCookie) {
+			if ((endOfCookie = document.cookie.indexOf(";", y)) == -1)
+				endOfCookie = document.cookie.length;
+			return unescape(document.cookie.substring(y, endOfCookie));
+		}
+		x = document.cookie.indexOf(" ", x) + 1;
+		if (x == 0)
+			break;
+	}
+	return "";
+}
+
+function setCookie(name, value, expiredays) {
+	var todayDate = new Date();
+	todayDate.setDate(todayDate.getDate() + expiredays);
+	document.cookie = name + "=" + escape(value) + "; path=/; expires="	+ todayDate.toGMTString() + ";";
+}
+
+
+var checkedFunc = function() {
+	var todayCheck = document.getElementById('todayClose');
+	if (todayCheck.checked) {
+		setCookie("subNoticePop", "done", 1);
+		$('#pop').hide();
+	} else {
+		$('#pop').hide();
+	}
+};
+
+</script><style type="text/css" media="all" title="default">@import "/common/css/base_v2.css?ver=231025";</style>
+
+<script type="text/javascript" charset="utf-8" src="/common/js/jquery/jquery-1.12.1.min.js" ></script>
+<script type="text/javascript" charset="utf-8" src="/common/js/jquery/jquery.blockUI.js" ></script>
+<script type="text/javascript" charset="utf-8" src="/common/js/jquery/jquery.jsonUtil.js"></script>
+<script type="text/javascript" charset="utf-8" src="/common/js/electioncommon.js?ver=260326"></script>
+<script type="text/javascript" charset="utf-8" src="/ubi4/js/ubi.js?ver=240201"></script>
+<script type="text/javascript">
+$(document).ready(function() {
+	if($("#electionType0").hasClass("on")){
+		$("select#electionName").attr("title", "선거일자");
+	}
+	else{
+		$("select#electionName").attr("title", "선거회차");	
+	}
+	$("select#electionNameJaeBo").attr("title", "선거일자");
+	$("select#electionCode").attr("title", "선거구분");
+	$("select#cityCode").attr("title", "시도");
+	$("select#sggCityCode").attr("title", "선거구");
+	$("select#townCode").attr("title", "구시군");
+	$("select#townCodeFromSgg").attr("title", "구시군");
+	$("select#sggTownCode").attr("title", "선거구(구시군)");
+	$("select#proportionalRepresentationCode").attr("title", "비례정당");
+	$("select#genderCode").attr("title", "성별");
+	$("select#dateCode").attr("title", "투표일자");
+	$("select#searchType").attr("title", "조회구분");
+	$("select#registorPartyCode").attr("title", "조회구분");
+	$("select#giguCode").attr("title", "선거운동기구");
+	$("select#maxMinCode").attr("title", "최다최소");
+	$("select#timeCode").attr("title", "투표시간");
+	
+});
+</script><script type="text/javascript">
+	
+	function fn_firstSetting(){
+		var previousElectionCode = '6';
+		var previousCityCode = '1100';
+		if($.trim(previousElectionCode).length > 0 && Number(previousElectionCode) > 0 && $.trim(previousCityCode).length >= 0 && Number(previousCityCode) >= 0){
+			selectBoxShow(1);
+			$(".f_select").find("a").removeClass("on");
+			$("#electionId"+previousElectionCode).addClass("on");
+			$('#cityName').html(retrieveSelectedName('cityCode'));
+		}else{
+			$('#cityCode').val(-1);
+			$('#electionCode').val(0);
+			if ($.trim(previousElectionCode).length > 0) {
+				selectBoxShow(1);
+			} else {
+				selectBoxShow(0);
+			}
+		}
+	}
+	
+	function settingYN() {
+		var electionCode = $('#electionCode').val();
+		var cityCode = $('#cityCode').val();
+		
+		if(electionCode>0){
+			if(Number(cityCode)>=0){
+				selectBoxShow(1);
+			}else{
+				selectBoxShow(2);
+			}
+		}else{
+			$('#cityCode').val(-1);
+			$('#electionCode').val(0);
+			selectBoxShow(0);
+		}
+	}
+
+	
+	function selectBoxShow(boxCase) {
+		var spanCityCode = "none";
+		var spanSubmit = "none";
+
+			if(boxCase == 1){
+				spanCityCode = "";
+				spanSubmit = "";
+			}else if (boxCase == 2){
+				spanCityCode = "";
+				spanSubmit = "none";
+			}
+		var electionCode = $('#electionCode').val();
+		
+		var	statementId = 'BIGI05';
+
+		
+		if(electionCode == 1){
+			statementId = 'BIGI05_1';
+			 
+		
+		}else if(electionCode == 2 || electionCode == 4){
+		    statementId = 'BIGI05_2';
+		
+		
+		}else if(electionCode == 5){
+		    statementId = 'BIGI05_5_5';
+		}
+		
+		else if(electionCode == 6){
+			statementId = 'BIGI05_6';
+		}
+		
+		$('#statementId').val(statementId);
+		$('#spanCityCode').css('display',spanCityCode);
+		$('#spanSubmit').css('display',spanSubmit);
+	}
+	
+	
+	
+	function setElectionCode(code){
+		$('#cityCode').val(0);
+		selectBoxShow(2);
+		$('#electionCode').val(code);
+		$(".f_select").find("a").removeClass("on").removeAttr('title');
+		$("#electionId"+code).addClass("on").attr('title','선택됨');
+		if(code == 2 || code == 4 || code == 6){
+			checkPreviousCityCodeForSgCode($('#electionId').val(), $('#electionCode').val(), '-1');
+		}else{
+			checkPreviousCityCodeDIForSgCode($("#electionId").val(), $("#electionCode").val(), "-1");
+		}
+		
+		
+		var statementId = 'BIGI05';
+		
+		
+		if(code == 1){
+			statementId = 'BIGI05_1';
+
+		
+	    }else if(code == 2 || code == 4){
+			statementId = 'BIGI05_2';
+		
+		
+    	}else if(code == 5){
+			statementId = 'BIGI05_5_5';
+		}
+		
+    	else if(code == 6){
+			statementId = 'BIGI05_6';
+		}
+		
+		$('#statementId').val(statementId);
+	}
+
+	$(document).ready(function(){
+		$('#cityCode').change(settingYN);
+		fn_firstSetting();
+		
+
+		$('.filter a.on').attr('title','선택됨');
+	});
+
+</script>
+
+<div id="container">
+	<div id="container_inner" class="clearfix">
+
+		<div id="contentarea">
+
+			<div class="titlearea">
+				<h3 class="t_BI">기본현황</h3>
+				<div class="r_title">
+					<h4>선거구 및 읍면동현황</h4>
+					<ul class="location">
+						<li class="home"><i class="blind">홈</i></li>
+						<li>제9회 전국동시지방선거</li> 
+						<li>기본현황</li>
+						<li>선거구 및 읍면동현황</li>
+					</ul>
+				</div>
+			</div>
+			<div class="bodyarea">
+           		<div class="filter">
+				 	<form id="searchForm" action="/electioninfo/electionInfo_report.xhtml" method="post">
+				 		<input type="hidden" id="electionId" name="electionId" value="0020260603" />
+<input type="hidden" id="requestURI" name="requestURI" value="/electioninfo/0020260603/bi/bigi05.jsp" />
+<input type="hidden" id="topMenuId" name="topMenuId" value='BI' />
+<input type="hidden" id="secondMenuId" name="secondMenuId" value='BIGI05' />
+<input type="hidden" id="menuId" name="menuId" value='BIGI05' />
+<input type="hidden" id="statementId" name="statementId" value="BIGI05"/>
+						<input type="hidden" id="electionCode" name="electionCode" value="6"/>
+
+						<div class="f_select">
+							<dl>
+								<dt>선거</dt>
+								<dd>
+									<a id="electionId4" href="javascript:setElectionCode(4);" >구·시·군의 장선거</a>
+										<a id="electionId5" href="javascript:setElectionCode(5);" >시·도의회의원선거</a>
+										<a id="electionId6" href="javascript:setElectionCode(6);" class="on">구·시·군의회의원선거</a>
+										<a id="electionId2" href="javascript:setElectionCode(2);" >국회의원선거</a>
+										</dd>
+							</dl>
+						</div>
+
+						<div class="f_search">
+							<dl>
+								<dt>조회조건</dt>
+								<dd>
+									<div class="wub_select1">
+										<span id="spanCityCode" style="display:none;" >
+											<label id="cityCodeLabel"  class="label" for="cityCode">시도</label>
+											<select id="cityCode" name="cityCode">
+ 												<option value="-1">▽ 선 택</option>
+  												<option value="1100" selected="selected">서울특별시</option>
+												<option value="2600" >부산광역시</option>
+												<option value="2700" >대구광역시</option>
+												<option value="2800" >인천광역시</option>
+												<option value="2900" >광주광역시</option>
+												<option value="3000" >대전광역시</option>
+												<option value="3100" >울산광역시</option>
+												<option value="4100" >경기도</option>
+												<option value="5200" >강원특별자치도</option>
+												<option value="4300" >충청북도</option>
+												<option value="4400" >충청남도</option>
+												<option value="5300" >전북특별자치도</option>
+												<option value="4600" >전라남도</option>
+												<option value="4700" >경상북도</option>
+												<option value="4800" >경상남도</option>
+												</select>
+										</span>
+										<span id="spanSubmit" style="display:none">
+											<!-- 210810_ 수정 : 검색버튼 src 수정. -->
+											<input type="image" src="../../common/images/renewal/btn_search.png?ver=240325" alt="검색" title="검색" />
+										</span>
+									</div>
+								</dd>
+							</dl>
+						</div>
+					</form>
+				</div>	
+
+				<div class="searchResult">
+						<div class="result_top">
+							<h5>결과보기</h5>
+							<p class="selectCondition">
+								<span id="cityName"></span>
+								<br/>
+							    </p>
+						</div>
+						<div class="cont_table">
+									<table id="table01" class="table01">
+										<caption>선거구 및 읍면동현황 정보 표입니다.</caption>
+										<colgroup>
+										<col width="110"/>
+											<col width="170"/>
+											<col width="60"/>
+											<col width="*"/>
+											</colgroup>
+										<thead>
+											<tr>
+											<th scope="col">구시군명</th>
+												<th scope="col">선거구명</th>
+												<th scope="col">정수</th>
+												<th scope="col">읍면동명</th>
+											</tr>
+										</thead>
+										<tbody>
+											<tr>
+														<td class="alignL">종로구</td>
+															<td class="alignL rowspan">종로구가선거구</td>
+															<td class="alignC">2</td>
+															<td class="alignL">청운효자동, 사직동, 무악동, 교남동</td>
+														</tr>
+													<tr>
+														<td class="alignL">종로구</td>
+															<td class="alignL rowspan">종로구나선거구</td>
+															<td class="alignC">2</td>
+															<td class="alignL">삼청동, 부암동, 평창동, 가회동</td>
+														</tr>
+													<tr>
+														<td class="alignL">종로구</td>
+															<td class="alignL rowspan">종로구다선거구</td>
+															<td class="alignC">2</td>
+															<td class="alignL">종로1·2·3·4가동, 이화동, 혜화동</td>
+														</tr>
+													<tr>
+														<td class="alignL">종로구</td>
+															<td class="alignL rowspan">종로구라선거구</td>
+															<td class="alignC">3</td>
+															<td class="alignL">종로5·6가동, 창신제1동, 창신제2동, 창신제3동, 숭인제1동, 숭인제2동</td>
+														</tr>
+													<tr>
+														<td class="alignL">중구</td>
+															<td class="alignL rowspan">중구가선거구</td>
+															<td class="alignC">2</td>
+															<td class="alignL">소공동, 명동, 광희동, 을지로동, 신당동, 중림동</td>
+														</tr>
+													<tr>
+														<td class="alignL">중구</td>
+															<td class="alignL rowspan">중구나선거구</td>
+															<td class="alignC">2</td>
+															<td class="alignL">신당제5동, 동화동, 황학동</td>
+														</tr>
+													<tr>
+														<td class="alignL">중구</td>
+															<td class="alignL rowspan">중구다선거구</td>
+															<td class="alignC">2</td>
+															<td class="alignL">회현동, 필동, 장충동, 다산동</td>
+														</tr>
+													<tr>
+														<td class="alignL">중구</td>
+															<td class="alignL rowspan">중구라선거구</td>
+															<td class="alignC">2</td>
+															<td class="alignL">약수동, 청구동</td>
+														</tr>
+													<tr>
+														<td class="alignL">용산구</td>
+															<td class="alignL rowspan">용산구가선거구</td>
+															<td class="alignC">2</td>
+															<td class="alignL">남영동, 청파동, 효창동</td>
+														</tr>
+													<tr>
+														<td class="alignL">용산구</td>
+															<td class="alignL rowspan">용산구나선거구</td>
+															<td class="alignC">2</td>
+															<td class="alignL">원효로제1동, 원효로제2동, 용문동</td>
+														</tr>
+													<tr>
+														<td class="alignL">용산구</td>
+															<td class="alignL rowspan">용산구다선거구</td>
+															<td class="alignC">3</td>
+															<td class="alignL">한강로동, 이촌제1동, 이촌제2동</td>
+														</tr>
+													<tr>
+														<td class="alignL">용산구</td>
+															<td class="alignL rowspan">용산구라선거구</td>
+															<td class="alignC">2</td>
+															<td class="alignL">후암동, 용산2가동, 이태원제2동</td>
+														</tr>
+													<tr>
+														<td class="alignL">용산구</td>
+															<td class="alignL rowspan">용산구마선거구</td>
+															<td class="alignC">2</td>
+															<td class="alignL">이태원제1동, 한남동, 서빙고동, 보광동</td>
+														</tr>
+													<tr>
+														<td class="alignL">성동구</td>
+															<td class="alignL rowspan">성동구가선거구</td>
+															<td class="alignC">3</td>
+															<td class="alignL">금호1가동, 금호2·3가동, 금호4가동, 옥수동</td>
+														</tr>
+													<tr>
+														<td class="alignL">성동구</td>
+															<td class="alignL rowspan">성동구나선거구</td>
+															<td class="alignC">3</td>
+															<td class="alignL">왕십리도선동, 왕십리제2동, 행당제1동, 행당제2동</td>
+														</tr>
+													<tr>
+														<td class="alignL">성동구</td>
+															<td class="alignL rowspan">성동구다선거구</td>
+															<td class="alignC">3</td>
+															<td class="alignL">마장동, 사근동, 송정동, 용답동</td>
+														</tr>
+													<tr>
+														<td class="alignL">성동구</td>
+															<td class="alignL rowspan">성동구라선거구</td>
+															<td class="alignC">3</td>
+															<td class="alignL">응봉동, 성수1가제1동, 성수1가제2동, 성수2가제1동, 성수2가제3동</td>
+														</tr>
+													<tr>
+														<td class="alignL">광진구</td>
+															<td class="alignL rowspan">광진구가선거구</td>
+															<td class="alignC">3</td>
+															<td class="alignL">중곡제1동, 중곡제2동, 중곡제3동, 중곡제4동</td>
+														</tr>
+													<tr>
+														<td class="alignL">광진구</td>
+															<td class="alignL rowspan">광진구나선거구</td>
+															<td class="alignC">3</td>
+															<td class="alignL">능동, 구의제2동, 광장동, 군자동</td>
+														</tr>
+													<tr>
+														<td class="alignL">광진구</td>
+															<td class="alignL rowspan">광진구다선거구</td>
+															<td class="alignC">3</td>
+															<td class="alignL">구의제1동, 구의제3동, 자양제1동, 자양제2동</td>
+														</tr>
+													<tr>
+														<td class="alignL">광진구</td>
+															<td class="alignL rowspan">광진구라선거구</td>
+															<td class="alignC">3</td>
+															<td class="alignL">자양제3동, 자양제4동, 화양동</td>
+														</tr>
+													<tr>
+														<td class="alignL">동대문구</td>
+															<td class="alignL rowspan">동대문구가선거구</td>
+															<td class="alignC">2</td>
+															<td class="alignL">신설동, 용두동</td>
+														</tr>
+													<tr>
+														<td class="alignL">동대문구</td>
+															<td class="alignL rowspan">동대문구나선거구</td>
+															<td class="alignC">2</td>
+															<td class="alignL">제기동, 청량리동</td>
+														</tr>
+													<tr>
+														<td class="alignL">동대문구</td>
+															<td class="alignL rowspan">동대문구다선거구</td>
+															<td class="alignC">2</td>
+															<td class="alignL">회기동, 휘경제1동, 휘경제2동</td>
+														</tr>
+													<tr>
+														<td class="alignL">동대문구</td>
+															<td class="alignL rowspan">동대문구라선거구</td>
+															<td class="alignC">2</td>
+															<td class="alignL">이문제1동, 이문제2동</td>
+														</tr>
+													<tr>
+														<td class="alignL">동대문구</td>
+															<td class="alignL rowspan">동대문구마선거구</td>
+															<td class="alignC">4</td>
+															<td class="alignL">전농제1동, 전농제2동, 답십리제1동</td>
+														</tr>
+													<tr>
+														<td class="alignL">동대문구</td>
+															<td class="alignL rowspan">동대문구바선거구</td>
+															<td class="alignC">5</td>
+															<td class="alignL">답십리제2동, 장안제1동, 장안제2동</td>
+														</tr>
+													<tr>
+														<td class="alignL">중랑구</td>
+															<td class="alignL rowspan">중랑구가선거구</td>
+															<td class="alignC">2</td>
+															<td class="alignL">면목제3·8동, 망우제3동</td>
+														</tr>
+													<tr>
+														<td class="alignL">중랑구</td>
+															<td class="alignL rowspan">중랑구나선거구</td>
+															<td class="alignC">2</td>
+															<td class="alignL">면목제4동, 면목제7동</td>
+														</tr>
+													<tr>
+														<td class="alignL">중랑구</td>
+															<td class="alignL rowspan">중랑구다선거구</td>
+															<td class="alignC">3</td>
+															<td class="alignL">면목본동, 면목제2동, 면목제5동, 상봉제2동</td>
+														</tr>
+													<tr>
+														<td class="alignL">중랑구</td>
+															<td class="alignL rowspan">중랑구라선거구</td>
+															<td class="alignC">2</td>
+															<td class="alignL">묵제1동, 묵제2동</td>
+														</tr>
+													<tr>
+														<td class="alignL">중랑구</td>
+															<td class="alignL rowspan">중랑구마선거구</td>
+															<td class="alignC">2</td>
+															<td class="alignL">중화제1동, 중화제2동</td>
+														</tr>
+													<tr>
+														<td class="alignL">중랑구</td>
+															<td class="alignL rowspan">중랑구바선거구</td>
+															<td class="alignC">2</td>
+															<td class="alignL">상봉제1동, 신내제2동</td>
+														</tr>
+													<tr>
+														<td class="alignL">중랑구</td>
+															<td class="alignL rowspan">중랑구사선거구</td>
+															<td class="alignC">2</td>
+															<td class="alignL">망우본동, 신내제1동</td>
+														</tr>
+													<tr>
+														<td class="alignL">성북구</td>
+															<td class="alignL rowspan">성북구가선거구</td>
+															<td class="alignC">5</td>
+															<td class="alignL">성북동, 삼선동, 동선동, 돈암제2동, 안암동, 보문동</td>
+														</tr>
+													<tr>
+														<td class="alignL">성북구</td>
+															<td class="alignL rowspan">성북구나선거구</td>
+															<td class="alignC">3</td>
+															<td class="alignL">정릉제2동, 정릉제3동, 정릉제4동</td>
+														</tr>
+													<tr>
+														<td class="alignL">성북구</td>
+															<td class="alignL rowspan">성북구다선거구</td>
+															<td class="alignC">3</td>
+															<td class="alignL">정릉제1동, 길음제1동</td>
+														</tr>
+													<tr>
+														<td class="alignL">성북구</td>
+															<td class="alignL rowspan">성북구라선거구</td>
+															<td class="alignC">2</td>
+															<td class="alignL">돈암제1동, 종암동</td>
+														</tr>
+													<tr>
+														<td class="alignL">성북구</td>
+															<td class="alignL rowspan">성북구마선거구</td>
+															<td class="alignC">3</td>
+															<td class="alignL">길음제2동, 월곡제1동, 월곡제2동</td>
+														</tr>
+													<tr>
+														<td class="alignL">성북구</td>
+															<td class="alignL rowspan">성북구바선거구</td>
+															<td class="alignC">2</td>
+															<td class="alignL">장위제1동, 장위제2동</td>
+														</tr>
+													<tr>
+														<td class="alignL">성북구</td>
+															<td class="alignL rowspan">성북구사선거구</td>
+															<td class="alignC">2</td>
+															<td class="alignL">장위제3동, 석관동</td>
+														</tr>
+													<tr>
+														<td class="alignL">강북구</td>
+															<td class="alignL rowspan">강북구가선거구</td>
+															<td class="alignC">3</td>
+															<td class="alignL">번1동, 번2동, 수유2동, 수유3동</td>
+														</tr>
+													<tr>
+														<td class="alignL">강북구</td>
+															<td class="alignL rowspan">강북구나선거구</td>
+															<td class="alignC">3</td>
+															<td class="alignL">수유1동, 우이동, 인수동</td>
+														</tr>
+													<tr>
+														<td class="alignL">강북구</td>
+															<td class="alignL rowspan">강북구다선거구</td>
+															<td class="alignC">3</td>
+															<td class="alignL">삼양동, 송천동, 삼각산동</td>
+														</tr>
+													<tr>
+														<td class="alignL">강북구</td>
+															<td class="alignL rowspan">강북구라선거구</td>
+															<td class="alignC">3</td>
+															<td class="alignL">미아동, 송중동, 번3동</td>
+														</tr>
+													<tr>
+														<td class="alignL">도봉구</td>
+															<td class="alignL rowspan">도봉구가선거구</td>
+															<td class="alignC">3</td>
+															<td class="alignL">창1동, 창4동, 창5동</td>
+														</tr>
+													<tr>
+														<td class="alignL">도봉구</td>
+															<td class="alignL rowspan">도봉구나선거구</td>
+															<td class="alignC">4</td>
+															<td class="alignL">쌍문1동, 쌍문3동, 창2동, 창3동</td>
+														</tr>
+													<tr>
+														<td class="alignL">도봉구</td>
+															<td class="alignL rowspan">도봉구다선거구</td>
+															<td class="alignC">2</td>
+															<td class="alignL">쌍문2동, 쌍문4동, 방학3동</td>
+														</tr>
+													<tr>
+														<td class="alignL">도봉구</td>
+															<td class="alignL rowspan">도봉구라선거구</td>
+															<td class="alignC">2</td>
+															<td class="alignL">도봉1동, 도봉2동</td>
+														</tr>
+													<tr>
+														<td class="alignL">도봉구</td>
+															<td class="alignL rowspan">도봉구마선거구</td>
+															<td class="alignC">2</td>
+															<td class="alignL">방학1동, 방학2동</td>
+														</tr>
+													<tr>
+														<td class="alignL">노원구</td>
+															<td class="alignL rowspan">노원구가선거구</td>
+															<td class="alignC">3</td>
+															<td class="alignL">월계1동, 월계2동, 월계3동</td>
+														</tr>
+													<tr>
+														<td class="alignL">노원구</td>
+															<td class="alignL rowspan">노원구나선거구</td>
+															<td class="alignC">3</td>
+															<td class="alignL">공릉1동, 공릉2동</td>
+														</tr>
+													<tr>
+														<td class="alignL">노원구</td>
+															<td class="alignL rowspan">노원구다선거구</td>
+															<td class="alignC">3</td>
+															<td class="alignL">하계1동, 하계2동, 중계본동, 중계2·3동</td>
+														</tr>
+													<tr>
+														<td class="alignL">노원구</td>
+															<td class="alignL rowspan">노원구라선거구</td>
+															<td class="alignC">3</td>
+															<td class="alignL">중계1동, 중계4동, 상계6·7동</td>
+														</tr>
+													<tr>
+														<td class="alignL">노원구</td>
+															<td class="alignL rowspan">노원구마선거구</td>
+															<td class="alignC">3</td>
+															<td class="alignL">상계2동, 상계3·4동, 상계5동</td>
+														</tr>
+													<tr>
+														<td class="alignL">노원구</td>
+															<td class="alignL rowspan">노원구바선거구</td>
+															<td class="alignC">3</td>
+															<td class="alignL">상계1동, 상계8동, 상계9동, 상계10동</td>
+														</tr>
+													<tr>
+														<td class="alignL">은평구</td>
+															<td class="alignL rowspan">은평구가선거구</td>
+															<td class="alignC">2</td>
+															<td class="alignL">녹번동, 응암제1동</td>
+														</tr>
+													<tr>
+														<td class="alignL">은평구</td>
+															<td class="alignL rowspan">은평구나선거구</td>
+															<td class="alignC">2</td>
+															<td class="alignL">응암제2동, 응암제3동</td>
+														</tr>
+													<tr>
+														<td class="alignL">은평구</td>
+															<td class="alignL rowspan">은평구다선거구</td>
+															<td class="alignC">2</td>
+															<td class="alignL">신사제2동, 증산동, 수색동</td>
+														</tr>
+													<tr>
+														<td class="alignL">은평구</td>
+															<td class="alignL rowspan">은평구라선거구</td>
+															<td class="alignC">3</td>
+															<td class="alignL">역촌동, 신사제1동</td>
+														</tr>
+													<tr>
+														<td class="alignL">은평구</td>
+															<td class="alignL rowspan">은평구마선거구</td>
+															<td class="alignC">2</td>
+															<td class="alignL">갈현제1동, 갈현제2동</td>
+														</tr>
+													<tr>
+														<td class="alignL">은평구</td>
+															<td class="alignL rowspan">은평구바선거구</td>
+															<td class="alignC">2</td>
+															<td class="alignL">진관동</td>
+														</tr>
+													<tr>
+														<td class="alignL">은평구</td>
+															<td class="alignL rowspan">은평구사선거구</td>
+															<td class="alignC">2</td>
+															<td class="alignL">불광제1동, 불광제2동</td>
+														</tr>
+													<tr>
+														<td class="alignL">은평구</td>
+															<td class="alignL rowspan">은평구아선거구</td>
+															<td class="alignC">2</td>
+															<td class="alignL">구산동, 대조동</td>
+														</tr>
+													<tr>
+														<td class="alignL">서대문구</td>
+															<td class="alignL rowspan">서대문구가선거구</td>
+															<td class="alignC">3</td>
+															<td class="alignL">충현동, 천연동, 북아현동, 신촌동</td>
+														</tr>
+													<tr>
+														<td class="alignL">서대문구</td>
+															<td class="alignL rowspan">서대문구나선거구</td>
+															<td class="alignC">2</td>
+															<td class="alignL">연희동</td>
+														</tr>
+													<tr>
+														<td class="alignL">서대문구</td>
+															<td class="alignL rowspan">서대문구다선거구</td>
+															<td class="alignC">2</td>
+															<td class="alignL">홍제제1동, 홍제제2동</td>
+														</tr>
+													<tr>
+														<td class="alignL">서대문구</td>
+															<td class="alignL rowspan">서대문구라선거구</td>
+															<td class="alignC">3</td>
+															<td class="alignL">홍제제3동, 홍은제1동, 홍은제2동</td>
+														</tr>
+													<tr>
+														<td class="alignL">서대문구</td>
+															<td class="alignL rowspan">서대문구마선거구</td>
+															<td class="alignC">3</td>
+															<td class="alignL">남가좌제1동, 남가좌제2동, 북가좌제1동, 북가좌제2동</td>
+														</tr>
+													<tr>
+														<td class="alignL">마포구</td>
+															<td class="alignL rowspan">마포구가선거구</td>
+															<td class="alignC">2</td>
+															<td class="alignL">공덕동</td>
+														</tr>
+													<tr>
+														<td class="alignL">마포구</td>
+															<td class="alignL rowspan">마포구나선거구</td>
+															<td class="alignC">2</td>
+															<td class="alignL">아현동, 도화동</td>
+														</tr>
+													<tr>
+														<td class="alignL">마포구</td>
+															<td class="alignL rowspan">마포구다선거구</td>
+															<td class="alignC">2</td>
+															<td class="alignL">용강동, 신수동</td>
+														</tr>
+													<tr>
+														<td class="alignL">마포구</td>
+															<td class="alignL rowspan">마포구라선거구</td>
+															<td class="alignC">2</td>
+															<td class="alignL">대흥동, 염리동</td>
+														</tr>
+													<tr>
+														<td class="alignL">마포구</td>
+															<td class="alignL rowspan">마포구마선거구</td>
+															<td class="alignC">2</td>
+															<td class="alignL">서강동, 합정동</td>
+														</tr>
+													<tr>
+														<td class="alignL">마포구</td>
+															<td class="alignL rowspan">마포구바선거구</td>
+															<td class="alignC">2</td>
+															<td class="alignL">서교동, 망원1동</td>
+														</tr>
+													<tr>
+														<td class="alignL">마포구</td>
+															<td class="alignL rowspan">마포구사선거구</td>
+															<td class="alignC">2</td>
+															<td class="alignL">망원2동, 연남동, 성산1동</td>
+														</tr>
+													<tr>
+														<td class="alignL">마포구</td>
+															<td class="alignL rowspan">마포구아선거구</td>
+															<td class="alignC">3</td>
+															<td class="alignL">성산2동, 상암동</td>
+														</tr>
+													<tr>
+														<td class="alignL">양천구</td>
+															<td class="alignL rowspan">양천구가선거구</td>
+															<td class="alignC">2</td>
+															<td class="alignL">목2동, 목3동</td>
+														</tr>
+													<tr>
+														<td class="alignL">양천구</td>
+															<td class="alignL rowspan">양천구나선거구</td>
+															<td class="alignC">2</td>
+															<td class="alignL">목4동, 목5동</td>
+														</tr>
+													<tr>
+														<td class="alignL">양천구</td>
+															<td class="alignL rowspan">양천구다선거구</td>
+															<td class="alignC">2</td>
+															<td class="alignL">목1동, 신정1동, 신정2동</td>
+														</tr>
+													<tr>
+														<td class="alignL">양천구</td>
+															<td class="alignL rowspan">양천구라선거구</td>
+															<td class="alignC">2</td>
+															<td class="alignL">신정6동, 신정7동</td>
+														</tr>
+													<tr>
+														<td class="alignL">양천구</td>
+															<td class="alignL rowspan">양천구마선거구</td>
+															<td class="alignC">2</td>
+															<td class="alignL">신월1동, 신월3동, 신월5동</td>
+														</tr>
+													<tr>
+														<td class="alignL">양천구</td>
+															<td class="alignL rowspan">양천구바선거구</td>
+															<td class="alignC">2</td>
+															<td class="alignL">신월4동, 신월7동</td>
+														</tr>
+													<tr>
+														<td class="alignL">양천구</td>
+															<td class="alignL rowspan">양천구사선거구</td>
+															<td class="alignC">2</td>
+															<td class="alignL">신월2동, 신정4동</td>
+														</tr>
+													<tr>
+														<td class="alignL">양천구</td>
+															<td class="alignL rowspan">양천구아선거구</td>
+															<td class="alignC">2</td>
+															<td class="alignL">신월6동, 신정3동</td>
+														</tr>
+													<tr>
+														<td class="alignL">강서구</td>
+															<td class="alignL rowspan">강서구가선거구</td>
+															<td class="alignC">3</td>
+															<td class="alignL">화곡제1동, 화곡제2동, 화곡제8동</td>
+														</tr>
+													<tr>
+														<td class="alignL">강서구</td>
+															<td class="alignL rowspan">강서구나선거구</td>
+															<td class="alignC">2</td>
+															<td class="alignL">화곡제3동, 발산제1동</td>
+														</tr>
+													<tr>
+														<td class="alignL">강서구</td>
+															<td class="alignL rowspan">강서구다선거구</td>
+															<td class="alignC">2</td>
+															<td class="alignL">우장산동</td>
+														</tr>
+													<tr>
+														<td class="alignL">강서구</td>
+															<td class="alignL rowspan">강서구라선거구</td>
+															<td class="alignC">3</td>
+															<td class="alignL">공항동, 방화제1동, 방화제2동</td>
+														</tr>
+													<tr>
+														<td class="alignL">강서구</td>
+															<td class="alignL rowspan">강서구마선거구</td>
+															<td class="alignC">4</td>
+															<td class="alignL">등촌제3동, 가양제1동, 가양제2동, 방화제3동</td>
+														</tr>
+													<tr>
+														<td class="alignL">강서구</td>
+															<td class="alignL rowspan">강서구바선거구</td>
+															<td class="alignC">2</td>
+															<td class="alignL">염창동, 등촌제1동, 가양제3동</td>
+														</tr>
+													<tr>
+														<td class="alignL">강서구</td>
+															<td class="alignL rowspan">강서구사선거구</td>
+															<td class="alignC">2</td>
+															<td class="alignL">등촌제2동, 화곡제4동</td>
+														</tr>
+													<tr>
+														<td class="alignL">강서구</td>
+															<td class="alignL rowspan">강서구아선거구</td>
+															<td class="alignC">2</td>
+															<td class="alignL">화곡본동, 화곡제6동</td>
+														</tr>
+													<tr>
+														<td class="alignL">구로구</td>
+															<td class="alignL rowspan">구로구가선거구</td>
+															<td class="alignC">3</td>
+															<td class="alignL">고척제1동, 고척제2동, 개봉제1동</td>
+														</tr>
+													<tr>
+														<td class="alignL">구로구</td>
+															<td class="alignL rowspan">구로구나선거구</td>
+															<td class="alignC">2</td>
+															<td class="alignL">개봉제2동, 개봉제3동</td>
+														</tr>
+													<tr>
+														<td class="alignL">구로구</td>
+															<td class="alignL rowspan">구로구다선거구</td>
+															<td class="alignC">3</td>
+															<td class="alignL">오류제1동, 오류제2동, 수궁동, 항동</td>
+														</tr>
+													<tr>
+														<td class="alignL">구로구</td>
+															<td class="alignL rowspan">구로구라선거구</td>
+															<td class="alignC">2</td>
+															<td class="alignL">신도림동, 구로제5동</td>
+														</tr>
+													<tr>
+														<td class="alignL">구로구</td>
+															<td class="alignL rowspan">구로구마선거구</td>
+															<td class="alignC">2</td>
+															<td class="alignL">구로제1동, 구로제2동</td>
+														</tr>
+													<tr>
+														<td class="alignL">구로구</td>
+															<td class="alignL rowspan">구로구바선거구</td>
+															<td class="alignC">2</td>
+															<td class="alignL">구로제3동, 구로제4동, 가리봉동</td>
+														</tr>
+													<tr>
+														<td class="alignL">금천구</td>
+															<td class="alignL rowspan">금천구가선거구</td>
+															<td class="alignC">3</td>
+															<td class="alignL">가산동, 독산제1동</td>
+														</tr>
+													<tr>
+														<td class="alignL">금천구</td>
+															<td class="alignL rowspan">금천구나선거구</td>
+															<td class="alignC">2</td>
+															<td class="alignL">독산제2동, 독산제3동, 독산제4동</td>
+														</tr>
+													<tr>
+														<td class="alignL">금천구</td>
+															<td class="alignL rowspan">금천구다선거구</td>
+															<td class="alignC">2</td>
+															<td class="alignL">시흥제1동, 시흥제4동</td>
+														</tr>
+													<tr>
+														<td class="alignL">금천구</td>
+															<td class="alignL rowspan">금천구라선거구</td>
+															<td class="alignC">2</td>
+															<td class="alignL">시흥제2동, 시흥제3동, 시흥제5동</td>
+														</tr>
+													<tr>
+														<td class="alignL">영등포구</td>
+															<td class="alignL rowspan">영등포구가선거구</td>
+															<td class="alignC">2</td>
+															<td class="alignL">영등포본동, 신길제3동</td>
+														</tr>
+													<tr>
+														<td class="alignL">영등포구</td>
+															<td class="alignL rowspan">영등포구나선거구</td>
+															<td class="alignC">2</td>
+															<td class="alignL">도림동, 문래동</td>
+														</tr>
+													<tr>
+														<td class="alignL">영등포구</td>
+															<td class="alignL rowspan">영등포구다선거구</td>
+															<td class="alignC">2</td>
+															<td class="alignL">영등포동, 당산제2동</td>
+														</tr>
+													<tr>
+														<td class="alignL">영등포구</td>
+															<td class="alignL rowspan">영등포구라선거구</td>
+															<td class="alignC">2</td>
+															<td class="alignL">당산제1동, 양평제1동, 양평제2동</td>
+														</tr>
+													<tr>
+														<td class="alignL">영등포구</td>
+															<td class="alignL rowspan">영등포구마선거구</td>
+															<td class="alignC">2</td>
+															<td class="alignL">여의동, 신길제1동</td>
+														</tr>
+													<tr>
+														<td class="alignL">영등포구</td>
+															<td class="alignL rowspan">영등포구바선거구</td>
+															<td class="alignC">2</td>
+															<td class="alignL">신길제4동, 신길제5동, 신길제7동</td>
+														</tr>
+													<tr>
+														<td class="alignL">영등포구</td>
+															<td class="alignL rowspan">영등포구사선거구</td>
+															<td class="alignC">3</td>
+															<td class="alignL">신길제6동, 대림제1동, 대림제2동, 대림제3동</td>
+														</tr>
+													<tr>
+														<td class="alignL">동작구</td>
+															<td class="alignL rowspan">동작구가선거구</td>
+															<td class="alignC">2</td>
+															<td class="alignL">노량진제1동, 노량진제2동</td>
+														</tr>
+													<tr>
+														<td class="alignL">동작구</td>
+															<td class="alignL rowspan">동작구나선거구</td>
+															<td class="alignC">2</td>
+															<td class="alignL">상도제2동, 상도제4동</td>
+														</tr>
+													<tr>
+														<td class="alignL">동작구</td>
+															<td class="alignL rowspan">동작구다선거구</td>
+															<td class="alignC">2</td>
+															<td class="alignL">상도제3동, 대방동</td>
+														</tr>
+													<tr>
+														<td class="alignL">동작구</td>
+															<td class="alignL rowspan">동작구라선거구</td>
+															<td class="alignC">2</td>
+															<td class="alignL">신대방제1동, 신대방제2동</td>
+														</tr>
+													<tr>
+														<td class="alignL">동작구</td>
+															<td class="alignL rowspan">동작구마선거구</td>
+															<td class="alignC">2</td>
+															<td class="alignL">상도제1동, 사당제5동</td>
+														</tr>
+													<tr>
+														<td class="alignL">동작구</td>
+															<td class="alignL rowspan">동작구바선거구</td>
+															<td class="alignC">2</td>
+															<td class="alignL">사당제3동, 사당제4동</td>
+														</tr>
+													<tr>
+														<td class="alignL">동작구</td>
+															<td class="alignL rowspan">동작구사선거구</td>
+															<td class="alignC">3</td>
+															<td class="alignL">흑석동, 사당제1동, 사당제2동</td>
+														</tr>
+													<tr>
+														<td class="alignL">관악구</td>
+															<td class="alignL rowspan">관악구가선거구</td>
+															<td class="alignC">3</td>
+															<td class="alignL">보라매동, 은천동, 신림동</td>
+														</tr>
+													<tr>
+														<td class="alignL">관악구</td>
+															<td class="alignL rowspan">관악구나선거구</td>
+															<td class="alignC">3</td>
+															<td class="alignL">행운동, 낙성대동, 인헌동, 남현동</td>
+														</tr>
+													<tr>
+														<td class="alignL">관악구</td>
+															<td class="alignL rowspan">관악구다선거구</td>
+															<td class="alignC">4</td>
+															<td class="alignL">성현동, 중앙동, 청림동, 청룡동</td>
+														</tr>
+													<tr>
+														<td class="alignL">관악구</td>
+															<td class="alignL rowspan">관악구라선거구</td>
+															<td class="alignC">3</td>
+															<td class="alignL">신사동, 조원동, 미성동</td>
+														</tr>
+													<tr>
+														<td class="alignL">관악구</td>
+															<td class="alignL rowspan">관악구마선거구</td>
+															<td class="alignC">2</td>
+															<td class="alignL">난곡동, 난향동</td>
+														</tr>
+													<tr>
+														<td class="alignL">관악구</td>
+															<td class="alignL rowspan">관악구바선거구</td>
+															<td class="alignC">2</td>
+															<td class="alignL">서원동, 신원동, 서림동</td>
+														</tr>
+													<tr>
+														<td class="alignL">관악구</td>
+															<td class="alignL rowspan">관악구사선거구</td>
+															<td class="alignC">3</td>
+															<td class="alignL">삼성동, 대학동</td>
+														</tr>
+													<tr>
+														<td class="alignL">서초구</td>
+															<td class="alignL rowspan">서초구가선거구</td>
+															<td class="alignC">4</td>
+															<td class="alignL">잠원동, 반포1동, 반포3동, 반포4동</td>
+														</tr>
+													<tr>
+														<td class="alignL">서초구</td>
+															<td class="alignL rowspan">서초구나선거구</td>
+															<td class="alignC">3</td>
+															<td class="alignL">반포본동, 반포2동, 방배본동, 방배1동, 방배4동</td>
+														</tr>
+													<tr>
+														<td class="alignL">서초구</td>
+															<td class="alignL rowspan">서초구다선거구</td>
+															<td class="alignC">3</td>
+															<td class="alignL">서초1동, 서초3동, 방배2동, 방배3동</td>
+														</tr>
+													<tr>
+														<td class="alignL">서초구</td>
+															<td class="alignL rowspan">서초구라선거구</td>
+															<td class="alignC">2</td>
+															<td class="alignL">서초2동, 서초4동</td>
+														</tr>
+													<tr>
+														<td class="alignL">서초구</td>
+															<td class="alignL rowspan">서초구마선거구</td>
+															<td class="alignC">3</td>
+															<td class="alignL">양재1동, 양재2동, 내곡동</td>
+														</tr>
+													<tr>
+														<td class="alignL">강남구</td>
+															<td class="alignL rowspan">강남구가선거구</td>
+															<td class="alignC">2</td>
+															<td class="alignL">신사동, 논현1동</td>
+														</tr>
+													<tr>
+														<td class="alignL">강남구</td>
+															<td class="alignL rowspan">강남구나선거구</td>
+															<td class="alignC">3</td>
+															<td class="alignL">압구정동, 청담동</td>
+														</tr>
+													<tr>
+														<td class="alignL">강남구</td>
+															<td class="alignL rowspan">강남구다선거구</td>
+															<td class="alignC">3</td>
+															<td class="alignL">논현2동, 역삼1동, 역삼2동</td>
+														</tr>
+													<tr>
+														<td class="alignL">강남구</td>
+															<td class="alignL rowspan">강남구라선거구</td>
+															<td class="alignC">3</td>
+															<td class="alignL">개포1동, 개포2동, 개포4동</td>
+														</tr>
+													<tr>
+														<td class="alignL">강남구</td>
+															<td class="alignL rowspan">강남구마선거구</td>
+															<td class="alignC">2</td>
+															<td class="alignL">개포3동, 일원본동, 일원1동</td>
+														</tr>
+													<tr>
+														<td class="alignL">강남구</td>
+															<td class="alignL rowspan">강남구바선거구</td>
+															<td class="alignC">2</td>
+															<td class="alignL">수서동, 세곡동</td>
+														</tr>
+													<tr>
+														<td class="alignL">강남구</td>
+															<td class="alignL rowspan">강남구사선거구</td>
+															<td class="alignC">2</td>
+															<td class="alignL">대치1동, 대치4동</td>
+														</tr>
+													<tr>
+														<td class="alignL">강남구</td>
+															<td class="alignL rowspan">강남구아선거구</td>
+															<td class="alignC">2</td>
+															<td class="alignL">도곡1동, 도곡2동</td>
+														</tr>
+													<tr>
+														<td class="alignL">강남구</td>
+															<td class="alignL rowspan">강남구자선거구</td>
+															<td class="alignC">3</td>
+															<td class="alignL">삼성1동, 삼성2동, 대치2동</td>
+														</tr>
+													<tr>
+														<td class="alignL">송파구</td>
+															<td class="alignL rowspan">송파구가선거구</td>
+															<td class="alignC">3</td>
+															<td class="alignL">풍납1동, 풍납2동, 잠실4동, 잠실6동</td>
+														</tr>
+													<tr>
+														<td class="alignL">송파구</td>
+															<td class="alignL rowspan">송파구나선거구</td>
+															<td class="alignC">2</td>
+															<td class="alignL">방이2동, 오륜동</td>
+														</tr>
+													<tr>
+														<td class="alignL">송파구</td>
+															<td class="alignL rowspan">송파구다선거구</td>
+															<td class="alignC">2</td>
+															<td class="alignL">방이1동, 송파1동, 송파2동</td>
+														</tr>
+													<tr>
+														<td class="alignL">송파구</td>
+															<td class="alignL rowspan">송파구라선거구</td>
+															<td class="alignC">3</td>
+															<td class="alignL">석촌동, 가락1동, 문정2동</td>
+														</tr>
+													<tr>
+														<td class="alignL">송파구</td>
+															<td class="alignL rowspan">송파구마선거구</td>
+															<td class="alignC">3</td>
+															<td class="alignL">잠실본동, 잠실2동, 잠실7동</td>
+														</tr>
+													<tr>
+														<td class="alignL">송파구</td>
+															<td class="alignL rowspan">송파구바선거구</td>
+															<td class="alignC">2</td>
+															<td class="alignL">삼전동, 잠실3동</td>
+														</tr>
+													<tr>
+														<td class="alignL">송파구</td>
+															<td class="alignL rowspan">송파구사선거구</td>
+															<td class="alignC">2</td>
+															<td class="alignL">거여2동, 마천1동, 마천2동</td>
+														</tr>
+													<tr>
+														<td class="alignL">송파구</td>
+															<td class="alignL rowspan">송파구아선거구</td>
+															<td class="alignC">3</td>
+															<td class="alignL">장지동, 위례동</td>
+														</tr>
+													<tr>
+														<td class="alignL">송파구</td>
+															<td class="alignL rowspan">송파구자선거구</td>
+															<td class="alignC">2</td>
+															<td class="alignL">오금동, 가락본동</td>
+														</tr>
+													<tr>
+														<td class="alignL">송파구</td>
+															<td class="alignL rowspan">송파구차선거구</td>
+															<td class="alignC">2</td>
+															<td class="alignL">거여1동, 가락2동, 문정1동</td>
+														</tr>
+													<tr>
+														<td class="alignL">강동구</td>
+															<td class="alignL rowspan">강동구가선거구</td>
+															<td class="alignC">3</td>
+															<td class="alignL">고덕제1동, 암사제1동, 암사제2동, 암사제3동</td>
+														</tr>
+													<tr>
+														<td class="alignL">강동구</td>
+															<td class="alignL rowspan">강동구나선거구</td>
+															<td class="alignC">3</td>
+															<td class="alignL">상일제1동, 명일제1동, 명일제2동</td>
+														</tr>
+													<tr>
+														<td class="alignL">강동구</td>
+															<td class="alignL rowspan">강동구다선거구</td>
+															<td class="alignC">2</td>
+															<td class="alignL">강일동, 상일제2동, 고덕제2동</td>
+														</tr>
+													<tr>
+														<td class="alignL">강동구</td>
+															<td class="alignL rowspan">강동구라선거구</td>
+															<td class="alignC">3</td>
+															<td class="alignL">천호제1동, 천호제3동</td>
+														</tr>
+													<tr>
+														<td class="alignL">강동구</td>
+															<td class="alignL rowspan">강동구마선거구</td>
+															<td class="alignC">3</td>
+															<td class="alignL">천호제2동</td>
+														</tr>
+													<tr>
+														<td class="alignL">강동구</td>
+															<td class="alignL rowspan">강동구바선거구</td>
+															<td class="alignC">2</td>
+															<td class="alignL">성내제1동, 성내제2동, 성내제3동</td>
+														</tr>
+													<tr>
+														<td class="alignL">강동구</td>
+															<td class="alignL rowspan">강동구사선거구</td>
+															<td class="alignC">3</td>
+															<td class="alignL">길동, 둔촌제1동, 둔촌제2동</td>
+														</tr>
+													</tbody>
+									</table>
+								</div>
+							</div>
+				</div>
+		</div>
+	</div>
+</div>
+<div id="footer">
+	<div class="footmu">
+		<ul>
+			<li><a href="/search/searchCandidate.xhtml">통합검색</a></li>
+			<li><a href="/main/help/helpMenu.xhtml?selectedName=privacypolicy" class="bold">개인정보 처리방침</a></li>
+			<li><a href="/main/help/helpMenu.xhtml?selectedName=copyrightpolicy">이용지침</a></li>
+<li><a href="/main/help/helpMenu.xhtml?selectedName=faq">FAQ</a></li>
+			<li><a href="/main/help/helpMenu.xhtml?selectedName=byelection">재보궐선거 실시사유 확정상황</a></li>
+		</ul>
+		<div class="footsite">
+			<select id="sitelink" name="sitelink" title="관련사이트 선택 이동">
+				<option value="">관련사이트</option>
+               	<option value="http://www.nec.go.kr">중앙선거관리위원회홈페이지</option>
+               	<option value="http://data.nec.go.kr/">국가선거정보 개방포털시스템</option>
+               	<option value="http://ok.nec.go.kr">재외선거홈페이지</option>
+               	<option value="http://policy.nec.go.kr">정책ㆍ공약마당</option>
+               	<option value="http://ova.nec.go.kr">재외선거 인터넷 신고ㆍ신청</option>
+			</select> 
+			<a href="javascript:fn_siteGo();" title="관련사이트 이동(새창열림)" class="site_go_btn"><span class="blind">이동</span></a>
+			</div>
+	</div>
+	<!-- 210812_ 추가 : [.copyright_bg] 태그 추가. -->
+	<div class="copyright_bg">
+		<div class="copyright">
+			<p class="footlogo">
+				<span class="blind">중앙선거관리위원회</span>
+			</p>
+			<!-- 210813_ 수정 : [.copyright] 내용 변경. -->
+			<p class="address">[13809] 경기도 과천시 홍촌말로 44 중앙선거관리위원회 대표전화 : 02-503-1114 / 선거 법질의·신고제보 : 국번없이 <span>1390</span><br>COPYRIGHT © National Election Commission, All Rights Reserved. 본 사이트는 IE9 이상, 크롬에 최적화 되어 있습니다.</p>
+			<p class="callcenter">
+				<span>선거법안내 선거범죄신고 선거콜센터 1390</span>
+			</p>
+		</div>
+	</div>
+	</div>
+
+<script type="text/javascript">
+
+	$(document).ready(function() {
+		if ('1100' == '1' || '' == '1') {
+			fn_selectElment('1100', '', '');
+		} else {
+			if ('' == 'true') {
+				fn_triggerFuncton();
+			}
+		}
+	});
+
+	function fn_triggerFuncton() {
+		$("#spanSubmit").children("input[type=image]").trigger("click");
+	}
+
+	function fn_selectElment(cityCode, town, searchAction) {
+		if (cityCode == '1') {
+			$("#cityCode").children("option:first").attr("selected", "selected");
+			if ($("#cityCode").children("option:first").val() == "-1") {
+				$("#cityCode").unbind("change");
+				$("#cityCode").children("option:eq(1)").attr("selected", "selected");
+			}
+		}else{
+			$("#cityCode").unbind("change");
+		}
+		if (town == '1') {
+			fn_getTownCode($("#cityCode").val(), searchAction);
+		} else {
+			if (searchAction == 'true') {
+				fn_triggerFuncton();
+			}
+		}
+	}
+
+	function fn_getTownCode(cityVal, searchAction) {
+		var locationStr = '', params = '';
+		if ($("#electionId").val() == '0000000000') {
+			locationStr = '/bizcommon/selectbox/selectbox_townCodeBySgJson_Old.json';
+			if ('' == '0') {
+				locationStr = '/bizcommon/selectbox/selectbox_townCodeBySgJson_GuOld.json';
+			}
+			params = {
+				electionId : $('#electionId').val(),
+				electionCode : $('#electionName').val(),
+				cityCode : cityVal,
+				subElectionCode : $('#electionCode').val()
+			}
+		} else {
+			locationStr = '/bizcommon/selectbox/selectbox_townCodeJson.json';
+			params = {
+				electionId : $('#electionId').val(),
+				cityCode : cityVal
+			}
+
+		}
+
+		$.getJSONTE(locationStr, params, function(response, status) {
+			var townCodeList = response;
+			var townCodeEl = $('#townCode');
+			var option = '';
+			$('#townCode option').filter(function() {
+				$value = $(this).val();
+				if ($value > 0)
+					return this;
+			}).remove();
+			// townCode 옵션 추가
+			for (var i = 0; i < townCodeList.length; i++) {
+				if (i == 0) {
+
+					if (townCodeList[0].CODE == '-1') {
+						option = $('<option>').attr('value',
+								townCodeList[0].CODE)
+								.html(townCodeList[0].NAME);
+						option = $('<option>').attr('value',
+								townCodeList[1].CODE).attr('selected',
+								"selected").html(townCodeList[1].NAME);
+						i++;
+					} else {
+						option = $('<option>').attr('value',
+								townCodeList[0].CODE).attr('selected',
+								"selected").html(townCodeList[0].NAME);
+					}
+				} else {
+					option = $('<option>').attr('value', townCodeList[i].CODE)
+							.html(townCodeList[i].NAME);
+				}
+				option.appendTo(townCodeEl);
+			}
+			previousCityCode = cityVal;
+			if (searchAction == 'true') {
+				fn_triggerFuncton();
+			}
+		});
+	}
+	//210813_ 추가 : 관련사이트 이동 스크립트 수정.
+	//<[CDATA[
+	$(function() {
+
+	/*  $('#sitelink').change(function() {
+			if ($('#sitelink').val() != '') {
+				window.open($('#sitelink').val(), '_blank');
+				$('#sitelink').val('').prop("selected", true);
+			}
+		}); */
+	});
+
+	//230912_ 추가 : 관련사이트 이동 스크립트 수정
+	function fn_siteGo(){		
+		var selectedVal = $('#sitelink').val();
+		if (selectedVal != '') {
+			window.open(selectedVal, '_blank');
+			$('#sitelink').val('');
+		} else {
+	    	alert('관련 사이트를 선택해 주세요.');
+	    	$('#sitelink').focus();
+	    }
+	}
+	//]]>
+</script></div>
+</div>
+<script type="text/javascript">
+	
+	var rTitle = "",selectCondition="",tabledata="";fTitle="";
+
+	$(document).bind("contextmenu",function(e){
+		return false;
+	});
+
+	function fn_chkUbiData(){
+		var eleName = '제9회 전국동시지방선거';
+		var electionId = '0020260603';
+		if(electionId == '0000000000'){
+			rTitle = $(".r_title h4").text();
+		}else{
+			rTitle = "["+ eleName + "] " + $(".r_title h4").text();
+		}
+		 selectCondition = $(".selectCondition:first span").text();
+		 fTitle = rTitle + selectCondition;
+		 tabledata = $(".searchResult").find("table:first").clone().wrapAll("<div/>").parent().html();
+		 //tabledata = $(".searchResult").find("table:first").parent().html();
+	}
+	
+ function fn_chkUbiReportBtn(){
+	 
+	 if($(".searchResult .result_top").length>0 && $(".searchResult .result_top .r_btn").length>0){
+		 $(".searchResult .result_top .r_btn").remove();
+	 }
+
+	 
+	 if($(".searchResult .result_top").length>0 && $(".searchResult .result_top .r_btn").length==0){
+		
+		 
+		 fn_chkUbiData();
+		 
+		 
+			$.each($(".searchResult .result_top"),function(index,divEl){
+		 	var div = document.createElement("div");
+		 		div.className="r_btn";	
+				$(divEl).append(div);
+				for(var i=0; i<3; i++){
+					$(divEl).find(".r_btn").append(document.createElement("a"));
+				}
+				
+				$(divEl).find(".r_btn a").eq(0).attr("href","javascript:void(0);").attr("class","dt_down").attr("onclick","go_Report('HWP');").attr("title","HWP download").text("HWP");
+				$(divEl).find(".r_btn a").eq(1).attr("href","javascript:void(0);").attr("class","dt_down").attr("onclick","go_Report('PDF');").html("<span class='blind'>PDF 다운로드</span>");
+				$(divEl).find(".r_btn a").eq(2).attr("href","javascript:void(0);").attr("class","dt_down").attr("onclick","go_Report('XLS');").html("<span class='blind'>엑셀 다운로드</span>");
+
+				
+				
+				if(typeof(RBtnRemoveList) != "undefined"){
+					$.each($(divEl).find(".r_btn a"), function(index,aEl){
+						$.each(RBtnRemoveList, function(secIndex,removeTargetText){
+							if($(aEl).text() == removeTargetText){
+								$(aEl).remove();
+							}
+						});
+					});
+				}
+
+				
+
+				$(".r_btn").show();
+			});
+		
+		fn_chkColGroup();
+	 }
+ }
+ 
+ 
+  function fn_chkColGroup(){
+	  $.each($("table"),function(index,tableEl){
+		if($(tableEl).find("col").length != $(tableEl).find("td:first").parent().children("td").length){
+			
+			if($(tableEl).find("colgroup").length == 0){
+				$(tableEl).prepend(document.createElement("colgroup"));
+			}
+
+			
+			var parentDisNone = false;
+			
+			var colLength = $(tableEl).find("col").length;
+			
+			var colGroup = $(tableEl).find("colgroup");
+
+			if($(tableEl).parent().css("display")=="none"){
+				parentDisNone = true;
+				$(tableEl).parent().css("display","block");
+			}
+
+			
+			if($(tableEl).find("td:first").parent().children("td").length >1){
+				$.each($(tableEl).find("td:first").parent().children("td"),function(tdIndex,tdEl){
+					if(colLength < tdIndex+1){
+					colGroup.append(document.createElement("col"));
+					
+					colGroup.children("col").eq(tdIndex).attr("width","auto");
+					}
+				});
+			}else{
+				$.each($(tableEl).find("th:last").parent().children("th"),function(thIndex,thEl){
+					if(colLength < thIndex+1){
+					colGroup.append(document.createElement("col"));
+					
+					colGroup.children("col").eq(thIndex).attr("width","auto");
+					}
+				});
+			}
+
+		if($(tableEl).parent().css("display") != "none" && parentDisNone == true){
+			$(tableEl).parent().css("display","none");
+			}
+		}
+	});
+  }
+	$(document).ready(function(){
+		fn_chkUbiReportBtn();
+
+		// table 사이즈(width)가 기준 width와 같지 않을 경우, 출력을 위해 사이즈(width) 지정
+		if( parseInt($("#table01").width()) > 1050)
+		{
+			$("#table01").css("width", parseInt($("#table01").width()));
+		} else {
+			$("#table01").css("width", 1050);
+		}
+	});
+</script>
+</body>
+</html>

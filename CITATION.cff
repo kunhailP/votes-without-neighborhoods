@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+title: "Votes Without Neighborhoods: Housing Prices and the Geography of Conservative Voting in Seoul (replication materials)"
+message: "If you use these materials, please cite the article and this repository."
+type: software
+version: 1.0.0
+date-released: 2026-10-12
+license: MIT
+keywords: [small-area election returns, early voting, partial identification, ecological inference, South Korea]
+authors:
+  - name: "Author name withheld for review"

@@ -1,0 +1,43 @@
+sg,variant,cell,spec,lo,hi
+20260603,no zone restriction,accounting only,pooled,-0.0706943793637291,0.30787288471850266
+20260603,no zone restriction,accounting only,guFE,-0.3781503933646373,0.5193684163293245
+20260603,no zone restriction,"minimum movement, delta=1",pooled,0.06906014630535459,0.18694655260358511
+20260603,no zone restriction,"minimum movement, delta=1",guFE,-0.04561491184501555,0.2344052695385829
+20260603,no zone restriction,"minimum movement, delta=0.1",pooled,0.11845314309045005,0.14655463359083423
+20260603,no zone restriction,"minimum movement, delta=0.1",guFE,0.07171233637657327,0.13857869053283708
+20260603,no zone restriction,"eta=0.1, delta=0.1",pooled,0.07250014648176262,0.18863523410504637
+20260603,no zone restriction,"eta=0.1, delta=0.1",guFE,-0.038644206414991715,0.2386151891570248
+20260603,no zone restriction,"calibrated, delta=1",pooled,-0.015796628863584558,0.26792672570175186
+20260603,no zone restriction,"calibrated, delta=1",guFE,-0.24311382212793115,0.4194022854627987
+20260603,no zone restriction,"calibrated, delta=0.1",pooled,0.007399956946873107,0.24626698623289955
+20260603,no zone restriction,"calibrated, delta=0.1",guFE,-0.1913122095890275,0.3728244607355493
+20260603,no zone restriction,"calibrated, delta=0.1, s=0.02",pooled,0.10267135361923085,0.16204482006002668
+20260603,no zone restriction,"calibrated, delta=0.1, s=0.02",guFE,0.034381277894279534,0.1735927573194876
+20260603,statutory zones (main),accounting only,pooled,-0.030290599795710377,0.2757775589124344
+20260603,statutory zones (main),accounting only,guFE,-0.27858621760940416,0.43917260915731227
+20260603,statutory zones (main),"minimum movement, delta=1",pooled,0.06908462953954458,0.18692925573447197
+20260603,statutory zones (main),"minimum movement, delta=1",guFE,-0.04553731561820617,0.2344052695385829
+20260603,statutory zones (main),"minimum movement, delta=0.1",pooled,0.11878693497320869,0.14630743637283336
+20260603,statutory zones (main),"minimum movement, delta=0.1",guFE,0.07249794584033756,0.13803813086403577
+20260603,statutory zones (main),"eta=0.1, delta=0.1",pooled,0.09321166642132198,0.17124068280605065
+20260603,statutory zones (main),"eta=0.1, delta=0.1",guFE,0.013704416012028701,0.1952984169214906
+20260603,statutory zones (main),"calibrated, delta=1",pooled,0.04155885352110908,0.21495427267260855
+20260603,statutory zones (main),"calibrated, delta=1",guFE,-0.10778089498523248,0.29585955229718675
+20260603,statutory zones (main),"calibrated, delta=0.1",pooled,0.09154467619717727,0.1738597154287625
+20260603,statutory zones (main),"calibrated, delta=0.1",guFE,0.010356228769788565,0.20114476303334963
+20260603,statutory zones (main),"calibrated, delta=0.1, s=0.02",pooled,0.1106411176305391,0.15411037741998107
+20260603,statutory zones (main),"calibrated, delta=0.1, s=0.02",guFE,0.05429367155145817,0.15565841871212155
+20260603,zones + council headcounts,accounting only,pooled,-0.030261677486677387,0.2757541914490803
+20260603,zones + council headcounts,accounting only,guFE,-0.2785082596498943,0.43912425846028336
+20260603,zones + council headcounts,"minimum movement, delta=1",pooled,0.06908955781634249,0.1869167055812248
+20260603,zones + council headcounts,"minimum movement, delta=1",guFE,-0.045525742693234804,0.2343783759392448
+20260603,zones + council headcounts,"minimum movement, delta=0.1",pooled,0.11965622223358502,0.1457523719544398
+20260603,zones + council headcounts,"minimum movement, delta=0.1",guFE,0.07477526020853573,0.13660059278934814
+20260603,zones + council headcounts,"eta=0.1, delta=0.1",pooled,0.09407424419176623,0.1707037064605572
+20260603,zones + council headcounts,"eta=0.1, delta=0.1",guFE,0.0159210396435009,0.19393018572946366
+20260603,zones + council headcounts,"calibrated, delta=1",pooled,0.04156373760406501,0.21494206260828583
+20260603,zones + council headcounts,"calibrated, delta=1",guFE,-0.10776855676950697,0.2958341837409729
+20260603,zones + council headcounts,"calibrated, delta=0.1",pooled,0.0923674081910224,0.17325963811855435
+20260603,zones + council headcounts,"calibrated, delta=0.1",guFE,0.012618273531196189,0.19960223675896624
+20260603,zones + council headcounts,"calibrated, delta=0.1, s=0.02",pooled,0.11160183883940372,0.15344655667174614
+20260603,zones + council headcounts,"calibrated, delta=0.1, s=0.02",guFE,0.056739366525713306,0.15402297069747994
