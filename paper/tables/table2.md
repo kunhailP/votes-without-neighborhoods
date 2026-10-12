@@ -1,7 +1,7 @@
-**Table 2. Within-district associations under alternative assumptions**
+Table: Table 2. Within-district associations under alternative assumptions
 
 | Election | Conv. | Election-day voters (exact; valid-vote share y) | (A) Returns and rolls only | (B) Minimal movement | (C) = (B) + out-of-zone voters within 10 points | (D) Mobility-calibrated movement + out-of-zone within 10 points | (E) = (D) + residents' early-vote composition restricted | (F) = (E), price-dependent benchmark |
-|---|---|---|---|---|---|---|---|---|
+|----------------|----------|-------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|
 | *A. Within-district slope* | | | | | | | | |
 | 2012 | 0.087 | 0.087 | [0.008, 0.157] | [0.008, 0.157] | [0.027, 0.140] | – | – | – |
 | 2017 | 0.014 | 0.013 | **[−0.428, 0.450]** | **[−0.136, 0.162]** | **[−0.060, 0.085]** | – | – | – |

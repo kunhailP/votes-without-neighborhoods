@@ -1,7 +1,7 @@
-**Table A1. Integer check of near-zero lower bounds**
+Table: Table A1. Integer check of near-zero lower bounds
 
 | Cell | LP z lower | Integer z lower (solver bound) | Integer z incumbent | Prop. 4 y lower (integer, solver bound) | y at integer allocation | Solves at time limit |
-|---|---|---|---|---|---|---|
+|-----------------------------------------|----------|----------|----------|----------|-----------|----------|
 | 2012 within-district, η = 0, δ = 1 | 0.0077 | 0.0077 | 0.0077 | 0.0069 | 0.0070 | 0/50 |
 | 2026 within-district, η = 0.1, δ = 0.1 | 0.0137 | 0.0139 | 0.0139 | 0.0098 | 0.0106 | 10/50 |
 | 2026 within-district, calibrated, δ = 0.1 | 0.0104 | 0.0106 | 0.0106 | 0.0065 | 0.0072 | 7/50 |

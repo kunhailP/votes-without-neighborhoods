@@ -1,7 +1,7 @@
-**Table C23. Within-district relation with age composition held fixed, and the tercile contrast**
+Table: Table C23. Within-district relation with age composition held fixed, and the tercile contrast
 
 | Election | All of Seoul: election-day voters | All of Seoul: all residents, main assumptions | Without the three: election-day voters | Without the three: all residents, main assumptions |
-|---|---|---|---|---|
+|----------------|-------------|--------------------|-------------|--------------------|
 | *Slope* | | | | |
 | 2022 | 0.097 | **[−0.026, 0.223]** | 0.079 | **[−0.042, 0.204]** |
 | 2024 | 0.102 | [0.001, 0.206] | 0.078 | **[−0.027, 0.184]** |

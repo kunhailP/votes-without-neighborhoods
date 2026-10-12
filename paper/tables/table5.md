@@ -1,7 +1,7 @@
-**Table 5. Assumptions and allocations that permit a non-positive slope**
+Table: Table 5. Assumptions and allocations that permit a non-positive slope
 
 | Election | Out-of-zone voters within (points) | Largest additional tolerance s with a positive slope | First reversing allocation: movers minus stayers, conservative share (points) | Fewest residents' early ballots that must depart to reverse |
-|---|---|---|---|---|
+|----------|------------|-----------|-------------|------------|
 | 2022 | 10 | none | 12 to 21 | 16,685 |
 | 2022 | 20 | none | 14 to 18 | 15,340 |
 | 2024 | 10 | 0.021 | 11 to 17 | 32,177 |

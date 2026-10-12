@@ -166,7 +166,7 @@ Australian Electoral Commission (2025) *2025 Federal Election Report*. Canberra:
 
 Canada (2000) *Canada Elections Act*, S.C. 2000, c. 9, s. 168. Available at: <https://laws-lois.justice.gc.ca/eng/acts/E-2.01/> (accessed 11 October 2026).
 
-Die Bundeswahlleiterin (2025) *Wahl zum 21. Deutschen Bundestag am 23. Februar 2025*, Heft 5, Teil 2. Wiesbaden. Available at: <https://bundeswahlleiterin.de/> (accessed 11 October 2026).
+Die Bundeswahlleiterin (2025) *Wahl zum 21. Deutschen Bundestag am 23. Februar 2025* (Election to the 21st German Bundestag on 23 February 2025), Heft 5, Teil 2 (Booklet 5, Part 2). Wiesbaden [in German]. Available at: <https://bundeswahlleiterin.de/> (accessed 11 October 2026).
 
 Dinkelbach, Werner (1967) On nonlinear fractional programming. *Management Science* 13(7), 492-498. <https://doi.org/10.1287/mnsc.13.7.492>
 

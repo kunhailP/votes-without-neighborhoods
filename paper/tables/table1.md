@@ -1,7 +1,7 @@
-**Table 1. Elections, reporting units and ballot coverage**
+Table: Table 1. Elections, reporting units and ballot coverage
 
 | Election | Pooled ballots reported for | In-zone early zone | Dongs | Dongs with price | Pooled share | In-zone early share | Out-of-zone share of early ballots | Stations with forced movement |
-|---|---|---|---|---|---|---|---|---|
+|-----------|------------------|---------------------------|----------|----------|----------|----------|------------|----------|
 | 2012 pres. | 25 gu | – | 423 | 414 | 3.4% | – | – | 0 |
 | 2017 pres. | 25 gu | 25 gu | 424 | 421 | 12.8% | 21.7% | 34.6% | 5 |
 | 2022 pres. | 25 gu | 25 gu | 425 | 420 | 13.5% | 35.3% | 26.1% | 20 |

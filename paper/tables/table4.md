@@ -1,7 +1,7 @@
-**Table 4. Within-district slopes with and without statutory zones, 2026**
+Table: Table 4. Within-district slopes with and without statutory zones, 2026
 
 | Assumptions | Zones ignored: in-zone early ballots may be cast anywhere in the district | Statutory zones: only within the voter's council constituency |
-|---|---|---|
+|-----------------------------------------|--------------------|--------------------|
 | Returns and rolls only | **[−0.378, 0.519]** | **[−0.279, 0.439]** |
 | Minimal movement, out-of-zone within 10 points | [0.072, 0.139] | [0.072, 0.138] |
 | Uniform movement (η = 0.1), out-of-zone within 10 points | **[−0.039, 0.239]** | [0.014, 0.195] |

@@ -1,7 +1,7 @@
-**Table C1. Identified sets under uniform movement and breakdown points η* (z; bold = contains zero)**
+Table: Table C1. Identified sets under uniform movement and breakdown points η\* (z; bold = contains zero)
 
-| Election | Conv. | Accounting only | η = 0, δ = 1 | η = 0, δ = δ_min | η = 0, δ = 0.1 | η = 0.05, δ = 0.1 | η = 0.1, δ = 0.1 | η = 0.2, δ = 0.1 | η*, δ = 0.1 | η*, δ = 1 |
-|---|---|---|---|---|---|---|---|---|---|---|
+| Election | Conv. | Accounting only | η = 0, δ = 1 | η = 0, δ = δ_min | η = 0, δ = 0.1 | η = 0.05, δ = 0.1 | η = 0.1, δ = 0.1 | η = 0.2, δ = 0.1 | η\*, δ = 0.1 | η\*, δ = 1 |
+|----------------|----------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|----------|----------|
 | *Citywide* | | | | | | | | | | |
 | 2012 | 0.123 | [0.087, 0.151] | [0.087, 0.151] | [0.102, 0.138] | [0.096, 0.143] | [0.096, 0.143] | [0.096, 0.143] | [0.096, 0.143] | any | any |
 | 2017 | 0.049 | **[−0.135, 0.232]** | **[−0.015, 0.110]** | [0.036, 0.056] | [0.016, 0.077] | **[−0.015, 0.110]** | **[−0.041, 0.135]** | **[−0.078, 0.173]** | 0.021 | 0 |
@@ -19,4 +19,4 @@
 | *Within-constituency* | | | | | | | | | | |
 | 2024 | 0.089 | **[−0.729, 0.816]** | **[−0.134, 0.279]** | [0.051, 0.114] | [0.004, 0.166] | **[−0.088, 0.249]** | **[−0.167, 0.324]** | **[−0.310, 0.464]** | 0 | 0 |
 
-*Notes.* Accounting only: movement unrestricted (η = 1, at which the cap r_j + K_j cannot bind) and δ = 1. δ_min: each jurisdiction at its smallest feasible out-of-zone band. η*: largest η at which the lower bound is positive, lower end of a bisection interval of width 1/512 on [0, 1] ("any": positive at η = 1). 2026 imposes the statutory early-voting zones.
+*Notes.* Accounting only: movement unrestricted (η = 1, at which the cap r_j + K_j cannot bind) and δ = 1. δ_min: each jurisdiction at its smallest feasible out-of-zone band. η\*: largest η at which the lower bound is positive, lower end of a bisection interval of width 1/512 on [0, 1] ("any": positive at η = 1). 2026 imposes the statutory early-voting zones.

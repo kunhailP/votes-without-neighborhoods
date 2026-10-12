@@ -1,7 +1,7 @@
-**Table C4. Sensitivity thresholds s*(λ, δ) for a positive within-district slope**
+Table: Table C4. Sensitivity thresholds s\*(λ, δ) for a positive within-district slope
 
 | Movement | δ = 0.1 | 0.15 | 0.2 | 0.3 | 0.5 | 1 |
-|---|---|---|---|---|---|---|
+|-----------------------------------------|----------|----------|----------|----------|----------|----------|
 | *2022* | | | | | | |
 | λ=0.5 | none | none | none | none | none | none |
 | λ=1 | none | none | none | none | none | none |

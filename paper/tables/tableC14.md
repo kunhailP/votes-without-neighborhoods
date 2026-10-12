@@ -1,7 +1,7 @@
-**Table C14. Regressions across fully counted units (valid-vote share on the unit mean of dong log price)**
+Table: Table C14. Regressions across fully counted units (valid-vote share on the unit mean of dong log price)
 
 | Election | Units | Slope | HC1 SE | HC3 SE | Permutation p | Leave-one-out range | Excl. Gangnam, Seocho and Songpa: slope (HC3 SE) | Electorate-weighted price: slope (HC3 SE) |
-|---|---|---|---|---|---|---|---|---|
+|----------|------------------|----------|----------|----------|------------|--------------|--------------|--------------------|
 | 2012 | 25 gu | 0.137 | 0.028 | 0.035 | <0.001 | 0.111–0.148 | 0.057 (0.038) | 0.138 (0.035) |
 | 2017 | 25 gu | 0.060 | 0.014 | 0.017 | <0.001 | 0.048–0.065 | 0.025 (0.025) | 0.061 (0.018) |
 | 2022 | 25 gu | 0.197 | 0.028 | 0.033 | <0.001 | 0.175–0.207 | 0.131 (0.022) | 0.203 (0.034) |

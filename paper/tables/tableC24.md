@@ -1,7 +1,7 @@
-**Table C24. Alternative outcomes (z)**
+Table: Table C24. Alternative outcomes (z)
 
 | Election | Outcome | Slope | Conventional | Returns and rolls only | Minimal movement (η = 0) |
-|---|---|---|---|---|---|
+|----------|-------------|----------------|-------------|--------------------|--------------------|
 | 2012 | Democratic | Citywide | −0.122 | [−0.152, −0.088] | [−0.152, −0.088] |
 | 2012 | Democratic | Within-district | −0.086 | [−0.157, −0.007] | [−0.157, −0.007] |
 | 2017 | Hong+Yoo | Citywide | 0.085 | **[−0.139, 0.299]** | [0.002, 0.160] |

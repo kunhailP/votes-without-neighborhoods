@@ -1,7 +1,7 @@
-**Table C18. Valid-vote slope lower bounds with and without the three southeastern districts**
+Table: Table C18. Valid-vote slope lower bounds with and without the three southeastern districts
 
 | Election | Slope: all | Slope: without the three | Contrast (points): all | Contrast (points): without the three |
-|---|---|---|---|---|
+|----------|-----------------|-----------------|-------------|-------------|
 | 2022 | [−0.026, −0.024] | [−0.044, −0.042] | [−3.3, −3.2] | [−4.0, −3.9] |
 | 2024 | [0.004, 0.005] | [−0.026, −0.025] | [−1.5, −1.4] | [−2.7, −2.6] |
 | 2025 | [−0.046, −0.045] | [−0.072, −0.071] | [−4.7, −4.6] | [−5.6, −5.5] |

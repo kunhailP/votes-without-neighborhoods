@@ -1,7 +1,7 @@
-**Table C11. Within-district contrast between high- and low-price dongs (percentage points; z set; y: Proposition 4 lower bound)**
+Table: Table C11. Within-district contrast between high- and low-price dongs (percentage points; z set; y: Proposition 4 lower bound)
 
 | Cell | 2012 | 2017 | 2022 | 2024 | 2025 | 2026 |
-|---|---|---|---|---|---|---|
+|------------------------------|--------------------------|-----------------------------|-----------------------------|-----------------------------|-----------------------------|-----------------------------|
 | *Above vs. at-or-below the gu median price* | | | | | | |
 | conventional | 1.9 | 0.1 | 4.1 | 3.8 | 2.6 | 3.8 |
 | accounting only | **[−1.7, 5.3]**; y ≥ −1.8 | **[−16.0, 16.1]**; y ≥ −16.7 | **[−43.4, 46.9]**; y ≥ −44.1 | **[−30.7, 37.6]**; y ≥ −31.9 | **[−26.1, 29.7]**; y ≥ −27.2 | **[−19.6, 25.2]**; y ≥ −20.3 |

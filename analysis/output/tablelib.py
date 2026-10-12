@@ -122,12 +122,23 @@ def emit(name, title, header, rows, notes="", colspec=None, size="footnotesize",
     ncol = len(header)
     colspec = colspec or ("l" + ("c" if long else "C") * (ncol - 1))
     # Markdown
-    esc = lambda c: str(c).replace("|", "\\|")      # a literal | inside a cell would split the Markdown column
-    md = [f"**{title}**", "", "| " + " | ".join(esc(h) for h in header) + " |", "|" + "|".join(["---"] * ncol) + "|"]
-    for r in rows:
-        if isinstance(r, tuple) and r[0] == "PANEL": md.append("| *" + esc(r[1]) + "* |" + " |" * (ncol - 1))
-        else: md.append("| " + " | ".join(esc(c) for c in r) + " |")
-    if notes: md += ["", f"*Notes.* {notes}"]
+    # a literal | would split the Markdown column; a lone * (t*, s*, δ*) would open an emphasis span, while the
+    # **bold** pairs the generators use on purpose are kept
+    esc = lambda c: re.sub(r"(?<!\*)\*(?!\*)", r"\\*", str(c).replace("|", "\\|"))
+    body = [[esc(c) for c in r] if not (isinstance(r, tuple) and r[0] == "PANEL") else r for r in rows]
+    # relative column widths for Word, from the longest cell (capped) and the longest header word
+    # (at least the longest header word and 10 characters; the first column also holds the panel headings)
+    width = [max([10, max((len(w) for w in str(h).split()), default=0) + 1]
+                 + [min(len(str(r[i])), 40) + 1 for r in body if not isinstance(r, tuple) and i < len(r)]
+                 + ([min(len(str(r[1])), 16) for r in body if isinstance(r, tuple)] if i == 0 else []))
+             for i, h in enumerate(header)]
+    # "Table:" makes the title a table caption (kept with its table in Word), not a free paragraph
+    md = [f"Table: {esc(title)}", "", "| " + " | ".join(esc(h) for h in header) + " |",
+          "|" + "|".join("-" * max(3, w) for w in width) + "|"]
+    for r in body:
+        if isinstance(r, tuple): md.append("| *" + esc(r[1]) + "* |" + " |" * (ncol - 1))
+        else: md.append("| " + " | ".join(r) + " |")
+    if notes: md += ["", f"*Notes.* {esc(notes)}"]
     (TAB / f"{name}.md").write_text("\n".join(md) + "\n")
     # LaTeX
     head = " & ".join(_tex_cell(h) for h in header) + r" \\"

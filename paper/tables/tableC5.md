@@ -1,7 +1,7 @@
-**Table C5. First allocation with a non-positive slope as s increases (λ = 1)**
+Table: Table C5. First allocation with a non-positive slope as s increases (λ = 1)
 
 | Election | δ | s at edge | Tercile | Movers' share | Movers' conservative share | Stayers' conservative share | Residents' early conservative share | a^F | Station share | Median \|departure\| of residents' early share from a^F (this allocation) | 90th pct. |
-|---|---|---|---|---|---|---|---|---|---|---|---|
+|----------|----------|----------|----------|----------|-------------|-------------|-------------|----------|----------|------------|----------|
 | 2022 | 0.1 | 0.000 | low | 0.18 | 0.51 | 0.39 | 0.41 | 0.40 | 0.40 | 0.011 | 0.030 |
 | 2022 | 0.1 | 0.000 | mid | 0.28 | 0.52 | 0.38 | 0.42 | 0.42 | 0.43 | 0.011 | 0.030 |
 | 2022 | 0.1 | 0.000 | high | 0.27 | 0.67 | 0.45 | 0.51 | 0.52 | 0.52 | 0.011 | 0.030 |
@@ -36,4 +36,4 @@
 | 2026 | 0.2 | 0.088 | mid | 0.09 | 0.41 | 0.28 | 0.29 | 0.29 | 0.29 | 0.080 | 0.110 |
 | 2026 | 0.2 | 0.088 | high | 0.09 | 0.33 | 0.35 | 0.35 | 0.37 | 0.38 | 0.080 | 0.110 |
 
-*Notes.* a^F: the neighborhood benchmark for residents' early conservative share. At s just above s*(1, δ), the allocation attaining the minimum slope. Departures of residents' early composition from a^F are bounded by the station's own departure plus s in every dong. Rows only where the edge exists (s* finite).
+*Notes.* a^F: the neighborhood benchmark for residents' early conservative share. At s just above s\*(1, δ), the allocation attaining the minimum slope. Departures of residents' early composition from a^F are bounded by the station's own departure plus s in every dong. Rows only where the edge exists (s\* finite).

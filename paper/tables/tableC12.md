@@ -1,7 +1,7 @@
-**Table C12. Guaranteed share of the within-district range removed, by reporting change**
+Table: Table C12. Guaranteed share of the within-district range removed, by reporting change
 
 | Election | Assumptions | Current range | All pooled modes by neighborhood | Out-of-zone early only (proposal) | Headcounts only | Both |
-|---|---|---|---|---|---|---|
+|----------|-----------------------------------------|----------|-------------|------------|-----------|----------|
 | 2017 | minimal movement | 0.298 | 97% | 85% | 0% | 22% |
 | 2022 | minimal movement | 0.364 | 92% | 76% | 0% | 10% |
 | 2022 | half the mobility-calibrated movement | 0.692 | 29% | 24% | 0% | 10% |

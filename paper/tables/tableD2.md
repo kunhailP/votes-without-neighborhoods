@@ -1,7 +1,7 @@
-**Table D2. The published 2026 allocation and the identified range (within-district slope, percentage points per 10 million won per pyeong)**
+Table: Table D2. The published 2026 allocation and the identified range (within-district slope, percentage points per 10 million won per pyeong)
 
 | Specification | Movement | Out-of-zone tolerance | Range consistent with data | Published allocation |
-|---|---|---|---|---|
+|--------------|-----------------------------------------|------------|------------------|-----------|
 | gu FE | returns and rolls only | none | **[−3.29, 6.45]** | 1.88 |
 | gu FE + age | returns and rolls only | none | **[−3.30, 6.45]** | 1.88 |
 | gu FE | η = 0 | none | **[−0.12, 3.64]** | 1.88 |

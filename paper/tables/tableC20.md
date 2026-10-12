@@ -1,7 +1,7 @@
-**Table C20. Point-identified benchmarks: election-day voters and in-zone early stations**
+Table: Table C20. Point-identified benchmarks: election-day voters and in-zone early stations
 
 | Election | Election-day voters: all | Election-day voters: without the three | In-zone stations: all | In-zone stations: without the three |
-|---|---|---|---|---|
+|----------------|------------------|------------------|----------|----------|
 | *A. Within-district slope* | | | | |
 | 2012 | 0.087 | 0.057 | – | – |
 | 2017 | 0.013 | 0.001 | 0.014 | −0.004 |

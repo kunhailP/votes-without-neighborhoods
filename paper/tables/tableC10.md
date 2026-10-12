@@ -1,7 +1,7 @@
-**Table C10. Robustness of the within-district lower bound (z; δ = 0.1)**
+Table: Table C10. Robustness of the within-district lower bound (z; δ = 0.1)
 
 | Election | Specification | Calibrated, residents' composition unrestricted | Calibrated, s = 0.02 | Calibrated, s = 0.05 | Unrestricted movement, s = 0.02 | Unrestricted movement, s = 0.05 |
-|---|---|---|---|---|---|---|
+|----------|-----------------------------------|---------------|---------------|---------------|---------------|---------------|
 | 2022 | log median (baseline) | **−0.283** | **−0.026** | **−0.051** | **−0.048** | **−0.066** |
 | 2022 | excl. top 5% by price | **−0.314** | **−0.044** | **−0.070** | **−0.069** | **−0.087** |
 | 2022 | excl. top 10% by price | **−0.355** | **−0.068** | **−0.095** | **−0.092** | **−0.111** |

@@ -1,7 +1,7 @@
-**Table 6. Guaranteed reductions in uncertainty under residence reporting**
+Table: Table 6. Guaranteed reductions in uncertainty under residence reporting
 
 | Election | Current range width | Proposal: out-of-zone early ballots by neighborhood, share removed | Proposal: maximum remaining width | All pooled modes by neighborhood, share removed | All pooled modes: maximum remaining width |
-|---|---|---|---|---|---|
+|----------|----------|--------------|----------|--------------|----------|
 | 2022 | 0.25 | 27% | 0.18 | 57% | 0.11 |
 | 2024 | 0.20 | 30% | 0.14 | 49% | 0.11 |
 | 2025 | 0.23 | 32% | 0.16 | 61% | 0.09 |

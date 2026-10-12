@@ -1,7 +1,7 @@
-**Table C2. 2026: the statutory early-voting zones and cross-contest headcounts (z)**
+Table: Table C2. 2026: the statutory early-voting zones and cross-contest headcounts (z)
 
 | Cell | Slope | Movement anywhere in the gu (zones ignored) | Statutory zones: district-council constituencies (main) | Zones + council-contest headcounts |
-|---|---|---|---|---|
+|--------------------------|----------------|--------------------|--------------------|--------------------|
 | accounting only | Within-district | **[−0.378, 0.519]** | **[−0.279, 0.439]** | **[−0.279, 0.439]** |
 | accounting only | Citywide | **[−0.071, 0.308]** | **[−0.030, 0.276]** | **[−0.030, 0.276]** |
 | minimum movement, δ=1 | Within-district | **[−0.046, 0.234]** | **[−0.046, 0.234]** | **[−0.046, 0.234]** |

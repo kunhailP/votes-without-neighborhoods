@@ -1,7 +1,7 @@
-**Table D1. Admissibility of the published 2026 allocation**
+Table: Table D1. Admissibility of the published 2026 allocation
 
 | Gu | Smallest η making it feasible, movement anywhere in the gu | Constituencies where it assigns more pooled voters than the roll allows | Largest excess (voters) | Smallest station-anchor band, η = 10 | Out-of-zone minus in-zone early conservative share |
-|---|---|---|---|---|---|
+|----------------|----------|---------------|----------|---------------|-------------|
 | Gangnam-gu | 0.023 | 5 of 9 | 56 | 0.004 | +0.044 |
 | Gangdong-gu | 0.005 | 1 of 7 | 73 | 0.008 | +0.035 |
 | Gangbuk-gu | 0.000 | 0 of 4 | – | 0.023 | +0.023 |

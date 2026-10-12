@@ -1,7 +1,7 @@
-**Table C7. Restricting how movers vote: residents who voted at another station vote within t of their home station's shares (within-district slope; mobility-calibrated movement, ±10 points)**
+Table: Table C7. Restricting how movers vote: residents who voted at another station vote within t of their home station's shares (within-district slope; mobility-calibrated movement, ±10 points)
 
 | t | 2022 | 2024 | 2025 | 2026 |
-|---|---|---|---|---|
+|----------|--------------------|--------------------|--------------------|---------------|
 | 0.05 | **[−0.113, 0.319]** | **[−0.052, 0.260]** | **[−0.106, 0.270]** | [0.054, 0.162] |
 | 0.1 | **[−0.116, 0.323]** | **[−0.056, 0.263]** | **[−0.111, 0.274]** | [0.051, 0.165] |
 | 0.2 | **[−0.154, 0.358]** | **[−0.085, 0.292]** | **[−0.151, 0.311]** | [0.042, 0.174] |

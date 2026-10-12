@@ -1,7 +1,7 @@
-**Table C16. Opposite-signed slopes compatible with the same report: maximum margin t***
+Table: Table C16. Opposite-signed slopes compatible with the same report: maximum margin t\*
 
 | Election | Assumptions | Residence reporting | Out-of-zone only | Residence + headcounts (no movement assumption) |
-|---|---|---|---|---|
+|----------|--------------------------------------|----------|------------|------------|
 | 2022 | mobility-calibrated movement | 0.337 | 0.342 | 0.594 |
 | 2022 | + residents' early ballots (s = 0.02) | 0.053 | 0.090 | 0.042 |
 | 2022 | + out-of-zone ±10 points | 0.283 | 0.283 | 0.591 |
@@ -19,4 +19,4 @@
 | 2026 | + out-of-zone ±10 points | revealed | revealed | 0.168 |
 | 2026 | main (Table 2, column E) | revealed | revealed | revealed |
 
-*Notes.* t* = max t subject to θ(ℓ) ≤ −t, θ(ℓ') ≥ t, Sℓ = Sℓ', with ℓ and ℓ' in Λ. A report reveals the direction iff no two allocations it cannot distinguish have slopes of strictly opposite sign, that is iff t* ≤ 0 ("revealed"). Where the current set already excludes zero every report reveals the direction; the last column drops the movement assumption, as in Online Appendix Table C12.
+*Notes.* t\* = max t subject to θ(ℓ) ≤ −t, θ(ℓ') ≥ t, Sℓ = Sℓ', with ℓ and ℓ' in Λ. A report reveals the direction iff no two allocations it cannot distinguish have slopes of strictly opposite sign, that is iff t\* ≤ 0 ("revealed"). Where the current set already excludes zero every report reveals the direction; the last column drops the movement assumption, as in Online Appendix Table C12.

@@ -1,7 +1,7 @@
-**Table C17. Beyond Gangnam: the within-district relation without Gangnam, Seocho and Songpa**
+Table: Table C17. Beyond Gangnam: the within-district relation without Gangnam, Seocho and Songpa
 
 | Election | Conv. | (A) Returns and rolls only | (B) Minimal movement | (C) = (B) + out-of-zone within 10 points | (D) Mobility-calibrated | (E) Main |
-|---|---|---|---|---|---|---|
+|----------------|----------|--------------------|--------------------|--------------------|--------------------|--------------------|
 | *A. Within-district slope without Gangnam, Seocho and Songpa (z)* | | | | | | |
 | 2012 | 0.058 | **[−0.021, 0.129]** | **[−0.021, 0.129]** | [0.001, 0.110] | – | – |
 | 2017 | 0.000 | **[−0.471, 0.441]** | **[−0.158, 0.150]** | **[−0.074, 0.071]** | – | – |

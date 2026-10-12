@@ -1,7 +1,7 @@
-**Table C13. Stability of headline sets to resampling prices and dongs (z, δ = 0.1)**
+Table: Table C13. Stability of headline sets to resampling prices and dongs (z, δ = 0.1)
 
 | Election | Slope | Movement | Slack s | Identified set | SD of bounds, transactions resampled | SD of bounds, dongs and transactions resampled | [5th pct of lower, 95th pct of upper] | Replications with positive lower bound | Replications |
-|---|---|---|---|---|---|---|---|---|---|
+|----------|--------------------|-------------|----------|--------------------|-------------|-------------|----------------|-------------|-------------|
 | 2022 | Within-district | calibrated | 0.02 | **[−0.026, 0.223]** | 0.002, 0.004 | 0.010, 0.012 | [−0.078, 0.268] | 0% | 200 |
 | 2022 | Citywide | calibrated | 0.02 | [0.080, 0.216] | 0.002, 0.003 | 0.008, 0.010 | [0.034, 0.256] | 100% | 200 |
 | 2022 | Citywide | calibrated | – | **[−0.062, 0.340]** | 0.002, 0.004 | 0.013, 0.015 | [−0.163, 0.422] | 0% | 200 |

@@ -1,7 +1,7 @@
-**Table C8. Is the early-vote gap related to price or age? (conservative share; coefficients, standard errors in parentheses)**
+Table: Table C8. Is the early-vote gap related to price or age? (conservative share; coefficients, standard errors in parentheses)
 
 | Election | Gu: in-zone early − election day, on log price | on share aged 60+ | Gu: out-of-zone early − election day, on log price | on share aged 60+ | Dong (within gu): station departure, on log price | on share aged 60+ | Mean gu gap γ^K (SD) |
-|---|---|---|---|---|---|---|---|
+|----------|---------------|---------------|---------------|---------------|---------------|---------------|---------------|
 | 2017 | −0.014 (0.008) | 0.055 (0.070) | −0.009 (0.011) | −0.037 (0.075) | 0.000 (0.005) | 0.026 (0.025) | −0.043 (0.008) |
 | 2022 | −0.001 (0.010) | 0.130 (0.076) | −0.042 (0.021) | −0.139 (0.085) | −0.008 (0.006) | 0.010 (0.021) | −0.101 (0.010) |
 | 2024 | −0.021 (0.007) | 0.046 (0.059) | −0.029 (0.009) | −0.081 (0.075) | −0.019 (0.006) | −0.010 (0.026) | −0.120 (0.014) |

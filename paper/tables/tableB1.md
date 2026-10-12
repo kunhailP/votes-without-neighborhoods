@@ -1,7 +1,7 @@
-**Table B1. 2026 early-voting zones: district-council constituencies**
+Table: Table B1. 2026 early-voting zones: district-council constituencies
 
 | Gu | Dongs | Council constituencies | Contested | Out-of-zone early voters in contested constituencies (council returns) | Out-of-zone early voters, gu (mayoral returns) | Sum check where all contested |
-|---|---|---|---|---|---|---|
+|----------------|----------|---------------|----------|---------------|------------|----------|
 | Gangnam-gu | 22 | 9 | 7 | 26,033 | 33,020 | – |
 | Gangdong-gu | 19 | 7 | 6 | 26,091 | 30,597 | – |
 | Gangbuk-gu | 13 | 4 | 3 | 13,577 | 17,776 | – |

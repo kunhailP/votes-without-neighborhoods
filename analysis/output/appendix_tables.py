@@ -909,6 +909,7 @@ def renumber_and_supplement():
            "script and result file behind each.", ""]
     for k, name in enumerate(rest, 1):
         txt = relabel((TAB / f"{name}.md").read_text())
+        txt = re.sub(r"^Table: (.*)$", r"**\1**", txt, count=1, flags=re.M)   # GitHub shows a bold title, not a caption
         sup += [txt, ""]
         for ext in ("md", "tex"):
             if (TAB / f"{name}.{ext}").exists(): os.remove(TAB / f"{name}.{ext}")

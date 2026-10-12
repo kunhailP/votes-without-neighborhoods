@@ -1,7 +1,7 @@
-**Table C21. Out-of-zone and in-zone early voters by counting jurisdiction (conservative valid-vote share, percentage points)**
+Table: Table C21. Out-of-zone and in-zone early voters by counting jurisdiction (conservative valid-vote share, percentage points)
 
 | Election | Jurisdictions | Out-of-zone minus in-zone: median | Range | Largest absolute gap | In-zone stations: median absolute deviation from their jurisdiction | Largest station deviation |
-|---|---|---|---|---|---|---|
+|----------|--------------|------------|-------------|----------|-------------|----------|
 | 2017 | 25 | −3.5 | −5.4 to −0.6 | 5.4 | 1.7 | 14.8 |
 | 2022 | 25 | 1.7 | −3.2 to 3.4 | 3.4 | 2.2 | 19.9 |
 | 2024 | 48 | −2.5 | −6.0 to 0.1 | 6.0 | 1.8 | 19.2 |

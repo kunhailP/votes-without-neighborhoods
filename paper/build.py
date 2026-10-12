@@ -33,6 +33,7 @@ def wordcount(md):
     t = re.sub(r"```\{=latex\}.*?```", " ", t, flags=re.S)
     t = re.sub(r"!\[([^\]]*)\]\([^)]*\)", r" \1 ", t)        # keep figure captions
     t = re.sub(r"<!--.*?-->", " ", t, flags=re.S)
+    t = re.sub(r"^Table: ", "", t, flags=re.M)               # table caption marker
     t = re.sub(r"\\[a-zA-Z]+|[{}|*_#>\-]{1,}", " ", t)
     return len(re.findall(r"[A-Za-z0-9\u00C0-\uFFFF][\w'’\-.,%]*", t))
 
@@ -41,12 +42,15 @@ def build(name, meta):
     src = (P / f"{name}.md").read_text()
     pdf_md = inject(src, "pdf", barrier=(name == "appendix"))
     docx_md = re.sub(r"\(figures/([\w\-]+)\.pdf\)", r"(figures/\1.png)", inject(src, "docx"))   # Word cannot display embedded PDFs
+    k = iter(range(1, 1000))                         # pandoc does not number Word figure captions; LaTeX does
+    docx_md = re.sub(r"^!\[", lambda m: f"![Figure {next(k)}. ", docx_md, flags=re.M)
     (OUT / f"{name}_pdf.md").write_text(pdf_md); (OUT / f"{name}_docx.md").write_text(docx_md)
     common = ["-f", "markdown+tex_math_dollars+footnotes+raw_tex+raw_attribute+implicit_figures", "--resource-path", str(P)]
     subprocess.run(["pandoc", str(OUT / f"{name}_pdf.md"), *common, "-o", str(OUT / f"{name}.pdf"), "--pdf-engine=xelatex",
                     "-H", str(P / "templates/header.tex"), "-V", "geometry:a4paper,margin=25mm", "-V", "fontsize=11pt",
                     "-V", "documentclass=article", "-V", "colorlinks=true", *meta], check=True, cwd=P)
-    subprocess.run(["pandoc", str(OUT / f"{name}_docx.md"), *common, "-o", str(OUT / f"{name}.docx"), *meta], check=True, cwd=P)
+    subprocess.run(["pandoc", str(OUT / f"{name}_docx.md"), *common, "-o", str(OUT / f"{name}.docx"),
+                    "--reference-doc", str(P / "templates/reference.docx"), *meta], check=True, cwd=P)
     tables = "".join((TAB / f"{m}.md").read_text() for m in re.findall(r"<!--\s*table:\s*([\w\-]+)\s*-->", src))
     n = wordcount(src + tables)
     print(f"{name}: {n} words (text + tables + notes + references; approximate)")

@@ -1,7 +1,7 @@
-**Table C15. Valid-vote shares: within-district slope**
+Table: Table C15. Valid-vote shares: within-district slope
 
 | Election | Assumptions | Roll-based share (exact range) | Valid-vote share, lower end: [outer bound, attainable] | upper end: [attainable, outer bound] |
-|---|---|---|---|---|
+|----------|-----------------------------------------|--------------------|-------------------|-----------------|
 | 2012 | returns and rolls only | [0.008, 0.157] | [0.0069, 0.0070] | [0.1577, 0.1579] |
 | 2012 | minimal movement | [0.008, 0.157] | [0.0069, 0.0070] | [0.1577, 0.1579] |
 | 2012 | minimal movement, ±10 points | [0.027, 0.140] | [0.0356, 0.0359] | [0.1323, 0.1326] |
