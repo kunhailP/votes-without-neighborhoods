@@ -176,17 +176,17 @@ Germany (2002) *Bundeswahlordnung* [Federal Electoral Regulations], as promulgat
 
 Japan (1950) 公職選挙法 [Public Offices Election Act], Act No. 100 of 1950, Articles 18 and 66(2). e-Gov Laws. Available at: <https://laws.e-gov.go.jp/law/325AC1000000100> (accessed 10 October 2026).
 
-Lee, Dong-han (2026) [9회 지선 특집] 부동산과 수도권 읍면동 표심 분석 [Ninth local elections: Real estate and voting patterns in the capital region's eups, myeons and dongs]. *한국리서치 여론속의 여론 [Hankook Research: Public Opinion within Public Opinion]*, 10 June. Research note [in Korean]. Available at: <https://hrcopinion.co.kr/archives/36779> (accessed 10 October 2026).
+Lee, Dong-han (2026) [9hoe jiseon teukjip] budongsangwa sudogwon eummyeondong pyosim bunseok (Ninth local elections: Real estate and voting patterns in the capital region's eups, myeons and dongs). *Hankook Research: Public Opinion within Public Opinion*, 10 June. Research note [in Korean]. Available at: <https://hrcopinion.co.kr/archives/36779> (accessed 10 October 2026).
 
-Ministry of Land, Infrastructure and Transport (2026) 국토교통부_아파트 매매 실거래가 상세 자료 [Apartment sale transactions, detailed records] (RTMSDataSvcAptTradeDev), monthly records for Seoul in the twelve months before each election studied (December 2011 to May 2026). Public Data Portal [in Korean]. Available at: <https://www.data.go.kr/> (accessed 10 October 2026).
+Ministry of Land, Infrastructure and Transport (2026) Apartment sale transactions, detailed records (RTMSDataSvcAptTradeDev), monthly records for Seoul in the twelve months before each election studied (December 2011 to May 2026). Public Data Portal [in Korean]. Available at: <https://www.data.go.kr/> (accessed 10 October 2026).
 
 National Election Commission (2026) *Election Statistics System* and *Public Data Portal* files: counting-unit returns (중앙선거관리위원회_대통령선거 개표결과, files for 19 December 2012, 9 May 2017, 9 March 2022 and 3 June 2025; 중앙선거관리위원회_국회의원선거 개표결과, 10 April 2024); counting-unit spreadsheets for the 3 June 2026 Seoul mayoral election, by district; certified electorates by dong (ElcntInfoInqireService, getEmdElcntInfoInqire, data.go.kr); the table of constituencies and dongs (선거구 및 읍면동현황) and district-council returns for 3 June 2026. Available at: <https://info.nec.go.kr/> and <https://www.data.go.kr/> (accessed 11 October 2026).
 
-National Election Commission (n.d.) 공직선거관리규칙 [Regulations on Public Official Elections], Articles 86(3) and 133(3), in the versions in force at each election studied; Article 86(3) as amended 24 December 2015 and Article 133(3) as amended 9 March 2018. Korean Law Information Center [in Korean]. Available at: <https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EA%B3%B5%EC%A7%81%EC%84%A0%EA%B1%B0%EA%B4%80%EB%A6%AC%EA%B7%9C%EC%B9%99> (accessed 12 October 2026).
+National Election Commission (n.d.) Regulations on Public Official Elections, Articles 86(3) and 133(3), in the versions in force at each election studied; Article 86(3) as amended 24 December 2015 and Article 133(3) as amended 9 March 2018. Korean Law Information Center [in Korean]. Available at: <https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EA%B3%B5%EC%A7%81%EC%84%A0%EA%B1%B0%EA%B4%80%EB%A6%AC%EA%B7%9C%EC%B9%99> (accessed 12 October 2026).
 
 Palmer, Maxwell and Schneer, Benjamin (2021) *Racially Polarized Voting Analysis for the Virginia Redistricting Commission*. Report, 31 August. Available at: <https://virginiaredistricting.org/2021/Data/Publications/palmer_schneer_rpv_report.pdf> (accessed 10 October 2026).
 
-Seoul Metropolitan Government and KT (2026) *서울 생활이동 데이터, 행정동 단위 [Seoul Living Mobility: Administrative-dong data]*. Seoul Open Data Plaza [in Korean]. Available at: <https://data.seoul.go.kr/dataVisual/seoul/seoulLivingMigration.do> (accessed 10 October 2026).
+Seoul Metropolitan Government and KT (2026) *Seoul Living Mobility: Administrative-dong data*. Seoul Open Data Plaza [in Korean]. Available at: <https://data.seoul.go.kr/dataVisual/seoul/seoulLivingMigration.do> (accessed 10 October 2026).
 
 Taiwan (n.d.a) 公職人員選舉罷免法 [Civil Servants Election and Recall Act], Article 17. Available at: <https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0020010> (accessed 10 October 2026).
 

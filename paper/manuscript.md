@@ -240,25 +240,25 @@ Imbens, Guido W. and Manski, Charles F. (2004) Confidence intervals for partiall
 
 Jiang, Wenxin, King, Gary, Schmaltz, Allen and Tanner, Martin A. (2020) Ecological regression with partial identification. *Political Analysis* 28(1), 65-86. <https://doi.org/10.1017/pan.2019.19>
 
-Ka, Sangjoon (2021) 2020년 국회의원선거에서 사전투표 유권자의 특징과 투표선택 [Characteristics of early voters and their voting choices in the 2020 general election]. *한국정치학회보 [Korean Political Science Review]* 55(2), 89-108 [in Korean]. <https://doi.org/10.18854/kpsr.2021.55.2.004>
+Ka, Sangjoon (2021) 2020nyeon gukhoeuiwonseongeoeseo sajeontupyo yugwonjaui teukjinggwa tupyoseontaek (Characteristics of early voters and their voting choices in the 2020 general election). *Korean Political Science Review* 55(2), 89-108 [in Korean]. <https://doi.org/10.18854/kpsr.2021.55.2.004>
 
 Kaplan, Ethan and Yuan, Haishan (2020) Early voting laws, voter turnout, and partisan vote composition: Evidence from Ohio. *American Economic Journal: Applied Economics* 12(1), 32-60. <https://doi.org/10.1257/app.20180192>
 
-Kim, Suin and Kang, Won-Taek (2022) 자산과 투표 선택: 수도권 지역 유권자를 중심으로 [Wealth and voting in South Korea: Analyzing voting choices in Seoul and the metropolitan areas]. *한국정치학회보 [Korean Political Science Review]* 56(1), 187-215 [in Korean]. <https://doi.org/10.18854/kpsr.2022.56.1.007>
+Kim, Suin and Kang, Won-Taek (2022) Jasangwa tupyo seontaek: sudogwon jiyeok yugwonjareul jungsimeuro (Wealth and voting in South Korea: Analyzing voting choices in Seoul and the metropolitan areas). *Korean Political Science Review* 56(1), 187-215 [in Korean]. <https://doi.org/10.18854/kpsr.2022.56.1.007>
 
 King, Gary (1997) *A Solution to the Ecological Inference Problem: Reconstructing Individual Behavior from Aggregate Data*. Princeton, NJ: Princeton University Press.
 
 Knox, Dean, Lowe, Will and Mummolo, Jonathan (2020) Administrative records mask racially biased policing. *American Political Science Review* 114(3), 619-637. <https://doi.org/10.1017/S0003055420000039>
 
-Korea (n.d.) 공직선거법 [Public Official Election Act], Articles 158, 176 and 178, in the versions in force at each election studied. Korean Law Information Center [in Korean]. Available at: <https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EA%B3%B5%EC%A7%81%EC%84%A0%EA%B1%B0%EB%B2%95> (accessed 12 October 2026).
+Korea (n.d.) Public Official Election Act, Articles 158, 176 and 178, in the versions in force at each election studied. Korean Law Information Center [in Korean]. Available at: <https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EA%B3%B5%EC%A7%81%EC%84%A0%EA%B1%B0%EB%B2%95> (accessed 12 October 2026).
 
 Larsen, Martin Vinæs, Hjorth, Frederik, Dinesen, Peter Thisted and Sønderskov, Kim Mannemar (2019) When do citizens respond politically to the local economy? Evidence from registry data on local housing markets. *American Political Science Review* 113(2), 499-516. <https://doi.org/10.1017/S0003055419000029>
 
-Lee, Dong-han (2026) [9회 지선 특집] 부동산과 수도권 읍면동 표심 분석 [Ninth local elections: Real estate and voting patterns in the capital region's eups, myeons and dongs]. *한국리서치 여론속의 여론 [Hankook Research: Public Opinion within Public Opinion]*, 10 June. Research note [in Korean]. Available at: <https://hrcopinion.co.kr/archives/36779> (accessed 10 October 2026).
+Lee, Dong-han (2026) [9hoe jiseon teukjip] budongsangwa sudogwon eummyeondong pyosim bunseok (Ninth local elections: Real estate and voting patterns in the capital region's eups, myeons and dongs). *Hankook Research: Public Opinion within Public Opinion*, 10 June. Research note [in Korean]. Available at: <https://hrcopinion.co.kr/archives/36779> (accessed 10 October 2026).
 
 Lee, Dong Wook, Rogers, Melissa and Soifer, Hillel David (2025) The modifiable areal unit problem in political science. *Political Analysis* 33(4), 412-424. <https://doi.org/10.1017/pan.2025.2>
 
-Lee, Jaewook and Kwon, Hyeok Yong (2019) 주택 소유와 투표선택: 한국의 선거, 2007-2012 [House ownership and voting behavior in South Korea, 2007-2012]. *오토피아 [Oughtopia]* 34(2), 121-155 [in Korean]. <https://doi.org/10.32355/OUGHTOPIA.2019.08.34.2.121>
+Lee, Jaewook and Kwon, Hyeok Yong (2019) Jutaek soyuwa tupyoseontaek: hangugui seongeo, 2007-2012 (House ownership and voting behavior in South Korea, 2007-2012). *Oughtopia* 34(2), 121-155 [in Korean]. <https://doi.org/10.32355/OUGHTOPIA.2019.08.34.2.121>
 
 Manski, Charles F. (2003) *Partial Identification of Probability Distributions*. New York: Springer.
 
@@ -268,19 +268,19 @@ Marble, William and Nall, Clayton (2021) Where self-interest trumps ideology: Li
 
 Masten, Matthew A. and Poirier, Alexandre (2020) Inference on breakdown frontiers. *Quantitative Economics* 11(1), 41-111. <https://doi.org/10.3982/QE1288>
 
-Ministry of Land, Infrastructure and Transport (2026) 국토교통부_아파트 매매 실거래가 상세 자료 [Apartment sale transactions, detailed records] (RTMSDataSvcAptTradeDev), monthly records for Seoul in the twelve months before each election studied (December 2011 to May 2026). Public Data Portal [in Korean]. Available at: <https://www.data.go.kr/> (accessed 10 October 2026).
+Ministry of Land, Infrastructure and Transport (2026) Apartment sale transactions, detailed records (RTMSDataSvcAptTradeDev), monthly records for Seoul in the twelve months before each election studied (December 2011 to May 2026). Public Data Portal [in Korean]. Available at: <https://www.data.go.kr/> (accessed 10 October 2026).
 
 Molinari, Francesca and Peski, Marcin (2006) Generalization of a result on "Regressions, short and long". *Econometric Theory* 22(1), 159-163. <https://doi.org/10.1017/S0266466606060063>
 
 National Election Commission (2022a) Questions and answers on voting in the 8th nationwide local elections (web page) [in Korean], 29 April. Available at: <https://www.nec.go.kr/site/lvt/ex/bbs/View.do?cbIdx=1507&bcIdx=178093> (accessed 11 October 2026).
 
-National Election Commission (2022b) [사실은 이렇습니다 10편] 관외사전투표, 개표 팩트체크 집중 요약 [The facts, part 10: Out-of-zone early voting and vote counting, a fact-check summary] (web page) [in Korean], 20 February. Available at: <https://nec.go.kr/site/nec/ex/bbs/View.do?cbIdx=1147&bcIdx=162661> (accessed 11 October 2026).
+National Election Commission (2022b) [Sasireun ireoseumnida 10pyeon] gwanoesajeontupyo, gaepyo paekteuchekeu jipjung yoyak (The facts, part 10: Out-of-zone early voting and vote counting, a fact-check summary) (web page) [in Korean], 20 February. Available at: <https://nec.go.kr/site/nec/ex/bbs/View.do?cbIdx=1147&bcIdx=162661> (accessed 11 October 2026).
 
 National Election Commission (2026) Official counting-unit returns, certified electorates by dong, and the 2026 table of constituencies and dongs and district-council returns, for the elections of 2012–2026. *Election Statistics System* and *Public Data Portal* (files listed in Online Appendix B.1). Available at: <https://info.nec.go.kr/> and <https://www.data.go.kr/> (accessed 11 October 2026).
 
-National Election Commission (n.d.) 공직선거관리규칙 [Regulations on Public Official Elections], Articles 16-2, 86(3) and 133(3), in the versions in force at each election studied; Article 86(3) as amended 24 December 2015 and Article 133(3) as amended 9 March 2018. Korean Law Information Center [in Korean]. Available at: <https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EA%B3%B5%EC%A7%81%EC%84%A0%EA%B1%B0%EA%B4%80%EB%A6%AC%EA%B7%9C%EC%B9%99> (accessed 12 October 2026).
+National Election Commission (n.d.) Regulations on Public Official Elections, Articles 16-2, 86(3) and 133(3), in the versions in force at each election studied; Article 86(3) as amended 24 December 2015 and Article 133(3) as amended 9 March 2018. Korean Law Information Center [in Korean]. Available at: <https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EA%B3%B5%EC%A7%81%EC%84%A0%EA%B1%B0%EA%B4%80%EB%A6%AC%EA%B7%9C%EC%B9%99> (accessed 12 October 2026).
 
-Oh, Seongtaek and Park, Iseok (2013) 유권자의 재산상태(아파트시세)가 후보자 득표에 미치는 영향에 관한 연구: 제19대 국회의원선거 서울특별시를 중심으로 [Voters' financial status, apartment prices and candidate vote shares: The nineteenth National Assembly election in Seoul]. *정책개발연구 [Journal of Policy Development]* 13(1), 171-193 [in Korean]. <https://doi.org/10.35224/kapd.2013.13.1.007>
+Oh, Seongtaek and Park, Iseok (2013) Yugwonjaui jaesansangtae(apateusise)ga huboja deukpyoe michineun yeonghyange gwanhan yeongu: je19dae gukhoeuiwonseongeo seoulteukbyeolsireul jungsimeuro (Voters' financial status, apartment prices and candidate vote shares: The nineteenth National Assembly election in Seoul). *Journal of Policy Development* 13(1), 171-193 [in Korean]. <https://doi.org/10.35224/kapd.2013.13.1.007>
 
 Rambachan, Ashesh and Roth, Jonathan (2023) A more credible approach to parallel trends. *Review of Economic Studies* 90(5), 2555-2591. <https://doi.org/10.1093/restud/rdad018>
 
@@ -288,13 +288,13 @@ Ridder, Geert and Moffitt, Robert (2007) The econometrics of data combination. I
 
 Rodden, Jonathan A. (2019) *Why Cities Lose: The Deep Roots of the Urban-Rural Political Divide*. New York: Basic Books.
 
-Seoul Metropolitan Government and KT (2026) *서울 생활이동 데이터, 행정동 단위 [Seoul Living Mobility: Administrative-dong data]*. Monthly files for March 2022, April 2024, May 2025 and May 2026. Seoul Open Data Plaza [in Korean]. Available at: <https://data.seoul.go.kr/dataVisual/seoul/seoulLivingMigration.do> (accessed 10 October 2026).
+Seoul Metropolitan Government and KT (2026) *Seoul Living Mobility: Administrative-dong data*. Monthly files for March 2022, April 2024, May 2025 and May 2026. Seoul Open Data Plaza [in Korean]. Available at: <https://data.seoul.go.kr/dataVisual/seoul/seoulLivingMigration.do> (accessed 10 October 2026).
 
-Shin, Jungsub (2022) 제20대 대통령 선거에서 나타난 주택소유와 투표선택: 회고투표 vs. 자산투표 [The effects of homeownership on vote choice in the 20th Korean presidential election: Retrospective voting vs. patrimonial voting]. *현대정치연구 [Journal of Contemporary Politics]* 15(3), 5-33 [in Korean]. <https://doi.org/10.52594/jcp.2022.12.15.3.5>
+Shin, Jungsub (2022) Je20dae daetongnyeong seongeoeseo natanan jutaeksoyuwa tupyoseontaek: hoegotupyo vs. jasantupyo (The effects of homeownership on vote choice in the 20th Korean presidential election: Retrospective voting vs. patrimonial voting). *Journal of Contemporary Politics* 15(3), 5-33 [in Korean]. <https://doi.org/10.52594/jcp.2022.12.15.3.5>
 
-Son, Nakgu (2008) *부동산 계급사회 [Real Estate Class Society]*. Seoul: Humanitas [in Korean].
+Son, Nakgu (2008) *Budongsan gyegeupsahoe (Real Estate Class Society)*. Seoul: Humanitas [in Korean].
 
-Son, Nakgu (2010) *대한민국 정치사회지도: 수도권편 [A Political-Social Atlas of Korea: The Capital Region]*. Seoul: Humanitas [in Korean].
+Son, Nakgu (2010) *Daehanminguk jeongchisahoejido: sudogwonpyeon (A Political-Social Atlas of Korea: The Capital Region)*. Seoul: Humanitas [in Korean].
 
 Song, B. K. and Kang, Woo Chang (2025) Inequality, local wealth, and electoral politics. *European Journal of Political Economy* 86, 102617. <https://doi.org/10.1016/j.ejpoleco.2024.102617>
 
@@ -302,8 +302,8 @@ Stoye, Jörg (2009) More on confidence intervals for partially identified parame
 
 Tamer, Elie (2010) Partial identification in econometrics. *Annual Review of Economics* 2, 167-195. <https://doi.org/10.1146/annurev.economics.050708.143401>
 
-vuski (2026) *admdongkor: 대한민국 행정동 경계 [Administrative-dong boundaries of the Republic of Korea]*, version 20260401. Available at: <https://github.com/vuski/admdongkor> (accessed 10 October 2026).
+vuski (2026) *admdongkor: Administrative-dong boundaries of the Republic of Korea*, version 20260401. Available at: <https://github.com/vuski/admdongkor> (accessed 10 October 2026).
 
 Wakefield, Jon (2004) Ecological inference for 2 × 2 tables. *Journal of the Royal Statistical Society: Series A* 167(3), 385-425. <https://doi.org/10.1111/j.1467-985x.2004.02046_1.x>
 
-Yun, Miyoung and Jun, Myung-Jin (2024) 주택가격 변동이 20대 대통령 선거 지지 정당 후보 변화에 미치는 영향 분석: 전국 행정동 단위 투표결과를 중심으로 [The impact of housing price changes on swing voters in the twentieth presidential election: National voting results by administrative districts]. *국토계획 [Journal of Korea Planning Association]* 59(2), 121-132 [in Korean]. <https://doi.org/10.17208/jkpa.2024.04.59.2.121>
+Yun, Miyoung and Jun, Myung-Jin (2024) Jutaekgagyeok byeondongi 20dae daetongnyeong seongeo jiji jeongdang hubo byeonhwae michineun yeonghyang bunseok: jeonguk haengjeongdong danwi tupyogyeolgwareul jungsimeuro (The impact of housing price changes on swing voters in the twentieth presidential election: National voting results by administrative districts). *Journal of Korea Planning Association* 59(2), 121-132 [in Korean]. <https://doi.org/10.17208/jkpa.2024.04.59.2.121>
