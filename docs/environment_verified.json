@@ -10,5 +10,6 @@
     "pytest": "9.1.1",
     "python-docx": "1.2.0"
   },
-  "validation": "39 tests passed; 14 bound configurations and 246 integer allocations verified on 2026-10-14"
+  "validation": "Fresh Python 3.12 environment installed from requirements.txt; 45 tests passed; 14 bound configurations and 246 integer allocations verified; tables, figures, PDF and DOCX rebuilt from supplied results on 2026-10-14.",
+  "validation_scope": "Headline and integer checks, not a full rerun of all analysis families. System document tools and fonts are also required."
 }

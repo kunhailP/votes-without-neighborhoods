@@ -5,7 +5,8 @@ data/seoul_hdong_aptprice_<sgId>.csv and data/aptprice_match_report_<sgId>.csv.
 Usage: python build/build_trades.py [--summaries] [sgId ...]   (default: 20170509 20220309 20240410).
 The default preserves the frozen price summaries. The current crosswalk gives
 small differences in three 2012/2017 medians; price_lineage.py audits their
-effect. The 2025 summary is supplied as a snapshot, without raw trades here."""
+effect. The original 2025 summary construction is unavailable; a separate snapshot and
+alternative reconstruction are documented in data/README.md."""
 import pandas as pd, numpy as np
 from pathlib import Path
 D = Path(__file__).resolve().parent.parent / "data"; DT = D / "trades"; DJ = D / "raw" / "juso"; DM = D / "raw" / "molit"

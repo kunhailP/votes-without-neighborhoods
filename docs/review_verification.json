@@ -1,7 +1,7 @@
 {
   "complete": true,
   "scope": "Verify headline results from the supplied analysis inputs; never overwrite results/.\n\nRun `make verify`. This recomputes 14 continuous-bound configurations and\nchecks all saved integer allocations using arithmetic identities rather than\nthe solver's constraint matrices. It is an execution check, not an independent\nvalidation of the model, assumptions, or authenticity of the raw sources.",
-  "checked_at_utc": "2026-10-14T05:58:33.828991+00:00",
+  "checked_at_utc": "2026-10-14T07:34:41.882550+00:00",
   "python": "3.12.3",
   "versions": {
     "numpy": "2.5.4",

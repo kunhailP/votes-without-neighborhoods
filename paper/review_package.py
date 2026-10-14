@@ -50,6 +50,17 @@ def sources(working_tree):
                 if not name.endswith('/') and included(name)}
 
 
+def check_identifiers(name, data, identifiers=(), commits=False):
+    """Inspect uncompressed text; report the location, never a credential value."""
+    if any(marker.lower() in data.lower() for marker in identifiers):
+        raise ValueError(f'Repository identifier in {name}')
+    credential = rb'(?:gh[pousr]_[A-Za-z0-9]{20,}|github_pat_[A-Za-z0-9_]{30,}|-----BEGIN (?:RSA |OPENSSH |EC )?PRIVATE KEY-----)'
+    if re.search(credential, data):
+        raise ValueError(f'Possible credential in {name}')
+    if commits and re.search(rb'\b[0-9a-f]{40}\b', data):
+        raise ValueError(f'Possible commit identifier in {name}')
+
+
 def check(files, identifiers=()):
     missing = REQUIRED - files.keys()
     if missing:
@@ -67,12 +78,15 @@ def check(files, identifiers=()):
                 for part in doc.namelist():
                     if part.startswith('word/comments'):
                         raise ValueError(f'Comment part in {name}')
-                if re.search(rb'<w:(?:ins|del|moveFrom|moveTo)\b', doc.read('word/document.xml')):
-                    raise ValueError(f'Tracked changes in {name}')
-        if any(marker.lower() in data.lower() for marker in identifiers):
-            raise ValueError(f'Repository identifier in {name}')
-        if name.endswith(('.md', '.py', '.txt', '.json', '.cff', '.toml')) and re.search(rb'\b[0-9a-f]{40}\b', data):
-            raise ValueError(f'Possible commit identifier in {name}')
+                    if part.endswith(('.xml', '.rels')):
+                        content = doc.read(part)
+                        check_identifiers(f'{name}:{part}', content, identifiers)
+                        if part.startswith('word/') and part.endswith('.xml'):
+                            root = ET.fromstring(content)
+                            if any(e.tag.rsplit('}', 1)[-1] in {'ins', 'del', 'moveFrom', 'moveTo'} for e in root.iter()):
+                                raise ValueError(f'Tracked changes in {name}:{part}')
+        check_identifiers(name, data, identifiers,
+                          commits=name.endswith(('.md', '.py', '.txt', '.json', '.cff', '.toml')))
 
 
 def remove_empty_comments(data):

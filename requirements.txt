@@ -5,6 +5,6 @@ pandas==3.0.6
 statsmodels==0.15.0
 matplotlib==3.11.2
 geopandas==1.2.0       # map figure only
-pytest
+pytest==9.1.1
 python-docx==1.2.0    # Word table layout and page orientation
 # paper build: pandoc >= 3.1 and XeLaTeX (TeX Live 2023) with TeX Gyre Termes and Noto Serif CJK KR

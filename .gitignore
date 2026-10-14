@@ -19,3 +19,9 @@ paper/build/.stamp
 
 # Private author files are not replication inputs.
 paper/submission/
+
+# Local Python environments and packaging outputs
+.venv/
+venv/
+*.egg-info/
+dist/

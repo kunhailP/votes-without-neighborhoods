@@ -121,3 +121,30 @@ def test_template_comment_cleanup_preserves_real_reviews(comment, removed):
                                'paper/build/manuscript_docx.md', 'docs/submission_preparation.md'])
 def test_private_and_intermediate_files_excluded(name):
     assert not package.included(name)
+
+
+@pytest.mark.parametrize('part, content, category', [
+    ('word/header1.xml', '<header>repository-owner</header>', 'identifier'),
+    ('word/_rels/document.xml.rels', '<Relationships><Link Target="https://github.com/repository-owner/paper"/></Relationships>', 'identifier'),
+    ('word/footer1.xml', '<x:del xmlns:x="urn:word">old text</x:del>', 'Tracked changes'),
+    ('word/footnotes.xml', '<notes>' + 'ghp_' + 'x' * 36 + '</notes>', 'credential'),
+])
+def test_reject_hidden_word_parts(part, content, category):
+    files = payload()
+    stream = io.BytesIO()
+    with zipfile.ZipFile(stream, 'w', zipfile.ZIP_DEFLATED) as doc:
+        doc.writestr('docProps/core.xml', '<properties/>')
+        doc.writestr('word/document.xml', '<document/>')
+        doc.writestr(part, content)
+    files['paper/build/manuscript.docx'] = stream.getvalue()
+    with pytest.raises(ValueError, match=category):
+        package.check(files, identifiers=(b'repository-owner',))
+
+
+def test_credential_error_does_not_echo_value():
+    files = payload()
+    credential = b'ghp_' + b'z' * 36
+    files['data/request.json'] = credential
+    with pytest.raises(ValueError, match='credential') as error:
+        package.check(files)
+    assert credential.decode() not in str(error.value)

@@ -143,7 +143,12 @@ def fig_map():
     save(fig, "fig3_map")
 
 
+def build_figures():
+    """Stop on any failure so a stale figure cannot pass as a fresh build."""
+    for draw in [fig_flow, fig_ladder, fig_map, fig_region]:
+        draw()
+        print("ok", draw.__name__)
+
+
 if __name__ == "__main__":
-    for f in [fig_flow, fig_ladder, fig_map, fig_region]:
-        try: f(); print("ok", f.__name__)
-        except Exception as e: print("FAILED", f.__name__, repr(e))
+    build_figures()
