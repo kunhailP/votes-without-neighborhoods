@@ -1,0 +1,35 @@
+{
+  "retrieved_at_utc": "2026-10-14T05:52:55.669755+00:00",
+  "keyword": "서울특별시 노원구 공릉동 569-28",
+  "response": [
+    {
+      "siNm": "서울특별시",
+      "lnbrMnnm": "569",
+      "bdKdcd": "1",
+      "jibunAddr": "서울특별시 노원구 공릉동 569-28 우성2차아파트",
+      "bdMgtSn": "1135010300105690028019862",
+      "hemdNm": "서울특별시 노원구 공릉1동",
+      "roadAddr": "서울특별시 노원구 동일로179길 12-7 (공릉동, 우성2차아파트)",
+      "bdNm": "우성2차아파트",
+      "rnMgtSn": "113504130175",
+      "buldMnnm": "12",
+      "hstryYn": "0",
+      "emdNm": "공릉동",
+      "lnbrSlno": "28",
+      "udrtYn": "0",
+      "detBdNmList": "102동",
+      "emdNo": "01",
+      "buldSlno": "7",
+      "relJibun": "",
+      "zipNo": "01857",
+      "admCd": "1135010300",
+      "liNm": "",
+      "mtYn": "0",
+      "roadAddrPart2": " (공릉동, 우성2차아파트)",
+      "sggNm": "노원구",
+      "roadAddrPart1": "서울특별시 노원구 동일로179길 12-7",
+      "engAddr": "12-7 Dongil-ro 179-gil, Nowon-gu, Seoul",
+      "rn": "동일로179길"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "retrieved_at_utc": "2026-10-14T05:53:16.342092+00:00",
+  "keyword": "서울특별시 영등포구 신길동 456-14",
+  "response": [
+    {
+      "siNm": "서울특별시",
+      "lnbrMnnm": "456",
+      "bdKdcd": "1",
+      "jibunAddr": "서울특별시 영등포구 신길동 456-19 다울아파트",
+      "bdMgtSn": "1156013200104560014037856",
+      "hemdNm": "서울특별시 영등포구 신길제1동",
+      "roadAddr": "서울특별시 영등포구 영등포로84길 42 (신길동, 다울아파트)",
+      "bdNm": "다울아파트",
+      "rnMgtSn": "115604154752",
+      "buldMnnm": "42",
+      "hstryYn": "0",
+      "emdNm": "신길동",
+      "lnbrSlno": "19",
+      "udrtYn": "0",
+      "detBdNmList": "103동,102동,101동",
+      "emdNo": "01",
+      "buldSlno": "0",
+      "relJibun": "서울특별시 영등포구 신길동 456-14,456-93",
+      "zipNo": "07356",
+      "admCd": "1156013200",
+      "liNm": "",
+      "mtYn": "0",
+      "roadAddrPart2": " (신길동, 다울아파트)",
+      "sggNm": "영등포구",
+      "roadAddrPart1": "서울특별시 영등포구 영등포로84길 42",
+      "engAddr": "42 Yeongdeungpo-ro 84-gil, Yeongdeungpo-gu, Seoul",
+      "rn": "영등포로84길"
+    }
+  ]
+}

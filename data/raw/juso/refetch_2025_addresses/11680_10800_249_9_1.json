@@ -1,0 +1,35 @@
+{
+  "retrieved_at_utc": "2026-10-14T05:53:32.883803+00:00",
+  "keyword": "서울특별시 강남구 논현동 249-9",
+  "response": [
+    {
+      "siNm": "서울특별시",
+      "lnbrMnnm": "249",
+      "bdKdcd": "0",
+      "jibunAddr": "서울특별시 강남구 논현동 249-9",
+      "bdMgtSn": "1168010800102490009000001",
+      "hemdNm": "서울특별시 강남구 논현2동",
+      "roadAddr": "서울특별시 강남구 언주로 624 (논현동)",
+      "bdNm": "",
+      "rnMgtSn": "116803005086",
+      "buldMnnm": "624",
+      "hstryYn": "0",
+      "emdNm": "논현동",
+      "lnbrSlno": "9",
+      "udrtYn": "0",
+      "detBdNmList": "",
+      "emdNo": "04",
+      "buldSlno": "0",
+      "relJibun": "서울특별시 강남구 논현동 249-10",
+      "zipNo": "06101",
+      "admCd": "1168010800",
+      "liNm": "",
+      "mtYn": "0",
+      "roadAddrPart2": " (논현동)",
+      "sggNm": "강남구",
+      "roadAddrPart1": "서울특별시 강남구 언주로 624",
+      "engAddr": "624 Eonju-ro, Gangnam-gu, Seoul",
+      "rn": "언주로"
+    }
+  ]
+}

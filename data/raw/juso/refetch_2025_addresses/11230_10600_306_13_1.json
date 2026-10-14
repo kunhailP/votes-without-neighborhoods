@@ -1,0 +1,35 @@
+{
+  "retrieved_at_utc": "2026-10-14T05:52:48.370759+00:00",
+  "keyword": "서울특별시 동대문구 장안동 306-13",
+  "response": [
+    {
+      "siNm": "서울특별시",
+      "lnbrMnnm": "306",
+      "bdKdcd": "1",
+      "jibunAddr": "서울특별시 동대문구 장안동 306-13 장안트윈아파트2",
+      "bdMgtSn": "1123010600103060013015500",
+      "hemdNm": "서울특별시 동대문구 장안제2동",
+      "roadAddr": "서울특별시 동대문구 장한로27가길 12 (장안동, 장안트윈아파트2)",
+      "bdNm": "장안트윈아파트2",
+      "rnMgtSn": "112304115405",
+      "buldMnnm": "12",
+      "hstryYn": "0",
+      "emdNm": "장안동",
+      "lnbrSlno": "13",
+      "udrtYn": "0",
+      "detBdNmList": "",
+      "emdNo": "01",
+      "buldSlno": "0",
+      "relJibun": "",
+      "zipNo": "02528",
+      "admCd": "1123010600",
+      "liNm": "",
+      "mtYn": "0",
+      "roadAddrPart2": " (장안동, 장안트윈아파트2)",
+      "sggNm": "동대문구",
+      "roadAddrPart1": "서울특별시 동대문구 장한로27가길 12",
+      "engAddr": "12 Janghan-ro 27ga-gil, Dongdaemun-gu, Seoul",
+      "rn": "장한로27가길"
+    }
+  ]
+}

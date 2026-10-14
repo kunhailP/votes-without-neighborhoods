@@ -1,0 +1,35 @@
+{
+  "retrieved_at_utc": "2026-10-14T05:53:06.085077+00:00",
+  "keyword": "서울특별시 마포구 망원동 456-60",
+  "response": [
+    {
+      "siNm": "서울특별시",
+      "lnbrMnnm": "456",
+      "bdKdcd": "1",
+      "jibunAddr": "서울특별시 마포구 망원동 456-60 태경크레앙스",
+      "bdMgtSn": "1144012300104560060014846",
+      "hemdNm": "서울특별시 마포구 망원제1동",
+      "roadAddr": "서울특별시 마포구 희우정로17길 11 (망원동, 태경크레앙스)",
+      "bdNm": "태경크레앙스",
+      "rnMgtSn": "114404139645",
+      "buldMnnm": "11",
+      "hstryYn": "0",
+      "emdNm": "망원동",
+      "lnbrSlno": "60",
+      "udrtYn": "0",
+      "detBdNmList": "102동",
+      "emdNo": "01",
+      "buldSlno": "0",
+      "relJibun": "",
+      "zipNo": "04006",
+      "admCd": "1144012300",
+      "liNm": "",
+      "mtYn": "0",
+      "roadAddrPart2": " (망원동, 태경크레앙스)",
+      "sggNm": "마포구",
+      "roadAddrPart1": "서울특별시 마포구 희우정로17길 11",
+      "engAddr": "11 Huiujeong-ro 17-gil, Mapo-gu, Seoul",
+      "rn": "희우정로17길"
+    }
+  ]
+}

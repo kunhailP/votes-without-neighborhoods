@@ -1,0 +1,267 @@
+{
+  "complete": true,
+  "scope": "Verify headline results from the supplied analysis inputs; never overwrite results/.\n\nRun `make verify`. This recomputes 14 continuous-bound configurations and\nchecks all saved integer allocations using arithmetic identities rather than\nthe solver's constraint matrices. It is an execution check, not an independent\nvalidation of the model, assumptions, or authenticity of the raw sources.",
+  "checked_at_utc": "2026-10-14T05:58:33.828991+00:00",
+  "python": "3.12.3",
+  "versions": {
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "pandas": "3.0.6"
+  },
+  "inputs": [
+    {
+      "election": "20121219",
+      "jurisdictions": 25,
+      "neighborhoods": 423,
+      "priced": 414
+    },
+    {
+      "election": "20170509",
+      "jurisdictions": 25,
+      "neighborhoods": 424,
+      "priced": 421
+    },
+    {
+      "election": "20220309",
+      "jurisdictions": 25,
+      "neighborhoods": 425,
+      "priced": 420
+    },
+    {
+      "election": "20240410",
+      "jurisdictions": 48,
+      "neighborhoods": 425,
+      "priced": 418
+    },
+    {
+      "election": "20250603",
+      "jurisdictions": 25,
+      "neighborhoods": 426,
+      "priced": 420
+    },
+    {
+      "election": "20260603",
+      "jurisdictions": 25,
+      "neighborhoods": 427,
+      "priced": 423
+    }
+  ],
+  "bounds": [
+    {
+      "election": "20121219",
+      "column": "A",
+      "sample": "all",
+      "recomputed": [
+        0.007711715724995822,
+        0.15716685708592965
+      ],
+      "shipped": [
+        0.0077117157249958,
+        0.1571668570859296
+      ],
+      "max_absolute_difference": 5.551115123125783e-17,
+      "max_constraint_violation": 0.0
+    },
+    {
+      "election": "20170509",
+      "column": "A",
+      "sample": "all",
+      "recomputed": [
+        -0.4276805563658089,
+        0.4502361916254721
+      ],
+      "shipped": [
+        -0.4276805563658089,
+        0.4502361916254721
+      ],
+      "max_absolute_difference": 0.0,
+      "max_constraint_violation": 0.0
+    },
+    {
+      "election": "20220309",
+      "column": "A",
+      "sample": "all",
+      "recomputed": [
+        -0.6151820174925919,
+        0.7038984155445734
+      ],
+      "shipped": [
+        -0.615182017492592,
+        0.7038984155445737
+      ],
+      "max_absolute_difference": 2.220446049250313e-16,
+      "max_constraint_violation": 0.0
+    },
+    {
+      "election": "20220309",
+      "column": "E",
+      "sample": "all",
+      "recomputed": [
+        -0.026165580207818624,
+        0.22275987767003835
+      ],
+      "shipped": [
+        -0.0261655802078186,
+        0.2227598776700384
+      ],
+      "max_absolute_difference": 5.551115123125783e-17,
+      "max_constraint_violation": 7.275957614183426e-12
+    },
+    {
+      "election": "20220309",
+      "column": "E",
+      "sample": "excl_gangnam3",
+      "recomputed": [
+        -0.042455742686532245,
+        0.2042643001268024
+      ],
+      "shipped": [
+        -0.0424557426865322,
+        0.2042643001268024
+      ],
+      "max_absolute_difference": 4.85722573273506e-17,
+      "max_constraint_violation": 7.275957614183426e-12
+    },
+    {
+      "election": "20240410",
+      "column": "A",
+      "sample": "all",
+      "recomputed": [
+        -0.5534769373643621,
+        0.6832339799130627
+      ],
+      "shipped": [
+        -0.5534769373643621,
+        0.6832339799130627
+      ],
+      "max_absolute_difference": 0.0,
+      "max_constraint_violation": 0.0
+    },
+    {
+      "election": "20240410",
+      "column": "E",
+      "sample": "all",
+      "recomputed": [
+        0.0012553054595838171,
+        0.20620098812741527
+      ],
+      "shipped": [
+        0.0012553054595838,
+        0.2062009881274152
+      ],
+      "max_absolute_difference": 8.326672684688674e-17,
+      "max_constraint_violation": 6.821210263296962e-12
+    },
+    {
+      "election": "20240410",
+      "column": "E",
+      "sample": "excl_gangnam3",
+      "recomputed": [
+        -0.027303295212016094,
+        0.18442478246886768
+      ],
+      "shipped": [
+        -0.027303295212016,
+        0.1844247824688676
+      ],
+      "max_absolute_difference": 9.367506770274758e-17,
+      "max_constraint_violation": 5.4569682106375694e-12
+    },
+    {
+      "election": "20250603",
+      "column": "A",
+      "sample": "all",
+      "recomputed": [
+        -0.46849183970840835,
+        0.5515702118666508
+      ],
+      "shipped": [
+        -0.4684918397084083,
+        0.5515702118666508
+      ],
+      "max_absolute_difference": 5.551115123125783e-17,
+      "max_constraint_violation": 0.0
+    },
+    {
+      "election": "20250603",
+      "column": "E",
+      "sample": "all",
+      "recomputed": [
+        -0.03742247987208998,
+        0.19383162465497275
+      ],
+      "shipped": [
+        -0.03742247987209,
+        0.1938316246549727
+      ],
+      "max_absolute_difference": 5.551115123125783e-17,
+      "max_constraint_violation": 1.0913936421275139e-11
+    },
+    {
+      "election": "20250603",
+      "column": "E",
+      "sample": "excl_gangnam3",
+      "recomputed": [
+        -0.06362691179780612,
+        0.17254465310682715
+      ],
+      "shipped": [
+        -0.0636269117978061,
+        0.1725446531068271
+      ],
+      "max_absolute_difference": 5.551115123125783e-17,
+      "max_constraint_violation": 1.0913936421275139e-11
+    },
+    {
+      "election": "20260603",
+      "column": "A",
+      "sample": "all",
+      "recomputed": [
+        -0.27858621760940416,
+        0.43917260915731227
+      ],
+      "shipped": [
+        -0.2785862176094041,
+        0.4391726091573122
+      ],
+      "max_absolute_difference": 5.551115123125783e-17,
+      "max_constraint_violation": 0.0
+    },
+    {
+      "election": "20260603",
+      "column": "E",
+      "sample": "all",
+      "recomputed": [
+        0.05429367155145817,
+        0.15565841871212155
+      ],
+      "shipped": [
+        0.0542936715514581,
+        0.1556584187121215
+      ],
+      "max_absolute_difference": 6.938893903907228e-17,
+      "max_constraint_violation": 7.275957614183426e-12
+    },
+    {
+      "election": "20260603",
+      "column": "E",
+      "sample": "excl_gangnam3",
+      "recomputed": [
+        0.029233158450474733,
+        0.13881256549629054
+      ],
+      "shipped": [
+        0.0292331584504747,
+        0.1388125654962905
+      ],
+      "max_absolute_difference": 3.122502256758253e-17,
+      "max_constraint_violation": 7.275957614183426e-12
+    }
+  ],
+  "integer_allocations": 246,
+  "max_integer_constraint_violation": 0.0,
+  "remaining_source_gap": "Original 2025 price-summary construction remains unavailable; a separately retrieved snapshot and alternative reconstruction are supplied in price_2025_audit.",
+  "checked_bound_configurations": 14,
+  "result_files_unchanged": true,
+  "max_absolute_difference": 2.220446049250313e-16
+}

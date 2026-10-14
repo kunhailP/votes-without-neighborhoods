@@ -1,0 +1,35 @@
+{
+  "retrieved_at_utc": "2026-10-14T05:53:31.936472+00:00",
+  "keyword": "서울특별시 강남구 논현동 222-18",
+  "response": [
+    {
+      "siNm": "서울특별시",
+      "lnbrMnnm": "222",
+      "bdKdcd": "1",
+      "jibunAddr": "서울특별시 강남구 논현동 222-18 신동아아파트",
+      "bdMgtSn": "1168010800102220018008147",
+      "hemdNm": "서울특별시 강남구 논현2동",
+      "roadAddr": "서울특별시 강남구 논현로118길 17 (논현동, 신동아아파트)",
+      "bdNm": "신동아아파트",
+      "rnMgtSn": "116804166118",
+      "buldMnnm": "17",
+      "hstryYn": "0",
+      "emdNm": "논현동",
+      "lnbrSlno": "18",
+      "udrtYn": "0",
+      "detBdNmList": "에이,비",
+      "emdNo": "01",
+      "buldSlno": "0",
+      "relJibun": "서울특별시 강남구 논현동 222-19,222-31,222-35,222-36,222-37",
+      "zipNo": "06107",
+      "admCd": "1168010800",
+      "liNm": "",
+      "mtYn": "0",
+      "roadAddrPart2": " (논현동, 신동아아파트)",
+      "sggNm": "강남구",
+      "roadAddrPart1": "서울특별시 강남구 논현로118길 17",
+      "engAddr": "17 Nonhyeon-ro 118-gil, Gangnam-gu, Seoul",
+      "rn": "논현로118길"
+    }
+  ]
+}

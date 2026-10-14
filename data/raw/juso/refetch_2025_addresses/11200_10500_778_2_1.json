@@ -1,0 +1,35 @@
+{
+  "retrieved_at_utc": "2026-10-14T05:52:45.259142+00:00",
+  "keyword": "서울특별시 성동구 마장동 778-2",
+  "response": [
+    {
+      "siNm": "서울특별시",
+      "lnbrMnnm": "778",
+      "bdKdcd": "1",
+      "jibunAddr": "서울특별시 성동구 마장동 778-2 마장동 삼웅아파트",
+      "bdMgtSn": "1120010500107780002021586",
+      "hemdNm": "서울특별시 성동구 마장동",
+      "roadAddr": "서울특별시 성동구 마장로46길 18 (마장동, 마장동 삼웅아파트)",
+      "bdNm": "마장동 삼웅아파트",
+      "rnMgtSn": "112004109191",
+      "buldMnnm": "18",
+      "hstryYn": "0",
+      "emdNm": "마장동",
+      "lnbrSlno": "2",
+      "udrtYn": "0",
+      "detBdNmList": "",
+      "emdNo": "01",
+      "buldSlno": "0",
+      "relJibun": "",
+      "zipNo": "04757",
+      "admCd": "1120010500",
+      "liNm": "",
+      "mtYn": "0",
+      "roadAddrPart2": " (마장동, 마장동 삼웅아파트)",
+      "sggNm": "성동구",
+      "roadAddrPart1": "서울특별시 성동구 마장로46길 18",
+      "engAddr": "18 Majang-ro 46-gil, Seongdong-gu, Seoul",
+      "rn": "마장로46길"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "retrieved_at_utc": "2026-10-14T05:53:28.069411+00:00",
+  "keyword": "서울특별시 강남구 압구정동 486",
+  "response": [
+    {
+      "siNm": "서울특별시",
+      "lnbrMnnm": "484",
+      "bdKdcd": "1",
+      "jibunAddr": "서울특별시 강남구 압구정동 484 한양아파트",
+      "bdMgtSn": "1168011000104840000004899",
+      "hemdNm": "서울특별시 강남구 압구정동",
+      "roadAddr": "서울특별시 강남구 압구정로 313 (압구정동, 한양아파트)",
+      "bdNm": "한양아파트",
+      "rnMgtSn": "116803122007",
+      "buldMnnm": "313",
+      "hstryYn": "0",
+      "emdNm": "압구정동",
+      "lnbrSlno": "0",
+      "udrtYn": "0",
+      "detBdNmList": "62,43,42,45,41,61,관리사무소",
+      "emdNo": "03",
+      "buldSlno": "0",
+      "relJibun": "서울특별시 강남구 압구정동 485,486",
+      "zipNo": "06006",
+      "admCd": "1168011000",
+      "liNm": "",
+      "mtYn": "0",
+      "roadAddrPart2": " (압구정동, 한양아파트)",
+      "sggNm": "강남구",
+      "roadAddrPart1": "서울특별시 강남구 압구정로 313",
+      "engAddr": "313 Apgujeong-ro, Gangnam-gu, Seoul",
+      "rn": "압구정로"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "retrieved_at_utc": "2026-10-14T05:53:29.574897+00:00",
+  "keyword": "서울특별시 강남구 도곡동 183-7",
+  "response": [
+    {
+      "siNm": "서울특별시",
+      "lnbrMnnm": "183",
+      "bdKdcd": "1",
+      "jibunAddr": "서울특별시 강남구 도곡동 183-7 아파트(12세대)",
+      "bdMgtSn": "1168011800101830007000527",
+      "hemdNm": "서울특별시 강남구 도곡1동",
+      "roadAddr": "서울특별시 강남구 남부순환로377길 18 (도곡동, 아파트(12세대))",
+      "bdNm": "아파트(12세대)",
+      "rnMgtSn": "116804166098",
+      "buldMnnm": "18",
+      "hstryYn": "0",
+      "emdNm": "도곡동",
+      "lnbrSlno": "7",
+      "udrtYn": "0",
+      "detBdNmList": "",
+      "emdNo": "01",
+      "buldSlno": "0",
+      "relJibun": "",
+      "zipNo": "06274",
+      "admCd": "1168011800",
+      "liNm": "",
+      "mtYn": "0",
+      "roadAddrPart2": " (도곡동, 아파트(12세대))",
+      "sggNm": "강남구",
+      "roadAddrPart1": "서울특별시 강남구 남부순환로377길 18",
+      "engAddr": "18 Nambusunhwan-ro 377-gil, Gangnam-gu, Seoul",
+      "rn": "남부순환로377길"
+    }
+  ]
+}

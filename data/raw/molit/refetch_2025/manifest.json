@@ -1,0 +1,3914 @@
+{
+  "endpoint": "https://apis.data.go.kr/1613000/RTMSDataSvcAptTradeDev/getRTMSDataSvcAptTradeDev",
+  "election": "20250603",
+  "window": [
+    "202406",
+    "202505"
+  ],
+  "snapshot_status": "new retrieval; not the original snapshot",
+  "district_months": 300,
+  "records": 73319,
+  "assembled_sha256": "d3d0c29988f82e28c05184ace0163ccb93ce7f157aa2230ab31c68aac3f3c2d4",
+  "requests": [
+    {
+      "query": {
+        "LAWD_CD": "11110",
+        "DEAL_YMD": "202406",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11110_202406_1.xml",
+      "total": 64,
+      "returned": 64,
+      "retrieved_at_utc": "2026-10-14T05:44:27.954015+00:00",
+      "sha256": "e43ac6e76daaf9ce765e17e931f496cd56c57b1a5164cfc6c0be93d3b6bc338a"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11110",
+        "DEAL_YMD": "202407",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11110_202407_1.xml",
+      "total": 60,
+      "returned": 60,
+      "retrieved_at_utc": "2026-10-14T05:44:27.950015+00:00",
+      "sha256": "2ca03989ddfb66b6345068994f03ae98b07736aa5faf7a07a3632e60f134071a"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11110",
+        "DEAL_YMD": "202408",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11110_202408_1.xml",
+      "total": 40,
+      "returned": 40,
+      "retrieved_at_utc": "2026-10-14T05:44:27.947015+00:00",
+      "sha256": "4d7fa9af85814da2bce1eaacdc7a393b690d0964100110c4e855c4901f523046"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11110",
+        "DEAL_YMD": "202409",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11110_202409_1.xml",
+      "total": 30,
+      "returned": 30,
+      "retrieved_at_utc": "2026-10-14T05:44:27.936015+00:00",
+      "sha256": "bfd7bb45ebc6b0f061047fe00e050932c6e739efd8210973aa0746abe210c391"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11110",
+        "DEAL_YMD": "202410",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11110_202410_1.xml",
+      "total": 38,
+      "returned": 38,
+      "retrieved_at_utc": "2026-10-14T05:44:29.254007+00:00",
+      "sha256": "01e606a6174466f5b0b7f40585426ed0989371d134b61bcb3d6ce14a2413b479"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11110",
+        "DEAL_YMD": "202411",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11110_202411_1.xml",
+      "total": 41,
+      "returned": 41,
+      "retrieved_at_utc": "2026-10-14T05:44:29.274006+00:00",
+      "sha256": "5dd9c0cf1ea0793526f7c0ec2b750c8eaa87d2481f39bcd0537c642765c6611f"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11110",
+        "DEAL_YMD": "202412",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11110_202412_1.xml",
+      "total": 18,
+      "returned": 18,
+      "retrieved_at_utc": "2026-10-14T05:44:29.002008+00:00",
+      "sha256": "1f2b455d673ec34f24e6442d04f09953340ad921bb22c81d2c50740492ab43dc"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11110",
+        "DEAL_YMD": "202501",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11110_202501_1.xml",
+      "total": 26,
+      "returned": 26,
+      "retrieved_at_utc": "2026-10-14T05:44:29.006008+00:00",
+      "sha256": "f040afafad9d0824b417fb6276e1bed3869475889374de3619ea9bcfba5c1de6"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11110",
+        "DEAL_YMD": "202502",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11110_202502_1.xml",
+      "total": 59,
+      "returned": 59,
+      "retrieved_at_utc": "2026-10-14T05:44:30.310000+00:00",
+      "sha256": "e2cf298af3999ca14dd8cb65080a3794736cd317468fc1c2c608b5897ec2f860"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11110",
+        "DEAL_YMD": "202503",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11110_202503_1.xml",
+      "total": 89,
+      "returned": 89,
+      "retrieved_at_utc": "2026-10-14T05:44:30.601998+00:00",
+      "sha256": "68e6570fe06cd7777f0f676b0b47eb59d9dc7a3f3db891e51787193c4391b9dd"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11110",
+        "DEAL_YMD": "202504",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11110_202504_1.xml",
+      "total": 43,
+      "returned": 43,
+      "retrieved_at_utc": "2026-10-14T05:44:30.576998+00:00",
+      "sha256": "08fb38ddf3c820a6ff9861d6ae168c1e31919a375152238d76e40cb6f59f2d45"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11110",
+        "DEAL_YMD": "202505",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11110_202505_1.xml",
+      "total": 61,
+      "returned": 61,
+      "retrieved_at_utc": "2026-10-14T05:44:30.595998+00:00",
+      "sha256": "6968cae3988c4285f7313269cb4fd6c09c7fb9acf818cb58e328f1c4bca54b3a"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11140",
+        "DEAL_YMD": "202406",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11140_202406_1.xml",
+      "total": 110,
+      "returned": 110,
+      "retrieved_at_utc": "2026-10-14T05:44:31.897990+00:00",
+      "sha256": "ebb5d5162f2400a6b0430cc979ceb2478c219588c96fcc9ef7c7ee9ee4377494"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11140",
+        "DEAL_YMD": "202407",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11140_202407_1.xml",
+      "total": 138,
+      "returned": 138,
+      "retrieved_at_utc": "2026-10-14T05:44:32.210988+00:00",
+      "sha256": "c8ad561ce916d56b86ed3e5481c087e546b1640da5faf186b0227b51dff5db19"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11140",
+        "DEAL_YMD": "202408",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11140_202408_1.xml",
+      "total": 89,
+      "returned": 89,
+      "retrieved_at_utc": "2026-10-14T05:44:32.197989+00:00",
+      "sha256": "d2982dbbea2096ef64d9ef0784a6ebf96c97d3315e743207b1cbea34b504a285"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11140",
+        "DEAL_YMD": "202409",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11140_202409_1.xml",
+      "total": 49,
+      "returned": 49,
+      "retrieved_at_utc": "2026-10-14T05:44:31.917990+00:00",
+      "sha256": "8ed5e657c1e7a3dc1788c08e040d2f8aeb528f3b46823b86aea272b6bdc9f1df"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11140",
+        "DEAL_YMD": "202410",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11140_202410_1.xml",
+      "total": 66,
+      "returned": 66,
+      "retrieved_at_utc": "2026-10-14T05:44:33.257982+00:00",
+      "sha256": "48f889e308a1ff6b824dd62398546924e34b386c39135dda5c0a7c888076f7b3"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11140",
+        "DEAL_YMD": "202411",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11140_202411_1.xml",
+      "total": 54,
+      "returned": 54,
+      "retrieved_at_utc": "2026-10-14T05:44:33.269982+00:00",
+      "sha256": "938c38b5268268ba1378709d3c727c2f58cb8c95c6cd915c7e1ad2fef302fa01"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11140",
+        "DEAL_YMD": "202412",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11140_202412_1.xml",
+      "total": 71,
+      "returned": 71,
+      "retrieved_at_utc": "2026-10-14T05:44:33.560980+00:00",
+      "sha256": "b8b9caab55a040a9c3a4c912f2e3e20756b8d093fe8bd68f08d8e50bbab5fba3"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11140",
+        "DEAL_YMD": "202501",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11140_202501_1.xml",
+      "total": 77,
+      "returned": 77,
+      "retrieved_at_utc": "2026-10-14T05:44:34.655973+00:00",
+      "sha256": "10238d1d448a853fdf527579eb98bcf8d77318f16d478e2a5026309ac93b79cb"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11140",
+        "DEAL_YMD": "202502",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11140_202502_1.xml",
+      "total": 117,
+      "returned": 117,
+      "retrieved_at_utc": "2026-10-14T05:44:34.878972+00:00",
+      "sha256": "02d02553c25e37b93e5a58798fa8b7f091eda217f938461c575bfedcd77e92c5"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11140",
+        "DEAL_YMD": "202503",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11140_202503_1.xml",
+      "total": 178,
+      "returned": 178,
+      "retrieved_at_utc": "2026-10-14T05:44:34.909972+00:00",
+      "sha256": "4ff6c02cd132e2ac8fb2390aae598e0d7e93e641a03d75fded0409c82b40d18d"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11140",
+        "DEAL_YMD": "202504",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11140_202504_1.xml",
+      "total": 109,
+      "returned": 109,
+      "retrieved_at_utc": "2026-10-14T05:44:35.164970+00:00",
+      "sha256": "a109455b80940ad37a84e0618d8898257bf0de09ba99b7581ba1609ec23ab1b5"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11140",
+        "DEAL_YMD": "202505",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11140_202505_1.xml",
+      "total": 127,
+      "returned": 127,
+      "retrieved_at_utc": "2026-10-14T05:45:02.459802+00:00",
+      "sha256": "ed135e57011372b9c70f46455b3095c187e1eaa4ae8f613b196881b4782ffe16"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11170",
+        "DEAL_YMD": "202406",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11170_202406_1.xml",
+      "total": 163,
+      "returned": 163,
+      "retrieved_at_utc": "2026-10-14T05:44:36.603961+00:00",
+      "sha256": "25542ab3b7cb81fb7d6005a22da1bd74762f2c89a08aec88a81ff1a7358e7b8f"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11170",
+        "DEAL_YMD": "202407",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11170_202407_1.xml",
+      "total": 175,
+      "returned": 175,
+      "retrieved_at_utc": "2026-10-14T05:44:36.532962+00:00",
+      "sha256": "f4a70bbf228f8ae5db1ca18437b2c8a4d64abeb877da102a81bb2752f104b18e"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11170",
+        "DEAL_YMD": "202408",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11170_202408_1.xml",
+      "total": 124,
+      "returned": 124,
+      "retrieved_at_utc": "2026-10-14T05:44:36.597961+00:00",
+      "sha256": "0059d42b158d413f494a088b5f560abaf07403b940520d865e4d6abf52c59e26"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11170",
+        "DEAL_YMD": "202409",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11170_202409_1.xml",
+      "total": 58,
+      "returned": 58,
+      "retrieved_at_utc": "2026-10-14T05:44:37.674955+00:00",
+      "sha256": "94f3e8002f91ac990e71cf41e50060f5b3287646f3111ddbc53de5a69766978b"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11170",
+        "DEAL_YMD": "202410",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11170_202410_1.xml",
+      "total": 73,
+      "returned": 73,
+      "retrieved_at_utc": "2026-10-14T05:44:39.692942+00:00",
+      "sha256": "d48de7b0c64b8851f8ebb2dec326d77c6bb320c955e1b8653596bb71b603303f"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11170",
+        "DEAL_YMD": "202411",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11170_202411_1.xml",
+      "total": 82,
+      "returned": 82,
+      "retrieved_at_utc": "2026-10-14T05:44:38.673949+00:00",
+      "sha256": "b9510d08ca8583c2c8465e2d31cd05b031b99edcd252a758bb48f50e79801eea"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11170",
+        "DEAL_YMD": "202412",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11170_202412_1.xml",
+      "total": 51,
+      "returned": 51,
+      "retrieved_at_utc": "2026-10-14T05:44:39.390944+00:00",
+      "sha256": "a74cc0f64b95b85aed0088e3461e9824669b9a21e87fd9e82320d1600bccef6c"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11170",
+        "DEAL_YMD": "202501",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11170_202501_1.xml",
+      "total": 76,
+      "returned": 76,
+      "retrieved_at_utc": "2026-10-14T05:44:40.016940+00:00",
+      "sha256": "aa3dcca9bd4e2d125bd6a34744c25839299f3180b9f4b27db688935d5a13364f"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11170",
+        "DEAL_YMD": "202502",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11170_202502_1.xml",
+      "total": 165,
+      "returned": 165,
+      "retrieved_at_utc": "2026-10-14T05:44:41.170933+00:00",
+      "sha256": "0cbd599db772d27989306c26fb438e063afb9da185ab3b4aeb919a46256d67ae"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11170",
+        "DEAL_YMD": "202503",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11170_202503_1.xml",
+      "total": 299,
+      "returned": 299,
+      "retrieved_at_utc": "2026-10-14T05:44:44.592912+00:00",
+      "sha256": "c4a100f5cfe537ed419eaa2596fd9f78de5cb91d26427b2f3007e39313507b50"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11170",
+        "DEAL_YMD": "202504",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11170_202504_1.xml",
+      "total": 43,
+      "returned": 43,
+      "retrieved_at_utc": "2026-10-14T05:44:41.787929+00:00",
+      "sha256": "8ad7dd7c5049363ad5d099c903d5559064d52e5011618fd7c3c754f0351b23a6"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11170",
+        "DEAL_YMD": "202505",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11170_202505_1.xml",
+      "total": 94,
+      "returned": 94,
+      "retrieved_at_utc": "2026-10-14T05:44:42.965922+00:00",
+      "sha256": "b15f84f45a6495108c6b0a6ab0ee71ec98d181f5613ca0688fd37f3184888b5f"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11200",
+        "DEAL_YMD": "202406",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11200_202406_1.xml",
+      "total": 498,
+      "returned": 498,
+      "retrieved_at_utc": "2026-10-14T05:44:53.712856+00:00",
+      "sha256": "5d5a29c6063e9f3faab9ef1577015bc075150f31d8bc1e8edbaa2fca1c4c3cb2"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11200",
+        "DEAL_YMD": "202407",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11200_202407_1.xml",
+      "total": 434,
+      "returned": 434,
+      "retrieved_at_utc": "2026-10-14T05:44:53.388858+00:00",
+      "sha256": "320389c140f2d53cc3e2f173012949955c8666a96bc860b501df6c98c0021935"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11200",
+        "DEAL_YMD": "202408",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11200_202408_1.xml",
+      "total": 319,
+      "returned": 319,
+      "retrieved_at_utc": "2026-10-14T05:44:55.852843+00:00",
+      "sha256": "104f70bdf7af318ee1fd040b1657d99f455ca9031edaa350d975f57908db9e48"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11200",
+        "DEAL_YMD": "202409",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11200_202409_1.xml",
+      "total": 128,
+      "returned": 128,
+      "retrieved_at_utc": "2026-10-14T05:44:57.504832+00:00",
+      "sha256": "9e8d9ae09ba391c8adcb40f9ad912d200865944609306273b602cb410e6a9411"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11200",
+        "DEAL_YMD": "202410",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11200_202410_1.xml",
+      "total": 175,
+      "returned": 175,
+      "retrieved_at_utc": "2026-10-14T05:45:00.529814+00:00",
+      "sha256": "f2bd01ec93f69bd4e224b435083d79acba25790ccd9f1e82e8d0185216648c63"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11200",
+        "DEAL_YMD": "202411",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11200_202411_1.xml",
+      "total": 160,
+      "returned": 160,
+      "retrieved_at_utc": "2026-10-14T05:44:57.774831+00:00",
+      "sha256": "a210a9390382f8dfed9cf5ec6276cdd10df125d73a2e48b52d87b8fb26563c24"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11200",
+        "DEAL_YMD": "202412",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11200_202412_1.xml",
+      "total": 156,
+      "returned": 156,
+      "retrieved_at_utc": "2026-10-14T05:44:59.719819+00:00",
+      "sha256": "edea497654ebd308f13a4b3dde0aae11fa403623eaf27e27e7bc5a1404396898"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11200",
+        "DEAL_YMD": "202501",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11200_202501_1.xml",
+      "total": 185,
+      "returned": 185,
+      "retrieved_at_utc": "2026-10-14T05:44:59.747818+00:00",
+      "sha256": "e03c75a69e1a45678ecb968d53030a4b4f1c414d6463b5eb937da0277d330d49"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11200",
+        "DEAL_YMD": "202502",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11200_202502_1.xml",
+      "total": 396,
+      "returned": 396,
+      "retrieved_at_utc": "2026-10-14T05:45:15.225723+00:00",
+      "sha256": "4a5aa9957bfd2661b2828feacc1dbbc14c19e235215e724fb21af2017a5dcdce"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11200",
+        "DEAL_YMD": "202503",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11200_202503_1.xml",
+      "total": 680,
+      "returned": 680,
+      "retrieved_at_utc": "2026-10-14T05:45:22.224680+00:00",
+      "sha256": "9bb7942e44e0b2a06107aaa738eca0689216713fc1743be73d83bfa41ff4672c"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11200",
+        "DEAL_YMD": "202504",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11200_202504_1.xml",
+      "total": 387,
+      "returned": 387,
+      "retrieved_at_utc": "2026-10-14T05:45:10.788750+00:00",
+      "sha256": "f5e9a7d863d9cf2731bfd3ed323d9a1389324d9fb06d7404d8919d6a75c501e8"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11200",
+        "DEAL_YMD": "202505",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11200_202505_1.xml",
+      "total": 592,
+      "returned": 592,
+      "retrieved_at_utc": "2026-10-14T05:45:30.708628+00:00",
+      "sha256": "3f7840e5aaaa3e92181ec7da9b146d4c06ece5eddc2c64ef259ef39deaeace3d"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11215",
+        "DEAL_YMD": "202406",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11215_202406_1.xml",
+      "total": 294,
+      "returned": 294,
+      "retrieved_at_utc": "2026-10-14T05:45:13.109736+00:00",
+      "sha256": "0da541295b996f275ffc331702e0ad54ac85a79b590078e5570de055dfc2b91c"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11215",
+        "DEAL_YMD": "202407",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11215_202407_1.xml",
+      "total": 246,
+      "returned": 246,
+      "retrieved_at_utc": "2026-10-14T05:45:40.775566+00:00",
+      "sha256": "7044b9fdf479144e6de6d21644e7bac6de93f0cbd1d7722787ba480ab6c7bfb5"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11215",
+        "DEAL_YMD": "202408",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11215_202408_1.xml",
+      "total": 130,
+      "returned": 130,
+      "retrieved_at_utc": "2026-10-14T05:45:16.978712+00:00",
+      "sha256": "3347e340f09faaf3b19e8474e0894b552eb0aa5ce109206d9b9f1e77cb60db7d"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11215",
+        "DEAL_YMD": "202409",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11215_202409_1.xml",
+      "total": 74,
+      "returned": 74,
+      "retrieved_at_utc": "2026-10-14T05:45:18.582702+00:00",
+      "sha256": "92f7c23af5a78576a2c500ef77c030baf9331a1fd2debfb00ccf89e756fe5e89"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11215",
+        "DEAL_YMD": "202410",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11215_202410_1.xml",
+      "total": 74,
+      "returned": 74,
+      "retrieved_at_utc": "2026-10-14T05:45:20.182693+00:00",
+      "sha256": "4792fba05553432f094139702dc585c8dd8493eacb428a86d557bcc033ee4258"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11215",
+        "DEAL_YMD": "202411",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11215_202411_1.xml",
+      "total": 75,
+      "returned": 75,
+      "retrieved_at_utc": "2026-10-14T05:45:21.511684+00:00",
+      "sha256": "e5cea8d64b545896d958b96d96493be9042cf3f24aa68a19becfcf8f4b175740"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11215",
+        "DEAL_YMD": "202412",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11215_202412_1.xml",
+      "total": 75,
+      "returned": 75,
+      "retrieved_at_utc": "2026-10-14T05:45:22.836676+00:00",
+      "sha256": "5def4d2e30e6d33129beaeaf266de4db981c427c458ead9519e244ce98aff407"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11215",
+        "DEAL_YMD": "202501",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11215_202501_1.xml",
+      "total": 96,
+      "returned": 96,
+      "retrieved_at_utc": "2026-10-14T05:45:23.848670+00:00",
+      "sha256": "55050c07bc189f2a73800540c37a13caf745d2fa0c3d03ce41d677078ce51f37"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11215",
+        "DEAL_YMD": "202502",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11215_202502_1.xml",
+      "total": 164,
+      "returned": 164,
+      "retrieved_at_utc": "2026-10-14T05:45:24.446666+00:00",
+      "sha256": "6d41a1398c1224ad3e974459fb22ff534d8c721789cc737b71e7a5712762dfe3"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11215",
+        "DEAL_YMD": "202503",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11215_202503_1.xml",
+      "total": 260,
+      "returned": 260,
+      "retrieved_at_utc": "2026-10-14T05:45:25.746658+00:00",
+      "sha256": "929909a9bf7fdfe1eaec344d7155fb88327faa80812918b08dda8a80ebe02114"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11215",
+        "DEAL_YMD": "202504",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11215_202504_1.xml",
+      "total": 177,
+      "returned": 177,
+      "retrieved_at_utc": "2026-10-14T05:45:26.068656+00:00",
+      "sha256": "19def8741be440a20aae62f28f0fba3648f5b4396253345cd3c0d227f5c2ab9c"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11215",
+        "DEAL_YMD": "202505",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11215_202505_1.xml",
+      "total": 254,
+      "returned": 254,
+      "retrieved_at_utc": "2026-10-14T05:45:27.656646+00:00",
+      "sha256": "ce6753c02f1ac06ab1b98fcaa3c14ee0f6164c58ef12ceb3ae0a2a295aa6ef42"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11230",
+        "DEAL_YMD": "202406",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11230_202406_1.xml",
+      "total": 331,
+      "returned": 331,
+      "retrieved_at_utc": "2026-10-14T05:45:28.275643+00:00",
+      "sha256": "10ab42dc6fb107618b33d5500c3215fed49f3776a92ff38d8b0ed95e4d201a33"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11230",
+        "DEAL_YMD": "202407",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11230_202407_1.xml",
+      "total": 369,
+      "returned": 369,
+      "retrieved_at_utc": "2026-10-14T05:45:29.803633+00:00",
+      "sha256": "61241c8052af4675bc796e225085802c2dfe09b75308e40cb5be6db80da184c4"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11230",
+        "DEAL_YMD": "202408",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11230_202408_1.xml",
+      "total": 290,
+      "returned": 290,
+      "retrieved_at_utc": "2026-10-14T05:45:29.913633+00:00",
+      "sha256": "8baccc25c49bdbe894a5e1195380ab2a78c39697522cd15ea599f9e5203885e2"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11230",
+        "DEAL_YMD": "202409",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11230_202409_1.xml",
+      "total": 133,
+      "returned": 133,
+      "retrieved_at_utc": "2026-10-14T05:45:31.145625+00:00",
+      "sha256": "83dac09f0aecec6be5c2674cbd9e2b6aa469400d39779b6ae034520d7d41cba6"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11230",
+        "DEAL_YMD": "202410",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11230_202410_1.xml",
+      "total": 158,
+      "returned": 158,
+      "retrieved_at_utc": "2026-10-14T05:45:31.253624+00:00",
+      "sha256": "fe63a94b9b7797e70b3aec866b3abea5ea5b125fc9eb86a9b3f55a1b4c54b099"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11230",
+        "DEAL_YMD": "202411",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11230_202411_1.xml",
+      "total": 205,
+      "returned": 205,
+      "retrieved_at_utc": "2026-10-14T05:45:32.076619+00:00",
+      "sha256": "0be906df9be2baec210f58f424a7aab06e70424adf8695f95179ae105e7ed2ae"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11230",
+        "DEAL_YMD": "202412",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11230_202412_1.xml",
+      "total": 154,
+      "returned": 154,
+      "retrieved_at_utc": "2026-10-14T05:45:32.480617+00:00",
+      "sha256": "54fdc17c0db9f225fa957bc0dc721c9bae249e7ce951908f8124526ed622da38"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11230",
+        "DEAL_YMD": "202501",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11230_202501_1.xml",
+      "total": 161,
+      "returned": 161,
+      "retrieved_at_utc": "2026-10-14T05:45:32.594616+00:00",
+      "sha256": "29b0eff6fd15008609bd64f1e60728aaaaed54b1f9bfe4a3e05443d59bc2620a"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11230",
+        "DEAL_YMD": "202502",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11230_202502_1.xml",
+      "total": 270,
+      "returned": 270,
+      "retrieved_at_utc": "2026-10-14T05:45:33.703609+00:00",
+      "sha256": "cfe5499c7b3a2b8ab2a774cdd17d21f1b99c4ec0172ad3a5f552145940fe8ea0"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11230",
+        "DEAL_YMD": "202503",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11230_202503_1.xml",
+      "total": 425,
+      "returned": 425,
+      "retrieved_at_utc": "2026-10-14T05:45:34.407605+00:00",
+      "sha256": "8a373e6dcbe4b0cd782930e715f036442a8825c166bf50ab3497f4ed9ced4d26"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11230",
+        "DEAL_YMD": "202504",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11230_202504_1.xml",
+      "total": 347,
+      "returned": 347,
+      "retrieved_at_utc": "2026-10-14T05:45:34.210606+00:00",
+      "sha256": "ede3a8799d47046f6775716ac7c73123d2ccbd17ee6b20df17b48d82553b7a28"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11230",
+        "DEAL_YMD": "202505",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11230_202505_1.xml",
+      "total": 366,
+      "returned": 366,
+      "retrieved_at_utc": "2026-10-14T05:45:35.629597+00:00",
+      "sha256": "1f2839a77d2b6f9b6f5396781764e9cee7ca71f12cfe212f7fb2cab6397ab458"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11260",
+        "DEAL_YMD": "202406",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11260_202406_1.xml",
+      "total": 210,
+      "returned": 210,
+      "retrieved_at_utc": "2026-10-14T05:45:35.841596+00:00",
+      "sha256": "af7e5b37d3ae17923eff481725c0f575fd77929ce4d832b962b2fc84ec406b21"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11260",
+        "DEAL_YMD": "202407",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11260_202407_1.xml",
+      "total": 215,
+      "returned": 215,
+      "retrieved_at_utc": "2026-10-14T05:45:36.252594+00:00",
+      "sha256": "e98f7e5c114297dcb65eb98b679772c54a484fb166dccd280a2f34191c0c5d7c"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11260",
+        "DEAL_YMD": "202408",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11260_202408_1.xml",
+      "total": 201,
+      "returned": 201,
+      "retrieved_at_utc": "2026-10-14T05:45:36.979589+00:00",
+      "sha256": "18c4369c3e72cfa3eed2b89190882a0d8e2c429f551c5521e663e6a00f423164"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11260",
+        "DEAL_YMD": "202409",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11260_202409_1.xml",
+      "total": 97,
+      "returned": 97,
+      "retrieved_at_utc": "2026-10-14T05:45:37.187588+00:00",
+      "sha256": "cc1f67fce9c9d54461d8806a453478beedb2441ea87f4855b64538c5d2960600"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11260",
+        "DEAL_YMD": "202410",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11260_202410_1.xml",
+      "total": 115,
+      "returned": 115,
+      "retrieved_at_utc": "2026-10-14T05:45:37.859584+00:00",
+      "sha256": "ddd7d4270f6346211568b65516fac13104bafae7c62d879b1b6fa76d02df0384"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11260",
+        "DEAL_YMD": "202411",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11260_202411_1.xml",
+      "total": 94,
+      "returned": 94,
+      "retrieved_at_utc": "2026-10-14T05:45:38.319581+00:00",
+      "sha256": "0e10645d65dc1ce3a3eca27c0ba1dde15663223d1d4a90314aa86f7be849e52b"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11260",
+        "DEAL_YMD": "202412",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11260_202412_1.xml",
+      "total": 89,
+      "returned": 89,
+      "retrieved_at_utc": "2026-10-14T05:45:38.503580+00:00",
+      "sha256": "f1de46604c29f1dc39484be32f27c78c86554fdcccd9ff1ecea21856e031395f"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11260",
+        "DEAL_YMD": "202501",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11260_202501_1.xml",
+      "total": 88,
+      "returned": 88,
+      "retrieved_at_utc": "2026-10-14T05:45:39.200575+00:00",
+      "sha256": "c218462794e262b25b85a66bef26edc59bdc8b81e48611c54949a42679f5337c"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11260",
+        "DEAL_YMD": "202502",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11260_202502_1.xml",
+      "total": 138,
+      "returned": 138,
+      "retrieved_at_utc": "2026-10-14T05:45:39.657573+00:00",
+      "sha256": "2cf954c8d1e5a619ce81c90b75cb1641aa452a8c5c1fa21643c88ce8cb3eda40"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11260",
+        "DEAL_YMD": "202503",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11260_202503_1.xml",
+      "total": 188,
+      "returned": 188,
+      "retrieved_at_utc": "2026-10-14T05:45:39.866571+00:00",
+      "sha256": "ab2d426e2ba423ff5f744a5d11695c961fda7401189fb752cb47063f1a04134d"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11260",
+        "DEAL_YMD": "202504",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11260_202504_1.xml",
+      "total": 148,
+      "returned": 148,
+      "retrieved_at_utc": "2026-10-14T05:45:40.542567+00:00",
+      "sha256": "d64c0af603cd7efcfb3dc87b9eb4ebecc8620df829dfcd2ba31835b069b0e20c"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11260",
+        "DEAL_YMD": "202505",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11260_202505_1.xml",
+      "total": 195,
+      "returned": 195,
+      "retrieved_at_utc": "2026-10-14T05:45:41.280562+00:00",
+      "sha256": "24eb216b2b68eeeaea06b2e53d3440777b26a9f929fcae523ac8fe4e73a52e8b"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11290",
+        "DEAL_YMD": "202406",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11290_202406_1.xml",
+      "total": 422,
+      "returned": 422,
+      "retrieved_at_utc": "2026-10-14T05:45:41.802559+00:00",
+      "sha256": "025c707e6d45152e80dac1d20e6560ba0bd45810c2eb068a1cbce27f19f879f8"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11290",
+        "DEAL_YMD": "202407",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11290_202407_1.xml",
+      "total": 479,
+      "returned": 479,
+      "retrieved_at_utc": "2026-10-14T05:45:42.739553+00:00",
+      "sha256": "5b6dbee1560538b203c9d8218446aa2358a258fc59e4db77690b09a1eb7c40bc"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11290",
+        "DEAL_YMD": "202408",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11290_202408_1.xml",
+      "total": 375,
+      "returned": 375,
+      "retrieved_at_utc": "2026-10-14T05:45:42.701554+00:00",
+      "sha256": "68996f51a89276e3a5890f7129ff391eb9a5d52420dff9ccb654ac4c03350528"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11290",
+        "DEAL_YMD": "202409",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11290_202409_1.xml",
+      "total": 191,
+      "returned": 191,
+      "retrieved_at_utc": "2026-10-14T05:45:42.871553+00:00",
+      "sha256": "b0b086f34aecd0f4e7595621cbb869267cd275769b6c44d1e87e11bbb1d1235d"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11290",
+        "DEAL_YMD": "202410",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11290_202410_1.xml",
+      "total": 220,
+      "returned": 220,
+      "retrieved_at_utc": "2026-10-14T05:45:43.165551+00:00",
+      "sha256": "70b669bf4cba0e41510ff9ad8f84089a86ac7e2850ec07a25497ceb77cd2e0c0"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11290",
+        "DEAL_YMD": "202411",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11290_202411_1.xml",
+      "total": 152,
+      "returned": 152,
+      "retrieved_at_utc": "2026-10-14T05:45:44.071545+00:00",
+      "sha256": "a9638136c0c5c3b174497082933bb8a815af3e00a85a99ac3e17f3bffa0ceb14"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11290",
+        "DEAL_YMD": "202412",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11290_202412_1.xml",
+      "total": 133,
+      "returned": 133,
+      "retrieved_at_utc": "2026-10-14T05:45:44.111545+00:00",
+      "sha256": "e4e9b3e4c1c03487fff9818f9cd62915085b9098bd9858535ddb3a434f1bb5d9"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11290",
+        "DEAL_YMD": "202501",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11290_202501_1.xml",
+      "total": 195,
+      "returned": 195,
+      "retrieved_at_utc": "2026-10-14T05:45:44.472543+00:00",
+      "sha256": "c6821811329208656b77b7b54419158a374be30adb1968c892eb510c99af1a07"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11290",
+        "DEAL_YMD": "202502",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11290_202502_1.xml",
+      "total": 260,
+      "returned": 260,
+      "retrieved_at_utc": "2026-10-14T05:45:44.793541+00:00",
+      "sha256": "6a1c7f1518d0e0cc2bd30477b0cb9cbf255c9318588a0f211a6c19144e9990c4"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11290",
+        "DEAL_YMD": "202503",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11290_202503_1.xml",
+      "total": 454,
+      "returned": 454,
+      "retrieved_at_utc": "2026-10-14T05:45:46.015533+00:00",
+      "sha256": "65bdc9b0961459e442ca4f4a541f4bcb70f67c6d658a087dac8467e11c070b35"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11290",
+        "DEAL_YMD": "202504",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11290_202504_1.xml",
+      "total": 346,
+      "returned": 346,
+      "retrieved_at_utc": "2026-10-14T05:45:45.986533+00:00",
+      "sha256": "40632fffe33bfc3d06f55dab3684d2ae947273fa011ff0a3e1a0374ea1b86b3d"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11290",
+        "DEAL_YMD": "202505",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11290_202505_1.xml",
+      "total": 476,
+      "returned": 476,
+      "retrieved_at_utc": "2026-10-14T05:45:46.413531+00:00",
+      "sha256": "2bdb02f39ccc7136ab826c0503215b349f3f5e87a0fab1524c0c5b423c93e71d"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11305",
+        "DEAL_YMD": "202406",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11305_202406_1.xml",
+      "total": 106,
+      "returned": 106,
+      "retrieved_at_utc": "2026-10-14T05:45:46.159532+00:00",
+      "sha256": "228bb8fc118635b3e018543ed3ff9adcafb3f77199af78307454fd88ac75facf"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11305",
+        "DEAL_YMD": "202407",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11305_202407_1.xml",
+      "total": 134,
+      "returned": 134,
+      "retrieved_at_utc": "2026-10-14T05:45:47.343525+00:00",
+      "sha256": "466fd0a5013e465628131a374a88b62e9c79fc94b30abb32d5932f7b25493fbf"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11305",
+        "DEAL_YMD": "202408",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11305_202408_1.xml",
+      "total": 118,
+      "returned": 118,
+      "retrieved_at_utc": "2026-10-14T05:45:47.379525+00:00",
+      "sha256": "3b98955083300bf2e74e06389c2b851bc674331556204b0b9d4739714d79a7cc"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11305",
+        "DEAL_YMD": "202409",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11305_202409_1.xml",
+      "total": 50,
+      "returned": 50,
+      "retrieved_at_utc": "2026-10-14T05:45:47.230526+00:00",
+      "sha256": "680884be76abf45c10ff775b4676e5a00ca611ea47314c937ada44eb4d6ee30f"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11305",
+        "DEAL_YMD": "202410",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11305_202410_1.xml",
+      "total": 88,
+      "returned": 88,
+      "retrieved_at_utc": "2026-10-14T05:45:47.739523+00:00",
+      "sha256": "4dc676d231b3f867681c83cb2e7232525961c89da069b93a23097f243043c2ce"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11305",
+        "DEAL_YMD": "202411",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11305_202411_1.xml",
+      "total": 52,
+      "returned": 52,
+      "retrieved_at_utc": "2026-10-14T05:45:48.329519+00:00",
+      "sha256": "de1087d7d6682a086709eb42eb4a90e0fb20d8bc297a81df6e36b79cd9b1f7c7"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11305",
+        "DEAL_YMD": "202412",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11305_202412_1.xml",
+      "total": 45,
+      "returned": 45,
+      "retrieved_at_utc": "2026-10-14T05:45:48.389518+00:00",
+      "sha256": "16ea6d29006c8b3feafae69e7b4e5a9878e47a0188615dc5fa7812391a81d359"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11305",
+        "DEAL_YMD": "202501",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11305_202501_1.xml",
+      "total": 53,
+      "returned": 53,
+      "retrieved_at_utc": "2026-10-14T05:45:48.424518+00:00",
+      "sha256": "3051beb3924e7c355e9b88f79329482bff88bb008187f1bc5ed19d67b7df9710"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11305",
+        "DEAL_YMD": "202502",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11305_202502_1.xml",
+      "total": 97,
+      "returned": 97,
+      "retrieved_at_utc": "2026-10-14T05:45:49.078514+00:00",
+      "sha256": "1576581e1f5fe7e32e75a3c939bd43c1a79de947156ab42514c5d79b7032f435"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11305",
+        "DEAL_YMD": "202503",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11305_202503_1.xml",
+      "total": 103,
+      "returned": 103,
+      "retrieved_at_utc": "2026-10-14T05:45:49.645511+00:00",
+      "sha256": "81f76d3aa9fd4d54ed268913bcf0601b8beb9b690ba95da2a6cf6711b046abb1"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11305",
+        "DEAL_YMD": "202504",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11305_202504_1.xml",
+      "total": 102,
+      "returned": 102,
+      "retrieved_at_utc": "2026-10-14T05:45:49.718510+00:00",
+      "sha256": "439840f34fbf7c4f858f5b9a17261a86e4c153373cfb69e94f56e8c1963a1e9d"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11305",
+        "DEAL_YMD": "202505",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11305_202505_1.xml",
+      "total": 129,
+      "returned": 129,
+      "retrieved_at_utc": "2026-10-14T05:45:50.029509+00:00",
+      "sha256": "42b4b68d82cc55ee4ce5eba33188ea526fc9e1bacad47b70a0e63f5d890b718f"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11320",
+        "DEAL_YMD": "202406",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11320_202406_1.xml",
+      "total": 177,
+      "returned": 177,
+      "retrieved_at_utc": "2026-10-14T05:45:50.400506+00:00",
+      "sha256": "8837185c5bb93a16e3c0f7f11539721c7724453459494b6899cb41a6c29ad2d4"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11320",
+        "DEAL_YMD": "202407",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11320_202407_1.xml",
+      "total": 239,
+      "returned": 239,
+      "retrieved_at_utc": "2026-10-14T05:45:51.512499+00:00",
+      "sha256": "41d30db02490060b65748da787438f75b90c763aee0abf6c4fecb8daed455d75"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11320",
+        "DEAL_YMD": "202408",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11320_202408_1.xml",
+      "total": 188,
+      "returned": 188,
+      "retrieved_at_utc": "2026-10-14T05:45:51.338500+00:00",
+      "sha256": "bf4efe9a5c6296e985af7c99762707b1a36fe961a163ee223572e0dcb1522f19"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11320",
+        "DEAL_YMD": "202409",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11320_202409_1.xml",
+      "total": 93,
+      "returned": 93,
+      "retrieved_at_utc": "2026-10-14T05:45:51.371500+00:00",
+      "sha256": "99f8fe615b2727b3c3f1a6f2b8b6d724a4b4693e1a8355be26015e0ae87e63c3"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11320",
+        "DEAL_YMD": "202410",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11320_202410_1.xml",
+      "total": 143,
+      "returned": 143,
+      "retrieved_at_utc": "2026-10-14T05:45:51.731498+00:00",
+      "sha256": "2a89f79910eddedd805036f422e904bf6ddd0b2219bc6dfb884da3535e766b1f"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11320",
+        "DEAL_YMD": "202411",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11320_202411_1.xml",
+      "total": 85,
+      "returned": 85,
+      "retrieved_at_utc": "2026-10-14T05:45:52.685492+00:00",
+      "sha256": "f253c4dc2fb2f80d7a6c5cef1d4a107a785a0c033f0da10aa117cc26f335c224"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11320",
+        "DEAL_YMD": "202412",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11320_202412_1.xml",
+      "total": 90,
+      "returned": 90,
+      "retrieved_at_utc": "2026-10-14T05:45:52.699492+00:00",
+      "sha256": "57fd1b16762b156d3339870d41721552237d6a5e1e90fd0c963a936b95698860"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11320",
+        "DEAL_YMD": "202501",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11320_202501_1.xml",
+      "total": 80,
+      "returned": 80,
+      "retrieved_at_utc": "2026-10-14T05:45:52.854491+00:00",
+      "sha256": "a1b61b612111c011ac79792781b039bfd14731f4f287844a3587696be10d9ad6"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11320",
+        "DEAL_YMD": "202502",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11320_202502_1.xml",
+      "total": 122,
+      "returned": 122,
+      "retrieved_at_utc": "2026-10-14T05:45:53.078490+00:00",
+      "sha256": "2ad9f49fc847ee0cf7d7dc426c6b5a46a3c3061844ef391e8357948d1955924b"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11320",
+        "DEAL_YMD": "202503",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11320_202503_1.xml",
+      "total": 176,
+      "returned": 176,
+      "retrieved_at_utc": "2026-10-14T05:45:54.266482+00:00",
+      "sha256": "28fb78a237bf010d01bb971a241b40840257a2cdf75a5404bb5e21276d62ced7"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11320",
+        "DEAL_YMD": "202504",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11320_202504_1.xml",
+      "total": 157,
+      "returned": 157,
+      "retrieved_at_utc": "2026-10-14T05:45:54.273482+00:00",
+      "sha256": "460eccd36ab8c77c2211f43bfafb665eaf14cf7b38e011b1900106b778d99229"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11320",
+        "DEAL_YMD": "202505",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11320_202505_1.xml",
+      "total": 161,
+      "returned": 161,
+      "retrieved_at_utc": "2026-10-14T05:45:54.200483+00:00",
+      "sha256": "bc2c0937321ca412806fc551e30dcc92453851efb9569be1b354f7925ccffcfe"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11350",
+        "DEAL_YMD": "202406",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11350_202406_1.xml",
+      "total": 457,
+      "returned": 457,
+      "retrieved_at_utc": "2026-10-14T05:45:55.473475+00:00",
+      "sha256": "204f4d4dcee5c1a406c24b239e2636a1e1b5e6111caeae5b93c70855cc25d363"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11350",
+        "DEAL_YMD": "202407",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11350_202407_1.xml",
+      "total": 743,
+      "returned": 743,
+      "retrieved_at_utc": "2026-10-14T05:45:57.267464+00:00",
+      "sha256": "5ff076119079add9e6b3a3c21a52a32de74b23b1a9b63cb4f3b1110a794878da"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11350",
+        "DEAL_YMD": "202408",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11350_202408_1.xml",
+      "total": 530,
+      "returned": 530,
+      "retrieved_at_utc": "2026-10-14T05:45:56.690467+00:00",
+      "sha256": "da22d2f73c7bc13b635a4a72ab081ab38bfe5e5f8d56da80f9a9ab8e5e664fd2"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11350",
+        "DEAL_YMD": "202409",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11350_202409_1.xml",
+      "total": 256,
+      "returned": 256,
+      "retrieved_at_utc": "2026-10-14T05:45:55.914472+00:00",
+      "sha256": "eed9e869905a7b90d379cdf49c2b01d1001641c3eb53ff7253d0b15d61924657"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11350",
+        "DEAL_YMD": "202410",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11350_202410_1.xml",
+      "total": 287,
+      "returned": 287,
+      "retrieved_at_utc": "2026-10-14T05:45:57.115465+00:00",
+      "sha256": "19e70cd215565be5a56f014d74530984c0d7254ecf560c81028671706957caa2"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11350",
+        "DEAL_YMD": "202411",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11350_202411_1.xml",
+      "total": 310,
+      "returned": 310,
+      "retrieved_at_utc": "2026-10-14T05:45:57.857460+00:00",
+      "sha256": "5b62f90fdf145920b7c4e5cd70c3aafcc1b7b3e6c369699a6129b4f673cc3876"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11350",
+        "DEAL_YMD": "202412",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11350_202412_1.xml",
+      "total": 235,
+      "returned": 235,
+      "retrieved_at_utc": "2026-10-14T05:45:58.332457+00:00",
+      "sha256": "1b7444f28ce08a120f815fcfb49344aa2c4bb5d22bf8fd49d468c9791c97e591"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11350",
+        "DEAL_YMD": "202501",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11350_202501_1.xml",
+      "total": 218,
+      "returned": 218,
+      "retrieved_at_utc": "2026-10-14T05:45:58.756455+00:00",
+      "sha256": "4c36d5b80b69f42f4d7c75bac33e332684c243c20582f34e9ca5b4c20d7d9c79"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11350",
+        "DEAL_YMD": "202502",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11350_202502_1.xml",
+      "total": 374,
+      "returned": 374,
+      "retrieved_at_utc": "2026-10-14T05:45:59.197452+00:00",
+      "sha256": "15fd12c8cffc94198e12d8cf83af31239803e4963d44b9528ca70d28a4262374"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11350",
+        "DEAL_YMD": "202503",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11350_202503_1.xml",
+      "total": 601,
+      "returned": 601,
+      "retrieved_at_utc": "2026-10-14T05:46:00.544444+00:00",
+      "sha256": "4ebc776fd32adfc787e8cc86fa1e160ea1eecd3a2372caa60d45013399e47271"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11350",
+        "DEAL_YMD": "202504",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11350_202504_1.xml",
+      "total": 418,
+      "returned": 418,
+      "retrieved_at_utc": "2026-10-14T05:46:00.257445+00:00",
+      "sha256": "872f335e2510c1445cac89c1a687c87455ebcae24cefbc7667b70d613048f9d7"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11350",
+        "DEAL_YMD": "202505",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11350_202505_1.xml",
+      "total": 570,
+      "returned": 570,
+      "retrieved_at_utc": "2026-10-14T05:46:01.718436+00:00",
+      "sha256": "0eed690db05afb248d8f499cf18deb40f8398c25fccc5bd4d33bd6a3d91fa065"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11380",
+        "DEAL_YMD": "202406",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11380_202406_1.xml",
+      "total": 278,
+      "returned": 278,
+      "retrieved_at_utc": "2026-10-14T05:46:01.346439+00:00",
+      "sha256": "5f97886a95636b43662ee56a1dfdefc9808e742030e317b9c96ad7969bced1f5"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11380",
+        "DEAL_YMD": "202407",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11380_202407_1.xml",
+      "total": 287,
+      "returned": 287,
+      "retrieved_at_utc": "2026-10-14T05:46:02.169434+00:00",
+      "sha256": "7fd7e4685f918b497bd2f89b4e2e5e82e30fd6bb5c351cdf67fe695e5d861c29"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11380",
+        "DEAL_YMD": "202408",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11380_202408_1.xml",
+      "total": 217,
+      "returned": 217,
+      "retrieved_at_utc": "2026-10-14T05:46:02.439432+00:00",
+      "sha256": "da64dbf2a071420ba0983f4b8133e39a4c3d5662d8f24d7943c4deef3c59e518"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11380",
+        "DEAL_YMD": "202409",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11380_202409_1.xml",
+      "total": 136,
+      "returned": 136,
+      "retrieved_at_utc": "2026-10-14T05:46:02.712430+00:00",
+      "sha256": "1ff8467d2e898090867193fb5e1c4ea09d1cf0e35404c0aba5ce9264e12cb0b5"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11380",
+        "DEAL_YMD": "202410",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11380_202410_1.xml",
+      "total": 132,
+      "returned": 132,
+      "retrieved_at_utc": "2026-10-14T05:46:03.077428+00:00",
+      "sha256": "c3ea0aabaa2a565c72059bd15ecb5dc0bd7e27360f6aeb230b7e1131a3ca834d"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11380",
+        "DEAL_YMD": "202411",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11380_202411_1.xml",
+      "total": 125,
+      "returned": 125,
+      "retrieved_at_utc": "2026-10-14T05:46:03.525425+00:00",
+      "sha256": "931a9fbeee30b15023ad65b2232eb2c285cab1d6c2e61db37baf1711f9c8eb67"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11380",
+        "DEAL_YMD": "202412",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11380_202412_1.xml",
+      "total": 96,
+      "returned": 96,
+      "retrieved_at_utc": "2026-10-14T05:46:03.781424+00:00",
+      "sha256": "5f2116af2b2a9c1a4a520b058aee3c43df191298f799a32317292c5863858861"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11380",
+        "DEAL_YMD": "202501",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11380_202501_1.xml",
+      "total": 119,
+      "returned": 119,
+      "retrieved_at_utc": "2026-10-14T05:46:04.056422+00:00",
+      "sha256": "633f43ec1244b2a937753aa5fa046682bb498291ed6ea8e2307d784b829d3421"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11380",
+        "DEAL_YMD": "202502",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11380_202502_1.xml",
+      "total": 165,
+      "returned": 165,
+      "retrieved_at_utc": "2026-10-14T05:46:04.398420+00:00",
+      "sha256": "4ca965e4f4fb6815ecba6984472ce86d738cba9bef57cf061ade84dd8025a569"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11380",
+        "DEAL_YMD": "202503",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11380_202503_1.xml",
+      "total": 280,
+      "returned": 280,
+      "retrieved_at_utc": "2026-10-14T05:46:05.151415+00:00",
+      "sha256": "e989d57c6f517394a20536f95713502cffbe0816d12adbaf4646ae0000050296"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11380",
+        "DEAL_YMD": "202504",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11380_202504_1.xml",
+      "total": 198,
+      "returned": 198,
+      "retrieved_at_utc": "2026-10-14T05:46:05.138415+00:00",
+      "sha256": "e239413ccee0f788d558b1f41aa1d3cda713d6d62bee34681b54bedd9234ad05"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11380",
+        "DEAL_YMD": "202505",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11380_202505_1.xml",
+      "total": 254,
+      "returned": 254,
+      "retrieved_at_utc": "2026-10-14T05:46:05.675412+00:00",
+      "sha256": "2ed26daa811f20965cb511e76ceea5b4cd8f1bc455ecc4e01ea246a228f85b41"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11410",
+        "DEAL_YMD": "202406",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11410_202406_1.xml",
+      "total": 329,
+      "returned": 329,
+      "retrieved_at_utc": "2026-10-14T05:46:06.058410+00:00",
+      "sha256": "c28bd3a3d1a2d42aecde8b59c6a12f657dfb1359198a6868008d717a12e3d27e"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11410",
+        "DEAL_YMD": "202407",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11410_202407_1.xml",
+      "total": 392,
+      "returned": 392,
+      "retrieved_at_utc": "2026-10-14T05:46:07.296402+00:00",
+      "sha256": "b5b3761886c2a8966e3032752246243dcf67f87d2ca821629a9a02ef56ef773f"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11410",
+        "DEAL_YMD": "202408",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11410_202408_1.xml",
+      "total": 233,
+      "returned": 233,
+      "retrieved_at_utc": "2026-10-14T05:46:06.777405+00:00",
+      "sha256": "121e9cf09979a32fadea010d68c70222288491292c183555952e71dedd8b416c"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11410",
+        "DEAL_YMD": "202409",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11410_202409_1.xml",
+      "total": 107,
+      "returned": 107,
+      "retrieved_at_utc": "2026-10-14T05:46:07.012404+00:00",
+      "sha256": "dc1dc58a0cdd461dc75ce63416393e482cac6d452362854ad9980fe8ba1a20b6"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11410",
+        "DEAL_YMD": "202410",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11410_202410_1.xml",
+      "total": 150,
+      "returned": 150,
+      "retrieved_at_utc": "2026-10-14T05:46:07.390401+00:00",
+      "sha256": "eb56ef3b666d574f2c7e4446023279ac25559503d12dea1c90b52adb6745deda"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11410",
+        "DEAL_YMD": "202411",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11410_202411_1.xml",
+      "total": 145,
+      "returned": 145,
+      "retrieved_at_utc": "2026-10-14T05:46:08.116397+00:00",
+      "sha256": "4beec404d6d577b0591d2257cebecff29738a4808ea0c7e54e3ef60abdc32060"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11410",
+        "DEAL_YMD": "202412",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11410_202412_1.xml",
+      "total": 253,
+      "returned": 253,
+      "retrieved_at_utc": "2026-10-14T05:46:08.648394+00:00",
+      "sha256": "d4dcd32bd7ac9ca4c43d460d3c49504d28cd0a44d1e912a95b01921770ee27fe"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11410",
+        "DEAL_YMD": "202501",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11410_202501_1.xml",
+      "total": 132,
+      "returned": 132,
+      "retrieved_at_utc": "2026-10-14T05:46:08.636394+00:00",
+      "sha256": "8dad24eafbb9e1423905de1b81ce019a3338781fb8fe23ebb14587fac1ccd5de"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11410",
+        "DEAL_YMD": "202502",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11410_202502_1.xml",
+      "total": 215,
+      "returned": 215,
+      "retrieved_at_utc": "2026-10-14T05:46:08.992392+00:00",
+      "sha256": "6da86984353132133d7000468f79e9ed51a348818985642bdbdae24133445082"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11410",
+        "DEAL_YMD": "202503",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11410_202503_1.xml",
+      "total": 330,
+      "returned": 330,
+      "retrieved_at_utc": "2026-10-14T05:46:09.983386+00:00",
+      "sha256": "92b3b181da2874f396c0a9cbe1653974d610737ca6bcf3d84c34b88b49f85a54"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11410",
+        "DEAL_YMD": "202504",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11410_202504_1.xml",
+      "total": 269,
+      "returned": 269,
+      "retrieved_at_utc": "2026-10-14T05:46:10.286384+00:00",
+      "sha256": "6e8fce1655165a89dbdace8ee6d960c328f360a192306540572b13512b71ce2f"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11410",
+        "DEAL_YMD": "202505",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11410_202505_1.xml",
+      "total": 371,
+      "returned": 371,
+      "retrieved_at_utc": "2026-10-14T05:46:10.514382+00:00",
+      "sha256": "8e197e084a922c552c78b341d1827adb8a24d4a40ed6eb1094a40d74126745bc"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11440",
+        "DEAL_YMD": "202406",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11440_202406_1.xml",
+      "total": 397,
+      "returned": 397,
+      "retrieved_at_utc": "2026-10-14T05:46:10.891380+00:00",
+      "sha256": "70310a688f62530de655b5aad20fdc7fd620dc9bf6009fc1b8b333308d4b430e"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11440",
+        "DEAL_YMD": "202407",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11440_202407_1.xml",
+      "total": 438,
+      "returned": 438,
+      "retrieved_at_utc": "2026-10-14T05:46:11.898374+00:00",
+      "sha256": "3bd9c567f92af032e1329147ceef622185dbcef935796a707ad772aef50a0adb"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11440",
+        "DEAL_YMD": "202408",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11440_202408_1.xml",
+      "total": 304,
+      "returned": 304,
+      "retrieved_at_utc": "2026-10-14T05:46:11.938373+00:00",
+      "sha256": "1bc5669cf886a234f18ade4c43889b62426114afecd35fd5d0e489c999675529"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11440",
+        "DEAL_YMD": "202409",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11440_202409_1.xml",
+      "total": 134,
+      "returned": 134,
+      "retrieved_at_utc": "2026-10-14T05:46:11.866374+00:00",
+      "sha256": "af770ba71246d28200e92c2adb1bd818bd5108ec32c45f8d508f065dc87bdf21"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11440",
+        "DEAL_YMD": "202410",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11440_202410_1.xml",
+      "total": 160,
+      "returned": 160,
+      "retrieved_at_utc": "2026-10-14T05:46:12.250371+00:00",
+      "sha256": "c4a7fcd78579d3b5994a8b187ac7defd30277b0e2906528392f9541d1642e981"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11440",
+        "DEAL_YMD": "202411",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11440_202411_1.xml",
+      "total": 164,
+      "returned": 164,
+      "retrieved_at_utc": "2026-10-14T05:46:13.472364+00:00",
+      "sha256": "5f5678f4e1d2cfbd1c170b4d4c9eb949759eeea272cba7638dee08136b0b60e6"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11440",
+        "DEAL_YMD": "202412",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11440_202412_1.xml",
+      "total": 131,
+      "returned": 131,
+      "retrieved_at_utc": "2026-10-14T05:46:13.241365+00:00",
+      "sha256": "1c8fff5450bcb8dd13a15bf85570231ea470eb504d753b22214d3cf3fd91dc03"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11440",
+        "DEAL_YMD": "202501",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11440_202501_1.xml",
+      "total": 169,
+      "returned": 169,
+      "retrieved_at_utc": "2026-10-14T05:46:13.533364+00:00",
+      "sha256": "cceb02a9b50a16b5823565a28f028c352c4de9761c3de1c250fe9efdd4eb824c"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11440",
+        "DEAL_YMD": "202502",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11440_202502_1.xml",
+      "total": 365,
+      "returned": 365,
+      "retrieved_at_utc": "2026-10-14T05:46:14.153360+00:00",
+      "sha256": "d1a1f5d6f074fc30157368e41810fbaa53065c201ed40b7eb5b20bab4b3a12c2"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11440",
+        "DEAL_YMD": "202503",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11440_202503_1.xml",
+      "total": 588,
+      "returned": 588,
+      "retrieved_at_utc": "2026-10-14T05:46:15.711350+00:00",
+      "sha256": "2d5748c81c573aca68a76e2936db5b686754e7064b65761ae42caf8bc2a96354"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11440",
+        "DEAL_YMD": "202504",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11440_202504_1.xml",
+      "total": 362,
+      "returned": 362,
+      "retrieved_at_utc": "2026-10-14T05:46:15.364352+00:00",
+      "sha256": "b8f6a6ce427f0f4aa6a59e8cf95b1fffa22638d15bf66bc58e250e2bbc4e0432"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11440",
+        "DEAL_YMD": "202505",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11440_202505_1.xml",
+      "total": 477,
+      "returned": 477,
+      "retrieved_at_utc": "2026-10-14T05:46:15.467352+00:00",
+      "sha256": "20c98b774c8cb2e982fd7c7206e93a4b51ea59d9c58d9e93e0e288fbeef5d389"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11470",
+        "DEAL_YMD": "202406",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11470_202406_1.xml",
+      "total": 278,
+      "returned": 278,
+      "retrieved_at_utc": "2026-10-14T05:46:15.787350+00:00",
+      "sha256": "97c8cb9b74a5c05923691279ebea62515257e799b97907f1d5536e7b05a53f59"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11470",
+        "DEAL_YMD": "202407",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11470_202407_1.xml",
+      "total": 446,
+      "returned": 446,
+      "retrieved_at_utc": "2026-10-14T05:46:17.302340+00:00",
+      "sha256": "97edbbc484dd2102cb7b2fc20ed0f31edaaba023f022728482e4614dc08e8240"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11470",
+        "DEAL_YMD": "202408",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11470_202408_1.xml",
+      "total": 380,
+      "returned": 380,
+      "retrieved_at_utc": "2026-10-14T05:46:17.391340+00:00",
+      "sha256": "c5d5b948d5994b3480924e0b3f831b28f63a765871dca69cca912031bf235bb6"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11470",
+        "DEAL_YMD": "202409",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11470_202409_1.xml",
+      "total": 179,
+      "returned": 179,
+      "retrieved_at_utc": "2026-10-14T05:46:17.349340+00:00",
+      "sha256": "1b0ae0a4c47212503f26e562c1d1f0c48a66e081466c260b04708a406c94036b"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11470",
+        "DEAL_YMD": "202410",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11470_202410_1.xml",
+      "total": 172,
+      "returned": 172,
+      "retrieved_at_utc": "2026-10-14T05:46:17.424340+00:00",
+      "sha256": "48bcff8a5ce3baf97f3539d6b11ac6c23b6a663060eecb34838c081a53aa81fe"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11470",
+        "DEAL_YMD": "202411",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11470_202411_1.xml",
+      "total": 157,
+      "returned": 157,
+      "retrieved_at_utc": "2026-10-14T05:46:18.647332+00:00",
+      "sha256": "1445df2422477e7b2ddc2a2e6f599e56cd8a2e70e595ad9f671c207c77da992c"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11470",
+        "DEAL_YMD": "202412",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11470_202412_1.xml",
+      "total": 145,
+      "returned": 145,
+      "retrieved_at_utc": "2026-10-14T05:46:18.697332+00:00",
+      "sha256": "f7474fbf2d54ec92238955dfe871f940f2295b0b3b36998087a6ed2349f96309"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11470",
+        "DEAL_YMD": "202501",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11470_202501_1.xml",
+      "total": 116,
+      "returned": 116,
+      "retrieved_at_utc": "2026-10-14T05:46:18.713332+00:00",
+      "sha256": "03bc06782698f99fd8e3ea3a690713c388c2c069cfab1337a313214203a9446d"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11470",
+        "DEAL_YMD": "202502",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11470_202502_1.xml",
+      "total": 225,
+      "returned": 225,
+      "retrieved_at_utc": "2026-10-14T05:46:18.768331+00:00",
+      "sha256": "0eb3fe3dd96c31a02666cdb7291133c2bfebaf940cccc783313c2e3b0f814626"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11470",
+        "DEAL_YMD": "202503",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11470_202503_1.xml",
+      "total": 497,
+      "returned": 497,
+      "retrieved_at_utc": "2026-10-14T05:46:20.811319+00:00",
+      "sha256": "e014b4151c0d866f0f9327570b0accd7e70a7d08082d890766e27bf5fb4dabf8"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11470",
+        "DEAL_YMD": "202504",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11470_202504_1.xml",
+      "total": 328,
+      "returned": 328,
+      "retrieved_at_utc": "2026-10-14T05:46:20.322322+00:00",
+      "sha256": "a879d6151d809ad1f77884ec83f888b0f6305d26922f6654ac16b406a72c3605"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11470",
+        "DEAL_YMD": "202505",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11470_202505_1.xml",
+      "total": 413,
+      "returned": 413,
+      "retrieved_at_utc": "2026-10-14T05:46:20.625320+00:00",
+      "sha256": "b03ef933550106347f4e35d679e772f586ca69a6fd27dfe7287783915d9c1cc0"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11500",
+        "DEAL_YMD": "202406",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11500_202406_1.xml",
+      "total": 367,
+      "returned": 367,
+      "retrieved_at_utc": "2026-10-14T05:46:20.694319+00:00",
+      "sha256": "24bb16c76eebdca6d5b77bf756f244d03d044c17003c39d7eeea12ac00dce4ae"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11500",
+        "DEAL_YMD": "202407",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11500_202407_1.xml",
+      "total": 446,
+      "returned": 446,
+      "retrieved_at_utc": "2026-10-14T05:46:22.249310+00:00",
+      "sha256": "2842364f1a0593aa5fac5af38cdd370b8ed637c26d0448a4dad5dcb45917eaef"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11500",
+        "DEAL_YMD": "202408",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11500_202408_1.xml",
+      "total": 338,
+      "returned": 338,
+      "retrieved_at_utc": "2026-10-14T05:46:22.271310+00:00",
+      "sha256": "723f68e42da3a28628d6098718a7f314f6197b540e6406a8e84443101b0ae95f"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11500",
+        "DEAL_YMD": "202409",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11500_202409_1.xml",
+      "total": 147,
+      "returned": 147,
+      "retrieved_at_utc": "2026-10-14T05:46:22.031311+00:00",
+      "sha256": "3cdabb3fd8ed501416655fed160c9f729d0bf154cd68135aa9bb8e2b34ae308c"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11500",
+        "DEAL_YMD": "202410",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11500_202410_1.xml",
+      "total": 199,
+      "returned": 199,
+      "retrieved_at_utc": "2026-10-14T05:46:22.154310+00:00",
+      "sha256": "cbfea5f86bbb8fb46207de43fb809ce10d89ba42b293e66b9c6dee2c8fb6cfa0"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11500",
+        "DEAL_YMD": "202411",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11500_202411_1.xml",
+      "total": 163,
+      "returned": 163,
+      "retrieved_at_utc": "2026-10-14T05:46:23.379303+00:00",
+      "sha256": "e872ddb243b37b91841b7f5611f834507bb7cc080763dfa48c96814a19a5fd2f"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11500",
+        "DEAL_YMD": "202412",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11500_202412_1.xml",
+      "total": 154,
+      "returned": 154,
+      "retrieved_at_utc": "2026-10-14T05:46:23.494302+00:00",
+      "sha256": "3f8ee16d9e0a9bc9f679282466d94706f218989a42851da84aca9d89167331f5"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11500",
+        "DEAL_YMD": "202501",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11500_202501_1.xml",
+      "total": 180,
+      "returned": 180,
+      "retrieved_at_utc": "2026-10-14T05:46:23.870300+00:00",
+      "sha256": "63f398b4c19578464fa5d258bc537ea6b08f45d6f9cae2857e2613d392143506"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11500",
+        "DEAL_YMD": "202502",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11500_202502_1.xml",
+      "total": 259,
+      "returned": 259,
+      "retrieved_at_utc": "2026-10-14T05:46:23.887300+00:00",
+      "sha256": "0aadb975e138768d14e9b828d6be55cd0f3aa05c9e2b8683594d9e1814de0df8"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11500",
+        "DEAL_YMD": "202503",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11500_202503_1.xml",
+      "total": 462,
+      "returned": 462,
+      "retrieved_at_utc": "2026-10-14T05:46:26.134286+00:00",
+      "sha256": "58ac0ef0e2036011969e2cb8cb13137d7f9e2255059c2321b647920712c4ddcb"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11500",
+        "DEAL_YMD": "202504",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11500_202504_1.xml",
+      "total": 359,
+      "returned": 359,
+      "retrieved_at_utc": "2026-10-14T05:46:25.361291+00:00",
+      "sha256": "b7d6b818b2ae3d152442413fac2ec04fcedd1f3d2748514a822bf6ba1dee8648"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11500",
+        "DEAL_YMD": "202505",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11500_202505_1.xml",
+      "total": 508,
+      "returned": 508,
+      "retrieved_at_utc": "2026-10-14T05:46:26.286285+00:00",
+      "sha256": "eb5ea052736f8c7438067117132081daaf94bf53389d23142188cd7b5ec64b90"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11530",
+        "DEAL_YMD": "202406",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11530_202406_1.xml",
+      "total": 255,
+      "returned": 255,
+      "retrieved_at_utc": "2026-10-14T05:46:25.528290+00:00",
+      "sha256": "3832b31261a8c6351f2feec5bbe9cdf0ee990f23b02d2811d7562f095a4a5bda"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11530",
+        "DEAL_YMD": "202407",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11530_202407_1.xml",
+      "total": 319,
+      "returned": 319,
+      "retrieved_at_utc": "2026-10-14T05:46:27.526277+00:00",
+      "sha256": "9a6e71569588f147beb59de14c024087a828724786e1f8c9dd0c0b87027bdcd0"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11530",
+        "DEAL_YMD": "202408",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11530_202408_1.xml",
+      "total": 224,
+      "returned": 224,
+      "retrieved_at_utc": "2026-10-14T05:46:27.167279+00:00",
+      "sha256": "98e3ef91f61d63ae1db0318a7bbca18d9dc0561dbf32c4460b652ed6354e2707"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11530",
+        "DEAL_YMD": "202409",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11530_202409_1.xml",
+      "total": 137,
+      "returned": 137,
+      "retrieved_at_utc": "2026-10-14T05:46:27.726276+00:00",
+      "sha256": "dafa363245e1ac353cc5970c96d81013f368131ecb6936bf66f2ad3931fe77f0"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11530",
+        "DEAL_YMD": "202410",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11530_202410_1.xml",
+      "total": 182,
+      "returned": 182,
+      "retrieved_at_utc": "2026-10-14T05:46:27.668276+00:00",
+      "sha256": "ea5d500f15ebb8680a2431b85a90369d2c7758538361ec8a5246361104c5f7c4"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11530",
+        "DEAL_YMD": "202411",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11530_202411_1.xml",
+      "total": 130,
+      "returned": 130,
+      "retrieved_at_utc": "2026-10-14T05:46:28.493271+00:00",
+      "sha256": "253994c315ded0eb1ad885e84a0711a3fe8e37ba38b1294b17450d1cf49d470d"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11530",
+        "DEAL_YMD": "202412",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11530_202412_1.xml",
+      "total": 127,
+      "returned": 127,
+      "retrieved_at_utc": "2026-10-14T05:46:28.861269+00:00",
+      "sha256": "b3e2b525e20170e3f8559765f980a2570b18fe8e49a7e3ae449ea3f6693d1f6f"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11530",
+        "DEAL_YMD": "202501",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11530_202501_1.xml",
+      "total": 138,
+      "returned": 138,
+      "retrieved_at_utc": "2026-10-14T05:46:28.993268+00:00",
+      "sha256": "172ffe6f02596bd26b96d247b9ebae4f1b12221517fdb63e6a22f795f897e16f"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11530",
+        "DEAL_YMD": "202502",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11530_202502_1.xml",
+      "total": 226,
+      "returned": 226,
+      "retrieved_at_utc": "2026-10-14T05:46:29.350266+00:00",
+      "sha256": "91eb1a8eaaf78167ec2bf64ec9b8684fa19e20800d6b6d6f6f678992068439e0"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11530",
+        "DEAL_YMD": "202503",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11530_202503_1.xml",
+      "total": 359,
+      "returned": 359,
+      "retrieved_at_utc": "2026-10-14T05:46:30.382260+00:00",
+      "sha256": "f93ed3f5f6a23796446d6fa21e9b3709088410a4d085baaafb9b079872a00209"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11530",
+        "DEAL_YMD": "202504",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11530_202504_1.xml",
+      "total": 280,
+      "returned": 280,
+      "retrieved_at_utc": "2026-10-14T05:46:30.732258+00:00",
+      "sha256": "3f619e4ff9d0ad9543d4a2dbdec673bee6d58be0b9c4b8fd38497c95f46fb3f6"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11530",
+        "DEAL_YMD": "202505",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11530_202505_1.xml",
+      "total": 691,
+      "returned": 691,
+      "retrieved_at_utc": "2026-10-14T05:46:31.470253+00:00",
+      "sha256": "c3014d74b847c9d17437626e39bc49ca4032c408e12893076e6ba69718c5c8d2"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11545",
+        "DEAL_YMD": "202406",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11545_202406_1.xml",
+      "total": 98,
+      "returned": 98,
+      "retrieved_at_utc": "2026-10-14T05:46:30.679258+00:00",
+      "sha256": "9453ceb6406cbec9c56a4584ff5401455c52797e1353683d8673864f1cc27ee1"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11545",
+        "DEAL_YMD": "202407",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11545_202407_1.xml",
+      "total": 110,
+      "returned": 110,
+      "retrieved_at_utc": "2026-10-14T05:46:31.720251+00:00",
+      "sha256": "655fbc79dc1e94ff0b457c486ae6313005cdc74b657363141cd9f600aa87238e"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11545",
+        "DEAL_YMD": "202408",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11545_202408_1.xml",
+      "total": 96,
+      "returned": 96,
+      "retrieved_at_utc": "2026-10-14T05:46:32.004250+00:00",
+      "sha256": "c69faf48285a96da0c49db3908f13ffec1bc5bbcad9a2e37add80c8bdad6553d"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11545",
+        "DEAL_YMD": "202409",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11545_202409_1.xml",
+      "total": 35,
+      "returned": 35,
+      "retrieved_at_utc": "2026-10-14T05:46:31.793251+00:00",
+      "sha256": "7558efe6e0d4b3e848bdab6745ef2d41a22d9f6cb6adf06a9f9ebd469863656d"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11545",
+        "DEAL_YMD": "202410",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11545_202410_1.xml",
+      "total": 48,
+      "returned": 48,
+      "retrieved_at_utc": "2026-10-14T05:46:32.552246+00:00",
+      "sha256": "bd625a914ad8a2b4dfb2c09075364145e06edb6a51f752b4d0699d38f5c47b4c"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11545",
+        "DEAL_YMD": "202411",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11545_202411_1.xml",
+      "total": 44,
+      "returned": 44,
+      "retrieved_at_utc": "2026-10-14T05:46:32.779245+00:00",
+      "sha256": "9bf1345482df5f2ecfd0ab54cbfacf818af238e8c8ab76f2b2be7d34c81af1bf"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11545",
+        "DEAL_YMD": "202412",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11545_202412_1.xml",
+      "total": 48,
+      "returned": 48,
+      "retrieved_at_utc": "2026-10-14T05:46:33.097243+00:00",
+      "sha256": "70cba398bd3d1cf75261bee1e7294e1fa5e60a3eb3e75ff36aaddc3cc685cd88"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11545",
+        "DEAL_YMD": "202501",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11545_202501_1.xml",
+      "total": 41,
+      "returned": 41,
+      "retrieved_at_utc": "2026-10-14T05:46:33.043243+00:00",
+      "sha256": "d00f5aa3e9eef193b328a6b49ba76a729c42356e25602b01544bfbe65a37b516"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11545",
+        "DEAL_YMD": "202502",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11545_202502_1.xml",
+      "total": 62,
+      "returned": 62,
+      "retrieved_at_utc": "2026-10-14T05:46:33.861238+00:00",
+      "sha256": "05c10981b2884dea1ae72e72d742c80d3488ac9caf9e3c8730dc017b8456cc2d"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11545",
+        "DEAL_YMD": "202503",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11545_202503_1.xml",
+      "total": 98,
+      "returned": 98,
+      "retrieved_at_utc": "2026-10-14T05:46:34.107237+00:00",
+      "sha256": "d43840ad97b6a109ed4d212be460944d062802278de4aaee999f5647eec6fae5"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11545",
+        "DEAL_YMD": "202504",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11545_202504_1.xml",
+      "total": 63,
+      "returned": 63,
+      "retrieved_at_utc": "2026-10-14T05:46:34.347235+00:00",
+      "sha256": "e39a7da2addd334cd80d25737a292c7d2ee8d35a5457fd0b9ed6d50606a76b89"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11545",
+        "DEAL_YMD": "202505",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11545_202505_1.xml",
+      "total": 78,
+      "returned": 78,
+      "retrieved_at_utc": "2026-10-14T05:46:34.158236+00:00",
+      "sha256": "033f15f19f4a9230921b7ffd27236b029b6a84c549e2e72ae33349a6faf06b87"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11560",
+        "DEAL_YMD": "202406",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11560_202406_1.xml",
+      "total": 368,
+      "returned": 368,
+      "retrieved_at_utc": "2026-10-14T05:46:36.010225+00:00",
+      "sha256": "4ad4af4548d86c496cd0b1715090d91e7b22bd5c8a0b68414eb6a76db1ed1fcc"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11560",
+        "DEAL_YMD": "202407",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11560_202407_1.xml",
+      "total": 474,
+      "returned": 474,
+      "retrieved_at_utc": "2026-10-14T05:46:36.306223+00:00",
+      "sha256": "2d50b00d268cc352f18b145453a962fe34eee7e2948de500e75aa281d91a4e3b"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11560",
+        "DEAL_YMD": "202408",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11560_202408_1.xml",
+      "total": 360,
+      "returned": 360,
+      "retrieved_at_utc": "2026-10-14T05:46:36.587221+00:00",
+      "sha256": "4b1a4621be6fbe23ea052ade2ec33b520f47f8be45dd89d2a0769ddbc02a1409"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11560",
+        "DEAL_YMD": "202409",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11560_202409_1.xml",
+      "total": 206,
+      "returned": 206,
+      "retrieved_at_utc": "2026-10-14T05:46:35.966225+00:00",
+      "sha256": "4b65b7a207319dce220f56a3329a8ea9b4576101152fe70fbad4479f3b143f6b"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11560",
+        "DEAL_YMD": "202410",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11560_202410_1.xml",
+      "total": 210,
+      "returned": 210,
+      "retrieved_at_utc": "2026-10-14T05:46:37.313217+00:00",
+      "sha256": "b5dd3243551a2fad5b72e8d7e8d55e80c351320880a1d7cb01385d42c00f284a"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11560",
+        "DEAL_YMD": "202411",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11560_202411_1.xml",
+      "total": 180,
+      "returned": 180,
+      "retrieved_at_utc": "2026-10-14T05:46:37.382216+00:00",
+      "sha256": "6508e066f314f2f2f079c5b836e6e1d2d7307ceb2345da317cc8748c379767f0"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11560",
+        "DEAL_YMD": "202412",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11560_202412_1.xml",
+      "total": 172,
+      "returned": 172,
+      "retrieved_at_utc": "2026-10-14T05:46:37.666215+00:00",
+      "sha256": "da7a02848ee210dc57fe20ebadc967782c58df1ce003081ab16b7bdb19e2a65e"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11560",
+        "DEAL_YMD": "202501",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11560_202501_1.xml",
+      "total": 203,
+      "returned": 203,
+      "retrieved_at_utc": "2026-10-14T05:46:37.928213+00:00",
+      "sha256": "c67f2cce047a5c5f65a76c34451b68d18870bfacc4071d30a38fba98b85fb435"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11560",
+        "DEAL_YMD": "202502",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11560_202502_1.xml",
+      "total": 349,
+      "returned": 349,
+      "retrieved_at_utc": "2026-10-14T05:46:39.214205+00:00",
+      "sha256": "41a55565a077f66709cd285e1f5c7b9cc289752395082696f5053e33e9c722fe"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11560",
+        "DEAL_YMD": "202503",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11560_202503_1.xml",
+      "total": 565,
+      "returned": 565,
+      "retrieved_at_utc": "2026-10-14T05:46:40.682196+00:00",
+      "sha256": "bbdcc5033bd1f31f01fd3834b17722cdef17a3c48a8c85e057e5c03772dbc8bc"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11560",
+        "DEAL_YMD": "202504",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11560_202504_1.xml",
+      "total": 389,
+      "returned": 389,
+      "retrieved_at_utc": "2026-10-14T05:46:39.581203+00:00",
+      "sha256": "30796793b9a921ea710bef54399f3557a34a404135905ea82d5c75dc0022d862"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11560",
+        "DEAL_YMD": "202505",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11560_202505_1.xml",
+      "total": 532,
+      "returned": 532,
+      "retrieved_at_utc": "2026-10-14T05:46:40.108200+00:00",
+      "sha256": "9b423611a4d9b16f010790b7ea79738cc7fb61f3ec271b1e238b7435a37c025e"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11590",
+        "DEAL_YMD": "202406",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11590_202406_1.xml",
+      "total": 347,
+      "returned": 347,
+      "retrieved_at_utc": "2026-10-14T05:46:40.878195+00:00",
+      "sha256": "a28c372c936ce6b33075c18f30afe302b11f3223cafff083a08206717fbd1c11"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11590",
+        "DEAL_YMD": "202407",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11590_202407_1.xml",
+      "total": 468,
+      "returned": 468,
+      "retrieved_at_utc": "2026-10-14T05:46:41.561191+00:00",
+      "sha256": "c7b33ba78eb182ab86da1a18173b41fc79fbd07d19fda0bb06c21a97e4ae2265"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11590",
+        "DEAL_YMD": "202408",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11590_202408_1.xml",
+      "total": 253,
+      "returned": 253,
+      "retrieved_at_utc": "2026-10-14T05:46:41.746190+00:00",
+      "sha256": "1602e8acb5e4f90410235004d24a0741212f64a06afcab749421fd746674a804"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11590",
+        "DEAL_YMD": "202409",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11590_202409_1.xml",
+      "total": 120,
+      "returned": 120,
+      "retrieved_at_utc": "2026-10-14T05:46:42.049188+00:00",
+      "sha256": "e9424dd18ce49a746b55cd87be62761649aa22212670e9a042abf1f6d103f7ce"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11590",
+        "DEAL_YMD": "202410",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11590_202410_1.xml",
+      "total": 167,
+      "returned": 167,
+      "retrieved_at_utc": "2026-10-14T05:46:42.239187+00:00",
+      "sha256": "d0e8fc7570a7798abbfa93a693fcf559319926a56a8e1b8dfea9bf90ee6066cb"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11590",
+        "DEAL_YMD": "202411",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11590_202411_1.xml",
+      "total": 136,
+      "returned": 136,
+      "retrieved_at_utc": "2026-10-14T05:46:43.194181+00:00",
+      "sha256": "1518b06911454fdaaea64301add2fe057f563b17f52c7625a345aa0eadb11066"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11590",
+        "DEAL_YMD": "202412",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11590_202412_1.xml",
+      "total": 161,
+      "returned": 161,
+      "retrieved_at_utc": "2026-10-14T05:46:43.083181+00:00",
+      "sha256": "3b463b89ac32402906e08eda12db6ae0c1417754a0f21f20427d30f47dafd4d2"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11590",
+        "DEAL_YMD": "202501",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11590_202501_1.xml",
+      "total": 164,
+      "returned": 164,
+      "retrieved_at_utc": "2026-10-14T05:46:43.373180+00:00",
+      "sha256": "44c66a376c4009e232e7cfbf963ab97b7de5178b48626faf0852f1c435d269ba"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11590",
+        "DEAL_YMD": "202502",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11590_202502_1.xml",
+      "total": 312,
+      "returned": 312,
+      "retrieved_at_utc": "2026-10-14T05:46:43.834177+00:00",
+      "sha256": "4290211222c2359806a1b93f417e0f0897180ab0da2a3e9bacf00df758a303d7"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11590",
+        "DEAL_YMD": "202503",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11590_202503_1.xml",
+      "total": 577,
+      "returned": 577,
+      "retrieved_at_utc": "2026-10-14T05:46:45.911164+00:00",
+      "sha256": "a7f24180d688fe1ca501463bbf071a4e529497eafbfa41cde14838ca1c565a08"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11590",
+        "DEAL_YMD": "202504",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11590_202504_1.xml",
+      "total": 390,
+      "returned": 390,
+      "retrieved_at_utc": "2026-10-14T05:46:45.669165+00:00",
+      "sha256": "9d2f64fd8acdf34a1e98a7f8417e06bebf813846898692c218787217c3e2c822"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11590",
+        "DEAL_YMD": "202505",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11590_202505_1.xml",
+      "total": 528,
+      "returned": 528,
+      "retrieved_at_utc": "2026-10-14T05:46:45.580166+00:00",
+      "sha256": "82403ff92014c0df496af3197899efc14a78c30ea52b5fc4d06a84c06ab1de7e"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11620",
+        "DEAL_YMD": "202406",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11620_202406_1.xml",
+      "total": 209,
+      "returned": 209,
+      "retrieved_at_utc": "2026-10-14T05:46:45.204168+00:00",
+      "sha256": "499710fc86ac58f80be1bde0a0c238ff61bbf56a1583aeea1ec383cd19fbb5a6"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11620",
+        "DEAL_YMD": "202407",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11620_202407_1.xml",
+      "total": 227,
+      "returned": 227,
+      "retrieved_at_utc": "2026-10-14T05:46:46.550160+00:00",
+      "sha256": "ec9f935e6c3b18fa959098e107e27ef3e16437230d1f339ec2f04a17b6783759"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11620",
+        "DEAL_YMD": "202408",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11620_202408_1.xml",
+      "total": 163,
+      "returned": 163,
+      "retrieved_at_utc": "2026-10-14T05:46:46.946157+00:00",
+      "sha256": "d74de815631903ad88a17f5ea8cdf95686ed455b5271c457673614a8b814fcfc"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11620",
+        "DEAL_YMD": "202409",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11620_202409_1.xml",
+      "total": 85,
+      "returned": 85,
+      "retrieved_at_utc": "2026-10-14T05:46:47.005157+00:00",
+      "sha256": "e8feed595c4f5b4648c714af581b5318d8a284908957b8759873a6064bd9af01"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11620",
+        "DEAL_YMD": "202410",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11620_202410_1.xml",
+      "total": 95,
+      "returned": 95,
+      "retrieved_at_utc": "2026-10-14T05:46:47.261156+00:00",
+      "sha256": "25a6d044d945c74012156074755b03d23571808a06d30cbd706c4c1082ff1033"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11620",
+        "DEAL_YMD": "202411",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11620_202411_1.xml",
+      "total": 94,
+      "returned": 94,
+      "retrieved_at_utc": "2026-10-14T05:46:47.888152+00:00",
+      "sha256": "9a61d120cc98eba9ca4611165bf2c75328e9c9f2df71a7d85cdcdd8d057283b7"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11620",
+        "DEAL_YMD": "202412",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11620_202412_1.xml",
+      "total": 88,
+      "returned": 88,
+      "retrieved_at_utc": "2026-10-14T05:46:48.279149+00:00",
+      "sha256": "db5bc8c890f4f5f1af40123f5ca561ba846bdf1399b9cdcedd1185811e8e119e"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11620",
+        "DEAL_YMD": "202501",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11620_202501_1.xml",
+      "total": 93,
+      "returned": 93,
+      "retrieved_at_utc": "2026-10-14T05:46:48.346149+00:00",
+      "sha256": "dfc3bc1aba04330592a8addd3d08f9723d1422321a05769900424bede785c245"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11620",
+        "DEAL_YMD": "202502",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11620_202502_1.xml",
+      "total": 143,
+      "returned": 143,
+      "retrieved_at_utc": "2026-10-14T05:46:48.588147+00:00",
+      "sha256": "655e4083115ef0f66b839fe8dfbb6aa16a7ba1abd0fd8804e1d2784ac1632c48"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11620",
+        "DEAL_YMD": "202503",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11620_202503_1.xml",
+      "total": 261,
+      "returned": 261,
+      "retrieved_at_utc": "2026-10-14T05:46:49.578141+00:00",
+      "sha256": "8dcd030cb1d453033c3de17db1181a0bffb416ddac830c202442d0015ded1818"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11620",
+        "DEAL_YMD": "202504",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11620_202504_1.xml",
+      "total": 187,
+      "returned": 187,
+      "retrieved_at_utc": "2026-10-14T05:46:49.968139+00:00",
+      "sha256": "62c9dd7edb292b210dd7bec0fcab934ae05c4faaa6648e1ea4b1f58928c9e9b7"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11620",
+        "DEAL_YMD": "202505",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11620_202505_1.xml",
+      "total": 231,
+      "returned": 231,
+      "retrieved_at_utc": "2026-10-14T05:46:50.089138+00:00",
+      "sha256": "34c18912a9f437346987859b26ff68ac9738888b070cb11e3eeda586d1278246"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11650",
+        "DEAL_YMD": "202406",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11650_202406_1.xml",
+      "total": 495,
+      "returned": 495,
+      "retrieved_at_utc": "2026-10-14T05:46:51.256131+00:00",
+      "sha256": "f4280570684811746ad145a50400133e13b89dbc7058af572c71437358a5797a"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11650",
+        "DEAL_YMD": "202407",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11650_202407_1.xml",
+      "total": 516,
+      "returned": 516,
+      "retrieved_at_utc": "2026-10-14T05:46:59.800078+00:00",
+      "sha256": "3271a9cdcf2dfd2013669af25f76d39ccc6709ef9bdda74fa9028c1c514343ac"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11650",
+        "DEAL_YMD": "202408",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11650_202408_1.xml",
+      "total": 326,
+      "returned": 326,
+      "retrieved_at_utc": "2026-10-14T05:46:56.699097+00:00",
+      "sha256": "c5e129be3a60284f58a39ee39826a17dd0c6019d9324280d551c90e464a1f5e4"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11650",
+        "DEAL_YMD": "202409",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11650_202409_1.xml",
+      "total": 183,
+      "returned": 183,
+      "retrieved_at_utc": "2026-10-14T05:46:51.864127+00:00",
+      "sha256": "242fdd54ccbbd24cdef442a4a8c80ecca5d2f60c1e98a411fddeb90416782adb"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11650",
+        "DEAL_YMD": "202410",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11650_202410_1.xml",
+      "total": 214,
+      "returned": 214,
+      "retrieved_at_utc": "2026-10-14T05:46:53.300118+00:00",
+      "sha256": "0a199b12b4a1befce800877c4c5f766838bd7f65bb4016f938b26b542c657aae"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11650",
+        "DEAL_YMD": "202411",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11650_202411_1.xml",
+      "total": 197,
+      "returned": 197,
+      "retrieved_at_utc": "2026-10-14T05:46:55.413105+00:00",
+      "sha256": "08dde39a5523f1528f60c98f71eecd49e1e64f47ff726bc1194ae4e7e7c4554d"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11650",
+        "DEAL_YMD": "202412",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11650_202412_1.xml",
+      "total": 181,
+      "returned": 181,
+      "retrieved_at_utc": "2026-10-14T05:46:56.980096+00:00",
+      "sha256": "2bc2cc1db295a7ebbf1a8f608c0db5d9c8413ad480daf8ec49901affe8c536bf"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11650",
+        "DEAL_YMD": "202501",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11650_202501_1.xml",
+      "total": 214,
+      "returned": 214,
+      "retrieved_at_utc": "2026-10-14T05:46:57.495092+00:00",
+      "sha256": "a32adab956a85d0a605d42003af962a74d2d88b358395dc871abdcd961df21cc"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11650",
+        "DEAL_YMD": "202502",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11650_202502_1.xml",
+      "total": 542,
+      "returned": 542,
+      "retrieved_at_utc": "2026-10-14T05:47:01.498068+00:00",
+      "sha256": "4fc78de503c03ad603b0926fd258a365c3e4ba7a76c69a5567f582dd5ee411a2"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11650",
+        "DEAL_YMD": "202503",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11650_202503_1.xml",
+      "total": 692,
+      "returned": 692,
+      "retrieved_at_utc": "2026-10-14T05:47:17.287971+00:00",
+      "sha256": "1e34e080ecfc31423c456adb70ec3a5537b3a884dc28fd6d17c1cf352c0442fc"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11650",
+        "DEAL_YMD": "202504",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11650_202504_1.xml",
+      "total": 62,
+      "returned": 62,
+      "retrieved_at_utc": "2026-10-14T05:46:58.918084+00:00",
+      "sha256": "9abb6a4be6ae042095afc7e66ed53b4e8ee9547c773d9419d320f2dc83c835a5"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11650",
+        "DEAL_YMD": "202505",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11650_202505_1.xml",
+      "total": 175,
+      "returned": 175,
+      "retrieved_at_utc": "2026-10-14T05:47:01.318069+00:00",
+      "sha256": "06e3af7ebfeff90abd7038478ac5ad6740f7bc9459f427ea47d7dfaf45848743"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11680",
+        "DEAL_YMD": "202406",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11680_202406_1.xml",
+      "total": 501,
+      "returned": 501,
+      "retrieved_at_utc": "2026-10-14T05:47:12.984997+00:00",
+      "sha256": "cc914e10606fcd8dd5d17d2e183e4009339f5538ff773743c3664143fb764a02"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11680",
+        "DEAL_YMD": "202407",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11680_202407_1.xml",
+      "total": 596,
+      "returned": 596,
+      "retrieved_at_utc": "2026-10-14T05:47:11.212008+00:00",
+      "sha256": "cd5b1753427ac7d34047f5944d3375e618f14401094db8345563ed670e2c3554"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11680",
+        "DEAL_YMD": "202408",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11680_202408_1.xml",
+      "total": 445,
+      "returned": 445,
+      "retrieved_at_utc": "2026-10-14T05:47:08.869022+00:00",
+      "sha256": "ef32bbe077e0810c3046c1f989df429040002f128d2b7e4e3c7c4229790d5649"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11680",
+        "DEAL_YMD": "202409",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11680_202409_1.xml",
+      "total": 224,
+      "returned": 224,
+      "retrieved_at_utc": "2026-10-14T05:47:10.767011+00:00",
+      "sha256": "335464c5fb16a84c3ba67bfcc248d1b3b5e7d80c88d562244555a66e441fb3d1"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11680",
+        "DEAL_YMD": "202410",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11680_202410_1.xml",
+      "total": 305,
+      "returned": 305,
+      "retrieved_at_utc": "2026-10-14T05:47:12.688999+00:00",
+      "sha256": "5e2f2e0e12900519dcde6104589afd1ce10f3b81742c7141729530bccbbe3bda"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11680",
+        "DEAL_YMD": "202411",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11680_202411_1.xml",
+      "total": 259,
+      "returned": 259,
+      "retrieved_at_utc": "2026-10-14T05:47:38.865837+00:00",
+      "sha256": "e2796e44c6b94f31100e832f31709a88b44cdb3495d4eead565e42c0bdb8c6ff"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11680",
+        "DEAL_YMD": "202412",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11680_202412_1.xml",
+      "total": 192,
+      "returned": 192,
+      "retrieved_at_utc": "2026-10-14T05:47:14.345989+00:00",
+      "sha256": "01dfbd49082883f896a54b0709c8a4b9e76b1e2e5cef2edaae7c91771e0430d1"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11680",
+        "DEAL_YMD": "202501",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11680_202501_1.xml",
+      "total": 222,
+      "returned": 222,
+      "retrieved_at_utc": "2026-10-14T05:47:14.940985+00:00",
+      "sha256": "e6185b59febdfc58365bbc78c4a2808f5cc5bcb907998995523804a7e4fa5913"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11680",
+        "DEAL_YMD": "202502",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11680_202502_1.xml",
+      "total": 629,
+      "returned": 629,
+      "retrieved_at_utc": "2026-10-14T05:47:20.041954+00:00",
+      "sha256": "6c70a9743d5de5e7897465dfd79f35ca2a2f7d5610e7a636af42888aa45b7f4f"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11680",
+        "DEAL_YMD": "202503",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11680_202503_1.xml",
+      "total": 917,
+      "returned": 917,
+      "retrieved_at_utc": "2026-10-14T05:47:32.575876+00:00",
+      "sha256": "ef3cb2fb68980bbe31daf290cd2c8f7ed6bf6bac860612fb804089819030e74b"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11680",
+        "DEAL_YMD": "202504",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11680_202504_1.xml",
+      "total": 128,
+      "returned": 128,
+      "retrieved_at_utc": "2026-10-14T05:47:18.779961+00:00",
+      "sha256": "149403622365bef79e7c0207d92da2d684eb9c9b2c3b08f518cb3b6383cdd073"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11680",
+        "DEAL_YMD": "202505",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11680_202505_1.xml",
+      "total": 290,
+      "returned": 290,
+      "retrieved_at_utc": "2026-10-14T05:47:26.340915+00:00",
+      "sha256": "ecc8ca4e1ac407208b6b4185f157c5b30dbd664c3bc84b7fe686efa8d07c8ab6"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11710",
+        "DEAL_YMD": "202406",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11710_202406_1.xml",
+      "total": 610,
+      "returned": 610,
+      "retrieved_at_utc": "2026-10-14T05:47:23.018935+00:00",
+      "sha256": "6f2fa153eb0a4aa1b53c06ef2e7538f4aa99dc0fa979467ceb842f6df62572c0"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11710",
+        "DEAL_YMD": "202407",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11710_202407_1.xml",
+      "total": 733,
+      "returned": 733,
+      "retrieved_at_utc": "2026-10-14T05:47:26.585913+00:00",
+      "sha256": "069f9741bc1a6829d7752de17fb28f83296f3758338e426c37528a255e715866"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11710",
+        "DEAL_YMD": "202408",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11710_202408_1.xml",
+      "total": 469,
+      "returned": 469,
+      "retrieved_at_utc": "2026-10-14T05:47:31.412883+00:00",
+      "sha256": "6a6b78838db62e3a3bc6728b71dfcbb1f30dde0838e1d4da15a9297cf2a86a15"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11710",
+        "DEAL_YMD": "202409",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11710_202409_1.xml",
+      "total": 195,
+      "returned": 195,
+      "retrieved_at_utc": "2026-10-14T05:47:54.015744+00:00",
+      "sha256": "cef2a175eb58dafa8472f9324977908f9d4d69ab56faad2e308729d8741f5960"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11710",
+        "DEAL_YMD": "202410",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11710_202410_1.xml",
+      "total": 258,
+      "returned": 258,
+      "retrieved_at_utc": "2026-10-14T05:47:33.563870+00:00",
+      "sha256": "8097d7e1406e33a5fa678dc2f1732b8ed62908845d56af39fb6219b6ebafe0aa"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11710",
+        "DEAL_YMD": "202411",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11710_202411_1.xml",
+      "total": 290,
+      "returned": 290,
+      "retrieved_at_utc": "2026-10-14T05:47:34.523864+00:00",
+      "sha256": "6f7a98cb1f4778254d293b672a9736331903f2f501527b8024b98684c173eb04"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11710",
+        "DEAL_YMD": "202412",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11710_202412_1.xml",
+      "total": 275,
+      "returned": 275,
+      "retrieved_at_utc": "2026-10-14T05:47:35.429858+00:00",
+      "sha256": "260fcd366dd670c5c314854c8d30760b2bb5dc0692a64ceec5a28d5ba67ecde2"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11710",
+        "DEAL_YMD": "202501",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11710_202501_1.xml",
+      "total": 337,
+      "returned": 337,
+      "retrieved_at_utc": "2026-10-14T05:47:36.438852+00:00",
+      "sha256": "6f17bbd3e5de3e64ed2459a9ccd46214ab3df1d6501b62ad4c7f76b6ec7eb9c9"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11710",
+        "DEAL_YMD": "202502",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11710_202502_1.xml",
+      "total": 743,
+      "returned": 743,
+      "retrieved_at_utc": "2026-10-14T05:47:38.956837+00:00",
+      "sha256": "568ae1c87c18859a93f31df7ccc68c3621e669d13c865215ac53ad1710d9c26d"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11710",
+        "DEAL_YMD": "202503",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11710_202503_1.xml",
+      "total": 952,
+      "returned": 952,
+      "retrieved_at_utc": "2026-10-14T05:47:40.488827+00:00",
+      "sha256": "0b411196ec0cfecb9809e95ec2ba92aa0390eba82cf91c1f7ee7eb0728f81321"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11710",
+        "DEAL_YMD": "202504",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11710_202504_1.xml",
+      "total": 138,
+      "returned": 138,
+      "retrieved_at_utc": "2026-10-14T05:47:40.200829+00:00",
+      "sha256": "e91371977c85b8b311faa217ab51be42df988b2048f473e6b68f2d290443ee3a"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11710",
+        "DEAL_YMD": "202505",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11710_202505_1.xml",
+      "total": 415,
+      "returned": 415,
+      "retrieved_at_utc": "2026-10-14T05:47:40.896825+00:00",
+      "sha256": "c6d730661f26601b66ef504149f7c90c7029baee91bdd61595036188727599c4"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11740",
+        "DEAL_YMD": "202406",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11740_202406_1.xml",
+      "total": 599,
+      "returned": 599,
+      "retrieved_at_utc": "2026-10-14T05:47:42.452815+00:00",
+      "sha256": "47b6f5560d4a60de6052f2981a1b00e6791df6436836eed92cc2b6c40bd554f9"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11740",
+        "DEAL_YMD": "202407",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11740_202407_1.xml",
+      "total": 585,
+      "returned": 585,
+      "retrieved_at_utc": "2026-10-14T05:47:43.263810+00:00",
+      "sha256": "126a53e77917c8d90d0cb3129542eb06a5c80e919052b17af4fb9ab90124dcbd"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11740",
+        "DEAL_YMD": "202408",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11740_202408_1.xml",
+      "total": 352,
+      "returned": 352,
+      "retrieved_at_utc": "2026-10-14T05:47:42.830813+00:00",
+      "sha256": "c70d831eaaef052decea2b8b2a74fc4f2e01aff3fe3bf52988dfe9db7f87c042"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11740",
+        "DEAL_YMD": "202409",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11740_202409_1.xml",
+      "total": 152,
+      "returned": 152,
+      "retrieved_at_utc": "2026-10-14T05:47:43.831807+00:00",
+      "sha256": "c2e2cc19fcf1eb7c98a8ae1abbeb0bf8293f69d90b4297575d8b902887b18316"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11740",
+        "DEAL_YMD": "202410",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11740_202410_1.xml",
+      "total": 211,
+      "returned": 211,
+      "retrieved_at_utc": "2026-10-14T05:47:44.442803+00:00",
+      "sha256": "1daf2fe09e43623f0b00ce1a442dd8381316c92906b3ac70bd10b435688288ef"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11740",
+        "DEAL_YMD": "202411",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11740_202411_1.xml",
+      "total": 171,
+      "returned": 171,
+      "retrieved_at_utc": "2026-10-14T05:47:44.627802+00:00",
+      "sha256": "41dd949f936d02803646588d3b5522e7d6eeba5a661876a76cf973c888e90fff"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11740",
+        "DEAL_YMD": "202412",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11740_202412_1.xml",
+      "total": 259,
+      "returned": 259,
+      "retrieved_at_utc": "2026-10-14T05:47:45.453797+00:00",
+      "sha256": "33993a84ee13405230d199784d502eb48d25a42f52eb63f02a3b468392635027"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11740",
+        "DEAL_YMD": "202501",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11740_202501_1.xml",
+      "total": 206,
+      "returned": 206,
+      "retrieved_at_utc": "2026-10-14T05:47:45.791795+00:00",
+      "sha256": "e10d7c99f39a2216edcc7c8ed2ccbc1866bb93b181eb4ac3b925c741a31afdfd"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11740",
+        "DEAL_YMD": "202502",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11740_202502_1.xml",
+      "total": 421,
+      "returned": 421,
+      "retrieved_at_utc": "2026-10-14T05:47:46.554790+00:00",
+      "sha256": "00bc30c0e4e4706c821fee100547a5c8427bd82b23682ab2845c4569d22185f6"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11740",
+        "DEAL_YMD": "202503",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11740_202503_1.xml",
+      "total": 660,
+      "returned": 660,
+      "retrieved_at_utc": "2026-10-14T05:47:47.693783+00:00",
+      "sha256": "09ab85ad5933f10e7f5749673bce26aae33d4d058a18c51af3583c70b7e2bfe7"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11740",
+        "DEAL_YMD": "202504",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11740_202504_1.xml",
+      "total": 327,
+      "returned": 327,
+      "retrieved_at_utc": "2026-10-14T05:47:47.462784+00:00",
+      "sha256": "252a7eaa506ba7f1d5245f6b8fb48552e9eb27c702a7e14e07df0ceeedebb937"
+    },
+    {
+      "query": {
+        "LAWD_CD": "11740",
+        "DEAL_YMD": "202505",
+        "pageNo": 1,
+        "numOfRows": 1000
+      },
+      "file": "11740_202505_1.xml",
+      "total": 577,
+      "returned": 577,
+      "retrieved_at_utc": "2026-10-14T05:47:49.015775+00:00",
+      "sha256": "d9276402010135005859f470a8a848ac4c8b3f91724cc03648d635ab9c1d7f5b"
+    }
+  ]
+}

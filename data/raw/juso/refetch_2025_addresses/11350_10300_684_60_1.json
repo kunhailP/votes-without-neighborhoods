@@ -1,0 +1,35 @@
+{
+  "retrieved_at_utc": "2026-10-14T05:52:56.692673+00:00",
+  "keyword": "서울특별시 노원구 공릉동 684-60",
+  "response": [
+    {
+      "siNm": "서울특별시",
+      "lnbrMnnm": "684",
+      "bdKdcd": "1",
+      "jibunAddr": "서울특별시 노원구 공릉동 684-60 남광미르빌",
+      "bdMgtSn": "1135010300106840060016905",
+      "hemdNm": "서울특별시 노원구 공릉1동",
+      "roadAddr": "서울특별시 노원구 화랑로 415-9 (공릉동, 남광미르빌)",
+      "bdNm": "남광미르빌",
+      "rnMgtSn": "113503005046",
+      "buldMnnm": "415",
+      "hstryYn": "0",
+      "emdNm": "공릉동",
+      "lnbrSlno": "60",
+      "udrtYn": "0",
+      "detBdNmList": "",
+      "emdNo": "02",
+      "buldSlno": "9",
+      "relJibun": "",
+      "zipNo": "01860",
+      "admCd": "1135010300",
+      "liNm": "",
+      "mtYn": "0",
+      "roadAddrPart2": " (공릉동, 남광미르빌)",
+      "sggNm": "노원구",
+      "roadAddrPart1": "서울특별시 노원구 화랑로 415-9",
+      "engAddr": "415-9 Hwarang-ro, Nowon-gu, Seoul",
+      "rn": "화랑로"
+    }
+  ]
+}

@@ -407,7 +407,7 @@ def A_tables():
         cell = f"{Y[str(r.sg)]} {SPN[r.spec].lower()}, {'calibrated' if r.movement == 'calib' else f'η = {r.eta:g}'}, δ = {r.delta:g}" + ("" if pd.isna(r.slack) else f", s = {r.slack:g}")
         rows.append([cell, num(r.z_lo_lp, 4), num(r.z_lo_int_bound, 4), num(r.z_lo_int_incumbent, 4), num(r.y_lo_int_bound, 4), num(r.y_lo_int_actual, 4), f"{int(r.solves_at_time_limit)}/{int(r.solves)}"])
     emit("B1", "Table B1. Integer check of near-zero lower bounds", ["Cell", "LP z lower", "Integer z lower (solver bound)", "Integer z incumbent", "Prop. 4 y lower (integer, solver bound)", "y at integer allocation", "Solves at time limit"],
-         rows, size="scriptsize", colspec="l" + "C" * 6, notes="Mixed-integer programs use the same constraint matrices as the LPs, including the 2026 zones. Each solve has a 30-second limit, extended to 180 seconds when no integer solution has been found. Solver bound: the best bound proven by the solver when it stops, which is a valid lower bound on the integer minimum also when the time limit is reached; the incumbent is the best integer allocation found.")
+         rows, size="scriptsize", colspec="l" + "C" * 6, notes="Mixed-integer programs use the same constraint matrices as the LPs, including the 2026 zones. Each solve has a 30-second limit, extended to 180 seconds when no integer solution has been found. Solver bound: the best bound proven by the solver when it stops, which is a valid lower bound on the integer minimum also when the time limit is reached; the incumbent is the best integer allocation found. These optimization checks exclude the residents' early-composition restriction, for which optimization did not finish within an hour. Integer witnesses for the main specification are reported separately in Table IW.")
 
 
 def C_tables():
@@ -663,9 +663,9 @@ def VV():
             if not len(q): continue
             r = q.iloc[0]
             rows.append([Y[sg], l, iv(r.z_lo, r.z_hi), f"[{num(r.y_tight_lo, 4)}, {num(r.y_ach_lo, 4)}]", f"[{num(r.y_ach_hi, 4)}, {num(r.y_tight_hi, 4)}]"])
-    emit("VV", "Table VV. Valid-vote shares: within-district slope", ["Election", "Assumptions", "Roll-based share (exact range)", "Valid-vote share, lower end: [outer bound, attainable]",
+    emit("VV", "Table VV. Valid-vote shares: within-district slope", ["Election", "Assumptions", "Roll-based share (continuous range)", "Valid-vote share, lower end: [outer bound, attainable]",
          "upper end: [attainable, outer bound]"], rows, long=True, size="scriptsize", colspec="llccc",
-         notes="The exact lower end of the valid-vote range lies between the two numbers given; it is negative, so the direction is not established, when the attainable value is negative.")
+         notes="Ranges and attainable values in this table concern continuous allocations; integer checks are separate (Table A2). The exact lower end of the valid-vote range lies between the two numbers given; it is negative, so the direction is not established, when the attainable value is negative.")
 
 
 def F20s():
@@ -822,8 +822,8 @@ def R4():
                "positive. U: removed residents who cast no counted ballot (allocated without restriction), as a share of H.")
 
 
-MAP = {"B1": "A1", "C1": "B1", "C2": "B2", "F1": "C1", "F3": "C2", "F4": "C3", "F6b": "C4", "F7b": "C5", "F7c": "C6", "F20s": "C7", "F8a": "C8", "F21s": "C9",
-       "F9": "C10", "F18": "C11", "F15bs": "C12", "F16": "C13", "F17a": "C14", "VV": "C15", "F15c": "C16", "SC": "C17", "SCy": "C18", "SCs": "C19", "ED": "C20", "OG": "C21", "DIR": "C22", "AT": "C23", "F13a": "C24", "R4": "C25", "D1": "D1", "D2s": "D2"}
+MAP = {"B1": "A1", "IW": "A2", "C1": "B1", "C2": "B2", "F1": "C1", "F3": "C2", "F4": "C3", "F6b": "C4", "F7b": "C5", "F7c": "C6", "F20s": "C7", "F8a": "C8", "F21s": "C9",
+       "F9": "C10", "F18": "C11", "F15bs": "C12", "F16": "C13", "F17a": "C14", "VV": "C15", "F15c": "C16", "SC": "C17", "SCy": "C18", "SCs": "C19", "ED": "C20", "OG": "C21", "DIR": "C22", "AT": "C23", "F13a": "C24", "R4": "C25", "PS": "C26", "AF": "C27", "PR": "C28", "ST": "C29", "D1": "D1", "D2s": "D2"}
 
 
 def SC():
@@ -857,7 +857,7 @@ def SCy():
     emit("SCy", "Table SCy. Valid-vote slope lower bounds with and without the three southeastern districts",
          ["Election", "Slope: all", "Slope: without the three", "Contrast (points): all", "Contrast (points): without the three"], rows, size="footnotesize",
          colspec="l" + "C" * 4,
-         notes="Each entry gives a guaranteed outer bound and an attainable value for the lower end of the valid-vote range; the exact lower end lies between "
+         notes="Attainable values refer to feasible continuous allocations; integer checks are reported separately in Table A2. Each entry gives a guaranteed outer bound and an attainable value for the lower end of the valid-vote range; the exact lower end lies between "
                "them. The direction is established when the first value is positive and not established when the second is negative.")
 
 
@@ -882,6 +882,73 @@ def SCs():
                "with movement and the out-of-district tolerance held fixed; bisection width 0.0012, lower end reported. The main setting uses s = 0.02, so a "
                "relation is established there when s* exceeds 0.02. ∞: positive however much residents' early ballots depart; none: not positive for any s.")
 
+
+def IW():
+    d = rd('integer_witness_summary.csv'); rows = []
+    for r in d.itertuples():
+        rows.append([Y[str(r.sg)], 'All Seoul' if r.sample == 'all' else 'Without the three'] +
+                    [num(v, 6) for v in [r.lp_lower, r.integer_lower, r.integer_upper, r.lp_upper, r.max_endpoint_gap]])
+    emit('IW', 'Table IW. Integer witnesses under the main assumptions',
+         ['Election', 'Scope', 'Continuous lower', 'Attained integer lower', 'Attained integer upper', 'Continuous upper', 'Maximum endpoint gap'],
+         rows, colspec='ll'+'C'*5, size='scriptsize',
+         notes="Within-district z slope, Table 2 column E. The integer minimum lies between the continuous lower bound and the attained integer lower value; the integer maximum lies between the attained integer upper value and the continuous upper bound. Integer allocations are constructed in small boxes around continuous endpoints and verified against the accounting identities, zones, movement and composition inequalities by a separate arithmetic checker. All 246 jurisdiction-by-endpoint witnesses are saved in the replication files. These witnesses establish feasibility and near-attainability, not proven integer optimality.")
+
+
+def PS():
+    rows = []
+    for sg in C4:
+        d = rd(f'suppression_{sg}.csv').set_index('threshold')
+        rows.append([Y[sg], num(d.current_width.iloc[0], 3)] +
+                    [f'{100*d.loc[k, "guaranteed_reduction_lower"]:.1f}%' for k in [1, 5, 10, 20]])
+    emit('PS', 'Table PS. Conservative reporting gains with primary suppression',
+         ['Election', 'Current width', 'Exact counts', 'Suppress counts <5', 'Suppress counts <10', 'Suppress counts <20'],
+         rows, colspec='l'+'C'*5, size='footnotesize',
+         notes="Main assumptions, within-district z slope. Out-of-zone early counts by registered neighborhood and candidate, including invalid ballots; other pooled modes stay pooled. Exact counts reproduce Table 6. Other columns express guaranteed reductions relative to the current continuous range, using an upper bound on remaining integer uncertainty under a release that shows counts >=k exactly and marks smaller counts suppressed. A continuous paired-allocation relaxation allows each count to differ by up to k-1 and can overstate the maximum remaining width. These are not sharp suppression bounds or fractions of an exactly solved integer prior range. Complementary suppression of larger cells and a full privacy assessment are not covered (Appendix A.3).")
+
+
+def AF():
+    rows = []
+    for sg in C4:
+        d = rd(f'feasibility_bounds_{sg}.csv')
+        rows.append(('PANEL', Y[sg]))
+        for slack in [.02, .05, .10]:
+            q = d[np.isclose(d.excess_slack, slack)].set_index('sample')
+            rows.append([num(slack,2), num(d.max_delta_min.iloc[0],4),
+                         num(d.min_main_margin.iloc[0],4),
+                         iv(q.loc['all','lower'],q.loc['all','upper']),
+                         iv(q.loc['excl_gangnam3','lower'],q.loc['excl_gangnam3','upper'])])
+    emit('AF', 'Table AF. Out-of-zone tolerance measured from the feasibility boundary',
+         ['Excess tolerance', 'Largest minimum band', 'Smallest main-band margin', 'All Seoul', 'Without the three districts'],
+         rows, colspec='l'+'C'*4, size='footnotesize',
+         notes="Calibrated movement and residents' in-zone composition slack s=0.02 are held fixed. Each jurisdiction's minimum out-of-zone band is found by bisection (feasible upper endpoint; width <=0.00001). The main-band margin is 0.10 minus that minimum. Bounds use the jurisdiction-specific minimum plus the stated excess tolerance, capped at one. Thus these scenarios need not nest the constant 0.10 scenario. Compatibility with the counts is not validation of a restriction. Ranges concern the within-district roll-based slope; bold ranges include zero.")
+
+
+def PR():
+    d = rd('price_2025_bounds.csv'); common = rd('price_2025_common_support.csv').set_index('sample'); rows = []
+    for sample, label in [('all','All Seoul'),('excl_gangnam3','Without the three districts')]:
+        rows.append(('PANEL',label))
+        for r in d[d['sample']==sample].itertuples():
+            rows.append([r.column, iv(r.archived_lower,r.archived_upper), iv(r.rebuilt_lower,r.rebuilt_upper)])
+        r = common.loc[sample]
+        rows.append([f'E, common support (n={int(r.n_common)})', iv(r.archived_lower,r.archived_upper), iv(r.rebuilt_lower,r.rebuilt_upper)])
+    emit('PR', 'Table PR. 2025 slopes using prices rebuilt from a newly retrieved source snapshot',
+         ['Assumption column', 'Archived price summary', 'Rebuilt price summary'], rows,
+         colspec='lCC', size='footnotesize',
+         notes="Columns A, C, D and E follow Table 2. The alternative uses June 2024-May 2025 MOLIT records retrieved on 14 October 2026 and a separately extended address crosswalk. It does not reconstruct the original download or generating code. Rows A-E use each source's available neighborhoods; the final row restricts both regressions to their common priced neighborhoods. Appendix B.3 reports coverage and measurement differences. Accounting and composition restrictions are unchanged. The historical analysis inputs are retained. Ranges concern the within-district roll-based slope; bold ranges include zero.")
+
+
+
+def ST():
+    d = rd('scope_price_tail_20260603.csv'); loo = rd('scope_leave_one_out_20260603.csv'); rows = []
+    for slack in [.02, .05]:
+        rows.append(('PANEL', f'Residents composition slack s = {slack:.2f}'))
+        for r in d[d.slack == slack].itertuples():
+            label = 'None' if r.trim_within_remaining == 0 else f'Top {100*r.trim_within_remaining:.0f}%'
+            rows.append([label, int(r.n), iv(r.lower, r.upper, 4)])
+    emit('ST', 'Table ST. Price-tail sensitivity outside Gangnam, Seocho and Songpa, 2026',
+         ['Additional price exclusion', 'Priced neighborhoods', 'Within-district slope range'], rows,
+         colspec='lcC', size='footnotesize',
+         notes=f"Mobility-calibrated movement and out-of-zone tolerance delta = 0.10. Price cutoffs are computed among the 357 priced neighborhoods outside the three districts, and every accounting constraint is retained. Ranges are continuous-allocation bounds for z; bold ranges include zero. Separately omitting each of the other 22 districts at s = 0.02 yields lower bounds from {loo.lower.min():.4f} to {loo.lower.max():.4f}, all positive. Full district results are in the replication files.")
 
 def renumber_and_supplement():
     """One naming scheme: main tables table1-table6, Online Appendix tableA1 ... tableD2 (MAP), supplementary tables S1 ...
@@ -918,8 +985,9 @@ def renumber_and_supplement():
 
 
 def build(NUM):
-    for f in [ED, OG, DIR, AT, R4, SC, SCy, SCs, C2, VV, F20s, F21s, F15bs, D2s, F1, F2, F3, F4, F5, F6, F6b, F7, F7b, F15b, F15c, F18, F7c, F19, F20, F21, F8, F9, F10, F11, F12, F13, F14, F15, F16, F17, A_tables, C_tables, D_tables, E_tables]:
+    for f in [ED, OG, DIR, AT, R4, IW, PS, AF, PR, ST, SC, SCy, SCs, C2, VV, F20s, F21s, F15bs, D2s, F1, F2, F3, F4, F5, F6, F6b, F7, F7b, F15b, F15c, F18, F7c, F19, F20, F21, F8, F9, F10, F11, F12, F13, F14, F15, F16, F17, A_tables, C_tables, D_tables, E_tables]:
         try:
             f()
         except Exception as e:
             print("FAILED", f.__name__, repr(e))
+            raise

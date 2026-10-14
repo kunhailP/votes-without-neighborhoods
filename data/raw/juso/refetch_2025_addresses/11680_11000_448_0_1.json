@@ -1,0 +1,35 @@
+{
+  "retrieved_at_utc": "2026-10-14T05:53:28.604287+00:00",
+  "keyword": "서울특별시 강남구 압구정동 448",
+  "response": [
+    {
+      "siNm": "서울특별시",
+      "lnbrMnnm": "449",
+      "bdKdcd": "1",
+      "jibunAddr": "서울특별시 강남구 압구정동 449 현대아파트",
+      "bdMgtSn": "1168011000104490000004906",
+      "hemdNm": "서울특별시 강남구 압구정동",
+      "roadAddr": "서울특별시 강남구 압구정로29길 23 (압구정동, 현대아파트)",
+      "bdNm": "현대아파트",
+      "rnMgtSn": "116804166514",
+      "buldMnnm": "23",
+      "hstryYn": "0",
+      "emdNm": "압구정동",
+      "lnbrSlno": "0",
+      "udrtYn": "0",
+      "detBdNmList": "209,211,210,208",
+      "emdNo": "01",
+      "buldSlno": "0",
+      "relJibun": "서울특별시 강남구 압구정동 448",
+      "zipNo": "06005",
+      "admCd": "1168011000",
+      "liNm": "",
+      "mtYn": "0",
+      "roadAddrPart2": " (압구정동, 현대아파트)",
+      "sggNm": "강남구",
+      "roadAddrPart1": "서울특별시 강남구 압구정로29길 23",
+      "engAddr": "23 Apgujeong-ro 29-gil, Gangnam-gu, Seoul",
+      "rn": "압구정로29길"
+    }
+  ]
+}

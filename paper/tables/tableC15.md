@@ -1,6 +1,6 @@
 Table: Table C15. Valid-vote shares: within-district slope
 
-| Election | Assumptions | Roll-based share (exact range) | Valid-vote share, lower end: [outer bound, attainable] | upper end: [attainable, outer bound] |
+| Election | Assumptions | Roll-based share (continuous range) | Valid-vote share, lower end: [outer bound, attainable] | upper end: [attainable, outer bound] |
 |----------|-----------------------------------------|--------------------|-------------------|-----------------|
 | 2012 | returns and rolls only | [0.008, 0.157] | [0.0069, 0.0070] | [0.1577, 0.1579] |
 | 2012 | minimal movement | [0.008, 0.157] | [0.0069, 0.0070] | [0.1577, 0.1579] |
@@ -29,4 +29,4 @@ Table: Table C15. Valid-vote shares: within-district slope
 | 2026 | mobility-calibrated movement, ±10 points | [0.010, 0.201] | [0.0063, 0.0070] | [0.2027, 0.2033] |
 | 2026 | + residents' early ballots resemble neighborhood | [0.054, 0.156] | [0.0493, 0.0496] | [0.1588, 0.1591] |
 
-*Notes.* The exact lower end of the valid-vote range lies between the two numbers given; it is negative, so the direction is not established, when the attainable value is negative.
+*Notes.* Ranges and attainable values in this table concern continuous allocations; integer checks are separate (Table S2). The exact lower end of the valid-vote range lies between the two numbers given; it is negative, so the direction is not established, when the attainable value is negative.

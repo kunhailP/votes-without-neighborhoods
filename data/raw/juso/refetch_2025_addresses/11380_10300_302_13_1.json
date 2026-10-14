@@ -1,0 +1,35 @@
+{
+  "retrieved_at_utc": "2026-10-14T05:52:59.646385+00:00",
+  "keyword": "서울특별시 은평구 불광동 302-13",
+  "response": [
+    {
+      "siNm": "서울특별시",
+      "lnbrMnnm": "302",
+      "bdKdcd": "1",
+      "jibunAddr": "서울특별시 은평구 불광동 302-13",
+      "bdMgtSn": "1138010300103020013037735",
+      "hemdNm": "서울특별시 은평구 불광제1동",
+      "roadAddr": "서울특별시 은평구 통일로 816 (불광동)",
+      "bdNm": "",
+      "rnMgtSn": "113803000008",
+      "buldMnnm": "816",
+      "hstryYn": "0",
+      "emdNm": "불광동",
+      "lnbrSlno": "13",
+      "udrtYn": "0",
+      "detBdNmList": "",
+      "emdNo": "02",
+      "buldSlno": "0",
+      "relJibun": "서울특별시 은평구 불광동 290-12",
+      "zipNo": "03351",
+      "admCd": "1138010300",
+      "liNm": "",
+      "mtYn": "0",
+      "roadAddrPart2": " (불광동)",
+      "sggNm": "은평구",
+      "roadAddrPart1": "서울특별시 은평구 통일로 816",
+      "engAddr": "816 Tongil-ro, Eunpyeong-gu, Seoul",
+      "rn": "통일로"
+    }
+  ]
+}

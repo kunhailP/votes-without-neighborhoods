@@ -1,0 +1,35 @@
+{
+  "retrieved_at_utc": "2026-10-14T05:53:16.004556+00:00",
+  "keyword": "서울특별시 영등포구 양평동1가 147",
+  "response": [
+    {
+      "siNm": "서울특별시",
+      "lnbrMnnm": "147",
+      "bdKdcd": "1",
+      "jibunAddr": "서울특별시 영등포구 양평동1가 147 어반 HILL",
+      "bdMgtSn": "1156012500101470000021749",
+      "hemdNm": "서울특별시 영등포구 양평제1동",
+      "roadAddr": "서울특별시 영등포구 선유로25길 5 (양평동1가, 어반 HILL)",
+      "bdNm": "어반 HILL",
+      "rnMgtSn": "115604154438",
+      "buldMnnm": "5",
+      "hstryYn": "0",
+      "emdNm": "양평동1가",
+      "lnbrSlno": "0",
+      "udrtYn": "0",
+      "detBdNmList": "",
+      "emdNo": "01",
+      "buldSlno": "0",
+      "relJibun": "",
+      "zipNo": "07272",
+      "admCd": "1156012500",
+      "liNm": "",
+      "mtYn": "0",
+      "roadAddrPart2": " (양평동1가, 어반 HILL)",
+      "sggNm": "영등포구",
+      "roadAddrPart1": "서울특별시 영등포구 선유로25길 5",
+      "engAddr": "5 Seonyu-ro 25-gil, Yeongdeungpo-gu, Seoul",
+      "rn": "선유로25길"
+    }
+  ]
+}

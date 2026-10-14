@@ -1,0 +1,16 @@
+{
+  "new_snapshot": "2026-10-14 MOLIT retrieval; original generation code remains unavailable",
+  "raw_records": 73319,
+  "noncancelled_records": 68448,
+  "mapped_trade_records": 68356,
+  "archived_priced": 420,
+  "rebuilt_priced": 421,
+  "common_priced": 419,
+  "median_absolute_relative_change": 2.7529280868465733e-05,
+  "max_absolute_relative_change": 0.7535169130427328,
+  "changed_over_one_percent": 56,
+  "log_price_correlation": 0.9959003764104,
+  "all_checked_signs_unchanged": true,
+  "common_support_signs_unchanged": true,
+  "maximum_endpoint_change": 0.011823360483835588
+}

@@ -1,0 +1,35 @@
+{
+  "retrieved_at_utc": "2026-10-14T05:53:36.575388+00:00",
+  "keyword": "서울특별시 강동구 길동 361-14",
+  "response": [
+    {
+      "siNm": "서울특별시",
+      "lnbrMnnm": "361",
+      "bdKdcd": "1",
+      "jibunAddr": "서울특별시 강동구 길동 361-21 엠엑스아뜨리에빌아파트",
+      "bdMgtSn": "1174010500103610021000001",
+      "hemdNm": "서울특별시 강동구 길동",
+      "roadAddr": "서울특별시 강동구 천중로56길 40 (길동, 엠엑스아뜨리에빌아파트)",
+      "bdNm": "엠엑스아뜨리에빌아파트",
+      "rnMgtSn": "117404172362",
+      "buldMnnm": "40",
+      "hstryYn": "0",
+      "emdNm": "길동",
+      "lnbrSlno": "21",
+      "udrtYn": "0",
+      "detBdNmList": "",
+      "emdNo": "01",
+      "buldSlno": "0",
+      "relJibun": "서울특별시 강동구 길동 361-14",
+      "zipNo": "05344",
+      "admCd": "1174010500",
+      "liNm": "",
+      "mtYn": "0",
+      "roadAddrPart2": " (길동, 엠엑스아뜨리에빌아파트)",
+      "sggNm": "강동구",
+      "roadAddrPart1": "서울특별시 강동구 천중로56길 40",
+      "engAddr": "40 Cheonjung-ro 56-gil, Gangdong-gu, Seoul",
+      "rn": "천중로56길"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "retrieved_at_utc": "2026-10-14T05:53:26.853211+00:00",
+  "keyword": "서울특별시 강남구 도곡동 933",
+  "response": [
+    {
+      "siNm": "서울특별시",
+      "lnbrMnnm": "902",
+      "bdKdcd": "1",
+      "jibunAddr": "서울특별시 강남구 도곡동 902-8 도곡쌍용예가아파트",
+      "bdMgtSn": "1168011800108930004000517",
+      "hemdNm": "서울특별시 강남구 도곡1동",
+      "roadAddr": "서울특별시 강남구 남부순환로363길 30 (도곡동, 도곡쌍용예가아파트)",
+      "bdNm": "도곡쌍용예가아파트",
+      "rnMgtSn": "116804166093",
+      "buldMnnm": "30",
+      "hstryYn": "0",
+      "emdNm": "도곡동",
+      "lnbrSlno": "8",
+      "udrtYn": "0",
+      "detBdNmList": "103동, 102동, 101동, 105동, 104동",
+      "emdNo": "01",
+      "buldSlno": "0",
+      "relJibun": "서울특별시 강남구 도곡동 893-16,893-28,902-109,933",
+      "zipNo": "06269",
+      "admCd": "1168011800",
+      "liNm": "",
+      "mtYn": "0",
+      "roadAddrPart2": " (도곡동, 도곡쌍용예가아파트)",
+      "sggNm": "강남구",
+      "roadAddrPart1": "서울특별시 강남구 남부순환로363길 30",
+      "engAddr": "30 Nambusunhwan-ro 363-gil, Gangnam-gu, Seoul",
+      "rn": "남부순환로363길"
+    }
+  ]
+}

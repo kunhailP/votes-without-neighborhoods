@@ -1,0 +1,35 @@
+{
+  "retrieved_at_utc": "2026-10-14T05:53:23.235339+00:00",
+  "keyword": "서울특별시 서초구 반포동 111-11",
+  "response": [
+    {
+      "siNm": "서울특별시",
+      "lnbrMnnm": "111",
+      "bdKdcd": "1",
+      "jibunAddr": "서울특별시 서초구 반포동 111-11 반포대우멤버스카운티",
+      "bdMgtSn": "1165010700101110011000001",
+      "hemdNm": "서울특별시 서초구 반포4동",
+      "roadAddr": "서울특별시 서초구 사평대로16길 14 (반포동, 반포대우멤버스카운티)",
+      "bdNm": "반포대우멤버스카운티",
+      "rnMgtSn": "116504163323",
+      "buldMnnm": "14",
+      "hstryYn": "0",
+      "emdNm": "반포동",
+      "lnbrSlno": "11",
+      "udrtYn": "0",
+      "detBdNmList": "",
+      "emdNo": "01",
+      "buldSlno": "0",
+      "relJibun": "",
+      "zipNo": "06575",
+      "admCd": "1165010700",
+      "liNm": "",
+      "mtYn": "0",
+      "roadAddrPart2": " (반포동, 반포대우멤버스카운티)",
+      "sggNm": "서초구",
+      "roadAddrPart1": "서울특별시 서초구 사평대로16길 14",
+      "engAddr": "14 Sapyeong-daero 16-gil, Seocho-gu, Seoul",
+      "rn": "사평대로16길"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "retrieved_at_utc": "2026-10-14T05:53:13.001204+00:00",
+  "keyword": "서울특별시 구로구 구로동 768-2",
+  "response": [
+    {
+      "siNm": "서울특별시",
+      "lnbrMnnm": "768",
+      "bdKdcd": "1",
+      "jibunAddr": "서울특별시 구로구 구로동 768-2",
+      "bdMgtSn": "1153010200107680002021319",
+      "hemdNm": "서울특별시 구로구 구로제4동",
+      "roadAddr": "서울특별시 구로구 구로동로22길 78-7 (구로동)",
+      "bdNm": "",
+      "rnMgtSn": "115304148211",
+      "buldMnnm": "78",
+      "hstryYn": "0",
+      "emdNm": "구로동",
+      "lnbrSlno": "2",
+      "udrtYn": "0",
+      "detBdNmList": "",
+      "emdNo": "01",
+      "buldSlno": "7",
+      "relJibun": "",
+      "zipNo": "08314",
+      "admCd": "1153010200",
+      "liNm": "",
+      "mtYn": "0",
+      "roadAddrPart2": " (구로동)",
+      "sggNm": "구로구",
+      "roadAddrPart1": "서울특별시 구로구 구로동로22길 78-7",
+      "engAddr": "78-7 Gurodong-ro 22-gil, Guro-gu, Seoul",
+      "rn": "구로동로22길"
+    }
+  ]
+}

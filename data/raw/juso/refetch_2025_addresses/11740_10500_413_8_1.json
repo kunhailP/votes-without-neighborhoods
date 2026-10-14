@@ -1,0 +1,35 @@
+{
+  "retrieved_at_utc": "2026-10-14T05:53:34.824909+00:00",
+  "keyword": "서울특별시 강동구 길동 413-8",
+  "response": [
+    {
+      "siNm": "서울특별시",
+      "lnbrMnnm": "413",
+      "bdKdcd": "0",
+      "jibunAddr": "서울특별시 강동구 길동 413-8 지웰홈스라이프 강동",
+      "bdMgtSn": "1174010500104130005003034",
+      "hemdNm": "서울특별시 강동구 길동",
+      "roadAddr": "서울특별시 강동구 천호대로177길 50 (길동)",
+      "bdNm": "지웰홈스라이프 강동",
+      "rnMgtSn": "117404172387",
+      "buldMnnm": "50",
+      "hstryYn": "0",
+      "emdNm": "길동",
+      "lnbrSlno": "8",
+      "udrtYn": "0",
+      "detBdNmList": "",
+      "emdNo": "01",
+      "buldSlno": "0",
+      "relJibun": "서울특별시 강동구 길동 413-5,413-6",
+      "zipNo": "05353",
+      "admCd": "1174010500",
+      "liNm": "",
+      "mtYn": "0",
+      "roadAddrPart2": " (길동)",
+      "sggNm": "강동구",
+      "roadAddrPart1": "서울특별시 강동구 천호대로177길 50",
+      "engAddr": "50 Cheonho-daero 177-gil, Gangdong-gu, Seoul",
+      "rn": "천호대로177길"
+    }
+  ]
+}

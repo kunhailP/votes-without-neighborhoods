@@ -1,0 +1,35 @@
+{
+  "retrieved_at_utc": "2026-10-14T05:53:05.802832+00:00",
+  "keyword": "서울특별시 서대문구 북아현동 1-50",
+  "response": [
+    {
+      "siNm": "서울특별시",
+      "lnbrMnnm": "1",
+      "bdKdcd": "1",
+      "jibunAddr": "서울특별시 서대문구 북아현동 1-50 우민아파트",
+      "bdMgtSn": "1141011000100010050031440",
+      "hemdNm": "서울특별시 서대문구 충현동",
+      "roadAddr": "서울특별시 서대문구 북아현로22길 82 (북아현동, 우민아파트)",
+      "bdNm": "우민아파트",
+      "rnMgtSn": "114104136127",
+      "buldMnnm": "82",
+      "hstryYn": "0",
+      "emdNm": "북아현동",
+      "lnbrSlno": "50",
+      "udrtYn": "0",
+      "detBdNmList": "A동",
+      "emdNo": "01",
+      "buldSlno": "0",
+      "relJibun": "",
+      "zipNo": "03749",
+      "admCd": "1141011000",
+      "liNm": "",
+      "mtYn": "0",
+      "roadAddrPart2": " (북아현동, 우민아파트)",
+      "sggNm": "서대문구",
+      "roadAddrPart1": "서울특별시 서대문구 북아현로22길 82",
+      "engAddr": "82 Bugahyeon-ro 22-gil, Seodaemun-gu, Seoul",
+      "rn": "북아현로22길"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "retrieved_at_utc": "2026-10-14T05:52:56.254773+00:00",
+  "keyword": "서울특별시 노원구 공릉동 586-15",
+  "response": [
+    {
+      "siNm": "서울특별시",
+      "lnbrMnnm": "586",
+      "bdKdcd": "1",
+      "jibunAddr": "서울특별시 노원구 공릉동 586-15 보람노블레스아파트",
+      "bdMgtSn": "1135010300105860015000001",
+      "hemdNm": "서울특별시 노원구 공릉1동",
+      "roadAddr": "서울특별시 노원구 동일로178길 43 (공릉동, 보람노블레스아파트)",
+      "bdNm": "보람노블레스아파트",
+      "rnMgtSn": "113504130174",
+      "buldMnnm": "43",
+      "hstryYn": "0",
+      "emdNm": "공릉동",
+      "lnbrSlno": "15",
+      "udrtYn": "0",
+      "detBdNmList": "",
+      "emdNo": "01",
+      "buldSlno": "0",
+      "relJibun": "",
+      "zipNo": "01847",
+      "admCd": "1135010300",
+      "liNm": "",
+      "mtYn": "0",
+      "roadAddrPart2": " (공릉동, 보람노블레스아파트)",
+      "sggNm": "노원구",
+      "roadAddrPart1": "서울특별시 노원구 동일로178길 43",
+      "engAddr": "43 Dongil-ro 178-gil, Nowon-gu, Seoul",
+      "rn": "동일로178길"
+    }
+  ]
+}

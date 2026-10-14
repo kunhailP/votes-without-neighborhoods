@@ -1,0 +1,35 @@
+{
+  "retrieved_at_utc": "2026-10-14T05:53:09.272671+00:00",
+  "keyword": "서울특별시 양천구 신월동 422-7",
+  "response": [
+    {
+      "siNm": "서울특별시",
+      "lnbrMnnm": "422",
+      "bdKdcd": "1",
+      "jibunAddr": "서울특별시 양천구 신월동 422-7 보아스청와아파트",
+      "bdMgtSn": "1147010300104220007011144",
+      "hemdNm": "서울특별시 양천구 신월4동",
+      "roadAddr": "서울특별시 양천구 오목로3길 32 (신월동, 보아스청와아파트)",
+      "bdNm": "보아스청와아파트",
+      "rnMgtSn": "114704142297",
+      "buldMnnm": "32",
+      "hstryYn": "0",
+      "emdNm": "신월동",
+      "lnbrSlno": "7",
+      "udrtYn": "0",
+      "detBdNmList": "",
+      "emdNo": "01",
+      "buldSlno": "0",
+      "relJibun": "",
+      "zipNo": "07929",
+      "admCd": "1147010300",
+      "liNm": "",
+      "mtYn": "0",
+      "roadAddrPart2": " (신월동, 보아스청와아파트)",
+      "sggNm": "양천구",
+      "roadAddrPart1": "서울특별시 양천구 오목로3길 32",
+      "engAddr": "32 Omok-ro 3-gil, Yangcheon-gu, Seoul",
+      "rn": "오목로3길"
+    }
+  ]
+}

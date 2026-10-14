@@ -1,0 +1,35 @@
+{
+  "retrieved_at_utc": "2026-10-14T05:53:34.637077+00:00",
+  "keyword": "서울특별시 강동구 성내동 454-15",
+  "response": [
+    {
+      "siNm": "서울특별시",
+      "lnbrMnnm": "454",
+      "bdKdcd": "1",
+      "jibunAddr": "서울특별시 강동구 성내동 454-15 대은팰리스뷰",
+      "bdMgtSn": "1174010800104540015023465",
+      "hemdNm": "서울특별시 강동구 성내제1동",
+      "roadAddr": "서울특별시 강동구 성내로6길 42-20 (성내동, 대은팰리스뷰)",
+      "bdNm": "대은팰리스뷰",
+      "rnMgtSn": "117404172171",
+      "buldMnnm": "42",
+      "hstryYn": "0",
+      "emdNm": "성내동",
+      "lnbrSlno": "15",
+      "udrtYn": "0",
+      "detBdNmList": "",
+      "emdNo": "01",
+      "buldSlno": "20",
+      "relJibun": "서울특별시 강동구 성내동 454-16",
+      "zipNo": "05398",
+      "admCd": "1174010800",
+      "liNm": "",
+      "mtYn": "0",
+      "roadAddrPart2": " (성내동, 대은팰리스뷰)",
+      "sggNm": "강동구",
+      "roadAddrPart1": "서울특별시 강동구 성내로6길 42-20",
+      "engAddr": "42-20 Seongnae-ro 6-gil, Gangdong-gu, Seoul",
+      "rn": "성내로6길"
+    }
+  ]
+}

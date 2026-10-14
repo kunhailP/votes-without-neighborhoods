@@ -1,0 +1,35 @@
+{
+  "retrieved_at_utc": "2026-10-14T05:53:28.789808+00:00",
+  "keyword": "서울특별시 강남구 삼성동 53-2",
+  "response": [
+    {
+      "siNm": "서울특별시",
+      "lnbrMnnm": "55",
+      "bdKdcd": "1",
+      "jibunAddr": "서울특별시 강남구 삼성동 55 진흥아파트",
+      "bdMgtSn": "1168010500100530002014717",
+      "hemdNm": "서울특별시 강남구 삼성1동",
+      "roadAddr": "서울특별시 강남구 학동로88길 5 (삼성동, 진흥아파트)",
+      "bdNm": "진흥아파트",
+      "rnMgtSn": "116804166824",
+      "buldMnnm": "5",
+      "hstryYn": "0",
+      "emdNm": "삼성동",
+      "lnbrSlno": "0",
+      "udrtYn": "0",
+      "detBdNmList": "1동, 2동, 상가, 3동",
+      "emdNo": "01",
+      "buldSlno": "0",
+      "relJibun": "서울특별시 강남구 삼성동 53-2",
+      "zipNo": "06084",
+      "admCd": "1168010500",
+      "liNm": "",
+      "mtYn": "0",
+      "roadAddrPart2": " (삼성동, 진흥아파트)",
+      "sggNm": "강남구",
+      "roadAddrPart1": "서울특별시 강남구 학동로88길 5",
+      "engAddr": "5 Hakdong-ro 88-gil, Gangnam-gu, Seoul",
+      "rn": "학동로88길"
+    }
+  ]
+}

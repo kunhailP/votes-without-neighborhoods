@@ -1,0 +1,35 @@
+{
+  "retrieved_at_utc": "2026-10-14T05:52:55.565401+00:00",
+  "keyword": "서울특별시 노원구 하계동 167-10",
+  "response": [
+    {
+      "siNm": "서울특별시",
+      "lnbrMnnm": "167",
+      "bdKdcd": "1",
+      "jibunAddr": "서울특별시 노원구 하계동 167-10 아주아파트",
+      "bdMgtSn": "1135010400101670010013444",
+      "hemdNm": "서울특별시 노원구 하계1동",
+      "roadAddr": "서울특별시 노원구 공릉로58길 111 (하계동, 아주아파트)",
+      "bdNm": "아주아파트",
+      "rnMgtSn": "113504130030",
+      "buldMnnm": "111",
+      "hstryYn": "0",
+      "emdNm": "하계동",
+      "lnbrSlno": "10",
+      "udrtYn": "0",
+      "detBdNmList": "",
+      "emdNo": "01",
+      "buldSlno": "0",
+      "relJibun": "",
+      "zipNo": "01809",
+      "admCd": "1135010400",
+      "liNm": "",
+      "mtYn": "0",
+      "roadAddrPart2": " (하계동, 아주아파트)",
+      "sggNm": "노원구",
+      "roadAddrPart1": "서울특별시 노원구 공릉로58길 111",
+      "engAddr": "111 Gongneung-ro 58-gil, Nowon-gu, Seoul",
+      "rn": "공릉로58길"
+    }
+  ]
+}

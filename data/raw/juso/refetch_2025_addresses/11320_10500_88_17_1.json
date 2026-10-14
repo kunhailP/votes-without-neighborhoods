@@ -1,0 +1,35 @@
+{
+  "retrieved_at_utc": "2026-10-14T05:52:55.272597+00:00",
+  "keyword": "서울특별시 도봉구 쌍문동 88-17",
+  "response": [
+    {
+      "siNm": "서울특별시",
+      "lnbrMnnm": "88",
+      "bdKdcd": "1",
+      "jibunAddr": "서울특별시 도봉구 쌍문동 88-17",
+      "bdMgtSn": "1132010500100880017005935",
+      "hemdNm": "서울특별시 도봉구 쌍문제3동",
+      "roadAddr": "서울특별시 도봉구 노해로60길 29 (쌍문동)",
+      "bdNm": "",
+      "rnMgtSn": "113204127021",
+      "buldMnnm": "29",
+      "hstryYn": "0",
+      "emdNm": "쌍문동",
+      "lnbrSlno": "17",
+      "udrtYn": "0",
+      "detBdNmList": "",
+      "emdNo": "01",
+      "buldSlno": "0",
+      "relJibun": "",
+      "zipNo": "01442",
+      "admCd": "1132010500",
+      "liNm": "",
+      "mtYn": "0",
+      "roadAddrPart2": " (쌍문동)",
+      "sggNm": "도봉구",
+      "roadAddrPart1": "서울특별시 도봉구 노해로60길 29",
+      "engAddr": "29 Nohae-ro 60-gil, Dobong-gu, Seoul",
+      "rn": "노해로60길"
+    }
+  ]
+}

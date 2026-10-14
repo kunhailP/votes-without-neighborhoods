@@ -1,0 +1,35 @@
+{
+  "retrieved_at_utc": "2026-10-14T05:53:35.410863+00:00",
+  "keyword": "서울특별시 강동구 길동 152-9",
+  "response": [
+    {
+      "siNm": "서울특별시",
+      "lnbrMnnm": "152",
+      "bdKdcd": "1",
+      "jibunAddr": "서울특별시 강동구 길동 152-9 엠.프라자아파트",
+      "bdMgtSn": "1174010500101520009003522",
+      "hemdNm": "서울특별시 강동구 길동",
+      "roadAddr": "서울특별시 강동구 진황도로49길 59 (길동, 엠.프라자아파트)",
+      "bdNm": "엠.프라자아파트",
+      "rnMgtSn": "117404172319",
+      "buldMnnm": "59",
+      "hstryYn": "0",
+      "emdNm": "길동",
+      "lnbrSlno": "9",
+      "udrtYn": "0",
+      "detBdNmList": "",
+      "emdNo": "01",
+      "buldSlno": "0",
+      "relJibun": "",
+      "zipNo": "05350",
+      "admCd": "1174010500",
+      "liNm": "",
+      "mtYn": "0",
+      "roadAddrPart2": " (길동, 엠.프라자아파트)",
+      "sggNm": "강동구",
+      "roadAddrPart1": "서울특별시 강동구 진황도로49길 59",
+      "engAddr": "59 Jinhwangdo-ro 49-gil, Gangdong-gu, Seoul",
+      "rn": "진황도로49길"
+    }
+  ]
+}

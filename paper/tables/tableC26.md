@@ -1,0 +1,10 @@
+Table: Table C26. Conservative reporting gains with primary suppression
+
+| Election | Current width | Exact counts | Suppress counts <5 | Suppress counts <10 | Suppress counts <20 |
+|----------|----------|----------|----------|----------|----------|
+| 2022 | 0.249 | 26.9% | 26.2% | 25.3% | 23.7% |
+| 2024 | 0.205 | 29.7% | 29.0% | 28.3% | 26.8% |
+| 2025 | 0.231 | 31.9% | 31.4% | 30.7% | 29.6% |
+| 2026 | 0.101 | 57.1% | 55.3% | 53.2% | 49.0% |
+
+*Notes.* Main assumptions, within-district z slope. Out-of-zone early counts by registered neighborhood and candidate, including invalid ballots; other pooled modes stay pooled. Exact counts reproduce Table 6. Other columns express guaranteed reductions relative to the current continuous range, using an upper bound on remaining integer uncertainty under a release that shows counts >=k exactly and marks smaller counts suppressed. A continuous paired-allocation relaxation allows each count to differ by up to k-1 and can overstate the maximum remaining width. These are not sharp suppression bounds or fractions of an exactly solved integer prior range. Complementary suppression of larger cells and a full privacy assessment are not covered (Appendix A.3).

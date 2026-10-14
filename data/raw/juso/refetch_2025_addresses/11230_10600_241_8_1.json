@@ -1,0 +1,35 @@
+{
+  "retrieved_at_utc": "2026-10-14T05:52:49.442504+00:00",
+  "keyword": "서울특별시 동대문구 장안동 241-8",
+  "response": [
+    {
+      "siNm": "서울특별시",
+      "lnbrMnnm": "241",
+      "bdKdcd": "1",
+      "jibunAddr": "서울특별시 동대문구 장안동 241-8 동재아파트(B동)",
+      "bdMgtSn": "1123010600102410008041524",
+      "hemdNm": "서울특별시 동대문구 장안제1동",
+      "roadAddr": "서울특별시 동대문구 한천로4길 13-5 (장안동, 동재아파트(B동))",
+      "bdNm": "동재아파트(B동)",
+      "rnMgtSn": "112304115635",
+      "buldMnnm": "13",
+      "hstryYn": "0",
+      "emdNm": "장안동",
+      "lnbrSlno": "8",
+      "udrtYn": "0",
+      "detBdNmList": "",
+      "emdNo": "01",
+      "buldSlno": "5",
+      "relJibun": "",
+      "zipNo": "02632",
+      "admCd": "1123010600",
+      "liNm": "",
+      "mtYn": "0",
+      "roadAddrPart2": " (장안동, 동재아파트(B동))",
+      "sggNm": "동대문구",
+      "roadAddrPart1": "서울특별시 동대문구 한천로4길 13-5",
+      "engAddr": "13-5 Hancheon-ro 4-gil, Dongdaemun-gu, Seoul",
+      "rn": "한천로4길"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "retrieved_at_utc": "2026-10-14T05:53:04.012995+00:00",
+  "keyword": "서울특별시 서대문구 홍은동 265-46",
+  "response": [
+    {
+      "siNm": "서울특별시",
+      "lnbrMnnm": "265",
+      "bdKdcd": "1",
+      "jibunAddr": "서울특별시 서대문구 홍은동 265-46 그랜드아파트",
+      "bdMgtSn": "1141011800102650046000001",
+      "hemdNm": "서울특별시 서대문구 홍은제2동",
+      "roadAddr": "서울특별시 서대문구 연희로39길 26-7 (홍은동, 그랜드아파트)",
+      "bdNm": "그랜드아파트",
+      "rnMgtSn": "114104136292",
+      "buldMnnm": "26",
+      "hstryYn": "0",
+      "emdNm": "홍은동",
+      "lnbrSlno": "46",
+      "udrtYn": "0",
+      "detBdNmList": "비",
+      "emdNo": "01",
+      "buldSlno": "7",
+      "relJibun": "",
+      "zipNo": "03651",
+      "admCd": "1141011800",
+      "liNm": "",
+      "mtYn": "0",
+      "roadAddrPart2": " (홍은동, 그랜드아파트)",
+      "sggNm": "서대문구",
+      "roadAddrPart1": "서울특별시 서대문구 연희로39길 26-7",
+      "engAddr": "26-7 Yeonhui-ro 39-gil, Seodaemun-gu, Seoul",
+      "rn": "연희로39길"
+    }
+  ]
+}

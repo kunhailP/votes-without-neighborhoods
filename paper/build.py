@@ -9,6 +9,7 @@ import re
 import subprocess
 import sys
 from pathlib import Path
+from word_layout import format_docx
 
 P = Path(__file__).resolve().parent
 TAB = P / "tables"; OUT = P / "build"; OUT.mkdir(exist_ok=True)
@@ -51,6 +52,7 @@ def build(name, meta):
                     "-V", "documentclass=article", "-V", "colorlinks=true", *meta], check=True, cwd=P)
     subprocess.run(["pandoc", str(OUT / f"{name}_docx.md"), *common, "-o", str(OUT / f"{name}.docx"),
                     "--reference-doc", str(P / "templates/reference.docx"), *meta], check=True, cwd=P)
+    format_docx(OUT / f"{name}.docx")
     tables = "".join((TAB / f"{m}.md").read_text() for m in re.findall(r"<!--\s*table:\s*([\w\-]+)\s*-->", src))
     n = wordcount(src + tables)
     print(f"{name}: {n} words (text + tables + notes + references; approximate)")
@@ -61,7 +63,7 @@ def provenance(counts):
     """Record which commit, tools and inputs produced the files in paper/build/."""
     import datetime, platform, hashlib
     run = lambda *a: subprocess.run(a, capture_output=True, text=True, cwd=P.parent).stdout.strip()
-    dirty = run("git", "status", "--porcelain", "--", "vwn", "analysis", "results", "data", "paper/manuscript.md", "paper/appendix.md")
+    dirty = run("git", "status", "--porcelain", "--", "vwn", "analysis", "results", "data", "paper")
     res = sorted((P.parent / "results").glob("*.csv"))
     h = hashlib.sha256(b"".join(f.read_bytes() for f in res)).hexdigest()[:16]
     lines = [f"built: {datetime.datetime.now().isoformat(timespec='seconds')}",

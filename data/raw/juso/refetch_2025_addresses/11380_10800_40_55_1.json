@@ -1,0 +1,35 @@
+{
+  "retrieved_at_utc": "2026-10-14T05:52:57.726139+00:00",
+  "keyword": "서울특별시 은평구 역촌동 40-55",
+  "response": [
+    {
+      "siNm": "서울특별시",
+      "lnbrMnnm": "40",
+      "bdKdcd": "1",
+      "jibunAddr": "서울특별시 은평구 역촌동 40-55 신아굿모닝아파트",
+      "bdMgtSn": "1138010800100400056046254",
+      "hemdNm": "서울특별시 은평구 역촌동",
+      "roadAddr": "서울특별시 은평구 진흥로 59-4 (역촌동, 신아굿모닝아파트)",
+      "bdNm": "신아굿모닝아파트",
+      "rnMgtSn": "113803100020",
+      "buldMnnm": "59",
+      "hstryYn": "0",
+      "emdNm": "역촌동",
+      "lnbrSlno": "55",
+      "udrtYn": "0",
+      "detBdNmList": "",
+      "emdNo": "05",
+      "buldSlno": "4",
+      "relJibun": "",
+      "zipNo": "03408",
+      "admCd": "1138010800",
+      "liNm": "",
+      "mtYn": "0",
+      "roadAddrPart2": " (역촌동, 신아굿모닝아파트)",
+      "sggNm": "은평구",
+      "roadAddrPart1": "서울특별시 은평구 진흥로 59-4",
+      "engAddr": "59-4 Jinheung-ro, Eunpyeong-gu, Seoul",
+      "rn": "진흥로"
+    }
+  ]
+}

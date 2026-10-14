@@ -1,0 +1,35 @@
+{
+  "retrieved_at_utc": "2026-10-14T05:53:32.664850+00:00",
+  "keyword": "서울특별시 강남구 도곡동 941-1",
+  "response": [
+    {
+      "siNm": "서울특별시",
+      "lnbrMnnm": "941",
+      "bdKdcd": "1",
+      "jibunAddr": "서울특별시 강남구 도곡동 941-1 도곡루아르",
+      "bdMgtSn": "1168011800109410001000225",
+      "hemdNm": "서울특별시 강남구 도곡1동",
+      "roadAddr": "서울특별시 강남구 도곡로 128 (도곡동, 도곡루아르)",
+      "bdNm": "도곡루아르",
+      "rnMgtSn": "116803122012",
+      "buldMnnm": "128",
+      "hstryYn": "0",
+      "emdNm": "도곡동",
+      "lnbrSlno": "1",
+      "udrtYn": "0",
+      "detBdNmList": "",
+      "emdNo": "03",
+      "buldSlno": "0",
+      "relJibun": "",
+      "zipNo": "06259",
+      "admCd": "1168011800",
+      "liNm": "",
+      "mtYn": "0",
+      "roadAddrPart2": " (도곡동, 도곡루아르)",
+      "sggNm": "강남구",
+      "roadAddrPart1": "서울특별시 강남구 도곡로 128",
+      "engAddr": "128 Dogok-ro, Gangnam-gu, Seoul",
+      "rn": "도곡로"
+    }
+  ]
+}

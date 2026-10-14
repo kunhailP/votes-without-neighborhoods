@@ -1,0 +1,35 @@
+{
+  "retrieved_at_utc": "2026-10-14T05:52:48.957231+00:00",
+  "keyword": "서울특별시 동대문구 제기동 136-3",
+  "response": [
+    {
+      "siNm": "서울특별시",
+      "lnbrMnnm": "136",
+      "bdKdcd": "1",
+      "jibunAddr": "서울특별시 동대문구 제기동 136-3 리스트 안암",
+      "bdMgtSn": "1123010300101360003041706",
+      "hemdNm": "서울특별시 동대문구 제기동",
+      "roadAddr": "서울특별시 동대문구 고산자로 568 (제기동, 리스트 안암)",
+      "bdNm": "리스트 안암",
+      "rnMgtSn": "112303005030",
+      "buldMnnm": "568",
+      "hstryYn": "0",
+      "emdNm": "제기동",
+      "lnbrSlno": "3",
+      "udrtYn": "0",
+      "detBdNmList": "",
+      "emdNo": "02",
+      "buldSlno": "0",
+      "relJibun": "",
+      "zipNo": "02465",
+      "admCd": "1123010300",
+      "liNm": "",
+      "mtYn": "0",
+      "roadAddrPart2": " (제기동, 리스트 안암)",
+      "sggNm": "동대문구",
+      "roadAddrPart1": "서울특별시 동대문구 고산자로 568",
+      "engAddr": "568 Gosanja-ro, Dongdaemun-gu, Seoul",
+      "rn": "고산자로"
+    }
+  ]
+}

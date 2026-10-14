@@ -1,0 +1,35 @@
+{
+  "retrieved_at_utc": "2026-10-14T05:52:50.407233+00:00",
+  "keyword": "서울특별시 중랑구 상봉동 498",
+  "response": [
+    {
+      "siNm": "서울특별시",
+      "lnbrMnnm": "497",
+      "bdKdcd": "1",
+      "jibunAddr": "서울특별시 중랑구 상봉동 497 태영데시앙아파트",
+      "bdMgtSn": "1126010200104970000017463",
+      "hemdNm": "서울특별시 중랑구 상봉제1동",
+      "roadAddr": "서울특별시 중랑구 상봉중앙로8길 104 (상봉동, 태영데시앙아파트)",
+      "bdNm": "태영데시앙아파트",
+      "rnMgtSn": "112604118418",
+      "buldMnnm": "104",
+      "hstryYn": "0",
+      "emdNm": "상봉동",
+      "lnbrSlno": "0",
+      "udrtYn": "0",
+      "detBdNmList": "상가동,1411동,1410동,1409동,1408동,1407동,1406동,1405동,1404동,1403동,1401동,1402동",
+      "emdNo": "01",
+      "buldSlno": "0",
+      "relJibun": "서울특별시 중랑구 상봉동 498",
+      "zipNo": "02078",
+      "admCd": "1126010200",
+      "liNm": "",
+      "mtYn": "0",
+      "roadAddrPart2": " (상봉동, 태영데시앙아파트)",
+      "sggNm": "중랑구",
+      "roadAddrPart1": "서울특별시 중랑구 상봉중앙로8길 104",
+      "engAddr": "104 Sangbongjungang-ro 8-gil, Jungnang-gu, Seoul",
+      "rn": "상봉중앙로8길"
+    }
+  ]
+}

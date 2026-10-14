@@ -1,8 +1,11 @@
 """MOLIT apartment trades + juso lot-number -> administrative-dong map -> per-election trade files at dong level.
 Writes data/trades/trades_hdong_<sgId>.csv (gu, k, hd, p; p = price per m2), the trade-level input to the bootstrap.
-With OUT_ONLY = False it also writes dong-level price summaries (median per m2) matched to the election's dong list:
+With --summaries it also writes dong-level price summaries (median per m2) matched to the election's dong list:
 data/seoul_hdong_aptprice_<sgId>.csv and data/aptprice_match_report_<sgId>.csv.
-Usage: python build/build_trades.py [sgId ...]   (default: 20170509 20220309 20240410)"""
+Usage: python build/build_trades.py [--summaries] [sgId ...]   (default: 20170509 20220309 20240410).
+The default preserves the frozen price summaries. The current crosswalk gives
+small differences in three 2012/2017 medians; price_lineage.py audits their
+effect. The 2025 summary is supplied as a snapshot, without raw trades here."""
 import pandas as pd, numpy as np
 from pathlib import Path
 D = Path(__file__).resolve().parent.parent / "data"; DT = D / "trades"; DJ = D / "raw" / "juso"; DM = D / "raw" / "molit"
@@ -41,8 +44,8 @@ print("mapping source:", m.src.value_counts().to_dict())
 key = ["sggCd","umdCd","bonbun","bubun"]
 
 import sys
-OUT_ONLY = True   # write only the trade-level files (bootstrap input); dong-level price files are left untouched
-for sg in (sys.argv[1:] or ["20170509","20220309","20240410"]):
+OUT_ONLY = '--summaries' not in sys.argv
+for sg in ([arg for arg in sys.argv[1:] if not arg.startswith('--')] or ["20170509","20220309","20240410"]):
     t = pd.read_csv(DM/f"seoul_apt_trades_{sg}.csv", dtype=str)
     n0 = len(t)
     t = t[t.cdealType.fillna("").str.strip()!="O"]                       # drop cancelled trades

@@ -1,0 +1,35 @@
+{
+  "retrieved_at_utc": "2026-10-14T05:52:57.316333+00:00",
+  "keyword": "서울특별시 노원구 공릉동 690-23",
+  "response": [
+    {
+      "siNm": "서울특별시",
+      "lnbrMnnm": "690",
+      "bdKdcd": "1",
+      "jibunAddr": "서울특별시 노원구 공릉동 690-10 탑스빌아파트",
+      "bdMgtSn": "1135010300106900010020223",
+      "hemdNm": "서울특별시 노원구 공릉1동",
+      "roadAddr": "서울특별시 노원구 섬밭로 5 (공릉동, 탑스빌아파트)",
+      "bdNm": "탑스빌아파트",
+      "rnMgtSn": "113503110005",
+      "buldMnnm": "5",
+      "hstryYn": "0",
+      "emdNm": "공릉동",
+      "lnbrSlno": "10",
+      "udrtYn": "0",
+      "detBdNmList": "101동,102동",
+      "emdNo": "01",
+      "buldSlno": "0",
+      "relJibun": "서울특별시 노원구 공릉동 690-16,690-23,690-24",
+      "zipNo": "01855",
+      "admCd": "1135010300",
+      "liNm": "",
+      "mtYn": "0",
+      "roadAddrPart2": " (공릉동, 탑스빌아파트)",
+      "sggNm": "노원구",
+      "roadAddrPart1": "서울특별시 노원구 섬밭로 5",
+      "engAddr": "5 Seombat-ro, Nowon-gu, Seoul",
+      "rn": "섬밭로"
+    }
+  ]
+}

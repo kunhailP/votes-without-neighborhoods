@@ -1,0 +1,23 @@
+{
+  "checked_date_kst": "2026-10-14",
+  "sample_selection": "Compiled cases; no prespecified selection rule was reported by the author.",
+  "included": ["20121219", "20170509", "20220309", "20240410", "20250603", "20260603"],
+  "omitted_examples": ["20200415", "20220601"],
+  "local_2022_catalogue": {
+    "provider": "National Election Commission",
+    "url": "https://www.data.go.kr/data/15101509/fileData.do",
+    "title": "중앙선거관리위원회_제8회 전국동시지방선거 개표결과_20220601",
+    "format": "XLSX",
+    "catalogue_rows": 81442,
+    "scope": "Nationwide local-election counting information including Seoul and mayoral and council contests.",
+    "verified": "Official catalogue and description only; file has not been downloaded or parsed in this audit."
+  },
+  "not_yet_assembled_or_verified_for_local_2022": [
+    "Compatible election-day and early station returns and candidate categories",
+    "Certified neighborhood electorates and removed-resident accounting",
+    "Election-specific council constituency-to-neighborhood map",
+    "June 2021-May 2022 apartment price inputs and boundary matching",
+    "Compatible mobility scenario or explicitly uncalibrated sensitivity analyses"
+  ],
+  "interpretation": "The compiled dataset does not exhaust available official returns. Election-specific findings do not establish a continuous time trend or a representative difference between election types."
+}

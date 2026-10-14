@@ -1,0 +1,35 @@
+{
+  "retrieved_at_utc": "2026-10-14T05:53:17.945086+00:00",
+  "keyword": "서울특별시 동작구 상도1동 328-18",
+  "response": [
+    {
+      "siNm": "서울특별시",
+      "lnbrMnnm": "328",
+      "bdKdcd": "1",
+      "jibunAddr": "서울특별시 동작구 상도1동 328-18 대영테크빌",
+      "bdMgtSn": "1159010300103280018029503",
+      "hemdNm": "서울특별시 동작구 상도제1동",
+      "roadAddr": "서울특별시 동작구 상도로47길 60 (상도1동, 대영테크빌)",
+      "bdNm": "대영테크빌",
+      "rnMgtSn": "115904157364",
+      "buldMnnm": "60",
+      "hstryYn": "0",
+      "emdNm": "상도1동",
+      "lnbrSlno": "18",
+      "udrtYn": "0",
+      "detBdNmList": "",
+      "emdNo": "02",
+      "buldSlno": "0",
+      "relJibun": "",
+      "zipNo": "06970",
+      "admCd": "1159010300",
+      "liNm": "",
+      "mtYn": "0",
+      "roadAddrPart2": " (상도1동, 대영테크빌)",
+      "sggNm": "동작구",
+      "roadAddrPart1": "서울특별시 동작구 상도로47길 60",
+      "engAddr": "60 Sangdo-ro 47-gil, Dongjak-gu, Seoul",
+      "rn": "상도로47길"
+    }
+  ]
+}

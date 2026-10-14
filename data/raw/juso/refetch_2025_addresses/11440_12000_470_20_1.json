@@ -1,0 +1,35 @@
+{
+  "retrieved_at_utc": "2026-10-14T05:53:07.864582+00:00",
+  "keyword": "서울특별시 마포구 서교동 470-20",
+  "response": [
+    {
+      "siNm": "서울특별시",
+      "lnbrMnnm": "470",
+      "bdKdcd": "1",
+      "jibunAddr": "서울특별시 마포구 서교동 470-20 신세계 드림빌 아파트",
+      "bdMgtSn": "1144012000104700020011358",
+      "hemdNm": "서울특별시 마포구 서교동",
+      "roadAddr": "서울특별시 마포구 월드컵로16길 47 (서교동, 신세계 드림빌 아파트)",
+      "bdNm": "신세계 드림빌 아파트",
+      "rnMgtSn": "114404139488",
+      "buldMnnm": "47",
+      "hstryYn": "0",
+      "emdNm": "서교동",
+      "lnbrSlno": "20",
+      "udrtYn": "0",
+      "detBdNmList": "",
+      "emdNo": "01",
+      "buldSlno": "0",
+      "relJibun": "",
+      "zipNo": "03997",
+      "admCd": "1144012000",
+      "liNm": "",
+      "mtYn": "0",
+      "roadAddrPart2": " (서교동, 신세계 드림빌 아파트)",
+      "sggNm": "마포구",
+      "roadAddrPart1": "서울특별시 마포구 월드컵로16길 47",
+      "engAddr": "47 World Cup-ro 16-gil, Mapo-gu, Seoul",
+      "rn": "월드컵로16길"
+    }
+  ]
+}

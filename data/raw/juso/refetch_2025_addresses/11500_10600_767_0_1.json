@@ -1,0 +1,35 @@
+{
+  "retrieved_at_utc": "2026-10-14T05:53:12.358775+00:00",
+  "keyword": "서울특별시 강서구 내발산동 767",
+  "response": [
+    {
+      "siNm": "서울특별시",
+      "lnbrMnnm": "767",
+      "bdKdcd": "1",
+      "jibunAddr": "서울특별시 강서구 내발산동 767 센터스퀘어 발산",
+      "bdMgtSn": "1150010600106470001008334",
+      "hemdNm": "서울특별시 강서구 우장산동",
+      "roadAddr": "서울특별시 강서구 공항대로 302 (내발산동, 센터스퀘어 발산)",
+      "bdNm": "센터스퀘어 발산",
+      "rnMgtSn": "115002005007",
+      "buldMnnm": "302",
+      "hstryYn": "0",
+      "emdNm": "내발산동",
+      "lnbrSlno": "0",
+      "udrtYn": "0",
+      "detBdNmList": "공공업무시설",
+      "emdNo": "05",
+      "buldSlno": "0",
+      "relJibun": "",
+      "zipNo": "07646",
+      "admCd": "1150010600",
+      "liNm": "",
+      "mtYn": "0",
+      "roadAddrPart2": " (내발산동, 센터스퀘어 발산)",
+      "sggNm": "강서구",
+      "roadAddrPart1": "서울특별시 강서구 공항대로 302",
+      "engAddr": "302 Gonghang-daero, Gangseo-gu, Seoul",
+      "rn": "공항대로"
+    }
+  ]
+}

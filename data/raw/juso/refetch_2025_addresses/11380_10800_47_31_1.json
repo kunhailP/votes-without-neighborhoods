@@ -1,0 +1,35 @@
+{
+  "retrieved_at_utc": "2026-10-14T05:52:58.717856+00:00",
+  "keyword": "서울특별시 은평구 역촌동 47-31",
+  "response": [
+    {
+      "siNm": "서울특별시",
+      "lnbrMnnm": "47",
+      "bdKdcd": "1",
+      "jibunAddr": "서울특별시 은평구 역촌동 47-31 솔빛아파트",
+      "bdMgtSn": "1138010800100470047016700",
+      "hemdNm": "서울특별시 은평구 역촌동",
+      "roadAddr": "서울특별시 은평구 갈현로12길 23 (역촌동, 솔빛아파트)",
+      "bdNm": "솔빛아파트",
+      "rnMgtSn": "113804133016",
+      "buldMnnm": "23",
+      "hstryYn": "0",
+      "emdNm": "역촌동",
+      "lnbrSlno": "31",
+      "udrtYn": "0",
+      "detBdNmList": "",
+      "emdNo": "01",
+      "buldSlno": "0",
+      "relJibun": "서울특별시 은평구 역촌동 47-47",
+      "zipNo": "03416",
+      "admCd": "1138010800",
+      "liNm": "",
+      "mtYn": "0",
+      "roadAddrPart2": " (역촌동, 솔빛아파트)",
+      "sggNm": "은평구",
+      "roadAddrPart1": "서울특별시 은평구 갈현로12길 23",
+      "engAddr": "23 Galhyeon-ro 12-gil, Eunpyeong-gu, Seoul",
+      "rn": "갈현로12길"
+    }
+  ]
+}

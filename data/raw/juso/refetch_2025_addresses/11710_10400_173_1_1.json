@@ -1,0 +1,35 @@
+{
+  "retrieved_at_utc": "2026-10-14T05:53:33.468589+00:00",
+  "keyword": "서울특별시 송파구 송파동 173-1",
+  "response": [
+    {
+      "siNm": "서울특별시",
+      "lnbrMnnm": "173",
+      "bdKdcd": "1",
+      "jibunAddr": "서울특별시 송파구 송파동 173-1 각산아파트",
+      "bdMgtSn": "1171010400101730001012103",
+      "hemdNm": "서울특별시 송파구 송파2동",
+      "roadAddr": "서울특별시 송파구 송이로 36 (송파동, 각산아파트)",
+      "bdNm": "각산아파트",
+      "rnMgtSn": "117103123011",
+      "buldMnnm": "36",
+      "hstryYn": "0",
+      "emdNm": "송파동",
+      "lnbrSlno": "1",
+      "udrtYn": "0",
+      "detBdNmList": "",
+      "emdNo": "01",
+      "buldSlno": "0",
+      "relJibun": "",
+      "zipNo": "05674",
+      "admCd": "1171010400",
+      "liNm": "",
+      "mtYn": "0",
+      "roadAddrPart2": " (송파동, 각산아파트)",
+      "sggNm": "송파구",
+      "roadAddrPart1": "서울특별시 송파구 송이로 36",
+      "engAddr": "36 Songi-ro, Songpa-gu, Seoul",
+      "rn": "송이로"
+    }
+  ]
+}

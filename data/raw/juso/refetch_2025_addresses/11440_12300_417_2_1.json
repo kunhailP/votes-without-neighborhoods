@@ -1,0 +1,35 @@
+{
+  "retrieved_at_utc": "2026-10-14T05:53:07.889313+00:00",
+  "keyword": "서울특별시 마포구 망원동 417-2",
+  "response": [
+    {
+      "siNm": "서울특별시",
+      "lnbrMnnm": "417",
+      "bdKdcd": "1",
+      "jibunAddr": "서울특별시 마포구 망원동 417-2 한강로얄스위트아파트",
+      "bdMgtSn": "1144012300104170002025128",
+      "hemdNm": "서울특별시 마포구 망원제1동",
+      "roadAddr": "서울특별시 마포구 망원로 36 (망원동, 한강로얄스위트아파트)",
+      "bdNm": "한강로얄스위트아파트",
+      "rnMgtSn": "114403113006",
+      "buldMnnm": "36",
+      "hstryYn": "0",
+      "emdNm": "망원동",
+      "lnbrSlno": "2",
+      "udrtYn": "0",
+      "detBdNmList": "",
+      "emdNo": "01",
+      "buldSlno": "0",
+      "relJibun": "",
+      "zipNo": "04007",
+      "admCd": "1144012300",
+      "liNm": "",
+      "mtYn": "0",
+      "roadAddrPart2": " (망원동, 한강로얄스위트아파트)",
+      "sggNm": "마포구",
+      "roadAddrPart1": "서울특별시 마포구 망원로 36",
+      "engAddr": "36 Mangwon-ro, Mapo-gu, Seoul",
+      "rn": "망원로"
+    }
+  ]
+}

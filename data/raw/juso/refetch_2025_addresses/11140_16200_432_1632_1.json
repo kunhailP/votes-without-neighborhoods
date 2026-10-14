@@ -1,0 +1,35 @@
+{
+  "retrieved_at_utc": "2026-10-14T05:52:42.255745+00:00",
+  "keyword": "서울특별시 중구 신당동 432-1632",
+  "response": [
+    {
+      "siNm": "서울특별시",
+      "lnbrMnnm": "432",
+      "bdKdcd": "1",
+      "jibunAddr": "서울특별시 중구 신당동 432-1632 남산프라임아파트1",
+      "bdMgtSn": "1114016200104321632009215",
+      "hemdNm": "서울특별시 중구 다산동",
+      "roadAddr": "서울특별시 중구 동호로17길 256-4 (신당동, 남산프라임아파트1)",
+      "bdNm": "남산프라임아파트1",
+      "rnMgtSn": "111404103094",
+      "buldMnnm": "256",
+      "hstryYn": "0",
+      "emdNm": "신당동",
+      "lnbrSlno": "1632",
+      "udrtYn": "0",
+      "detBdNmList": "남산프라임아파트1",
+      "emdNo": "01",
+      "buldSlno": "4",
+      "relJibun": "",
+      "zipNo": "04601",
+      "admCd": "1114016200",
+      "liNm": "",
+      "mtYn": "0",
+      "roadAddrPart2": " (신당동, 남산프라임아파트1)",
+      "sggNm": "중구",
+      "roadAddrPart1": "서울특별시 중구 동호로17길 256-4",
+      "engAddr": "256-4 Dongho-ro 17-gil, Jung-gu, Seoul",
+      "rn": "동호로17길"
+    }
+  ]
+}

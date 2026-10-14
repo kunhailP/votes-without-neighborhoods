@@ -1,0 +1,35 @@
+{
+  "retrieved_at_utc": "2026-10-14T05:53:14.150766+00:00",
+  "keyword": "서울특별시 구로구 구로동 717-21",
+  "response": [
+    {
+      "siNm": "서울특별시",
+      "lnbrMnnm": "717",
+      "bdKdcd": "1",
+      "jibunAddr": "서울특별시 구로구 구로동 717-21 경원주택",
+      "bdMgtSn": "1153010200107170021024483",
+      "hemdNm": "서울특별시 구로구 구로제2동",
+      "roadAddr": "서울특별시 구로구 구로동로15길 13-6 (구로동, 경원주택)",
+      "bdNm": "경원주택",
+      "rnMgtSn": "115304148202",
+      "buldMnnm": "13",
+      "hstryYn": "0",
+      "emdNm": "구로동",
+      "lnbrSlno": "21",
+      "udrtYn": "0",
+      "detBdNmList": "",
+      "emdNo": "01",
+      "buldSlno": "6",
+      "relJibun": "",
+      "zipNo": "08318",
+      "admCd": "1153010200",
+      "liNm": "",
+      "mtYn": "0",
+      "roadAddrPart2": " (구로동, 경원주택)",
+      "sggNm": "구로구",
+      "roadAddrPart1": "서울특별시 구로구 구로동로15길 13-6",
+      "engAddr": "13-6 Gurodong-ro 15-gil, Guro-gu, Seoul",
+      "rn": "구로동로15길"
+    }
+  ]
+}

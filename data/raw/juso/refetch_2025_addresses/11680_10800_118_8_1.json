@@ -1,0 +1,35 @@
+{
+  "retrieved_at_utc": "2026-10-14T05:53:29.034896+00:00",
+  "keyword": "서울특별시 강남구 논현동 118-8",
+  "response": [
+    {
+      "siNm": "서울특별시",
+      "lnbrMnnm": "118",
+      "bdKdcd": "1",
+      "jibunAddr": "서울특별시 강남구 논현동 118-8 더원 센트럴",
+      "bdMgtSn": "1168010800101180008005942",
+      "hemdNm": "서울특별시 강남구 논현2동",
+      "roadAddr": "서울특별시 강남구 학동로53길 3-8 (논현동, 더원 센트럴)",
+      "bdNm": "더원 센트럴",
+      "rnMgtSn": "116804166807",
+      "buldMnnm": "3",
+      "hstryYn": "0",
+      "emdNm": "논현동",
+      "lnbrSlno": "8",
+      "udrtYn": "0",
+      "detBdNmList": "",
+      "emdNo": "01",
+      "buldSlno": "8",
+      "relJibun": "",
+      "zipNo": "06060",
+      "admCd": "1168010800",
+      "liNm": "",
+      "mtYn": "0",
+      "roadAddrPart2": " (논현동, 더원 센트럴)",
+      "sggNm": "강남구",
+      "roadAddrPart1": "서울특별시 강남구 학동로53길 3-8",
+      "engAddr": "3-8 Hakdong-ro 53-gil, Gangnam-gu, Seoul",
+      "rn": "학동로53길"
+    }
+  ]
+}

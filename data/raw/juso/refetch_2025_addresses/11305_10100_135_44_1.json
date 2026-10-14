@@ -1,0 +1,35 @@
+{
+  "retrieved_at_utc": "2026-10-14T05:52:54.196557+00:00",
+  "keyword": "서울특별시 강북구 미아동 135-44",
+  "response": [
+    {
+      "siNm": "서울특별시",
+      "lnbrMnnm": "135",
+      "bdKdcd": "1",
+      "jibunAddr": "서울특별시 강북구 미아동 135-44 태솔아파트",
+      "bdMgtSn": "1130510100101350044000001",
+      "hemdNm": "서울특별시 강북구 송중동",
+      "roadAddr": "서울특별시 강북구 도봉로28길 22 (미아동, 태솔아파트)",
+      "bdNm": "태솔아파트",
+      "rnMgtSn": "113054124091",
+      "buldMnnm": "22",
+      "hstryYn": "0",
+      "emdNm": "미아동",
+      "lnbrSlno": "44",
+      "udrtYn": "0",
+      "detBdNmList": "",
+      "emdNo": "01",
+      "buldSlno": "0",
+      "relJibun": "",
+      "zipNo": "01164",
+      "admCd": "1130510100",
+      "liNm": "",
+      "mtYn": "0",
+      "roadAddrPart2": " (미아동, 태솔아파트)",
+      "sggNm": "강북구",
+      "roadAddrPart1": "서울특별시 강북구 도봉로28길 22",
+      "engAddr": "22 Dobong-ro 28-gil, Gangbuk-gu, Seoul",
+      "rn": "도봉로28길"
+    }
+  ]
+}

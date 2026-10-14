@@ -1,0 +1,35 @@
+{
+  "retrieved_at_utc": "2026-10-14T05:52:48.382454+00:00",
+  "keyword": "서울특별시 동대문구 장안동 437-2",
+  "response": [
+    {
+      "siNm": "서울특별시",
+      "lnbrMnnm": "437",
+      "bdKdcd": "1",
+      "jibunAddr": "서울특별시 동대문구 장안동 437-2 비젼 아파트",
+      "bdMgtSn": "1123010600104370002016107",
+      "hemdNm": "서울특별시 동대문구 장안제1동",
+      "roadAddr": "서울특별시 동대문구 장한로10길 25-5 (장안동, 비젼 아파트)",
+      "bdNm": "비젼 아파트",
+      "rnMgtSn": "112304115388",
+      "buldMnnm": "25",
+      "hstryYn": "0",
+      "emdNm": "장안동",
+      "lnbrSlno": "2",
+      "udrtYn": "0",
+      "detBdNmList": "",
+      "emdNo": "01",
+      "buldSlno": "5",
+      "relJibun": "",
+      "zipNo": "02643",
+      "admCd": "1123010600",
+      "liNm": "",
+      "mtYn": "0",
+      "roadAddrPart2": " (장안동, 비젼 아파트)",
+      "sggNm": "동대문구",
+      "roadAddrPart1": "서울특별시 동대문구 장한로10길 25-5",
+      "engAddr": "25-5 Janghan-ro 10-gil, Dongdaemun-gu, Seoul",
+      "rn": "장한로10길"
+    }
+  ]
+}

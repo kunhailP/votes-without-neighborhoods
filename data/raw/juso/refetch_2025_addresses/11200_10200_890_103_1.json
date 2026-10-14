@@ -1,0 +1,35 @@
+{
+  "retrieved_at_utc": "2026-10-14T05:52:45.281032+00:00",
+  "keyword": "서울특별시 성동구 하왕십리동 890-103",
+  "response": [
+    {
+      "siNm": "서울특별시",
+      "lnbrMnnm": "890",
+      "bdKdcd": "1",
+      "jibunAddr": "서울특별시 성동구 하왕십리동 890-103 상왕아파트",
+      "bdMgtSn": "1120010200108900103024824",
+      "hemdNm": "서울특별시 성동구 왕십리제2동",
+      "roadAddr": "서울특별시 성동구 왕십리로31나길 33 (하왕십리동, 상왕아파트)",
+      "bdNm": "상왕아파트",
+      "rnMgtSn": "112004109448",
+      "buldMnnm": "33",
+      "hstryYn": "0",
+      "emdNm": "하왕십리동",
+      "lnbrSlno": "103",
+      "udrtYn": "0",
+      "detBdNmList": "",
+      "emdNo": "01",
+      "buldSlno": "0",
+      "relJibun": "",
+      "zipNo": "04710",
+      "admCd": "1120010200",
+      "liNm": "",
+      "mtYn": "0",
+      "roadAddrPart2": " (하왕십리동, 상왕아파트)",
+      "sggNm": "성동구",
+      "roadAddrPart1": "서울특별시 성동구 왕십리로31나길 33",
+      "engAddr": "33 Wangsimni-ro 31na-gil, Seongdong-gu, Seoul",
+      "rn": "왕십리로31나길"
+    }
+  ]
+}

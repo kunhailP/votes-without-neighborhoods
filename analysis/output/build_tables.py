@@ -76,16 +76,15 @@ def table_data():
 
 # ---------------------------------------------------------------- Table 2: identified sets
 def table_sets():
-    hdr = ["Election", "Conv.", "Election-day voters (exact; valid-vote share y)", "(A) Returns and rolls only", "(B) Minimal movement", "(C) = (B) + out-of-district voters within 10 points",
-           "(D) Mobility-calibrated movement + out-of-district within 10 points", "(E) = (D) + residents' early ballots resemble their neighborhood", "(F) = (E), price-dependent benchmark"]
+    hdr = ["Election", "Election day (exact y)", "(A) Returns and rolls", "(B) Minimal movement",
+           "(C) + out-of-zone restriction", "(D) Calibrated movement", "(E) + residents' composition", "(F) Price-dependent benchmark"]
     rows = []; ed = rd("election_day.csv"); ed = ed[ed["sample"] == "all"]
     edv = lambda sg, spec, sc=1.0, dd=3: num(sc * ed[(ed.sg == int(sg)) & (ed.measure == "election_day") & (ed.spec == spec)].value.iloc[0], dd)
     for sp in ["guFE", "sggFE"]:
-        if sp == "guFE": rows.append(("PANEL", "A. Within-district slope"))
         for sg in ELECTIONS:
             if sp == "sggFE" and sg != "20240410": continue
             cal = sg in C4
-            r = [Y[sg], num(conv(sg, sp)), edv(sg, "slope") if sp == "guFE" else "–", iv(*grid(sg, sp, 1.0, 1.0)), iv(*grid(sg, sp, 0.0, 1.0)), iv(*grid(sg, sp, 0.0, 0.1)),
+            r = [Y[sg], edv(sg, "slope") if sp == "guFE" else "–", iv(*grid(sg, sp, 1.0, 1.0)), iv(*grid(sg, sp, 0.0, 1.0)), iv(*grid(sg, sp, 0.0, 0.1)),
                  iv(*calib(sg, sp, 0.1)) if cal else "–", iv(*comp(sg, sp, 0.1, ("slack", 0.02), 1.0)) if cal else "–", iv(*gapadj(sg, sp)) if cal else "–"]
             if sp == "guFE": rows.append(r)
             else: sgg = r
@@ -95,25 +94,16 @@ def table_sets():
             put(f"conv_{sp}_{sg}", conv(sg, sp))
     ct = pd.concat([pd.read_csv(f) for f in sorted(glob.glob(f"{RES}/contrast_2*.csv"))])
     ct = ct[ct.kind == "median"]
-    def cv(sg, cell):
-        q = ct[(ct.sg == int(sg)) & (ct.cell == cell)]
-        if not len(q) or pd.isna(q.z_lo.iloc[0]): return "–"
-        return num(100 * q.z_lo.iloc[0], 1) if cell == "conventional" else iv(100 * q.z_lo.iloc[0], 100 * q.z_hi.iloc[0], 1)
-    rows.append(("PANEL", "B. Within-district contrast: expensive minus cheaper half of neighborhoods (percentage points)"))
     for sg in ELECTIONS:
-        cal = sg in C4
-        rows.append([Y[sg], cv(sg, "conventional"), edv(sg, "contrast", 100, 1), cv(sg, "accounting"), cv(sg, "eta0_d1"), cv(sg, "eta0_d0.1"),
-                     cv(sg, "calib_d0.1") if cal else "–", cv(sg, "calib_d0.1_s0.02") if cal else "–", "–"])
         for cell in ["conventional", "accounting", "eta0_d1", "eta0_d0.1", "calib_d0.1", "calib_d0.1_s0.02"]:
             q = ct[(ct.sg == int(sg)) & (ct.cell == cell)]
             if len(q): put(f"delta_{cell}_{sg}", [100 * q.z_lo.iloc[0], 100 * q.z_hi.iloc[0], 100 * q.y_tight_lo.iloc[0], 100 * q.y_tight_hi.iloc[0]])
-    emit("table2", "Table 2. Within-district associations under alternative assumptions",
-         hdr, rows, colspec="lc" + "C" * 7, size="footnotesize",
-         notes="Bold ranges include zero; their sign is not identified. Panel A: within-district slope of the conservative share among residents (roll-based share z) on log median apartment price per square "
+    emit("table2", "Table 2. Within-district price gradients under alternative assumptions",
+         hdr, rows, colspec="lc" + "C" * 6, size="footnotesize",
+         notes="Bold ranges include zero; their sign is not identified. Slope of the conservative share among residents (roll-based share z) on log median apartment price per square "
                "meter; 0.1 means a neighborhood with prices twice as high has a share about 7 points higher. Within National Assembly constituencies in 2024 "
-               f"the ranges are {sgg[3].strip('*')} (A), {sgg[5].strip('*')} (C), {sgg[6].strip('*')} (D) and {sgg[7].strip('*')} (E). Panel B: "
-               "mean share of each district's neighborhoods priced above its median minus that of the others, averaged over districts weighted by neighborhoods with price data, in percentage points. "
-               "Conv.: published neighborhood rows, pooled ballots dropped. Election-day voters (exact): the valid-vote share among residents who voted on election day, point-identified (Online Appendix Table C20). "
+               f"the ranges are {sgg[2].strip('*')} (A), {sgg[4].strip('*')} (C), {sgg[5].strip('*')} (D) and {sgg[6].strip('*')} (E). "
+               "Election day: point-identified valid-vote share among election-day voters (Online Appendix Table C20). Conventional estimates: Table C1. High-minus-low contrasts: Table 3 and Table C11. "
                "(A) every allocation consistent with the counts, rolls and statutory zones; (B) minimal movement; (C) adds out-of-zone ballots within 10 points of the station; "
                "(D) replaces (B) with mobility-calibrated movement; (E) adds residents' early ballots within their station's departure plus 2 points of the benchmark; "
                "(F) price-dependent benchmark. Definitions in Section 3.4 and Online Appendix A.")
@@ -170,7 +160,7 @@ def table_disclosure():
          notes="All columns describe the width of the within-district slope range or the guaranteed fraction of that width removed. Main assumptions: Table 2, column E. Proposal: out-of-district early ballots reported as aggregate counts by the voter's registered neighborhood, at-home "
                "and overseas ballots kept pooled. All pooled modes: out-of-district early, at-home and overseas ballots by neighborhood. Maximum remaining width: the largest "
                "difference in the within-district slope between two allocations that the report could not tell apart, which bounds the range left whatever the true "
-               "allocation. Other assumptions and headcount reporting: Online Appendix Table C12.")
+               "allocation. Counts are released exactly, without cell suppression. Suppression sensitivity: Online Appendix Table C26. Other assumptions and headcount reporting: Table C12.")
 
 
 # ---------------------------------------------------------------- Table 3: beyond Gangnam

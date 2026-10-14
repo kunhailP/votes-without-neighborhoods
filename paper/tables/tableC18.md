@@ -7,4 +7,4 @@ Table: Table C18. Valid-vote slope lower bounds with and without the three south
 | 2025 | [−0.046, −0.045] | [−0.072, −0.071] | [−4.7, −4.6] | [−5.6, −5.5] |
 | 2026 | [0.049, 0.050] | [0.024, 0.024] | [0.4, 0.5] | [−0.6, −0.6] |
 
-*Notes.* Each entry gives a guaranteed outer bound and an attainable value for the lower end of the valid-vote range; the exact lower end lies between them. The direction is established when the first value is positive and not established when the second is negative.
+*Notes.* Attainable values refer to feasible continuous allocations; integer checks are reported separately in Table S2. Each entry gives a guaranteed outer bound and an attainable value for the lower end of the valid-vote range; the exact lower end lies between them. The direction is established when the first value is positive and not established when the second is negative.

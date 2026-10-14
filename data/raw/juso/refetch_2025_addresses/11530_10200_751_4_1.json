@@ -1,0 +1,35 @@
+{
+  "retrieved_at_utc": "2026-10-14T05:53:13.414881+00:00",
+  "keyword": "서울특별시 구로구 구로동 751-4",
+  "response": [
+    {
+      "siNm": "서울특별시",
+      "lnbrMnnm": "751",
+      "bdKdcd": "1",
+      "jibunAddr": "서울특별시 구로구 구로동 751-4",
+      "bdMgtSn": "1153010200107510004027391",
+      "hemdNm": "서울특별시 구로구 구로제4동",
+      "roadAddr": "서울특별시 구로구 구로동로8길 62-14 (구로동)",
+      "bdNm": "",
+      "rnMgtSn": "115304148245",
+      "buldMnnm": "62",
+      "hstryYn": "0",
+      "emdNm": "구로동",
+      "lnbrSlno": "4",
+      "udrtYn": "0",
+      "detBdNmList": "",
+      "emdNo": "01",
+      "buldSlno": "14",
+      "relJibun": "",
+      "zipNo": "08314",
+      "admCd": "1153010200",
+      "liNm": "",
+      "mtYn": "0",
+      "roadAddrPart2": " (구로동)",
+      "sggNm": "구로구",
+      "roadAddrPart1": "서울특별시 구로구 구로동로8길 62-14",
+      "engAddr": "62-14 Gurodong-ro 8-gil, Guro-gu, Seoul",
+      "rn": "구로동로8길"
+    }
+  ]
+}

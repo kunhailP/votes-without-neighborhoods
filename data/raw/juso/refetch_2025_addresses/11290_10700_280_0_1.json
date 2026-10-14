@@ -1,0 +1,35 @@
+{
+  "retrieved_at_utc": "2026-10-14T05:52:51.444504+00:00",
+  "keyword": "서울특별시 성북구 동소문동4가 280",
+  "response": [
+    {
+      "siNm": "서울특별시",
+      "lnbrMnnm": "23",
+      "bdKdcd": "1",
+      "jibunAddr": "서울특별시 성북구 동소문동7가 23 동소문2차한신휴플러스",
+      "bdMgtSn": "1129010700102800000000001",
+      "hemdNm": "서울특별시 성북구 성북동",
+      "roadAddr": "서울특별시 성북구 동소문로13길 47 (동소문동7가, 동소문2차한신휴플러스)",
+      "bdNm": "동소문2차한신휴플러스",
+      "rnMgtSn": "112904121087",
+      "buldMnnm": "47",
+      "hstryYn": "0",
+      "emdNm": "동소문동7가",
+      "lnbrSlno": "0",
+      "udrtYn": "0",
+      "detBdNmList": "116동",
+      "emdNo": "03",
+      "buldSlno": "0",
+      "relJibun": "서울특별시 성북구 동소문동4가 280,동소문동6가 261",
+      "zipNo": "02832",
+      "admCd": "1129011000",
+      "liNm": "",
+      "mtYn": "0",
+      "roadAddrPart2": " (동소문동7가, 동소문2차한신휴플러스)",
+      "sggNm": "성북구",
+      "roadAddrPart1": "서울특별시 성북구 동소문로13길 47",
+      "engAddr": "47 Dongsomun-ro 13-gil, Seongbuk-gu, Seoul",
+      "rn": "동소문로13길"
+    }
+  ]
+}

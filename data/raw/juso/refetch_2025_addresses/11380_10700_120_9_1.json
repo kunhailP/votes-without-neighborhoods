@@ -1,0 +1,35 @@
+{
+  "retrieved_at_utc": "2026-10-14T05:52:58.638868+00:00",
+  "keyword": "서울특별시 은평구 응암동 120-9",
+  "response": [
+    {
+      "siNm": "서울특별시",
+      "lnbrMnnm": "120",
+      "bdKdcd": "1",
+      "jibunAddr": "서울특별시 은평구 응암동 120-9 월드빌아파트",
+      "bdMgtSn": "1138010700101200009020530",
+      "hemdNm": "서울특별시 은평구 응암제3동",
+      "roadAddr": "서울특별시 은평구 응암로21가길 23-1 (응암동, 월드빌아파트)",
+      "bdNm": "월드빌아파트",
+      "rnMgtSn": "113804133232",
+      "buldMnnm": "23",
+      "hstryYn": "0",
+      "emdNm": "응암동",
+      "lnbrSlno": "9",
+      "udrtYn": "0",
+      "detBdNmList": "103동",
+      "emdNo": "01",
+      "buldSlno": "1",
+      "relJibun": "",
+      "zipNo": "03455",
+      "admCd": "1138010700",
+      "liNm": "",
+      "mtYn": "0",
+      "roadAddrPart2": " (응암동, 월드빌아파트)",
+      "sggNm": "은평구",
+      "roadAddrPart1": "서울특별시 은평구 응암로21가길 23-1",
+      "engAddr": "23-1 Eungam-ro 21ga-gil, Eunpyeong-gu, Seoul",
+      "rn": "응암로21가길"
+    }
+  ]
+}

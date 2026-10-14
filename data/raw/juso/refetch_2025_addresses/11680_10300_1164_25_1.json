@@ -1,0 +1,35 @@
+{
+  "retrieved_at_utc": "2026-10-14T05:53:30.556820+00:00",
+  "keyword": "서울특별시 강남구 개포동 1164-25",
+  "response": [
+    {
+      "siNm": "서울특별시",
+      "lnbrMnnm": "1164",
+      "bdKdcd": "1",
+      "jibunAddr": "서울특별시 강남구 개포동 1164-25 리더스",
+      "bdMgtSn": "1168010300101640025000001",
+      "hemdNm": "서울특별시 강남구 개포4동",
+      "roadAddr": "서울특별시 강남구 논현로2길 62 (개포동, 리더스)",
+      "bdNm": "리더스",
+      "rnMgtSn": "116804166171",
+      "buldMnnm": "62",
+      "hstryYn": "0",
+      "emdNm": "개포동",
+      "lnbrSlno": "25",
+      "udrtYn": "0",
+      "detBdNmList": "",
+      "emdNo": "01",
+      "buldSlno": "0",
+      "relJibun": "",
+      "zipNo": "06313",
+      "admCd": "1168010300",
+      "liNm": "",
+      "mtYn": "0",
+      "roadAddrPart2": " (개포동, 리더스)",
+      "sggNm": "강남구",
+      "roadAddrPart1": "서울특별시 강남구 논현로2길 62",
+      "engAddr": "62 Nonhyeon-ro 2-gil, Gangnam-gu, Seoul",
+      "rn": "논현로2길"
+    }
+  ]
+}

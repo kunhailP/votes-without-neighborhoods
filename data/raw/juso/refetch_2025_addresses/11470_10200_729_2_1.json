@@ -1,0 +1,35 @@
+{
+  "retrieved_at_utc": "2026-10-14T05:53:10.295421+00:00",
+  "keyword": "서울특별시 양천구 목동 729-2",
+  "response": [
+    {
+      "siNm": "서울특별시",
+      "lnbrMnnm": "729",
+      "bdKdcd": "1",
+      "jibunAddr": "서울특별시 양천구 목동 729-2 지오트레벨",
+      "bdMgtSn": "1147010200107290002017567",
+      "hemdNm": "서울특별시 양천구 목4동",
+      "roadAddr": "서울특별시 양천구 목동중앙남로9길 31 (목동, 지오트레벨)",
+      "bdNm": "지오트레벨",
+      "rnMgtSn": "114704142145",
+      "buldMnnm": "31",
+      "hstryYn": "0",
+      "emdNm": "목동",
+      "lnbrSlno": "2",
+      "udrtYn": "0",
+      "detBdNmList": "",
+      "emdNo": "01",
+      "buldSlno": "0",
+      "relJibun": "서울특별시 양천구 목동 729-3",
+      "zipNo": "07959",
+      "admCd": "1147010200",
+      "liNm": "",
+      "mtYn": "0",
+      "roadAddrPart2": " (목동, 지오트레벨)",
+      "sggNm": "양천구",
+      "roadAddrPart1": "서울특별시 양천구 목동중앙남로9길 31",
+      "engAddr": "31 Mokdongjungangnam-ro 9-gil, Yangcheon-gu, Seoul",
+      "rn": "목동중앙남로9길"
+    }
+  ]
+}

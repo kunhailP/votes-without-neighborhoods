@@ -1,0 +1,35 @@
+{
+  "retrieved_at_utc": "2026-10-14T05:53:32.494529+00:00",
+  "keyword": "서울특별시 강남구 청담동 104-5",
+  "response": [
+    {
+      "siNm": "서울특별시",
+      "lnbrMnnm": "104",
+      "bdKdcd": "1",
+      "jibunAddr": "서울특별시 강남구 청담동 104-5 삼호빌라",
+      "bdMgtSn": "1168010400101040005019018",
+      "hemdNm": "서울특별시 강남구 청담동",
+      "roadAddr": "서울특별시 강남구 도산대로83길 55 (청담동, 삼호빌라)",
+      "bdNm": "삼호빌라",
+      "rnMgtSn": "116804166302",
+      "buldMnnm": "55",
+      "hstryYn": "0",
+      "emdNm": "청담동",
+      "lnbrSlno": "5",
+      "udrtYn": "0",
+      "detBdNmList": "C동",
+      "emdNo": "01",
+      "buldSlno": "0",
+      "relJibun": "서울특별시 강남구 청담동 104-10",
+      "zipNo": "06011",
+      "admCd": "1168010400",
+      "liNm": "",
+      "mtYn": "0",
+      "roadAddrPart2": " (청담동, 삼호빌라)",
+      "sggNm": "강남구",
+      "roadAddrPart1": "서울특별시 강남구 도산대로83길 55",
+      "engAddr": "55 Dosan-daero 83-gil, Gangnam-gu, Seoul",
+      "rn": "도산대로83길"
+    }
+  ]
+}

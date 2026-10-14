@@ -1,0 +1,35 @@
+{
+  "retrieved_at_utc": "2026-10-14T05:52:44.285550+00:00",
+  "keyword": "서울특별시 용산구 효창동 5-45",
+  "response": [
+    {
+      "siNm": "서울특별시",
+      "lnbrMnnm": "5",
+      "bdKdcd": "1",
+      "jibunAddr": "서울특별시 용산구 효창동 5-45 화이트타운",
+      "bdMgtSn": "1117011900100050045017115",
+      "hemdNm": "서울특별시 용산구 효창동",
+      "roadAddr": "서울특별시 용산구 효창원로70길 26 (효창동, 화이트타운)",
+      "bdNm": "화이트타운",
+      "rnMgtSn": "111704106552",
+      "buldMnnm": "26",
+      "hstryYn": "0",
+      "emdNm": "효창동",
+      "lnbrSlno": "45",
+      "udrtYn": "0",
+      "detBdNmList": "",
+      "emdNo": "01",
+      "buldSlno": "0",
+      "relJibun": "",
+      "zipNo": "04317",
+      "admCd": "1117011900",
+      "liNm": "",
+      "mtYn": "0",
+      "roadAddrPart2": " (효창동, 화이트타운)",
+      "sggNm": "용산구",
+      "roadAddrPart1": "서울특별시 용산구 효창원로70길 26",
+      "engAddr": "26 Hyochangwon-ro 70-gil, Yongsan-gu, Seoul",
+      "rn": "효창원로70길"
+    }
+  ]
+}

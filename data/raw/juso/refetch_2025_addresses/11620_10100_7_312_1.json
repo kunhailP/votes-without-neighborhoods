@@ -1,0 +1,35 @@
+{
+  "retrieved_at_utc": "2026-10-14T05:53:20.330544+00:00",
+  "keyword": "서울특별시 관악구 봉천동 7-312",
+  "response": [
+    {
+      "siNm": "서울특별시",
+      "lnbrMnnm": "7",
+      "bdKdcd": "1",
+      "jibunAddr": "서울특별시 관악구 봉천동 7-312 동아타운21",
+      "bdMgtSn": "1162010100100070312036948",
+      "hemdNm": "서울특별시 관악구 성현동",
+      "roadAddr": "서울특별시 관악구 관악로37길 15 (봉천동, 동아타운21)",
+      "bdNm": "동아타운21",
+      "rnMgtSn": "116204160019",
+      "buldMnnm": "15",
+      "hstryYn": "0",
+      "emdNm": "봉천동",
+      "lnbrSlno": "312",
+      "udrtYn": "0",
+      "detBdNmList": "",
+      "emdNo": "01",
+      "buldSlno": "0",
+      "relJibun": "서울특별시 관악구 봉천동 7-490",
+      "zipNo": "08727",
+      "admCd": "1162010100",
+      "liNm": "",
+      "mtYn": "0",
+      "roadAddrPart2": " (봉천동, 동아타운21)",
+      "sggNm": "관악구",
+      "roadAddrPart1": "서울특별시 관악구 관악로37길 15",
+      "engAddr": "15 Gwanak-ro 37-gil, Gwanak-gu, Seoul",
+      "rn": "관악로37길"
+    }
+  ]
+}

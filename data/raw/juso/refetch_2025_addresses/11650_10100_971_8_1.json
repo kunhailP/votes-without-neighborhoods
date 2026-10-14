@@ -1,0 +1,35 @@
+{
+  "retrieved_at_utc": "2026-10-14T05:53:24.721695+00:00",
+  "keyword": "서울특별시 서초구 방배동 971-8",
+  "response": [
+    {
+      "siNm": "서울특별시",
+      "lnbrMnnm": "971",
+      "bdKdcd": "1",
+      "jibunAddr": "서울특별시 서초구 방배동 971-8 네스코뮤즈빌",
+      "bdMgtSn": "1165010100109710008013822",
+      "hemdNm": "서울특별시 서초구 방배2동",
+      "roadAddr": "서울특별시 서초구 도구로 45-3 (방배동, 네스코뮤즈빌)",
+      "bdNm": "네스코뮤즈빌",
+      "rnMgtSn": "116503121003",
+      "buldMnnm": "45",
+      "hstryYn": "0",
+      "emdNm": "방배동",
+      "lnbrSlno": "8",
+      "udrtYn": "0",
+      "detBdNmList": "에이",
+      "emdNo": "01",
+      "buldSlno": "3",
+      "relJibun": "",
+      "zipNo": "06678",
+      "admCd": "1165010100",
+      "liNm": "",
+      "mtYn": "0",
+      "roadAddrPart2": " (방배동, 네스코뮤즈빌)",
+      "sggNm": "서초구",
+      "roadAddrPart1": "서울특별시 서초구 도구로 45-3",
+      "engAddr": "45-3 Dogu-ro, Seocho-gu, Seoul",
+      "rn": "도구로"
+    }
+  ]
+}

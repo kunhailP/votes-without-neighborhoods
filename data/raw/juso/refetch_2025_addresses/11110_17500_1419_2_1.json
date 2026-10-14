@@ -1,0 +1,35 @@
+{
+  "retrieved_at_utc": "2026-10-14T05:52:42.258059+00:00",
+  "keyword": "서울특별시 종로구 숭인동 1419-2",
+  "response": [
+    {
+      "siNm": "서울특별시",
+      "lnbrMnnm": "1419",
+      "bdKdcd": "1",
+      "jibunAddr": "서울특별시 종로구 숭인동 1419-2",
+      "bdMgtSn": "1111017500114190002000821",
+      "hemdNm": "서울특별시 종로구 숭인제2동",
+      "roadAddr": "서울특별시 종로구 종로66길 35 (숭인동)",
+      "bdNm": "",
+      "rnMgtSn": "111104100372",
+      "buldMnnm": "35",
+      "hstryYn": "0",
+      "emdNm": "숭인동",
+      "lnbrSlno": "2",
+      "udrtYn": "0",
+      "detBdNmList": "",
+      "emdNo": "01",
+      "buldSlno": "0",
+      "relJibun": "",
+      "zipNo": "03116",
+      "admCd": "1111017500",
+      "liNm": "",
+      "mtYn": "0",
+      "roadAddrPart2": " (숭인동)",
+      "sggNm": "종로구",
+      "roadAddrPart1": "서울특별시 종로구 종로66길 35",
+      "engAddr": "35 Jong-ro 66-gil, Jongno-gu, Seoul",
+      "rn": "종로66길"
+    }
+  ]
+}

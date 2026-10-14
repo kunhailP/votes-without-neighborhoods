@@ -1,0 +1,35 @@
+{
+  "retrieved_at_utc": "2026-10-14T05:53:07.143511+00:00",
+  "keyword": "서울특별시 마포구 망원동 422-12",
+  "response": [
+    {
+      "siNm": "서울특별시",
+      "lnbrMnnm": "422",
+      "bdKdcd": "1",
+      "jibunAddr": "서울특별시 마포구 망원동 422-12 청화아파트",
+      "bdMgtSn": "1144012300104220012014423",
+      "hemdNm": "서울특별시 마포구 망원제2동",
+      "roadAddr": "서울특별시 마포구 월드컵로25길 75 (망원동, 청화아파트)",
+      "bdNm": "청화아파트",
+      "rnMgtSn": "114404139495",
+      "buldMnnm": "75",
+      "hstryYn": "0",
+      "emdNm": "망원동",
+      "lnbrSlno": "12",
+      "udrtYn": "0",
+      "detBdNmList": "",
+      "emdNo": "01",
+      "buldSlno": "0",
+      "relJibun": "",
+      "zipNo": "03958",
+      "admCd": "1144012300",
+      "liNm": "",
+      "mtYn": "0",
+      "roadAddrPart2": " (망원동, 청화아파트)",
+      "sggNm": "마포구",
+      "roadAddrPart1": "서울특별시 마포구 월드컵로25길 75",
+      "engAddr": "75 World Cup-ro 25-gil, Mapo-gu, Seoul",
+      "rn": "월드컵로25길"
+    }
+  ]
+}

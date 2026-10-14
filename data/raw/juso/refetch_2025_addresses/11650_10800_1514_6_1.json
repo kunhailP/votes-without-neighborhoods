@@ -1,0 +1,35 @@
+{
+  "retrieved_at_utc": "2026-10-14T05:53:25.693495+00:00",
+  "keyword": "서울특별시 서초구 서초동 1514-6",
+  "response": [
+    {
+      "siNm": "서울특별시",
+      "lnbrMnnm": "1514",
+      "bdKdcd": "1",
+      "jibunAddr": "서울특별시 서초구 서초동 1514-6 옥스포드빌",
+      "bdMgtSn": "1165010800115140006021996",
+      "hemdNm": "서울특별시 서초구 서초3동",
+      "roadAddr": "서울특별시 서초구 명달로20길 25 (서초동, 옥스포드빌)",
+      "bdNm": "옥스포드빌",
+      "rnMgtSn": "116504163187",
+      "buldMnnm": "25",
+      "hstryYn": "0",
+      "emdNm": "서초동",
+      "lnbrSlno": "6",
+      "udrtYn": "0",
+      "detBdNmList": "",
+      "emdNo": "01",
+      "buldSlno": "0",
+      "relJibun": "",
+      "zipNo": "06668",
+      "admCd": "1165010800",
+      "liNm": "",
+      "mtYn": "0",
+      "roadAddrPart2": " (서초동, 옥스포드빌)",
+      "sggNm": "서초구",
+      "roadAddrPart1": "서울특별시 서초구 명달로20길 25",
+      "engAddr": "25 Myeongdal-ro 20-gil, Seocho-gu, Seoul",
+      "rn": "명달로20길"
+    }
+  ]
+}

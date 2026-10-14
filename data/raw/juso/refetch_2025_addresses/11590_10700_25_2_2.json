@@ -1,0 +1,35 @@
+{
+  "retrieved_at_utc": "2026-10-14T05:53:18.922289+00:00",
+  "keyword": "서울특별시 동작구 사당동 산 25-2",
+  "response": [
+    {
+      "siNm": "서울특별시",
+      "lnbrMnnm": "169",
+      "bdKdcd": "1",
+      "jibunAddr": "서울특별시 동작구 사당동 169-32 현대아파트",
+      "bdMgtSn": "1159010700101690032008469",
+      "hemdNm": "서울특별시 동작구 사당제3동",
+      "roadAddr": "서울특별시 동작구 사당로17길 111 (사당동, 현대아파트)",
+      "bdNm": "현대아파트",
+      "rnMgtSn": "115904157246",
+      "buldMnnm": "111",
+      "hstryYn": "0",
+      "emdNm": "사당동",
+      "lnbrSlno": "32",
+      "udrtYn": "0",
+      "detBdNmList": "2동,3동,노인정,1동",
+      "emdNo": "01",
+      "buldSlno": "0",
+      "relJibun": "서울특별시 동작구 사당동 산25-2,산25-15,220-96,220-110",
+      "zipNo": "07002",
+      "admCd": "1159010700",
+      "liNm": "",
+      "mtYn": "0",
+      "roadAddrPart2": " (사당동, 현대아파트)",
+      "sggNm": "동작구",
+      "roadAddrPart1": "서울특별시 동작구 사당로17길 111",
+      "engAddr": "111 Sadang-ro 17-gil, Dongjak-gu, Seoul",
+      "rn": "사당로17길"
+    }
+  ]
+}

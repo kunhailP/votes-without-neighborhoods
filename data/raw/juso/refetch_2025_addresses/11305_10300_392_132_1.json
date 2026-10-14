@@ -1,0 +1,35 @@
+{
+  "retrieved_at_utc": "2026-10-14T05:52:54.548019+00:00",
+  "keyword": "서울특별시 강북구 수유동 392-132",
+  "response": [
+    {
+      "siNm": "서울특별시",
+      "lnbrMnnm": "392",
+      "bdKdcd": "1",
+      "jibunAddr": "서울특별시 강북구 수유동 392-132 프롬하우징",
+      "bdMgtSn": "1130510300103920132002629",
+      "hemdNm": "서울특별시 강북구 인수동",
+      "roadAddr": "서울특별시 강북구 삼양로99길 10 (수유동, 프롬하우징)",
+      "bdNm": "프롬하우징",
+      "rnMgtSn": "113054124320",
+      "buldMnnm": "10",
+      "hstryYn": "0",
+      "emdNm": "수유동",
+      "lnbrSlno": "132",
+      "udrtYn": "0",
+      "detBdNmList": "",
+      "emdNo": "01",
+      "buldSlno": "0",
+      "relJibun": "",
+      "zipNo": "01083",
+      "admCd": "1130510300",
+      "liNm": "",
+      "mtYn": "0",
+      "roadAddrPart2": " (수유동, 프롬하우징)",
+      "sggNm": "강북구",
+      "roadAddrPart1": "서울특별시 강북구 삼양로99길 10",
+      "engAddr": "10 Samyang-ro 99-gil, Gangbuk-gu, Seoul",
+      "rn": "삼양로99길"
+    }
+  ]
+}

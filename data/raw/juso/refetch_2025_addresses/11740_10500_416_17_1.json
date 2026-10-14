@@ -1,0 +1,35 @@
+{
+  "retrieved_at_utc": "2026-10-14T05:53:36.397235+00:00",
+  "keyword": "서울특별시 강동구 길동 416-17",
+  "response": [
+    {
+      "siNm": "서울특별시",
+      "lnbrMnnm": "416",
+      "bdKdcd": "1",
+      "jibunAddr": "서울특별시 강동구 길동 416-17 다성 이즈빌",
+      "bdMgtSn": "1174010500104160017002997",
+      "hemdNm": "서울특별시 강동구 길동",
+      "roadAddr": "서울특별시 강동구 천호대로173길 39 (길동, 다성 이즈빌)",
+      "bdNm": "다성 이즈빌",
+      "rnMgtSn": "117404172383",
+      "buldMnnm": "39",
+      "hstryYn": "0",
+      "emdNm": "길동",
+      "lnbrSlno": "17",
+      "udrtYn": "0",
+      "detBdNmList": "",
+      "emdNo": "01",
+      "buldSlno": "0",
+      "relJibun": "",
+      "zipNo": "05354",
+      "admCd": "1174010500",
+      "liNm": "",
+      "mtYn": "0",
+      "roadAddrPart2": " (길동, 다성 이즈빌)",
+      "sggNm": "강동구",
+      "roadAddrPart1": "서울특별시 강동구 천호대로173길 39",
+      "engAddr": "39 Cheonho-daero 173-gil, Gangdong-gu, Seoul",
+      "rn": "천호대로173길"
+    }
+  ]
+}

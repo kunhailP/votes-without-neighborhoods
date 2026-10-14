@@ -1,0 +1,35 @@
+{
+  "retrieved_at_utc": "2026-10-14T05:53:01.817458+00:00",
+  "keyword": "서울특별시 은평구 역촌동 85-1",
+  "response": [
+    {
+      "siNm": "서울특별시",
+      "lnbrMnnm": "85",
+      "bdKdcd": "1",
+      "jibunAddr": "서울특별시 은평구 역촌동 85-1 더-위일 이노 펠리체",
+      "bdMgtSn": "1138010800100850001016892",
+      "hemdNm": "서울특별시 은평구 역촌동",
+      "roadAddr": "서울특별시 은평구 연서로 17 (역촌동, 더-위일 이노 펠리체)",
+      "bdNm": "더-위일 이노 펠리체",
+      "rnMgtSn": "113803111006",
+      "buldMnnm": "17",
+      "hstryYn": "0",
+      "emdNm": "역촌동",
+      "lnbrSlno": "1",
+      "udrtYn": "0",
+      "detBdNmList": "",
+      "emdNo": "05",
+      "buldSlno": "0",
+      "relJibun": "",
+      "zipNo": "03421",
+      "admCd": "1138010800",
+      "liNm": "",
+      "mtYn": "0",
+      "roadAddrPart2": " (역촌동, 더-위일 이노 펠리체)",
+      "sggNm": "은평구",
+      "roadAddrPart1": "서울특별시 은평구 연서로 17",
+      "engAddr": "17 Yeonseo-ro, Eunpyeong-gu, Seoul",
+      "rn": "연서로"
+    }
+  ]
+}

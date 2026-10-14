@@ -1,0 +1,35 @@
+{
+  "retrieved_at_utc": "2026-10-14T05:53:09.893851+00:00",
+  "keyword": "서울특별시 양천구 신월동 492-1",
+  "response": [
+    {
+      "siNm": "서울특별시",
+      "lnbrMnnm": "492",
+      "bdKdcd": "1",
+      "jibunAddr": "서울특별시 양천구 신월동 492-1 동양부로미아파트1",
+      "bdMgtSn": "1147010300104920001022143",
+      "hemdNm": "서울특별시 양천구 신월2동",
+      "roadAddr": "서울특별시 양천구 오목로13길 14 (신월동, 동양부로미아파트1)",
+      "bdNm": "동양부로미아파트1",
+      "rnMgtSn": "114704142280",
+      "buldMnnm": "14",
+      "hstryYn": "0",
+      "emdNm": "신월동",
+      "lnbrSlno": "1",
+      "udrtYn": "0",
+      "detBdNmList": "",
+      "emdNo": "01",
+      "buldSlno": "0",
+      "relJibun": "",
+      "zipNo": "07935",
+      "admCd": "1147010300",
+      "liNm": "",
+      "mtYn": "0",
+      "roadAddrPart2": " (신월동, 동양부로미아파트1)",
+      "sggNm": "양천구",
+      "roadAddrPart1": "서울특별시 양천구 오목로13길 14",
+      "engAddr": "14 Omok-ro 13-gil, Yangcheon-gu, Seoul",
+      "rn": "오목로13길"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "retrieved_at_utc": "2026-10-14T05:53:13.127215+00:00",
+  "keyword": "서울특별시 구로구 구로동 800-29",
+  "response": [
+    {
+      "siNm": "서울특별시",
+      "lnbrMnnm": "800",
+      "bdKdcd": "1",
+      "jibunAddr": "서울특별시 구로구 구로동 800-29",
+      "bdMgtSn": "1153010200108000029022132",
+      "hemdNm": "서울특별시 구로구 구로제3동",
+      "roadAddr": "서울특별시 구로구 도림로6길 7 (구로동)",
+      "bdNm": "",
+      "rnMgtSn": "115304148316",
+      "buldMnnm": "7",
+      "hstryYn": "0",
+      "emdNm": "구로동",
+      "lnbrSlno": "29",
+      "udrtYn": "0",
+      "detBdNmList": "",
+      "emdNo": "01",
+      "buldSlno": "0",
+      "relJibun": "서울특별시 구로구 구로동 800-52",
+      "zipNo": "08374",
+      "admCd": "1153010200",
+      "liNm": "",
+      "mtYn": "0",
+      "roadAddrPart2": " (구로동)",
+      "sggNm": "구로구",
+      "roadAddrPart1": "서울특별시 구로구 도림로6길 7",
+      "engAddr": "7 Dorim-ro 6-gil, Guro-gu, Seoul",
+      "rn": "도림로6길"
+    }
+  ]
+}

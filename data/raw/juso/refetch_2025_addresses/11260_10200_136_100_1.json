@@ -1,0 +1,35 @@
+{
+  "retrieved_at_utc": "2026-10-14T05:52:50.491732+00:00",
+  "keyword": "서울특별시 중랑구 상봉동 136-100",
+  "response": [
+    {
+      "siNm": "서울특별시",
+      "lnbrMnnm": "136",
+      "bdKdcd": "1",
+      "jibunAddr": "서울특별시 중랑구 상봉동 136-100 매원아파트",
+      "bdMgtSn": "1126010200101360100016016",
+      "hemdNm": "서울특별시 중랑구 상봉제2동",
+      "roadAddr": "서울특별시 중랑구 중랑천로12길 13 (상봉동, 매원아파트)",
+      "bdNm": "매원아파트",
+      "rnMgtSn": "112604118561",
+      "buldMnnm": "13",
+      "hstryYn": "0",
+      "emdNm": "상봉동",
+      "lnbrSlno": "100",
+      "udrtYn": "0",
+      "detBdNmList": "",
+      "emdNo": "01",
+      "buldSlno": "0",
+      "relJibun": "",
+      "zipNo": "02119",
+      "admCd": "1126010200",
+      "liNm": "",
+      "mtYn": "0",
+      "roadAddrPart2": " (상봉동, 매원아파트)",
+      "sggNm": "중랑구",
+      "roadAddrPart1": "서울특별시 중랑구 중랑천로12길 13",
+      "engAddr": "13 Jungnangcheon-ro 12-gil, Jungnang-gu, Seoul",
+      "rn": "중랑천로12길"
+    }
+  ]
+}

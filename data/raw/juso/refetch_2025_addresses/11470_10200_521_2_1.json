@@ -1,0 +1,35 @@
+{
+  "retrieved_at_utc": "2026-10-14T05:53:09.989743+00:00",
+  "keyword": "서울특별시 양천구 목동 521-2",
+  "response": [
+    {
+      "siNm": "서울특별시",
+      "lnbrMnnm": "521",
+      "bdKdcd": "1",
+      "jibunAddr": "서울특별시 양천구 목동 521-2 두레아파트",
+      "bdMgtSn": "1147010200105210002020348",
+      "hemdNm": "서울특별시 양천구 목2동",
+      "roadAddr": "서울특별시 양천구 목동중앙북로 126 (목동, 두레아파트)",
+      "bdNm": "두레아파트",
+      "rnMgtSn": "114703114007",
+      "buldMnnm": "126",
+      "hstryYn": "0",
+      "emdNm": "목동",
+      "lnbrSlno": "2",
+      "udrtYn": "0",
+      "detBdNmList": "",
+      "emdNo": "01",
+      "buldSlno": "0",
+      "relJibun": "서울특별시 양천구 목동 521-3,521-26",
+      "zipNo": "07970",
+      "admCd": "1147010200",
+      "liNm": "",
+      "mtYn": "0",
+      "roadAddrPart2": " (목동, 두레아파트)",
+      "sggNm": "양천구",
+      "roadAddrPart1": "서울특별시 양천구 목동중앙북로 126",
+      "engAddr": "126 Mokdongjungangbuk-ro, Yangcheon-gu, Seoul",
+      "rn": "목동중앙북로"
+    }
+  ]
+}

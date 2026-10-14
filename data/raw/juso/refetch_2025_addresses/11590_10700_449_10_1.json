@@ -1,0 +1,35 @@
+{
+  "retrieved_at_utc": "2026-10-14T05:53:17.303343+00:00",
+  "keyword": "서울특별시 동작구 사당동 449-10",
+  "response": [
+    {
+      "siNm": "서울특별시",
+      "lnbrMnnm": "449",
+      "bdKdcd": "1",
+      "jibunAddr": "서울특별시 동작구 사당동 449-10 해맑은아파트",
+      "bdMgtSn": "1159010700104490010011888",
+      "hemdNm": "서울특별시 동작구 사당제1동",
+      "roadAddr": "서울특별시 동작구 남부순환로255나길 18 (사당동, 해맑은아파트)",
+      "bdNm": "해맑은아파트",
+      "rnMgtSn": "115904157032",
+      "buldMnnm": "18",
+      "hstryYn": "0",
+      "emdNm": "사당동",
+      "lnbrSlno": "10",
+      "udrtYn": "0",
+      "detBdNmList": "",
+      "emdNo": "01",
+      "buldSlno": "0",
+      "relJibun": "",
+      "zipNo": "07021",
+      "admCd": "1159010700",
+      "liNm": "",
+      "mtYn": "0",
+      "roadAddrPart2": " (사당동, 해맑은아파트)",
+      "sggNm": "동작구",
+      "roadAddrPart1": "서울특별시 동작구 남부순환로255나길 18",
+      "engAddr": "18 Nambusunhwan-ro 255na-gil, Dongjak-gu, Seoul",
+      "rn": "남부순환로255나길"
+    }
+  ]
+}

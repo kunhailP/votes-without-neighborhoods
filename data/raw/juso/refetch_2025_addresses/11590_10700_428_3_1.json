@@ -1,0 +1,35 @@
+{
+  "retrieved_at_utc": "2026-10-14T05:53:19.876284+00:00",
+  "keyword": "서울특별시 동작구 사당동 428-3",
+  "response": [
+    {
+      "siNm": "서울특별시",
+      "lnbrMnnm": "428",
+      "bdKdcd": "1",
+      "jibunAddr": "서울특별시 동작구 사당동 428-3",
+      "bdMgtSn": "1159010700104280003000001",
+      "hemdNm": "서울특별시 동작구 사당제1동",
+      "roadAddr": "서울특별시 동작구 남부순환로265길 108 (사당동)",
+      "bdNm": "",
+      "rnMgtSn": "115904157044",
+      "buldMnnm": "108",
+      "hstryYn": "0",
+      "emdNm": "사당동",
+      "lnbrSlno": "3",
+      "udrtYn": "0",
+      "detBdNmList": "",
+      "emdNo": "01",
+      "buldSlno": "0",
+      "relJibun": "",
+      "zipNo": "07016",
+      "admCd": "1159010700",
+      "liNm": "",
+      "mtYn": "0",
+      "roadAddrPart2": " (사당동)",
+      "sggNm": "동작구",
+      "roadAddrPart1": "서울특별시 동작구 남부순환로265길 108",
+      "engAddr": "108 Nambusunhwan-ro 265-gil, Dongjak-gu, Seoul",
+      "rn": "남부순환로265길"
+    }
+  ]
+}

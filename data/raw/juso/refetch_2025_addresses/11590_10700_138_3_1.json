@@ -1,0 +1,35 @@
+{
+  "retrieved_at_utc": "2026-10-14T05:53:19.019362+00:00",
+  "keyword": "서울특별시 동작구 사당동 138-3",
+  "response": [
+    {
+      "siNm": "서울특별시",
+      "lnbrMnnm": "138",
+      "bdKdcd": "1",
+      "jibunAddr": "서울특별시 동작구 사당동 138-3 사당동 주상복합",
+      "bdMgtSn": "1159010700101380003034108",
+      "hemdNm": "서울특별시 동작구 사당제2동",
+      "roadAddr": "서울특별시 동작구 동작대로27다길 26 (사당동, 사당동 주상복합)",
+      "bdNm": "사당동 주상복합",
+      "rnMgtSn": "115904157122",
+      "buldMnnm": "26",
+      "hstryYn": "0",
+      "emdNm": "사당동",
+      "lnbrSlno": "3",
+      "udrtYn": "0",
+      "detBdNmList": "",
+      "emdNo": "01",
+      "buldSlno": "0",
+      "relJibun": "서울특별시 동작구 사당동 138-5,142-6,142-7,142-8",
+      "zipNo": "07008",
+      "admCd": "1159010700",
+      "liNm": "",
+      "mtYn": "0",
+      "roadAddrPart2": " (사당동, 사당동 주상복합)",
+      "sggNm": "동작구",
+      "roadAddrPart1": "서울특별시 동작구 동작대로27다길 26",
+      "engAddr": "26 Dongjak-daero 27da-gil, Dongjak-gu, Seoul",
+      "rn": "동작대로27다길"
+    }
+  ]
+}

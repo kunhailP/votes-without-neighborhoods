@@ -1,0 +1,35 @@
+{
+  "retrieved_at_utc": "2026-10-14T05:52:43.282413+00:00",
+  "keyword": "서울특별시 용산구 서빙고동 4-18",
+  "response": [
+    {
+      "siNm": "서울특별시",
+      "lnbrMnnm": "4",
+      "bdKdcd": "1",
+      "jibunAddr": "서울특별시 용산구 서빙고동 4-18 아페르 한강",
+      "bdMgtSn": "1117013300100040018003842",
+      "hemdNm": "서울특별시 용산구 서빙고동",
+      "roadAddr": "서울특별시 용산구 녹사평대로11길 14 (서빙고동, 아페르 한강)",
+      "bdNm": "아페르 한강",
+      "rnMgtSn": "111704106002",
+      "buldMnnm": "14",
+      "hstryYn": "0",
+      "emdNm": "서빙고동",
+      "lnbrSlno": "18",
+      "udrtYn": "0",
+      "detBdNmList": "",
+      "emdNo": "01",
+      "buldSlno": "0",
+      "relJibun": "",
+      "zipNo": "04384",
+      "admCd": "1117013300",
+      "liNm": "",
+      "mtYn": "0",
+      "roadAddrPart2": " (서빙고동, 아페르 한강)",
+      "sggNm": "용산구",
+      "roadAddrPart1": "서울특별시 용산구 녹사평대로11길 14",
+      "engAddr": "14 Noksapyeong-daero 11-gil, Yongsan-gu, Seoul",
+      "rn": "녹사평대로11길"
+    }
+  ]
+}

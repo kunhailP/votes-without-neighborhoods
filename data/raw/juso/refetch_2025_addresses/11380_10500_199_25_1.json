@@ -1,0 +1,35 @@
+{
+  "retrieved_at_utc": "2026-10-14T05:53:01.494244+00:00",
+  "keyword": "서울특별시 은평구 구산동 199-25",
+  "response": [
+    {
+      "siNm": "서울특별시",
+      "lnbrMnnm": "199",
+      "bdKdcd": "1",
+      "jibunAddr": "서울특별시 은평구 구산동 199-25 구산아파트",
+      "bdMgtSn": "1138010500101990025046074",
+      "hemdNm": "서울특별시 은평구 구산동",
+      "roadAddr": "서울특별시 은평구 서오릉로 179 (구산동, 구산아파트)",
+      "bdNm": "구산아파트",
+      "rnMgtSn": "113803000007",
+      "buldMnnm": "179",
+      "hstryYn": "0",
+      "emdNm": "구산동",
+      "lnbrSlno": "25",
+      "udrtYn": "0",
+      "detBdNmList": "",
+      "emdNo": "03",
+      "buldSlno": "0",
+      "relJibun": "",
+      "zipNo": "03410",
+      "admCd": "1138010500",
+      "liNm": "",
+      "mtYn": "0",
+      "roadAddrPart2": " (구산동, 구산아파트)",
+      "sggNm": "은평구",
+      "roadAddrPart1": "서울특별시 은평구 서오릉로 179",
+      "engAddr": "179 Seooreung-ro, Eunpyeong-gu, Seoul",
+      "rn": "서오릉로"
+    }
+  ]
+}

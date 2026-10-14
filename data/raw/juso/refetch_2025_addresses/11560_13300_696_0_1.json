@@ -1,0 +1,35 @@
+{
+  "retrieved_at_utc": "2026-10-14T05:53:15.380473+00:00",
+  "keyword": "서울특별시 영등포구 대림동 696",
+  "response": [
+    {
+      "siNm": "서울특별시",
+      "lnbrMnnm": "762",
+      "bdKdcd": "1",
+      "jibunAddr": "서울특별시 영등포구 대림동 762-1 우성아파트",
+      "bdMgtSn": "1156013300106960000001791",
+      "hemdNm": "서울특별시 영등포구 대림제3동",
+      "roadAddr": "서울특별시 영등포구 도림로 187 (대림동, 우성아파트)",
+      "bdNm": "우성아파트",
+      "rnMgtSn": "115603116010",
+      "buldMnnm": "187",
+      "hstryYn": "0",
+      "emdNm": "대림동",
+      "lnbrSlno": "1",
+      "udrtYn": "0",
+      "detBdNmList": "관리사무소,3동,5동,1동,2동",
+      "emdNo": "06",
+      "buldSlno": "0",
+      "relJibun": "서울특별시 영등포구 대림동 696,765-1,765-3",
+      "zipNo": "07410",
+      "admCd": "1156013300",
+      "liNm": "",
+      "mtYn": "0",
+      "roadAddrPart2": " (대림동, 우성아파트)",
+      "sggNm": "영등포구",
+      "roadAddrPart1": "서울특별시 영등포구 도림로 187",
+      "engAddr": "187 Dorim-ro, Yeongdeungpo-gu, Seoul",
+      "rn": "도림로"
+    }
+  ]
+}

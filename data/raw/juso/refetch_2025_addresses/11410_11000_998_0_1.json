@@ -1,0 +1,35 @@
+{
+  "retrieved_at_utc": "2026-10-14T05:53:04.792400+00:00",
+  "keyword": "서울특별시 서대문구 북아현동 998",
+  "response": [
+    {
+      "siNm": "서울특별시",
+      "lnbrMnnm": "998",
+      "bdKdcd": "1",
+      "jibunAddr": "서울특별시 서대문구 북아현동 998 신촌 헤리센트",
+      "bdMgtSn": "1141011000109980000028201",
+      "hemdNm": "서울특별시 서대문구 북아현동",
+      "roadAddr": "서울특별시 서대문구 신촌로37길 22 (북아현동, 신촌 헤리센트)",
+      "bdNm": "신촌 헤리센트",
+      "rnMgtSn": "114104136221",
+      "buldMnnm": "22",
+      "hstryYn": "0",
+      "emdNm": "북아현동",
+      "lnbrSlno": "0",
+      "udrtYn": "0",
+      "detBdNmList": "",
+      "emdNo": "01",
+      "buldSlno": "0",
+      "relJibun": "",
+      "zipNo": "03758",
+      "admCd": "1141011000",
+      "liNm": "",
+      "mtYn": "0",
+      "roadAddrPart2": " (북아현동, 신촌 헤리센트)",
+      "sggNm": "서대문구",
+      "roadAddrPart1": "서울특별시 서대문구 신촌로37길 22",
+      "engAddr": "22 Sinchon-ro 37-gil, Seodaemun-gu, Seoul",
+      "rn": "신촌로37길"
+    }
+  ]
+}

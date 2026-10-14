@@ -1,0 +1,35 @@
+{
+  "retrieved_at_utc": "2026-10-14T05:53:11.024725+00:00",
+  "keyword": "서울특별시 강서구 화곡동 1137",
+  "response": [
+    {
+      "siNm": "서울특별시",
+      "lnbrMnnm": "1137",
+      "bdKdcd": "1",
+      "jibunAddr": "서울특별시 강서구 화곡동 1137 곰달래아파트",
+      "bdMgtSn": "1150010300111370000022898",
+      "hemdNm": "서울특별시 강서구 화곡제2동",
+      "roadAddr": "서울특별시 강서구 국회대로7길 53 (화곡동, 곰달래아파트)",
+      "bdNm": "곰달래아파트",
+      "rnMgtSn": "115004145228",
+      "buldMnnm": "53",
+      "hstryYn": "0",
+      "emdNm": "화곡동",
+      "lnbrSlno": "0",
+      "udrtYn": "0",
+      "detBdNmList": "",
+      "emdNo": "01",
+      "buldSlno": "0",
+      "relJibun": "",
+      "zipNo": "07787",
+      "admCd": "1150010300",
+      "liNm": "",
+      "mtYn": "0",
+      "roadAddrPart2": " (화곡동, 곰달래아파트)",
+      "sggNm": "강서구",
+      "roadAddrPart1": "서울특별시 강서구 국회대로7길 53",
+      "engAddr": "53 Gukhoe-daero 7-gil, Gangseo-gu, Seoul",
+      "rn": "국회대로7길"
+    }
+  ]
+}

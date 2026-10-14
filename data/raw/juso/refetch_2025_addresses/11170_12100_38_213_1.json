@@ -1,0 +1,35 @@
+{
+  "retrieved_at_utc": "2026-10-14T05:52:44.255160+00:00",
+  "keyword": "서울특별시 용산구 용문동 38-213",
+  "response": [
+    {
+      "siNm": "서울특별시",
+      "lnbrMnnm": "38",
+      "bdKdcd": "1",
+      "jibunAddr": "서울특별시 용산구 용문동 38-213 드림빌",
+      "bdMgtSn": "1117012100100380213015948",
+      "hemdNm": "서울특별시 용산구 용문동",
+      "roadAddr": "서울특별시 용산구 효창원로37마길 12 (용문동, 드림빌)",
+      "bdNm": "드림빌",
+      "rnMgtSn": "111704106535",
+      "buldMnnm": "12",
+      "hstryYn": "0",
+      "emdNm": "용문동",
+      "lnbrSlno": "213",
+      "udrtYn": "0",
+      "detBdNmList": "",
+      "emdNo": "01",
+      "buldSlno": "0",
+      "relJibun": "",
+      "zipNo": "04356",
+      "admCd": "1117012100",
+      "liNm": "",
+      "mtYn": "0",
+      "roadAddrPart2": " (용문동, 드림빌)",
+      "sggNm": "용산구",
+      "roadAddrPart1": "서울특별시 용산구 효창원로37마길 12",
+      "engAddr": "12 Hyochangwon-ro 37ma-gil, Yongsan-gu, Seoul",
+      "rn": "효창원로37마길"
+    }
+  ]
+}

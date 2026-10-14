@@ -1,0 +1,35 @@
+{
+  "retrieved_at_utc": "2026-10-14T05:53:05.789496+00:00",
+  "keyword": "서울특별시 서대문구 창천동 72-31",
+  "response": [
+    {
+      "siNm": "서울특별시",
+      "lnbrMnnm": "72",
+      "bdKdcd": "0",
+      "jibunAddr": "서울특별시 서대문구 창천동 72-31",
+      "bdMgtSn": "1141011600100720031032769",
+      "hemdNm": "서울특별시 서대문구 신촌동",
+      "roadAddr": "서울특별시 서대문구 신촌로 59 (창천동)",
+      "bdNm": "",
+      "rnMgtSn": "114103005057",
+      "buldMnnm": "59",
+      "hstryYn": "0",
+      "emdNm": "창천동",
+      "lnbrSlno": "31",
+      "udrtYn": "0",
+      "detBdNmList": "",
+      "emdNo": "04",
+      "buldSlno": "0",
+      "relJibun": "서울특별시 서대문구 창천동 72-32,72-33",
+      "zipNo": "03787",
+      "admCd": "1141011600",
+      "liNm": "",
+      "mtYn": "0",
+      "roadAddrPart2": " (창천동)",
+      "sggNm": "서대문구",
+      "roadAddrPart1": "서울특별시 서대문구 신촌로 59",
+      "engAddr": "59 Sinchon-ro, Seodaemun-gu, Seoul",
+      "rn": "신촌로"
+    }
+  ]
+}

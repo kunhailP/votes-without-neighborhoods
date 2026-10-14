@@ -1,0 +1,35 @@
+{
+  "retrieved_at_utc": "2026-10-14T05:52:52.112415+00:00",
+  "keyword": "서울특별시 강북구 번동 459-63",
+  "response": [
+    {
+      "siNm": "서울특별시",
+      "lnbrMnnm": "459",
+      "bdKdcd": "1",
+      "jibunAddr": "서울특별시 강북구 번동 459-63 다우아파트",
+      "bdMgtSn": "1130510200104590063018139",
+      "hemdNm": "서울특별시 강북구 번1동",
+      "roadAddr": "서울특별시 강북구 한천로130길 24 (번동, 다우아파트)",
+      "bdNm": "다우아파트",
+      "rnMgtSn": "113054124564",
+      "buldMnnm": "24",
+      "hstryYn": "0",
+      "emdNm": "번동",
+      "lnbrSlno": "63",
+      "udrtYn": "0",
+      "detBdNmList": "",
+      "emdNo": "01",
+      "buldSlno": "0",
+      "relJibun": "",
+      "zipNo": "01059",
+      "admCd": "1130510200",
+      "liNm": "",
+      "mtYn": "0",
+      "roadAddrPart2": " (번동, 다우아파트)",
+      "sggNm": "강북구",
+      "roadAddrPart1": "서울특별시 강북구 한천로130길 24",
+      "engAddr": "24 Hancheon-ro 130-gil, Gangbuk-gu, Seoul",
+      "rn": "한천로130길"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "retrieved_at_utc": "2026-10-14T05:52:46.336810+00:00",
+  "keyword": "서울특별시 광진구 화양동 18-12",
+  "response": [
+    {
+      "siNm": "서울특별시",
+      "lnbrMnnm": "18",
+      "bdKdcd": "1",
+      "jibunAddr": "서울특별시 광진구 화양동 18-12 광진청년생활",
+      "bdMgtSn": "1121510700100180012016920",
+      "hemdNm": "서울특별시 광진구 화양동",
+      "roadAddr": "서울특별시 광진구 동일로30길 31 (화양동, 광진청년생활)",
+      "bdNm": "광진청년생활",
+      "rnMgtSn": "112154112202",
+      "buldMnnm": "31",
+      "hstryYn": "0",
+      "emdNm": "화양동",
+      "lnbrSlno": "12",
+      "udrtYn": "0",
+      "detBdNmList": "",
+      "emdNo": "01",
+      "buldSlno": "0",
+      "relJibun": "",
+      "zipNo": "05008",
+      "admCd": "1121510700",
+      "liNm": "",
+      "mtYn": "0",
+      "roadAddrPart2": " (화양동, 광진청년생활)",
+      "sggNm": "광진구",
+      "roadAddrPart1": "서울특별시 광진구 동일로30길 31",
+      "engAddr": "31 Dongil-ro 30-gil, Gwangjin-gu, Seoul",
+      "rn": "동일로30길"
+    }
+  ]
+}

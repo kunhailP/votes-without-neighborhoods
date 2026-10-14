@@ -1,0 +1,35 @@
+{
+  "retrieved_at_utc": "2026-10-14T05:53:22.935246+00:00",
+  "keyword": "서울특별시 서초구 서초동 1495-1",
+  "response": [
+    {
+      "siNm": "서울특별시",
+      "lnbrMnnm": "1495",
+      "bdKdcd": "1",
+      "jibunAddr": "서울특별시 서초구 서초동 1495-1 현대서초빌라트",
+      "bdMgtSn": "1165010800114950001021206",
+      "hemdNm": "서울특별시 서초구 서초3동",
+      "roadAddr": "서울특별시 서초구 명달로17길 40 (서초동, 현대서초빌라트)",
+      "bdNm": "현대서초빌라트",
+      "rnMgtSn": "116504163185",
+      "buldMnnm": "40",
+      "hstryYn": "0",
+      "emdNm": "서초동",
+      "lnbrSlno": "1",
+      "udrtYn": "0",
+      "detBdNmList": "",
+      "emdNo": "01",
+      "buldSlno": "0",
+      "relJibun": "",
+      "zipNo": "06660",
+      "admCd": "1165010800",
+      "liNm": "",
+      "mtYn": "0",
+      "roadAddrPart2": " (서초동, 현대서초빌라트)",
+      "sggNm": "서초구",
+      "roadAddrPart1": "서울특별시 서초구 명달로17길 40",
+      "engAddr": "40 Myeongdal-ro 17-gil, Seocho-gu, Seoul",
+      "rn": "명달로17길"
+    }
+  ]
+}

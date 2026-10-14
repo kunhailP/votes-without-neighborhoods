@@ -1,0 +1,35 @@
+{
+  "retrieved_at_utc": "2026-10-14T05:52:53.171750+00:00",
+  "keyword": "서울특별시 강북구 미아동 189-30",
+  "response": [
+    {
+      "siNm": "서울특별시",
+      "lnbrMnnm": "189",
+      "bdKdcd": "1",
+      "jibunAddr": "서울특별시 강북구 미아동 189-30 헤리움",
+      "bdMgtSn": "1130510100101890030000002",
+      "hemdNm": "서울특별시 강북구 미아동",
+      "roadAddr": "서울특별시 강북구 덕릉로28길 54 (미아동, 헤리움)",
+      "bdNm": "헤리움",
+      "rnMgtSn": "113054124037",
+      "buldMnnm": "54",
+      "hstryYn": "0",
+      "emdNm": "미아동",
+      "lnbrSlno": "30",
+      "udrtYn": "0",
+      "detBdNmList": "",
+      "emdNo": "01",
+      "buldSlno": "0",
+      "relJibun": "서울특별시 강북구 미아동 189-31,189-32",
+      "zipNo": "01128",
+      "admCd": "1130510100",
+      "liNm": "",
+      "mtYn": "0",
+      "roadAddrPart2": " (미아동, 헤리움)",
+      "sggNm": "강북구",
+      "roadAddrPart1": "서울특별시 강북구 덕릉로28길 54",
+      "engAddr": "54 Deongneung-ro 28-gil, Gangbuk-gu, Seoul",
+      "rn": "덕릉로28길"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "retrieved_at_utc": "2026-10-14T05:53:04.783068+00:00",
+  "keyword": "서울특별시 서대문구 연희동 171-10",
+  "response": [
+    {
+      "siNm": "서울특별시",
+      "lnbrMnnm": "171",
+      "bdKdcd": "1",
+      "jibunAddr": "서울특별시 서대문구 연희동 171-10 제니스APT",
+      "bdMgtSn": "1141011700101710010000003",
+      "hemdNm": "서울특별시 서대문구 연희동",
+      "roadAddr": "서울특별시 서대문구 모래내로 376 (연희동, 제니스APT)",
+      "bdNm": "제니스APT",
+      "rnMgtSn": "114103112015",
+      "buldMnnm": "376",
+      "hstryYn": "0",
+      "emdNm": "연희동",
+      "lnbrSlno": "10",
+      "udrtYn": "0",
+      "detBdNmList": "",
+      "emdNo": "02",
+      "buldSlno": "0",
+      "relJibun": "서울특별시 서대문구 연희동 170-233,170-272",
+      "zipNo": "03717",
+      "admCd": "1141011700",
+      "liNm": "",
+      "mtYn": "0",
+      "roadAddrPart2": " (연희동, 제니스APT)",
+      "sggNm": "서대문구",
+      "roadAddrPart1": "서울특별시 서대문구 모래내로 376",
+      "engAddr": "376 Moraenae-ro, Seodaemun-gu, Seoul",
+      "rn": "모래내로"
+    }
+  ]
+}

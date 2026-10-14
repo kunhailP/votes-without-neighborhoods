@@ -1,0 +1,35 @@
+{
+  "retrieved_at_utc": "2026-10-14T05:53:08.207313+00:00",
+  "keyword": "서울특별시 양천구 신정동 906-4",
+  "response": [
+    {
+      "siNm": "서울특별시",
+      "lnbrMnnm": "906",
+      "bdKdcd": "1",
+      "jibunAddr": "서울특별시 양천구 신정동 906-4 보성제이드아파트",
+      "bdMgtSn": "1147010100109060004002145",
+      "hemdNm": "서울특별시 양천구 신정4동",
+      "roadAddr": "서울특별시 양천구 은행정로 72 (신정동, 보성제이드아파트)",
+      "bdNm": "보성제이드아파트",
+      "rnMgtSn": "114703114012",
+      "buldMnnm": "72",
+      "hstryYn": "0",
+      "emdNm": "신정동",
+      "lnbrSlno": "4",
+      "udrtYn": "0",
+      "detBdNmList": "",
+      "emdNo": "01",
+      "buldSlno": "0",
+      "relJibun": "",
+      "zipNo": "07945",
+      "admCd": "1147010100",
+      "liNm": "",
+      "mtYn": "0",
+      "roadAddrPart2": " (신정동, 보성제이드아파트)",
+      "sggNm": "양천구",
+      "roadAddrPart1": "서울특별시 양천구 은행정로 72",
+      "engAddr": "72 Eunhaengjeong-ro, Yangcheon-gu, Seoul",
+      "rn": "은행정로"
+    }
+  ]
+}

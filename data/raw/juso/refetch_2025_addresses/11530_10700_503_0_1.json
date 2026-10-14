@@ -1,0 +1,35 @@
+{
+  "retrieved_at_utc": "2026-10-14T05:53:14.415901+00:00",
+  "keyword": "서울특별시 구로구 개봉동 503",
+  "response": [
+    {
+      "siNm": "서울특별시",
+      "lnbrMnnm": "503",
+      "bdKdcd": "1",
+      "jibunAddr": "서울특별시 구로구 개봉동 503 세이지움 개봉",
+      "bdMgtSn": "1153010700104030029008965",
+      "hemdNm": "서울특별시 구로구 개봉제2동",
+      "roadAddr": "서울특별시 구로구 개봉로19길 11 (개봉동, 세이지움 개봉)",
+      "bdNm": "세이지움 개봉",
+      "rnMgtSn": "115304148043",
+      "buldMnnm": "11",
+      "hstryYn": "0",
+      "emdNm": "개봉동",
+      "lnbrSlno": "0",
+      "udrtYn": "0",
+      "detBdNmList": "아파트",
+      "emdNo": "01",
+      "buldSlno": "0",
+      "relJibun": "",
+      "zipNo": "08337",
+      "admCd": "1153010700",
+      "liNm": "",
+      "mtYn": "0",
+      "roadAddrPart2": " (개봉동, 세이지움 개봉)",
+      "sggNm": "구로구",
+      "roadAddrPart1": "서울특별시 구로구 개봉로19길 11",
+      "engAddr": "11 Gaebong-ro 19-gil, Guro-gu, Seoul",
+      "rn": "개봉로19길"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "retrieved_at_utc": "2026-10-14T05:52:56.597952+00:00",
+  "keyword": "서울특별시 노원구 공릉동 684-41",
+  "response": [
+    {
+      "siNm": "서울특별시",
+      "lnbrMnnm": "684",
+      "bdKdcd": "1",
+      "jibunAddr": "서울특별시 노원구 공릉동 684-41 태릉입구역 이니티움",
+      "bdMgtSn": "1135010300106840041000001",
+      "hemdNm": "서울특별시 노원구 공릉1동",
+      "roadAddr": "서울특별시 노원구 화랑로 419-3 (공릉동, 태릉입구역 이니티움)",
+      "bdNm": "태릉입구역 이니티움",
+      "rnMgtSn": "113503005046",
+      "buldMnnm": "419",
+      "hstryYn": "0",
+      "emdNm": "공릉동",
+      "lnbrSlno": "41",
+      "udrtYn": "0",
+      "detBdNmList": "",
+      "emdNo": "02",
+      "buldSlno": "3",
+      "relJibun": "서울특별시 노원구 공릉동 684-43,684-58,684-59",
+      "zipNo": "01860",
+      "admCd": "1135010300",
+      "liNm": "",
+      "mtYn": "0",
+      "roadAddrPart2": " (공릉동, 태릉입구역 이니티움)",
+      "sggNm": "노원구",
+      "roadAddrPart1": "서울특별시 노원구 화랑로 419-3",
+      "engAddr": "419-3 Hwarang-ro, Nowon-gu, Seoul",
+      "rn": "화랑로"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "retrieved_at_utc": "2026-10-14T05:53:21.960630+00:00",
+  "keyword": "서울특별시 서초구 방배동 843-11",
+  "response": [
+    {
+      "siNm": "서울특별시",
+      "lnbrMnnm": "843",
+      "bdKdcd": "1",
+      "jibunAddr": "서울특별시 서초구 방배동 843-11 방배4차상지리츠빌",
+      "bdMgtSn": "1165010100108430011010106",
+      "hemdNm": "서울특별시 서초구 방배4동",
+      "roadAddr": "서울특별시 서초구 서초대로33길 84-24 (방배동, 방배4차상지리츠빌)",
+      "bdNm": "방배4차상지리츠빌",
+      "rnMgtSn": "116504163401",
+      "buldMnnm": "84",
+      "hstryYn": "0",
+      "emdNm": "방배동",
+      "lnbrSlno": "11",
+      "udrtYn": "0",
+      "detBdNmList": "",
+      "emdNo": "01",
+      "buldSlno": "24",
+      "relJibun": "",
+      "zipNo": "06587",
+      "admCd": "1165010100",
+      "liNm": "",
+      "mtYn": "0",
+      "roadAddrPart2": " (방배동, 방배4차상지리츠빌)",
+      "sggNm": "서초구",
+      "roadAddrPart1": "서울특별시 서초구 서초대로33길 84-24",
+      "engAddr": "84-24 Seocho-daero 33-gil, Seocho-gu, Seoul",
+      "rn": "서초대로33길"
+    }
+  ]
+}

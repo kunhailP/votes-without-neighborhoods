@@ -1,0 +1,14 @@
+{
+  "python": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]",
+  "packages": {
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "pandas": "3.0.6",
+    "statsmodels": "0.15.0",
+    "matplotlib": "3.11.2",
+    "geopandas": "1.2.0",
+    "pytest": "9.1.1",
+    "python-docx": "1.2.0"
+  },
+  "validation": "39 tests passed; 14 bound configurations and 246 integer allocations verified on 2026-10-14"
+}

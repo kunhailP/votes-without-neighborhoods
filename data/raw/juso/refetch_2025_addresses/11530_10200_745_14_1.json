@@ -1,0 +1,35 @@
+{
+  "retrieved_at_utc": "2026-10-14T05:53:14.025262+00:00",
+  "keyword": "서울특별시 구로구 구로동 745-14",
+  "response": [
+    {
+      "siNm": "서울특별시",
+      "lnbrMnnm": "745",
+      "bdKdcd": "1",
+      "jibunAddr": "서울특별시 구로구 구로동 745-14",
+      "bdMgtSn": "1153010200107450014021433",
+      "hemdNm": "서울특별시 구로구 구로제4동",
+      "roadAddr": "서울특별시 구로구 구로동로18길 30-6 (구로동)",
+      "bdNm": "",
+      "rnMgtSn": "115304148204",
+      "buldMnnm": "30",
+      "hstryYn": "0",
+      "emdNm": "구로동",
+      "lnbrSlno": "14",
+      "udrtYn": "0",
+      "detBdNmList": "",
+      "emdNo": "01",
+      "buldSlno": "6",
+      "relJibun": "서울특별시 구로구 구로동 745-23",
+      "zipNo": "08319",
+      "admCd": "1153010200",
+      "liNm": "",
+      "mtYn": "0",
+      "roadAddrPart2": " (구로동)",
+      "sggNm": "구로구",
+      "roadAddrPart1": "서울특별시 구로구 구로동로18길 30-6",
+      "engAddr": "30-6 Gurodong-ro 18-gil, Guro-gu, Seoul",
+      "rn": "구로동로18길"
+    }
+  ]
+}

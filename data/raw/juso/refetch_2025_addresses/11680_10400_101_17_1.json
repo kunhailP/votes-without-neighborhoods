@@ -1,0 +1,35 @@
+{
+  "retrieved_at_utc": "2026-10-14T05:53:30.979205+00:00",
+  "keyword": "서울특별시 강남구 청담동 101-17",
+  "response": [
+    {
+      "siNm": "서울특별시",
+      "lnbrMnnm": "101",
+      "bdKdcd": "1",
+      "jibunAddr": "서울특별시 강남구 청담동 101 효성빌라 청담101",
+      "bdMgtSn": "1168010400101010000017144",
+      "hemdNm": "서울특별시 강남구 청담동",
+      "roadAddr": "서울특별시 강남구 압구정로71길 28 (청담동, 효성빌라 청담101)",
+      "bdNm": "효성빌라 청담101",
+      "rnMgtSn": "116804166533",
+      "buldMnnm": "28",
+      "hstryYn": "0",
+      "emdNm": "청담동",
+      "lnbrSlno": "0",
+      "udrtYn": "0",
+      "detBdNmList": "A동, B동",
+      "emdNo": "01",
+      "buldSlno": "0",
+      "relJibun": "서울특별시 강남구 청담동 101-17,101-18,101-19",
+      "zipNo": "06010",
+      "admCd": "1168010400",
+      "liNm": "",
+      "mtYn": "0",
+      "roadAddrPart2": " (청담동, 효성빌라 청담101)",
+      "sggNm": "강남구",
+      "roadAddrPart1": "서울특별시 강남구 압구정로71길 28",
+      "engAddr": "28 Apgujeong-ro 71-gil, Gangnam-gu, Seoul",
+      "rn": "압구정로71길"
+    }
+  ]
+}

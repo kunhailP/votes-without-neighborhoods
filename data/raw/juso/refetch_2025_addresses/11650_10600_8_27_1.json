@@ -1,0 +1,35 @@
+{
+  "retrieved_at_utc": "2026-10-14T05:53:23.926558+00:00",
+  "keyword": "서울특별시 서초구 잠원동 8-27",
+  "response": [
+    {
+      "siNm": "서울특별시",
+      "lnbrMnnm": "8",
+      "bdKdcd": "1",
+      "jibunAddr": "서울특별시 서초구 잠원동 8-27 신사 레전드",
+      "bdMgtSn": "1165010600100080027024673",
+      "hemdNm": "서울특별시 서초구 잠원동",
+      "roadAddr": "서울특별시 서초구 강남대로105길 8 (잠원동, 신사 레전드)",
+      "bdNm": "신사 레전드",
+      "rnMgtSn": "116504163004",
+      "buldMnnm": "8",
+      "hstryYn": "0",
+      "emdNm": "잠원동",
+      "lnbrSlno": "27",
+      "udrtYn": "0",
+      "detBdNmList": "",
+      "emdNo": "01",
+      "buldSlno": "0",
+      "relJibun": "",
+      "zipNo": "06524",
+      "admCd": "1165010600",
+      "liNm": "",
+      "mtYn": "0",
+      "roadAddrPart2": " (잠원동, 신사 레전드)",
+      "sggNm": "서초구",
+      "roadAddrPart1": "서울특별시 서초구 강남대로105길 8",
+      "engAddr": "8 Gangnam-daero 105-gil, Seocho-gu, Seoul",
+      "rn": "강남대로105길"
+    }
+  ]
+}

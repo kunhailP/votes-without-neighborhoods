@@ -1,0 +1,35 @@
+{
+  "retrieved_at_utc": "2026-10-14T05:53:00.847168+00:00",
+  "keyword": "서울특별시 은평구 역촌동 81-17",
+  "response": [
+    {
+      "siNm": "서울특별시",
+      "lnbrMnnm": "81",
+      "bdKdcd": "1",
+      "jibunAddr": "서울특별시 은평구 역촌동 81-17 태경맨션",
+      "bdMgtSn": "1138010800100810017016529",
+      "hemdNm": "서울특별시 은평구 역촌동",
+      "roadAddr": "서울특별시 은평구 갈현로4길 23-1 (역촌동, 태경맨션)",
+      "bdNm": "태경맨션",
+      "rnMgtSn": "113804133055",
+      "buldMnnm": "23",
+      "hstryYn": "0",
+      "emdNm": "역촌동",
+      "lnbrSlno": "17",
+      "udrtYn": "0",
+      "detBdNmList": "",
+      "emdNo": "01",
+      "buldSlno": "1",
+      "relJibun": "서울특별시 은평구 역촌동 81-18",
+      "zipNo": "03420",
+      "admCd": "1138010800",
+      "liNm": "",
+      "mtYn": "0",
+      "roadAddrPart2": " (역촌동, 태경맨션)",
+      "sggNm": "은평구",
+      "roadAddrPart1": "서울특별시 은평구 갈현로4길 23-1",
+      "engAddr": "23-1 Galhyeon-ro 4-gil, Eunpyeong-gu, Seoul",
+      "rn": "갈현로4길"
+    }
+  ]
+}

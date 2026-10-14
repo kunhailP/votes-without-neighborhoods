@@ -1,0 +1,35 @@
+{
+  "retrieved_at_utc": "2026-10-14T05:52:47.395637+00:00",
+  "keyword": "서울특별시 광진구 자양동 643-23",
+  "response": [
+    {
+      "siNm": "서울특별시",
+      "lnbrMnnm": "643",
+      "bdKdcd": "1",
+      "jibunAddr": "서울특별시 광진구 자양동 643-23 현대빌라트",
+      "bdMgtSn": "1121510500106430023013397",
+      "hemdNm": "서울특별시 광진구 자양제2동",
+      "roadAddr": "서울특별시 광진구 뚝섬로52마길 42-18 (자양동, 현대빌라트)",
+      "bdNm": "현대빌라트",
+      "rnMgtSn": "112154112279",
+      "buldMnnm": "42",
+      "hstryYn": "0",
+      "emdNm": "자양동",
+      "lnbrSlno": "23",
+      "udrtYn": "0",
+      "detBdNmList": "",
+      "emdNo": "01",
+      "buldSlno": "18",
+      "relJibun": "",
+      "zipNo": "05108",
+      "admCd": "1121510500",
+      "liNm": "",
+      "mtYn": "0",
+      "roadAddrPart2": " (자양동, 현대빌라트)",
+      "sggNm": "광진구",
+      "roadAddrPart1": "서울특별시 광진구 뚝섬로52마길 42-18",
+      "engAddr": "42-18 Ttukseom-ro 52ma-gil, Gwangjin-gu, Seoul",
+      "rn": "뚝섬로52마길"
+    }
+  ]
+}

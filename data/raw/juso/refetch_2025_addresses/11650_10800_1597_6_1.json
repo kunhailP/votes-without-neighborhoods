@@ -1,0 +1,35 @@
+{
+  "retrieved_at_utc": "2026-10-14T05:53:25.861051+00:00",
+  "keyword": "서울특별시 서초구 서초동 1597-6",
+  "response": [
+    {
+      "siNm": "서울특별시",
+      "lnbrMnnm": "1597",
+      "bdKdcd": "1",
+      "jibunAddr": "서울특별시 서초구 서초동 1597-6",
+      "bdMgtSn": "1165010800115970006020938",
+      "hemdNm": "서울특별시 서초구 서초3동",
+      "roadAddr": "서울특별시 서초구 사임당로 34 (서초동)",
+      "bdNm": "",
+      "rnMgtSn": "116503121014",
+      "buldMnnm": "34",
+      "hstryYn": "0",
+      "emdNm": "서초동",
+      "lnbrSlno": "6",
+      "udrtYn": "0",
+      "detBdNmList": "",
+      "emdNo": "01",
+      "buldSlno": "0",
+      "relJibun": "",
+      "zipNo": "06651",
+      "admCd": "1165010800",
+      "liNm": "",
+      "mtYn": "0",
+      "roadAddrPart2": " (서초동)",
+      "sggNm": "서초구",
+      "roadAddrPart1": "서울특별시 서초구 사임당로 34",
+      "engAddr": "34 Saimdang-ro, Seocho-gu, Seoul",
+      "rn": "사임당로"
+    }
+  ]
+}

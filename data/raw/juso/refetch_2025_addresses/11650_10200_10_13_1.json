@@ -1,0 +1,35 @@
+{
+  "retrieved_at_utc": "2026-10-14T05:53:22.256649+00:00",
+  "keyword": "서울특별시 서초구 양재동 10-13",
+  "response": [
+    {
+      "siNm": "서울특별시",
+      "lnbrMnnm": "10",
+      "bdKdcd": "1",
+      "jibunAddr": "서울특별시 서초구 양재동 10-13 미라보아파트",
+      "bdMgtSn": "1165010200100100013007617",
+      "hemdNm": "서울특별시 서초구 양재1동",
+      "roadAddr": "서울특별시 서초구 강남대로34길 18 (양재동, 미라보아파트)",
+      "bdNm": "미라보아파트",
+      "rnMgtSn": "116504163016",
+      "buldMnnm": "18",
+      "hstryYn": "0",
+      "emdNm": "양재동",
+      "lnbrSlno": "13",
+      "udrtYn": "0",
+      "detBdNmList": "",
+      "emdNo": "01",
+      "buldSlno": "0",
+      "relJibun": "",
+      "zipNo": "06743",
+      "admCd": "1165010200",
+      "liNm": "",
+      "mtYn": "0",
+      "roadAddrPart2": " (양재동, 미라보아파트)",
+      "sggNm": "서초구",
+      "roadAddrPart1": "서울특별시 서초구 강남대로34길 18",
+      "engAddr": "18 Gangnam-daero 34-gil, Seocho-gu, Seoul",
+      "rn": "강남대로34길"
+    }
+  ]
+}

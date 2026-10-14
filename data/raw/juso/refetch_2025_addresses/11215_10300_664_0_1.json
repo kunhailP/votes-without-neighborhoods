@@ -1,0 +1,35 @@
+{
+  "retrieved_at_utc": "2026-10-14T05:52:47.343386+00:00",
+  "keyword": "서울특별시 광진구 구의동 664",
+  "response": [
+    {
+      "siNm": "서울특별시",
+      "lnbrMnnm": "229",
+      "bdKdcd": "1",
+      "jibunAddr": "서울특별시 광진구 구의동 229-25 주성힐스톤아파트",
+      "bdMgtSn": "1121510300102270003024396",
+      "hemdNm": "서울특별시 광진구 구의제3동",
+      "roadAddr": "서울특별시 광진구 광나루로44길 20 (구의동, 주성힐스톤아파트)",
+      "bdNm": "주성힐스톤아파트",
+      "rnMgtSn": "112154112034",
+      "buldMnnm": "20",
+      "hstryYn": "0",
+      "emdNm": "구의동",
+      "lnbrSlno": "25",
+      "udrtYn": "0",
+      "detBdNmList": "101동,102동",
+      "emdNo": "01",
+      "buldSlno": "0",
+      "relJibun": "서울특별시 광진구 구의동 224-28,664,664-1",
+      "zipNo": "05033",
+      "admCd": "1121510300",
+      "liNm": "",
+      "mtYn": "0",
+      "roadAddrPart2": " (구의동, 주성힐스톤아파트)",
+      "sggNm": "광진구",
+      "roadAddrPart1": "서울특별시 광진구 광나루로44길 20",
+      "engAddr": "20 Gwangnaru-ro 44-gil, Gwangjin-gu, Seoul",
+      "rn": "광나루로44길"
+    }
+  ]
+}

@@ -38,12 +38,28 @@ def selector(lp, prop):
     return sp.csr_matrix((np.ones(len(ri)), (ri, ci)), shape=(len(rows), n))
 
 
-def wmax(lp, w, eta, delta, prop):
+def wmax(lp, w, eta, delta, prop, report_tolerance=0.0):
+    """Maximum width with equal reports, or an outer bound for bounded report differences.
+
+    A positive tolerance imposes |S(l-l')| <= tolerance componentwise. For
+    primary suppression of integer counts below k, same-report pairs satisfy
+    this condition with tolerance k-1. The relaxation need not be sharp for
+    that nonlinear suppression rule; it gives a conservative width bound.
+    """
+    if not np.isfinite(report_tolerance) or report_tolerance < 0:
+        raise ValueError('report_tolerance must be finite and non-negative')
     Aeq, beq, Aub, bub = lp.cached_constraints(eta, delta); c, _ = slope_c(lp, w)
     if not np.any(c): return 0.0
     S = selector(lp, prop)
-    AE = sp.vstack([sp.block_diag([Aeq, Aeq]), sp.hstack([S, -S])]).tocsr(); bE = np.r_[beq, beq, np.zeros(S.shape[0])]
+    difference = sp.hstack([S, -S]).tocsr()
+    AE = sp.block_diag([Aeq, Aeq]).tocsr(); bE = np.r_[beq, beq]
     AU = sp.block_diag([Aub, Aub]).tocsr(); bU = np.r_[bub, bub]
+    if report_tolerance == 0:
+        AE = sp.vstack([AE, difference]).tocsr()
+        bE = np.r_[bE, np.zeros(S.shape[0])]
+    else:
+        AU = sp.vstack([AU, difference, -difference]).tocsr()
+        bU = np.r_[bU, np.full(2 * S.shape[0], report_tolerance)]
     r = hs_solve(np.r_[-c, c], AU, bU, AE, bE)
     if r.status != 0: raise RuntimeError(f"status {r.status}")
     return -r.fun

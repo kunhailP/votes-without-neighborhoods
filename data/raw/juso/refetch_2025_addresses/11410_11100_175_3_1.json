@@ -1,0 +1,35 @@
+{
+  "retrieved_at_utc": "2026-10-14T05:53:03.743432+00:00",
+  "keyword": "서울특별시 서대문구 홍제동 175-3",
+  "response": [
+    {
+      "siNm": "서울특별시",
+      "lnbrMnnm": "175",
+      "bdKdcd": "1",
+      "jibunAddr": "서울특별시 서대문구 홍제동 175-3 홍제헤렌아파트",
+      "bdMgtSn": "1141011100101750003013597",
+      "hemdNm": "서울특별시 서대문구 홍제2동",
+      "roadAddr": "서울특별시 서대문구 통일로36가길 9 (홍제동, 홍제헤렌아파트)",
+      "bdNm": "홍제헤렌아파트",
+      "rnMgtSn": "114104136388",
+      "buldMnnm": "9",
+      "hstryYn": "0",
+      "emdNm": "홍제동",
+      "lnbrSlno": "3",
+      "udrtYn": "0",
+      "detBdNmList": "",
+      "emdNo": "01",
+      "buldSlno": "0",
+      "relJibun": "서울특별시 서대문구 홍제동 175-6,175-7",
+      "zipNo": "03630",
+      "admCd": "1141011100",
+      "liNm": "",
+      "mtYn": "0",
+      "roadAddrPart2": " (홍제동, 홍제헤렌아파트)",
+      "sggNm": "서대문구",
+      "roadAddrPart1": "서울특별시 서대문구 통일로36가길 9",
+      "engAddr": "9 Tongil-ro 36ga-gil, Seodaemun-gu, Seoul",
+      "rn": "통일로36가길"
+    }
+  ]
+}

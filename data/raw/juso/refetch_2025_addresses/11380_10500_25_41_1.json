@@ -1,0 +1,35 @@
+{
+  "retrieved_at_utc": "2026-10-14T05:53:00.413287+00:00",
+  "keyword": "서울특별시 은평구 구산동 25-41",
+  "response": [
+    {
+      "siNm": "서울특별시",
+      "lnbrMnnm": "25",
+      "bdKdcd": "1",
+      "jibunAddr": "서울특별시 은평구 구산동 25-41 온세아파트",
+      "bdMgtSn": "1138010500100250041029342",
+      "hemdNm": "서울특별시 은평구 구산동",
+      "roadAddr": "서울특별시 은평구 갈현로16길 10 (구산동, 온세아파트)",
+      "bdNm": "온세아파트",
+      "rnMgtSn": "113804133019",
+      "buldMnnm": "10",
+      "hstryYn": "0",
+      "emdNm": "구산동",
+      "lnbrSlno": "41",
+      "udrtYn": "0",
+      "detBdNmList": "",
+      "emdNo": "01",
+      "buldSlno": "0",
+      "relJibun": "",
+      "zipNo": "03414",
+      "admCd": "1138010500",
+      "liNm": "",
+      "mtYn": "0",
+      "roadAddrPart2": " (구산동, 온세아파트)",
+      "sggNm": "은평구",
+      "roadAddrPart1": "서울특별시 은평구 갈현로16길 10",
+      "engAddr": "10 Galhyeon-ro 16-gil, Eunpyeong-gu, Seoul",
+      "rn": "갈현로16길"
+    }
+  ]
+}

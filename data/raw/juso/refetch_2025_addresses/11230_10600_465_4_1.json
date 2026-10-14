@@ -1,0 +1,35 @@
+{
+  "retrieved_at_utc": "2026-10-14T05:52:49.404689+00:00",
+  "keyword": "서울특별시 동대문구 장안동 465-4",
+  "response": [
+    {
+      "siNm": "서울특별시",
+      "lnbrMnnm": "465",
+      "bdKdcd": "1",
+      "jibunAddr": "서울특별시 동대문구 장안동 465-4 장안동 하트리움",
+      "bdMgtSn": "1123010600104650004016103",
+      "hemdNm": "서울특별시 동대문구 장안제1동",
+      "roadAddr": "서울특별시 동대문구 장한로2길 44 (장안동, 장안동 하트리움)",
+      "bdNm": "장안동 하트리움",
+      "rnMgtSn": "112304115411",
+      "buldMnnm": "44",
+      "hstryYn": "0",
+      "emdNm": "장안동",
+      "lnbrSlno": "4",
+      "udrtYn": "0",
+      "detBdNmList": "301동",
+      "emdNo": "01",
+      "buldSlno": "0",
+      "relJibun": "서울특별시 동대문구 장안동 465-5",
+      "zipNo": "02645",
+      "admCd": "1123010600",
+      "liNm": "",
+      "mtYn": "0",
+      "roadAddrPart2": " (장안동, 장안동 하트리움)",
+      "sggNm": "동대문구",
+      "roadAddrPart1": "서울특별시 동대문구 장한로2길 44",
+      "engAddr": "44 Janghan-ro 2-gil, Dongdaemun-gu, Seoul",
+      "rn": "장한로2길"
+    }
+  ]
+}

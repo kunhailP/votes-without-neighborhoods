@@ -1,0 +1,35 @@
+{
+  "retrieved_at_utc": "2026-10-14T05:52:51.003370+00:00",
+  "keyword": "서울특별시 성북구 보문동7가 139-1",
+  "response": [
+    {
+      "siNm": "서울특별시",
+      "lnbrMnnm": "139",
+      "bdKdcd": "1",
+      "jibunAddr": "서울특별시 성북구 보문동7가 139-1 DH팰리스타워",
+      "bdMgtSn": "1129012900101390001037449",
+      "hemdNm": "서울특별시 성북구 보문동",
+      "roadAddr": "서울특별시 성북구 보문로 29 (보문동7가, DH팰리스타워)",
+      "bdNm": "DH팰리스타워",
+      "rnMgtSn": "112903005003",
+      "buldMnnm": "29",
+      "hstryYn": "0",
+      "emdNm": "보문동7가",
+      "lnbrSlno": "1",
+      "udrtYn": "0",
+      "detBdNmList": "",
+      "emdNo": "06",
+      "buldSlno": "0",
+      "relJibun": "",
+      "zipNo": "02873",
+      "admCd": "1129012900",
+      "liNm": "",
+      "mtYn": "0",
+      "roadAddrPart2": " (보문동7가, DH팰리스타워)",
+      "sggNm": "성북구",
+      "roadAddrPart1": "서울특별시 성북구 보문로 29",
+      "engAddr": "29 Bomun-ro, Seongbuk-gu, Seoul",
+      "rn": "보문로"
+    }
+  ]
+}

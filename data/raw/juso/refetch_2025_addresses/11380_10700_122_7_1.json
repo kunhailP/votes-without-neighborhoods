@@ -1,0 +1,35 @@
+{
+  "retrieved_at_utc": "2026-10-14T05:53:01.680184+00:00",
+  "keyword": "서울특별시 은평구 응암동 122-7",
+  "response": [
+    {
+      "siNm": "서울특별시",
+      "lnbrMnnm": "122",
+      "bdKdcd": "1",
+      "jibunAddr": "서울특별시 은평구 응암동 122-7 다원아파트",
+      "bdMgtSn": "1138010700101220007000001",
+      "hemdNm": "서울특별시 은평구 응암제3동",
+      "roadAddr": "서울특별시 은평구 불광천길 510 (응암동, 다원아파트)",
+      "bdNm": "다원아파트",
+      "rnMgtSn": "113804133096",
+      "buldMnnm": "510",
+      "hstryYn": "0",
+      "emdNm": "응암동",
+      "lnbrSlno": "7",
+      "udrtYn": "0",
+      "detBdNmList": "",
+      "emdNo": "01",
+      "buldSlno": "0",
+      "relJibun": "",
+      "zipNo": "03455",
+      "admCd": "1138010700",
+      "liNm": "",
+      "mtYn": "0",
+      "roadAddrPart2": " (응암동, 다원아파트)",
+      "sggNm": "은평구",
+      "roadAddrPart1": "서울특별시 은평구 불광천길 510",
+      "engAddr": "510 Bulgwangcheon-gil, Eunpyeong-gu, Seoul",
+      "rn": "불광천길"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "retrieved_at_utc": "2026-10-14T05:53:19.282091+00:00",
+  "keyword": "서울특별시 동작구 신대방동 351-5",
+  "response": [
+    {
+      "siNm": "서울특별시",
+      "lnbrMnnm": "351",
+      "bdKdcd": "1",
+      "jibunAddr": "서울특별시 동작구 신대방동 351-5 골드타워",
+      "bdMgtSn": "1159010900103510005001301",
+      "hemdNm": "서울특별시 동작구 신대방제2동",
+      "roadAddr": "서울특별시 동작구 보라매로 105 (신대방동, 골드타워)",
+      "bdNm": "골드타워",
+      "rnMgtSn": "115903005078",
+      "buldMnnm": "105",
+      "hstryYn": "0",
+      "emdNm": "신대방동",
+      "lnbrSlno": "5",
+      "udrtYn": "0",
+      "detBdNmList": "",
+      "emdNo": "02",
+      "buldSlno": "0",
+      "relJibun": "",
+      "zipNo": "07056",
+      "admCd": "1159010900",
+      "liNm": "",
+      "mtYn": "0",
+      "roadAddrPart2": " (신대방동, 골드타워)",
+      "sggNm": "동작구",
+      "roadAddrPart1": "서울특별시 동작구 보라매로 105",
+      "engAddr": "105 Boramae-ro, Dongjak-gu, Seoul",
+      "rn": "보라매로"
+    }
+  ]
+}

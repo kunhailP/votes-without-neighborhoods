@@ -1,0 +1,35 @@
+{
+  "retrieved_at_utc": "2026-10-14T05:53:23.754350+00:00",
+  "keyword": "서울특별시 서초구 방배동 798-5",
+  "response": [
+    {
+      "siNm": "서울특별시",
+      "lnbrMnnm": "798",
+      "bdKdcd": "1",
+      "jibunAddr": "서울특별시 서초구 방배동 798-5 월드빌라트",
+      "bdMgtSn": "1165010100107980008008728",
+      "hemdNm": "서울특별시 서초구 방배4동",
+      "roadAddr": "서울특별시 서초구 동광로 126 (방배동, 월드빌라트)",
+      "bdNm": "월드빌라트",
+      "rnMgtSn": "116503121004",
+      "buldMnnm": "126",
+      "hstryYn": "0",
+      "emdNm": "방배동",
+      "lnbrSlno": "5",
+      "udrtYn": "0",
+      "detBdNmList": "",
+      "emdNo": "01",
+      "buldSlno": "0",
+      "relJibun": "서울특별시 서초구 방배동 798-8",
+      "zipNo": "06587",
+      "admCd": "1165010100",
+      "liNm": "",
+      "mtYn": "0",
+      "roadAddrPart2": " (방배동, 월드빌라트)",
+      "sggNm": "서초구",
+      "roadAddrPart1": "서울특별시 서초구 동광로 126",
+      "engAddr": "126 Donggwang-ro, Seocho-gu, Seoul",
+      "rn": "동광로"
+    }
+  ]
+}

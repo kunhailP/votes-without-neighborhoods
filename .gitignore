@@ -16,3 +16,6 @@ data/raw/mobility/*.zip
 paper/tables/.stamp
 paper/figures/.stamp
 paper/build/.stamp
+
+# Private author files are not replication inputs.
+paper/submission/

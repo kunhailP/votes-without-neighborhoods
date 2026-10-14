@@ -1,0 +1,35 @@
+{
+  "retrieved_at_utc": "2026-10-14T05:52:47.431232+00:00",
+  "keyword": "서울특별시 광진구 구의동 587-64",
+  "response": [
+    {
+      "siNm": "서울특별시",
+      "lnbrMnnm": "587",
+      "bdKdcd": "1",
+      "jibunAddr": "서울특별시 광진구 구의동 587-64 옥산그린타워",
+      "bdMgtSn": "1121510300105870064009911",
+      "hemdNm": "서울특별시 광진구 구의제3동",
+      "roadAddr": "서울특별시 광진구 구의강변로 53 (구의동, 옥산그린타워)",
+      "bdNm": "옥산그린타워",
+      "rnMgtSn": "112153104003",
+      "buldMnnm": "53",
+      "hstryYn": "0",
+      "emdNm": "구의동",
+      "lnbrSlno": "64",
+      "udrtYn": "0",
+      "detBdNmList": "",
+      "emdNo": "01",
+      "buldSlno": "0",
+      "relJibun": "",
+      "zipNo": "05048",
+      "admCd": "1121510300",
+      "liNm": "",
+      "mtYn": "0",
+      "roadAddrPart2": " (구의동, 옥산그린타워)",
+      "sggNm": "광진구",
+      "roadAddrPart1": "서울특별시 광진구 구의강변로 53",
+      "engAddr": "53 Guuigangbyeon-ro, Gwangjin-gu, Seoul",
+      "rn": "구의강변로"
+    }
+  ]
+}

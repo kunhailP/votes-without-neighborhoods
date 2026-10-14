@@ -1,0 +1,35 @@
+{
+  "retrieved_at_utc": "2026-10-14T05:52:46.380374+00:00",
+  "keyword": "서울특별시 광진구 구의동 224-7",
+  "response": [
+    {
+      "siNm": "서울특별시",
+      "lnbrMnnm": "224",
+      "bdKdcd": "1",
+      "jibunAddr": "서울특별시 광진구 구의동 224-7 신덕하이빌아파트",
+      "bdMgtSn": "1121510300102240007008600",
+      "hemdNm": "서울특별시 광진구 구의제3동",
+      "roadAddr": "서울특별시 광진구 구의로 52 (구의동, 신덕하이빌아파트)",
+      "bdNm": "신덕하이빌아파트",
+      "rnMgtSn": "112153104004",
+      "buldMnnm": "52",
+      "hstryYn": "0",
+      "emdNm": "구의동",
+      "lnbrSlno": "7",
+      "udrtYn": "0",
+      "detBdNmList": "",
+      "emdNo": "01",
+      "buldSlno": "0",
+      "relJibun": "",
+      "zipNo": "05036",
+      "admCd": "1121510300",
+      "liNm": "",
+      "mtYn": "0",
+      "roadAddrPart2": " (구의동, 신덕하이빌아파트)",
+      "sggNm": "광진구",
+      "roadAddrPart1": "서울특별시 광진구 구의로 52",
+      "engAddr": "52 Guui-ro, Gwangjin-gu, Seoul",
+      "rn": "구의로"
+    }
+  ]
+}

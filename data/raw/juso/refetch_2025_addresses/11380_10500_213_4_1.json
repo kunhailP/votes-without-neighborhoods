@@ -1,0 +1,35 @@
+{
+  "retrieved_at_utc": "2026-10-14T05:52:59.366897+00:00",
+  "keyword": "서울특별시 은평구 구산동 213-4",
+  "response": [
+    {
+      "siNm": "서울특별시",
+      "lnbrMnnm": "213",
+      "bdKdcd": "1",
+      "jibunAddr": "서울특별시 은평구 구산동 213-4 새천년 구산아파트2차",
+      "bdMgtSn": "1138010500102130016029629",
+      "hemdNm": "서울특별시 은평구 구산동",
+      "roadAddr": "서울특별시 은평구 갈현로 164 (구산동, 새천년 구산아파트2차)",
+      "bdNm": "새천년 구산아파트2차",
+      "rnMgtSn": "113803111001",
+      "buldMnnm": "164",
+      "hstryYn": "0",
+      "emdNm": "구산동",
+      "lnbrSlno": "4",
+      "udrtYn": "0",
+      "detBdNmList": "",
+      "emdNo": "02",
+      "buldSlno": "0",
+      "relJibun": "서울특별시 은평구 구산동 213-16",
+      "zipNo": "03410",
+      "admCd": "1138010500",
+      "liNm": "",
+      "mtYn": "0",
+      "roadAddrPart2": " (구산동, 새천년 구산아파트2차)",
+      "sggNm": "은평구",
+      "roadAddrPart1": "서울특별시 은평구 갈현로 164",
+      "engAddr": "164 Galhyeon-ro, Eunpyeong-gu, Seoul",
+      "rn": "갈현로"
+    }
+  ]
+}

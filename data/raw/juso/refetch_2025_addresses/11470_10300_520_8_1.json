@@ -1,0 +1,35 @@
+{
+  "retrieved_at_utc": "2026-10-14T05:53:08.994499+00:00",
+  "keyword": "서울특별시 양천구 신월동 520-8",
+  "response": [
+    {
+      "siNm": "서울특별시",
+      "lnbrMnnm": "520",
+      "bdKdcd": "1",
+      "jibunAddr": "서울특별시 양천구 신월동 520-8 태산아파트",
+      "bdMgtSn": "1147010300105200008010847",
+      "hemdNm": "서울특별시 양천구 신월4동",
+      "roadAddr": "서울특별시 양천구 오목로 20 (신월동, 태산아파트)",
+      "bdNm": "태산아파트",
+      "rnMgtSn": "114703114014",
+      "buldMnnm": "20",
+      "hstryYn": "0",
+      "emdNm": "신월동",
+      "lnbrSlno": "8",
+      "udrtYn": "0",
+      "detBdNmList": "태산아파트",
+      "emdNo": "03",
+      "buldSlno": "0",
+      "relJibun": "",
+      "zipNo": "08031",
+      "admCd": "1147010300",
+      "liNm": "",
+      "mtYn": "0",
+      "roadAddrPart2": " (신월동, 태산아파트)",
+      "sggNm": "양천구",
+      "roadAddrPart1": "서울특별시 양천구 오목로 20",
+      "engAddr": "20 Omok-ro, Yangcheon-gu, Seoul",
+      "rn": "오목로"
+    }
+  ]
+}
