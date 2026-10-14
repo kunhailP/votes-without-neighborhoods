@@ -53,9 +53,10 @@ def format_docx(path):
         caption = table._tbl.getprevious()
         caption_text = ''.join(caption.itertext()) if caption is not None else ''
         landscape = ncol >= 8
-        # Short main-text tables fit on one page; keep their rows and notes
-        # together instead of leaving the final election rows on the next page.
-        compact_main = path.stem == 'manuscript' and caption_text.startswith('Table ') and len(table.rows) <= 10
+        # Keep short tables and their notes together in both documents.
+        is_reporting_box = table.rows[0].cells[0].text == 'Ballot'
+        compact_table = (len(table.rows) <= 10
+                         and (caption_text.startswith('Table ') or is_reporting_box))
         # The full definitions are already in Table 2's Notes. Short Word headers
         # leave room for intervals while keeping the same A–F column references.
         if 'Table 2.' in caption_text:
@@ -92,7 +93,7 @@ def format_docx(path):
                     fmt.space_before = Pt(0)
                     fmt.space_after = Pt(2)
                     fmt.line_spacing = 1
-                    fmt.keep_with_next = row_index == 0 or bool(panel) or (compact_main and row_index < len(table.rows) - 1)
+                    fmt.keep_with_next = row_index == 0 or bool(panel) or (compact_table and row_index < len(table.rows) - 1)
                     fmt.keep_together = True
                     paragraph.alignment = WD_ALIGN_PARAGRAPH.LEFT if i == 0 else WD_ALIGN_PARAGRAPH.CENTER
                     for run in paragraph.runs:
@@ -106,7 +107,7 @@ def format_docx(path):
             from docx.text.paragraph import Paragraph
             notes = Paragraph(following, table._parent)
             if notes.text.startswith('Notes.'):
-                if compact_main:
+                if compact_table:
                     for cell in table.rows[-1].cells:
                         for paragraph in cell.paragraphs:
                             paragraph.paragraph_format.keep_with_next = True
@@ -118,10 +119,37 @@ def format_docx(path):
                     run.font.size = Pt(9)
                 end = following
         if landscape:
-            if wide_blocks and wide_blocks[-1][1].getnext() is caption:
+            block_start = caption
+            if path.stem == 'manuscript' and 'Table 1.' in caption_text:
+                preceding = caption.getprevious()
+                for _ in range(3):
+                    if preceding is None:
+                        break
+                    if '3.2 Data' in ''.join(preceding.itertext()):
+                        block_start = preceding
+                        break
+                    preceding = preceding.getprevious()
+            if path.stem == 'manuscript' and 'Table 2.' in caption_text:
+                # Include the section heading and its short introduction on
+                # the landscape page instead of stranding them on a nearly
+                # empty portrait page immediately before the table.
+                intro = caption.getprevious()
+                heading = intro.getprevious() if intro is not None else None
+                if (intro is not None and heading is not None
+                        and 'Table 2 follows' in ''.join(intro.itertext())
+                        and '4.2 The association within districts' in ''.join(heading.itertext())):
+                    block_start = heading
+            adjacent = wide_blocks[-1][1].getnext() if wide_blocks else None
+            # Pandoc can place an empty paragraph between consecutive tables.
+            # It should not create a blank portrait page between two wide tables.
+            while (adjacent is not None and adjacent.tag == qn('w:p')
+                   and not ''.join(adjacent.itertext()).strip()
+                   and not adjacent.xpath('.//w:drawing | .//m:oMath')):
+                adjacent = adjacent.getnext()
+            if wide_blocks and adjacent is caption:
                 wide_blocks[-1] = (wide_blocks[-1][0], end)
             else:
-                wide_blocks.append((caption, end))
+                wide_blocks.append((block_start, end))
     for caption, end in wide_blocks:
         section_break(caption, section_properties(base))
         following = end.getnext()
@@ -129,6 +157,8 @@ def format_docx(path):
             section_break(following, section_properties(base, landscape=True))
     # Keep each image on the same page as its numbered caption.
     for paragraph in doc.paragraphs:
+        if paragraph.text.startswith('Box 1.'):
+            paragraph.paragraph_format.keep_with_next = True
         if paragraph._p.xpath('.//w:drawing'):
             paragraph.paragraph_format.keep_with_next = True
     doc.core_properties.author = ''

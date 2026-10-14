@@ -1,5 +1,5 @@
-"""Where the within-gu sign holds: R_t = {(lambda, delta, s): lower bound > 0} (Figure 4; Online Appendix Table C4),
-and the allocation at the edge of R_t along s (Table 5; Online Appendix Table C5).
+"""Where the within-gu sign holds: R_t = {(lambda, delta, s): lower bound > 0} (Figure 4; Online Appendix Table C8),
+and the allocation at the edge of R_t along s (Table C14; Online Appendix Table C15).
 
 For each calibrated-flow multiple lambda (and unrestricted movement, eta = 2) and each out-of-zone band delta, s*(lambda,
 delta) is the largest slack on residents' in-zone early composition at which the lower bound is positive (bisection on

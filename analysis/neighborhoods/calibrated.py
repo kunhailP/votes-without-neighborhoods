@@ -1,4 +1,4 @@
-"""Calibration scenario for movement (Section 4.2; Table 2 column D; Online Appendix Table C3;
+"""Calibration scenario for movement (Section 4.2; Table 2 column D; Online Appendix Table C7;
 (3)-(5): supplementary results, docs/supplementary_results.md).
 
 (1) Identified sets with caps r_rho_j + lambda C_j, lambda in {0.5, 1, 1.5}, delta in {0.1, 0.2, 1}.

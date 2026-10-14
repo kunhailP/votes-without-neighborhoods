@@ -1,4 +1,4 @@
-"""Alternative outcomes (Online Appendix Table C24): conservative blocs and the Democratic share.
+"""Alternative outcomes (Online Appendix Table C26): conservative blocs and the Democratic share.
 Output: results/outcomes.csv"""
 import numpy as np
 import pandas as pd

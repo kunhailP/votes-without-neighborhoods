@@ -1,5 +1,5 @@
 """Beyond Gangnam: the within-district relation with and without 강남, 서초 and 송파 (Section 4.3; Table 3; Figure 2B-C;
-Online Appendix Tables C17, C18).
+Online Appendix Tables C18, C21).
 
 For each election and each column A-E of Table 2, the within-gu slope (gu fixed effects) and the high-minus-low median-split
 contrast are bounded over the same feasible set as in the main analysis. The excluded sample sets the price of every dong in

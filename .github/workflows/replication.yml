@@ -28,6 +28,8 @@ jobs:
         run: make test
       - name: Re-solve headline results and check integer witnesses
         run: make verify
+      - name: Re-solve reporting guarantees and fixed-cap zone comparison
+        run: make verify-reporting
       - name: Build anonymous archive from committed files
         run: python paper/review_package.py "$RUNNER_TEMP/review.zip"
       - name: Verify archive and test without Git metadata

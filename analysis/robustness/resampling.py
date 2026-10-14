@@ -1,4 +1,4 @@
-"""Stability of the identified sets to resampling prices and dongs (Section 4.5; Online Appendix Table C13).
+"""Stability of the identified sets to resampling prices and dongs (Section 4.5; Online Appendix Table C24).
 
 Conditional design: the returns, rolls and movement caps, which define Lambda, are held fixed. Each replication
 (a) resamples transactions within each dong and recomputes dong log median prices ("txn"), or (b) also

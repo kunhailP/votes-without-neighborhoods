@@ -1,4 +1,4 @@
-"""Further restrictions and benchmarks (Sections 3.4 and 4.5; Online Appendix Tables C22 and C25).
+"""Further restrictions and benchmarks (Sections 3.4 and 4.5; Online Appendix Tables C13 and C12).
 
 1. delta*: the largest out-of-zone tolerance at which the within-district slope stays positive with residents' early composition
    at the main slack s = 0.02 (mobility-calibrated movement), by bisection on delta.

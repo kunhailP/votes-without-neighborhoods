@@ -1,4 +1,4 @@
-"""Valid-vote shares y (Section 4.5; Online Appendix Table C15; supplementary results, docs/supplementary_results.md).
+"""Valid-vote shares y (Section 4.5; Online Appendix Table C20; supplementary results, docs/supplementary_results.md).
 
 Cells: uniform movement (eta, delta) in {(1,1), (0,1), (0,0.1), (0.05,0.1)} for every election and
 specification; composition-restricted cells (calibrated or unrestricted movement, delta = 0.1, s in {0.02, 0.05})

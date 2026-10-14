@@ -1,28 +1,47 @@
-\begin{table}[!htbp]
-\centering
-\footnotesize
+{\scriptsize
 \setlength{\tabcolsep}{3.5pt}
-\caption*{\textbf{Table C23.} Within-district relation with age composition held fixed, and the tercile contrast}
-\begin{tabularx}{\linewidth}{lCCCC}
+\begin{longtable}{>{\raggedright\arraybackslash}p{\dimexpr 0.180\linewidth-2\tabcolsep\relax}>{\raggedright\arraybackslash}p{\dimexpr 0.180\linewidth-2\tabcolsep\relax}>{\centering\arraybackslash}p{\dimexpr 0.122\linewidth-2\tabcolsep\relax}>{\centering\arraybackslash}p{\dimexpr 0.122\linewidth-2\tabcolsep\relax}>{\centering\arraybackslash}p{\dimexpr 0.122\linewidth-2\tabcolsep\relax}>{\centering\arraybackslash}p{\dimexpr 0.122\linewidth-2\tabcolsep\relax}>{\centering\arraybackslash}p{\dimexpr 0.122\linewidth-2\tabcolsep\relax}}
+\caption*{\textbf{Table C23.} Robustness of the within-district lower bound (z; $\delta $ = 0.1)}\\
 \toprule
-Election & All of Seoul: election-day voters & All of Seoul: all residents, main assumptions & Without the three: election-day voters & Without the three: all residents, main assumptions \\
-\midrule
-\addlinespace[3pt]\multicolumn{5}{l}{\textit{Slope}} \\
-2022 & 0.097 & \textbf{[$-$0.026, 0.223]} & 0.079 & \textbf{[$-$0.042, 0.204]} \\
-2024 & 0.102 & [0.001, 0.206] & 0.078 & \textbf{[$-$0.027, 0.184]} \\
-2025 & 0.063 & \textbf{[$-$0.037, 0.194]} & 0.041 & \textbf{[$-$0.064, 0.173]} \\
-2026 & 0.086 & [0.054, 0.156] & 0.069 & [0.029, 0.139] \\
-\addlinespace[3pt]\multicolumn{5}{l}{\textit{Slope, age held fixed}} \\
-2022 & 0.087 & \textbf{[$-$0.052, 0.227]} & 0.071 & \textbf{[$-$0.064, 0.210]} \\
-2024 & 0.100 & \textbf{[$-$0.017, 0.214]} & 0.081 & \textbf{[$-$0.040, 0.199]} \\
-2025 & 0.067 & \textbf{[$-$0.051, 0.208]} & 0.049 & \textbf{[$-$0.071, 0.192]} \\
-2026 & 0.088 & [0.046, 0.160] & 0.074 & [0.024, 0.148] \\
-\addlinespace[3pt]\multicolumn{5}{l}{\textit{Top minus bottom tercile (points)}} \\
-2022 & 5.4 & \textbf{[$-$3.2, 14.0]} & 4.0 & \textbf{[$-$4.2, 12.5]} \\
-2024 & 4.9 & \textbf{[$-$1.8, 11.9]} & 3.5 & \textbf{[$-$3.1, 10.4]} \\
-2025 & 2.9 & \textbf{[$-$4.2, 11.6]} & 1.6 & \textbf{[$-$5.4, 10.0]} \\
-2026 & 4.4 & [1.6, 9.4] & 3.1 & [0.1, 7.9] \\
-\bottomrule
-\end{tabularx}
-\par\vspace{2pt}{\raggedright\footnotesize\textit{Notes.} Election-day voters: valid-vote share, point-identified. All residents: roll-based share z, mobility-calibrated movement, out-of-zone within 10 points, s = 0.02. Age held fixed: slope weights from a regression of log price on gu dummies, the mean age of residents aged 18 and over and the share aged 60 and over (Ministry of the Interior and Safety, April 2026; a proxy for earlier elections). Tercile: mean of each gu's top third by price minus its bottom third, gu weights as for the median split.\par}
-\end{table}
+Election & Specification & Calibrated, residents' composition unrestricted & Calibrated, s = 0.02 & Calibrated, s = 0.05 & Unrestricted movement, s = 0.02 & Unrestricted movement, s = 0.05 \\
+\midrule\endfirsthead
+\toprule
+Election & Specification & Calibrated, residents' composition unrestricted & Calibrated, s = 0.02 & Calibrated, s = 0.05 & Unrestricted movement, s = 0.02 & Unrestricted movement, s = 0.05 \\
+\midrule\endhead
+\bottomrule\endfoot
+2022 & log median (baseline) & \textbf{$-$0.283} & \textbf{$-$0.026} & \textbf{$-$0.051} & \textbf{$-$0.048} & \textbf{$-$0.066} \\
+2022 & excl. top 5\% by price & \textbf{$-$0.314} & \textbf{$-$0.044} & \textbf{$-$0.070} & \textbf{$-$0.069} & \textbf{$-$0.087} \\
+2022 & excl. top 10\% by price & \textbf{$-$0.355} & \textbf{$-$0.068} & \textbf{$-$0.095} & \textbf{$-$0.092} & \textbf{$-$0.111} \\
+2022 & denominator ($H_{i}$) weights & \textbf{$-$0.275} & \textbf{$-$0.011} & \textbf{$-$0.037} & \textbf{$-$0.028} & \textbf{$-$0.048} \\
+2022 & log mean & \textbf{$-$0.295} & \textbf{$-$0.024} & \textbf{$-$0.051} & \textbf{$-$0.047} & \textbf{$-$0.067} \\
+2022 & linear median & \textbf{not signed} & \textbf{not signed} & \textbf{not signed} & \textbf{not signed} & \textbf{not signed} \\
+2022 & linear mean & \textbf{not signed} & \textbf{not signed} & \textbf{not signed} & \textbf{not signed} & \textbf{not signed} \\
+2022 & excl. dongs with < 30 transactions & \textbf{$-$0.342} & \textbf{$-$0.041} & \textbf{$-$0.069} & \textbf{$-$0.067} & \textbf{$-$0.086} \\
+2024 & log median (baseline) & \textbf{$-$0.185} & 0.001 & \textbf{$-$0.024} & \textbf{$-$0.019} & \textbf{$-$0.037} \\
+2024 & excl. top 5\% by price & \textbf{$-$0.221} & \textbf{$-$0.018} & \textbf{$-$0.045} & \textbf{$-$0.041} & \textbf{$-$0.060} \\
+2024 & excl. top 10\% by price & \textbf{$-$0.255} & \textbf{$-$0.041} & \textbf{$-$0.070} & \textbf{$-$0.065} & \textbf{$-$0.085} \\
+2024 & denominator ($H_{i}$) weights & \textbf{$-$0.153} & 0.017 & \textbf{$-$0.009} & 0.001 & \textbf{$-$0.019} \\
+2024 & log mean & \textbf{$-$0.189} & 0.005 & \textbf{$-$0.022} & \textbf{$-$0.015} & \textbf{$-$0.035} \\
+2024 & linear median & \textbf{not signed} & positive & \textbf{not signed} & positive & \textbf{not signed} \\
+2024 & linear mean & \textbf{not signed} & positive & positive & positive & \textbf{not signed} \\
+2024 & excl. dongs with < 30 transactions & \textbf{$-$0.228} & \textbf{$-$0.010} & \textbf{$-$0.041} & \textbf{$-$0.034} & \textbf{$-$0.057} \\
+2024 & constituency fixed effects & \textbf{$-$0.269} & \textbf{$-$0.035} & \textbf{$-$0.066} & \textbf{$-$0.059} & \textbf{$-$0.083} \\
+2025 & log median (baseline) & \textbf{$-$0.283} & \textbf{$-$0.037} & \textbf{$-$0.058} & \textbf{$-$0.055} & \textbf{$-$0.069} \\
+2025 & excl. top 5\% by price & \textbf{$-$0.321} & \textbf{$-$0.056} & \textbf{$-$0.078} & \textbf{$-$0.075} & \textbf{$-$0.090} \\
+2025 & excl. top 10\% by price & \textbf{$-$0.375} & \textbf{$-$0.087} & \textbf{$-$0.111} & \textbf{$-$0.108} & \textbf{$-$0.124} \\
+2025 & denominator ($H_{i}$) weights & \textbf{$-$0.277} & \textbf{$-$0.028} & \textbf{$-$0.049} & \textbf{$-$0.041} & \textbf{$-$0.057} \\
+2025 & log mean & \textbf{$-$0.286} & \textbf{$-$0.032} & \textbf{$-$0.053} & \textbf{$-$0.049} & \textbf{$-$0.064} \\
+2025 & linear median & \textbf{not signed} & \textbf{not signed} & \textbf{not signed} & \textbf{not signed} & \textbf{not signed} \\
+2025 & linear mean & \textbf{not signed} & \textbf{not signed} & \textbf{not signed} & \textbf{not signed} & \textbf{not signed} \\
+2025 & excl. dongs with < 30 transactions & \textbf{$-$0.342} & \textbf{$-$0.050} & \textbf{$-$0.073} & \textbf{$-$0.071} & \textbf{$-$0.087} \\
+2026 & log median (baseline) & 0.010 & 0.054 & 0.043 & 0.043 & 0.033 \\
+2026 & excl. top 5\% by price & \textbf{$-$0.010} & 0.041 & 0.027 & 0.028 & 0.016 \\
+2026 & excl. top 10\% by price & \textbf{$-$0.051} & 0.008 & \textbf{$-$0.007} & \textbf{$-$0.007} & \textbf{$-$0.020} \\
+2026 & denominator ($H_{i}$) weights & 0.030 & 0.066 & 0.055 & 0.057 & 0.046 \\
+2026 & log mean & 0.016 & 0.060 & 0.048 & 0.048 & 0.038 \\
+2026 & linear median & positive & positive & positive & positive & positive \\
+2026 & linear mean & positive & positive & positive & positive & positive \\
+2026 & excl. dongs with < 30 transactions & 0.008 & 0.055 & 0.043 & 0.043 & 0.031 \\
+\end{longtable}
+\par\vspace{2pt}{\raggedright\scriptsize\textit{Notes.} Bold marks lower bounds at or below zero. Linear-price slopes are in different units; only their sign is shown.\par}
+}

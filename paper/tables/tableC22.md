@@ -1,10 +1,21 @@
-Table: Table C22. How far residents' early-vote departures may align with price before the within-district slope loses its sign
+Table: Table C22. Within-district relation with age composition held fixed, and the tercile contrast
 
-| Election | κ\*: all, out-of-zone ±10 | κ\*: all, out-of-zone unrestricted | κ\*: without the three, ±10 | κ\*: without the three, unrestricted | Station gradient: median | Station gradient: largest absolute | Between-jurisdiction reference |
-|----------|------------|-------------|----------|-------------|----------|----------|---------------------|
-| 2022 | 0.042 | 0.042 | 0.028 | 0.028 | −0.003 | 0.016 | 0.007 |
-| 2024 | 0.052 | 0.038 | 0.015 | <0.001 | −0.003 | 0.047 | 0.008 |
-| 2025 | 0.032 | 0.032 | 0.011 | 0.011 | −0.001 | 0.026 | 0.021 |
-| 2026 | ∞ | 0.095 | 0.091 | 0.075 | 0.004 | 0.013 | 0.006 |
+| Election | All of Seoul: election-day voters | All of Seoul: all residents, main assumptions | Without the three: election-day voters | Without the three: all residents, main assumptions |
+|----------------|-------------|--------------------|-------------|--------------------|
+| *Slope* | | | | |
+| 2022 | 0.097 | **[−0.026, 0.223]** | 0.079 | **[−0.042, 0.204]** |
+| 2024 | 0.102 | [0.001, 0.206] | 0.078 | **[−0.027, 0.184]** |
+| 2025 | 0.063 | **[−0.037, 0.194]** | 0.041 | **[−0.064, 0.173]** |
+| 2026 | 0.086 | [0.054, 0.156] | 0.069 | [0.029, 0.139] |
+| *Slope, age held fixed* | | | | |
+| 2022 | 0.087 | **[−0.052, 0.227]** | 0.071 | **[−0.064, 0.210]** |
+| 2024 | 0.100 | **[−0.017, 0.214]** | 0.081 | **[−0.040, 0.199]** |
+| 2025 | 0.067 | **[−0.051, 0.208]** | 0.049 | **[−0.071, 0.192]** |
+| 2026 | 0.088 | [0.046, 0.160] | 0.074 | [0.024, 0.148] |
+| *Top minus bottom tercile (points)* | | | | |
+| 2022 | 5.4 | **[−3.2, 14.0]** | 4.0 | **[−4.2, 12.5]** |
+| 2024 | 4.9 | **[−1.8, 11.9]** | 3.5 | **[−3.1, 10.4]** |
+| 2025 | 2.9 | **[−4.2, 11.6]** | 1.6 | **[−5.4, 10.0]** |
+| 2026 | 4.4 | [1.6, 9.4] | 3.1 | [0.1, 7.9] |
 
-*Notes.* Mobility-calibrated movement; the restriction on residents' early-vote composition (s) is replaced by \|g_u\| ≤ κ, where g_u is the slope, within counting jurisdiction u, of residents' early-vote departures from their benchmarks (in-zone and out-of-zone, as a share of the roll) on log price. κ\*: the largest κ at which the lower end of the within-district slope range stays positive (bisection width 0.0002; ∞: positive without the restriction). Station gradient: the same slope computed for observed in-zone station ballots, over jurisdictions; stations also count non-residents. Between-jurisdiction reference: the slope residents' departures would have if, within jurisdictions, early-vote gaps varied with price as they do across counting jurisdictions (gu; National Assembly constituencies in 2024), \|b_K\| (in-zone early ballots / H) + \|b_B − b_K\| (out-of-zone ballots / H), with b_K and b_B the cross-district slopes of the in-zone and out-of-zone early minus election-day gaps on log price. The slope is identified as positive when residents' departures are no more aligned with price than κ\*.
+*Notes.* Election-day voters: valid-vote share, point-identified. All residents: roll-based share z, mobility-calibrated movement, out-of-zone within 10 points, s = 0.02. Age held fixed: slope weights from a regression of log price on gu dummies, the mean age of residents aged 18 and over and the share aged 60 and over (Ministry of the Interior and Safety, April 2026; a proxy for earlier elections). Tercile: mean of each gu's top third by price minus its bottom third, gu weights as for the median split.

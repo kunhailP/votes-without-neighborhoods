@@ -1,5 +1,5 @@
 """Directional sensitivity: departures of residents' early ballots that are correlated with price (Section 4.5; Online
-Appendix Table C22).
+Appendix Table C13).
 
 The symmetric restrictions (A_delta) and (A^F_s) let each neighborhood's residents depart from their benchmarks independently,
 so a reversal can align departures against price. This script replaces (A^F_s) by a restriction on that alignment itself.

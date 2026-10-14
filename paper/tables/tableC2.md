@@ -1,20 +1,13 @@
-Table: Table C2. 2026: the statutory early-voting zones and cross-contest headcounts (z)
+Table: Table C2. Regressions across fully counted units (valid-vote share on the unit mean of dong log price)
 
-| Cell | Slope | Movement anywhere in the gu (zones ignored) | Statutory zones: district-council constituencies (main) | Zones + council-contest headcounts |
-|--------------------------|----------------|--------------------|--------------------|--------------------|
-| accounting only | Within-district | **[−0.378, 0.519]** | **[−0.279, 0.439]** | **[−0.279, 0.439]** |
-| accounting only | Citywide | **[−0.071, 0.308]** | **[−0.030, 0.276]** | **[−0.030, 0.276]** |
-| minimum movement, δ=1 | Within-district | **[−0.046, 0.234]** | **[−0.046, 0.234]** | **[−0.046, 0.234]** |
-| minimum movement, δ=1 | Citywide | [0.069, 0.187] | [0.069, 0.187] | [0.069, 0.187] |
-| minimum movement, δ=0.1 | Within-district | [0.072, 0.139] | [0.072, 0.138] | [0.075, 0.137] |
-| minimum movement, δ=0.1 | Citywide | [0.118, 0.147] | [0.119, 0.146] | [0.120, 0.146] |
-| eta=0.1, δ=0.1 | Within-district | **[−0.039, 0.239]** | [0.014, 0.195] | [0.016, 0.194] |
-| eta=0.1, δ=0.1 | Citywide | [0.073, 0.189] | [0.093, 0.171] | [0.094, 0.171] |
-| calibrated, δ=1 | Within-district | **[−0.243, 0.419]** | **[−0.108, 0.296]** | **[−0.108, 0.296]** |
-| calibrated, δ=1 | Citywide | **[−0.016, 0.268]** | [0.042, 0.215] | [0.042, 0.215] |
-| calibrated, δ=0.1 | Within-district | **[−0.191, 0.373]** | [0.010, 0.201] | [0.013, 0.200] |
-| calibrated, δ=0.1 | Citywide | [0.007, 0.246] | [0.092, 0.174] | [0.092, 0.173] |
-| calibrated, δ=0.1, s=0.02 | Within-district | [0.034, 0.174] | [0.054, 0.156] | [0.057, 0.154] |
-| calibrated, δ=0.1, s=0.02 | Citywide | [0.103, 0.162] | [0.111, 0.154] | [0.112, 0.153] |
+| Election | Units | Slope | HC1 SE | HC3 SE | Permutation p | Leave-one-out range | Excl. Gangnam, Seocho and Songpa: slope (HC3 SE) | Electorate-weighted price: slope (HC3 SE) |
+|----------|------------------|----------|----------|----------|------------|--------------|--------------|--------------------|
+| 2012 | 25 gu | 0.137 | 0.028 | 0.035 | <0.001 | 0.111–0.148 | 0.057 (0.038) | 0.138 (0.035) |
+| 2017 | 25 gu | 0.060 | 0.014 | 0.017 | <0.001 | 0.048–0.065 | 0.025 (0.025) | 0.061 (0.018) |
+| 2022 | 25 gu | 0.197 | 0.028 | 0.033 | <0.001 | 0.175–0.207 | 0.131 (0.022) | 0.203 (0.034) |
+| 2024 | 24 units | 0.172 | 0.033 | 0.038 | <0.001 | 0.151–0.193 | 0.097 (0.039) | 0.175 (0.038) |
+| 2024 | 48 constituencies | 0.181 | 0.023 | 0.025 | <0.001 | 0.168–0.194 | 0.099 (0.025) | 0.183 (0.025) |
+| 2025 | 25 gu | 0.137 | 0.023 | 0.028 | <0.001 | 0.118–0.147 | 0.080 (0.022) | 0.139 (0.028) |
+| 2026 | 25 gu | 0.142 | 0.026 | 0.030 | <0.001 | 0.123–0.153 | 0.086 (0.028) | 0.145 (0.031) |
 
-*Notes.* Zones: an in-zone early ballot can be cast only at a station in the voter's district-council constituency (155 constituencies). Council-contest headcounts: the out-of-zone early and at-home headcounts that the district-council returns report by constituency (113 contested constituencies; the uncontested ones only as a gu residual), imposed as ranges that allow for unreturned envelopes. Calibrated rows use the zone-level calibration.
+*Notes.* 2024: Jung-gu and Seongdong-gu merged because one constituency spans both. Slopes describe the fully counted units themselves and need no allocation assumption. The standard errors and permutation p-values (5,000 permutations) answer a different question: how far the slope would vary if district values were draws from a larger population or if prices were assigned to districts at random. They are reported for that reading only; the identified sets of the main analysis condition on the observed returns and involve no sampling.

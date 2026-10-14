@@ -1,10 +1,18 @@
-Table: Table C25. Further restrictions: the out-of-zone tolerance, movers' composition and price-aligned out-of-zone departures (within-district slope, z)
+Table: Table C25. 2025 slopes using prices rebuilt from a newly retrieved source snapshot
 
-| Election | δ\* at s = 0.02: all | δ\*: without the three | s = 0.02 and movers within 10 points: all | Same, without the three | κ_P\*: all | κ_P\*: without the three | U, share of H |
-|----------|----------|----------|--------------------|--------------------|----------|----------|----------|
-| 2022 | 0.037 | none | **[−0.025, 0.222]** | **[−0.042, 0.203]** | 0.007 | none | 0.33% |
-| 2024 | 0.102 | none | [0.003, 0.202] | **[−0.026, 0.179]** | 0.015 | none | 0.40% |
-| 2025 | none | none | **[−0.037, 0.193]** | **[−0.063, 0.172]** | <0.001 | none | 0.25% |
-| 2026 | 0.261 | 0.176 | [0.060, 0.153] | [0.033, 0.135] | 0.082 | 0.060 | 0.03% |
+| Assumption column | Archived price summary | Rebuilt price summary |
+|--------------------------|--------------------|--------------------|
+| *All Seoul* | | |
+| A | **[−0.468, 0.552]** | **[−0.461, 0.550]** |
+| C | [0.002, 0.149] | [0.002, 0.148] |
+| D | **[−0.283, 0.411]** | **[−0.279, 0.408]** |
+| E | **[−0.037, 0.194]** | **[−0.036, 0.192]** |
+| E, common support (n=419) | **[−0.037, 0.194]** | **[−0.038, 0.193]** |
+| *Without the three districts* | | |
+| A | **[−0.523, 0.557]** | **[−0.512, 0.554]** |
+| C | **[−0.026, 0.127]** | **[−0.025, 0.126]** |
+| D | **[−0.317, 0.400]** | **[−0.311, 0.396]** |
+| E | **[−0.064, 0.173]** | **[−0.061, 0.171]** |
+| E, common support (n=353) | **[−0.063, 0.172]** | **[−0.065, 0.172]** |
 
-*Notes.* Mobility-calibrated movement throughout. δ\*: the largest out-of-zone tolerance at which the lower end of the range stays positive with s = 0.02 (none: not positive at the smallest feasible tolerance). Movers: residents who voted at another station of their zone vote within 10 points of their home station's composition, with s = 0.02 and δ = 0.1 (5 points gives nearly the same ranges). κ_P\*: with δ removed and s = 0.02, the largest bound on the within-jurisdiction slope of residents' out-of-zone departures from their station's composition on log price at which the slope stays positive. U: removed residents who cast no counted ballot (allocated without restriction), as a share of H.
+*Notes.* Columns A, C, D and E follow Table 2. The alternative uses June 2024-May 2025 MOLIT records retrieved on 14 October 2026 and a separately extended address crosswalk. It does not reconstruct the original download or generating code. Rows A-E use each source's available neighborhoods; the final row restricts both regressions to their common priced neighborhoods. Appendix B.3 reports coverage and measurement differences. Accounting and composition restrictions are unchanged. The historical analysis inputs are retained. Ranges concern the within-district roll-based slope; bold ranges include zero.

@@ -1,34 +1,22 @@
-Table: Table C4. Sensitivity thresholds s\*(λ, δ) for a positive within-district slope
+Table: Table C4. Identified sets under uniform movement and breakdown points η\* (z; bold = contains zero)
 
-| Movement | δ = 0.1 | 0.15 | 0.2 | 0.3 | 0.5 | 1 |
-|-----------------------------------------|----------|----------|----------|----------|----------|----------|
-| *2022* | | | | | | |
-| λ=0.5 | none | none | none | none | none | none |
-| λ=1 | none | none | none | none | none | none |
-| λ=1.5 | none | none | none | none | none | none |
-| λ=2 | none | none | none | none | none | none |
-| λ=3 | none | none | none | none | none | none |
-| unrestricted (η = 2; any η ≥ 1 leaves the cap slack) | none | none | none | none | none | none |
-| *2024* | | | | | | |
-| λ=0.5 | 0.025 | 0.004 | none | none | none | none |
-| λ=1 | 0.021 | none | none | none | none | none |
-| λ=1.5 | 0.018 | none | none | none | none | none |
-| λ=2 | 0.015 | none | none | none | none | none |
-| λ=3 | 0.011 | none | none | none | none | none |
-| unrestricted (η = 2; any η ≥ 1 leaves the cap slack) | none | none | none | none | none | none |
-| *2025* | | | | | | |
-| λ=0.5 | none | none | none | none | none | none |
-| λ=1 | none | none | none | none | none | none |
-| λ=1.5 | none | none | none | none | none | none |
-| λ=2 | none | none | none | none | none | none |
-| λ=3 | none | none | none | none | none | none |
-| unrestricted (η = 2; any η ≥ 1 leaves the cap slack) | none | none | none | none | none | none |
-| *2026* | | | | | | |
-| λ=0.5 | ∞ | ∞ | 0.144 | none | none | none |
-| λ=1 | ∞ | 0.204 | 0.087 | none | none | none |
-| λ=1.5 | 0.271 | 0.136 | 0.071 | none | none | none |
-| λ=2 | 0.184 | 0.115 | 0.064 | none | none | none |
-| λ=3 | 0.145 | 0.102 | 0.055 | none | none | none |
-| unrestricted (η = 2; any η ≥ 1 leaves the cap slack) | 0.122 | 0.079 | 0.006 | none | none | none |
+| Election | Conv. | Accounting only | η = 0, δ = 1 | η = 0, δ = δ_min | η = 0, δ = 0.1 | η = 0.05, δ = 0.1 | η = 0.1, δ = 0.1 | η = 0.2, δ = 0.1 | η\*, δ = 0.1 | η\*, δ = 1 |
+|----------------|----------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|----------|----------|
+| *Citywide* | | | | | | | | | | |
+| 2012 | 0.123 | [0.087, 0.151] | [0.087, 0.151] | [0.102, 0.138] | [0.096, 0.143] | [0.096, 0.143] | [0.096, 0.143] | [0.096, 0.143] | any | any |
+| 2017 | 0.049 | **[−0.135, 0.232]** | **[−0.015, 0.110]** | [0.036, 0.056] | [0.016, 0.077] | **[−0.015, 0.110]** | **[−0.041, 0.135]** | **[−0.078, 0.173]** | 0.021 | 0 |
+| 2022 | 0.150 | **[−0.244, 0.484]** | [0.040, 0.240] | [0.132, 0.166] | [0.103, 0.190] | [0.064, 0.225] | [0.029, 0.258] | **[−0.035, 0.319]** | 0.143 | 0.072 |
+| 2024 | 0.150 | **[−0.148, 0.406]** | [0.067, 0.215] | [0.135, 0.156] | [0.117, 0.175] | [0.084, 0.204] | [0.056, 0.231] | [0.004, 0.281] | 0.207 | 0.150 |
+| 2025 | 0.119 | **[−0.114, 0.324]** | [0.040, 0.185] | [0.101, 0.136] | [0.085, 0.149] | [0.055, 0.175] | [0.030, 0.199] | **[−0.016, 0.243]** | 0.162 | 0.096 |
+| 2026 | 0.133 | **[−0.030, 0.276]** | [0.069, 0.187] | [0.128, 0.138] | [0.119, 0.146] | [0.106, 0.159] | [0.093, 0.171] | [0.069, 0.195] | any | 0.311 |
+| *Within-district* | | | | | | | | | | |
+| 2012 | 0.087 | [0.008, 0.157] | [0.008, 0.157] | [0.044, 0.127] | [0.027, 0.140] | [0.027, 0.140] | [0.027, 0.140] | [0.027, 0.140] | any | any |
+| 2017 | 0.014 | **[−0.428, 0.450]** | **[−0.136, 0.162]** | **[−0.013, 0.034]** | **[−0.060, 0.085]** | **[−0.136, 0.163]** | **[−0.199, 0.225]** | **[−0.288, 0.314]** | 0 | 0 |
+| 2022 | 0.097 | **[−0.615, 0.704]** | **[−0.100, 0.264]** | [0.068, 0.131] | [0.014, 0.175] | **[−0.057, 0.239]** | **[−0.122, 0.298]** | **[−0.238, 0.411]** | 0.008 | 0 |
+| 2024 | 0.102 | **[−0.553, 0.683]** | **[−0.077, 0.254]** | [0.071, 0.121] | [0.033, 0.164] | **[−0.041, 0.230]** | **[−0.105, 0.290]** | **[−0.218, 0.402]** | 0.020 | 0 |
+| 2025 | 0.077 | **[−0.468, 0.552]** | **[−0.104, 0.232]** | [0.037, 0.119] | [0.002, 0.149] | **[−0.068, 0.211]** | **[−0.126, 0.265]** | **[−0.230, 0.365]** | 0 | 0 |
+| 2026 | 0.103 | **[−0.279, 0.439]** | **[−0.046, 0.234]** | [0.093, 0.117] | [0.072, 0.138] | [0.043, 0.167] | [0.014, 0.195] | **[−0.041, 0.250]** | 0.123 | 0 |
+| *Within-constituency* | | | | | | | | | | |
+| 2024 | 0.089 | **[−0.729, 0.816]** | **[−0.134, 0.279]** | [0.051, 0.114] | [0.004, 0.166] | **[−0.088, 0.249]** | **[−0.167, 0.324]** | **[−0.310, 0.464]** | 0 | 0 |
 
-*Notes.* ∞: positive with residents' early composition unrestricted. none: not positive at the smallest feasible slack. The sign is identified at every (λ, δ, s) with s below the entry. Bisection on [s_min, 0.30], width 0.3/256, lower end reported.
+*Notes.* Accounting only: movement unrestricted (η = 1, at which the cap r_j + K_j cannot bind) and δ = 1. δ_min: each jurisdiction at its smallest feasible out-of-zone band. η\*: largest η at which the lower bound is positive, lower end of a bisection interval of width 1/512 on [0, 1] ("any": positive at η = 1). 2026 imposes the statutory early-voting zones.

@@ -1,4 +1,4 @@
-"""Fully counted units (Section 4.1; Figure 2A; Table 3; Online Appendix Table C14) and conventional
+"""Fully counted units (Section 4.1; Figure 2A; Table 3; Online Appendix Table C2) and conventional
 dong-level point estimates (supplementary results, docs/supplementary_results.md).
 
 Every ballot is counted in its voter's gu, so a gu's vote share is its residents' share: the gu-level

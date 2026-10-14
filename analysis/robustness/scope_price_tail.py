@@ -1,4 +1,4 @@
-"""Joint price-tail and geographic scope sensitivity (Online Appendix C29).
+"""Joint price-tail and geographic scope sensitivity (Online Appendix C19).
 Cross the exclusion of Gangnam, Seocho and Songpa with trimming the highest
 remaining neighborhood log prices, retaining every ballot accounting constraint.
 """

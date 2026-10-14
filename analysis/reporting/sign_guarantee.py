@@ -1,4 +1,4 @@
-"""Does a reporting change reveal the sign of the within-gu slope whatever the true allocation? (Section 5; Online Appendix Table C16)
+"""Does a reporting change reveal the sign of the within-gu slope whatever the true allocation? (Section 5; Online Appendix Table C29)
 
 Definition. Report S reveals the sign on Lambda iff no two allocations l, l' in Lambda with S l = S l' have slopes of strictly
 opposite sign, theta(l) < 0 < theta(l'). (Allocations with theta = 0 are not counted as either sign, so full disclosure, S l = S l'

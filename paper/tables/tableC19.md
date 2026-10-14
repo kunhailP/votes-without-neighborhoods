@@ -1,22 +1,14 @@
-Table: Table C19. Sensitivity thresholds s\* with and without the three southeastern districts
+Table: Table C19. Price-tail sensitivity outside Gangnam, Seocho and Songpa, 2026
 
-| Election | Movement | Out-of-zone tolerance (points) | Slope: all | Slope: without the three | Contrast: all | Contrast: without the three |
-|----------|--------------------|------------|----------|----------|----------|----------|
-| 2022 | mobility-calibrated | ±10 | none | none | none | none |
-| 2022 | mobility-calibrated | ±20 | none | none | none | none |
-| 2022 | unrestricted | ±10 | none | none | none | none |
-| 2022 | unrestricted | ±20 | none | none | none | none |
-| 2024 | mobility-calibrated | ±10 | 0.021 | none | none | none |
-| 2024 | mobility-calibrated | ±20 | none | none | none | none |
-| 2024 | unrestricted | ±10 | none | none | none | none |
-| 2024 | unrestricted | ±20 | none | none | none | none |
-| 2025 | mobility-calibrated | ±10 | none | none | none | none |
-| 2025 | mobility-calibrated | ±20 | none | none | none | none |
-| 2025 | unrestricted | ±10 | none | none | none | none |
-| 2025 | unrestricted | ±20 | none | none | none | none |
-| 2026 | mobility-calibrated | ±10 | ∞ | 0.103 | 0.049 | 0.010 |
-| 2026 | mobility-calibrated | ±20 | 0.087 | 0.001 | none | none |
-| 2026 | unrestricted | ±10 | 0.122 | 0.067 | 0.019 | none |
-| 2026 | unrestricted | ±20 | 0.006 | none | none | none |
+| Additional price exclusion | Priced neighborhoods | Within-district slope range |
+|----------------|--------------|----------------------|
+| *Residents composition slack s = 0.02* | | |
+| None | 357 | [0.0292, 0.1388] |
+| Top 5% | 339 | [0.0004, 0.1304] |
+| Top 10% | 321 | **[−0.0093, 0.1302]** |
+| *Residents composition slack s = 0.05* | | |
+| None | 357 | [0.0168, 0.1514] |
+| Top 5% | 339 | **[−0.0147, 0.1454]** |
+| Top 10% | 321 | **[−0.0257, 0.1467]** |
 
-*Notes.* s\*: the largest slack s at which the lower end of the range of the within-district slope (or of the higher-minus-lower-price contrast) is positive, with movement and the out-of-zone tolerance held fixed; bisection width 0.0012, lower end reported. The main setting uses s = 0.02, so a relation is established there when s\* exceeds 0.02. ∞: positive however much residents' early ballots depart; none: not positive for any s.
+*Notes.* Mobility-calibrated movement and out-of-zone tolerance delta = 0.10. Price cutoffs are computed among the 357 priced neighborhoods outside the three districts, and every accounting constraint is retained. Ranges are continuous-allocation bounds for z; bold ranges include zero. Separately omitting each of the other 22 districts at s = 0.02 yields lower bounds from 0.0187 to 0.0338, all positive. Full district results are in the replication files.

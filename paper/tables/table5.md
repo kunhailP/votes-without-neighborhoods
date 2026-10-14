@@ -1,14 +1,10 @@
-Table: Table 5. Assumptions and allocations that permit a non-positive slope
+Table: Table 5. Guaranteed reductions in uncertainty under residence reporting
 
-| Election | Out-of-zone voters within (points) | Largest additional tolerance s with a positive slope | First reversing allocation: movers minus stayers, conservative share (points) | Fewest residents' early ballots that must depart to reverse |
-|----------|------------|-----------|-------------|------------|
-| 2022 | 10 | none | 12 to 21 | 16,685 |
-| 2022 | 20 | none | 14 to 18 | 15,340 |
-| 2024 | 10 | 0.021 | 11 to 17 | 32,177 |
-| 2024 | 20 | none | 9 to 14 | 30,103 |
-| 2025 | 10 | none | 20 to 24 | 13,539 |
-| 2025 | 20 | none | 21 to 23 | 12,512 |
-| 2026 | 10 | ∞ | no reversal | no reversal |
-| 2026 | 20 | 0.087 | −2 to 24 | 69,384 |
+| Election | Current range width | Proposal: out-of-zone early ballots by neighborhood, share removed | Proposal: maximum remaining width | All pooled modes by neighborhood, share removed | All pooled modes: maximum remaining width |
+|----------|----------|--------------|----------|--------------|----------|
+| 2022 | 0.25 | 27% | 0.18 | 57% | 0.11 |
+| 2024 | 0.20 | 30% | 0.14 | 49% | 0.11 |
+| 2025 | 0.23 | 32% | 0.16 | 61% | 0.09 |
+| 2026 | 0.10 | 57% | 0.04 | 69% | 0.03 |
 
-*Notes.* Mobility-calibrated movement. s: residents' early ballots may depart from their neighborhood benchmark (election-day share shifted by the district's early-vote gap) by their station's departure plus s; ∞: positive however much they depart; none: not positive even when they depart only as much as their station. First reversing allocation: the one with the lowest slope at s just above that value; movers voted at another station of their zone, stayers at their own; range over price terciles. Last column: among allocations with a non-positive slope, the fewest residents' conservative early ballots departing from the benchmark (out-of-zone departures and concentration in Online Appendix Table C6). Each reversal is minimal only in its own metric, with other assumptions fixed.
+*Notes.* All columns describe the width of the within-district slope range or the guaranteed fraction of that width removed. Main assumptions: Table 2, column E. Proposal: out-of-zone early ballots reported as aggregate counts by the voter's registered neighborhood, at-home and overseas ballots kept pooled. All pooled modes: out-of-zone early, at-home and overseas ballots by neighborhood. Maximum remaining width: the largest difference in the within-district slope between two allocations that the report could not tell apart, which bounds the range left whatever the true allocation. Counts are released exactly, without cell suppression. Suppression sensitivity: Online Appendix Table C30. Other assumptions and headcount reporting: Table C28.

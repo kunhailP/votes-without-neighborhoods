@@ -1,0 +1,108 @@
+{
+  "complete": true,
+  "scope": "Main-assumption exact P2b/P2 guarantees and primary suppression below 20 for four elections, plus the 2026 uniform-cap zone comparison; supplied inputs and existing solver framework; no source authentication or substantive-assumption validation.",
+  "residence_reporting": [
+    {
+      "election": "20220309",
+      "current_width": 0.24892545787785705,
+      "reports": {
+        "P2b": {
+          "maximum_remaining_width": 0.18196070174959336,
+          "fraction_removed": 0.2690152975880916,
+          "difference_from_shipped": 5.551115123125783e-17
+        },
+        "P2": {
+          "maximum_remaining_width": 0.10674873065904075,
+          "fraction_removed": 0.5711618587785412,
+          "difference_from_shipped": 5.551115123125783e-17
+        }
+      },
+      "primary_suppression_below_20": {
+        "remaining_width_upper": 0.19000119104029511,
+        "guaranteed_reduction_lower": 0.2367145061815049,
+        "difference_from_shipped": 2.7755575615628914e-17
+      }
+    },
+    {
+      "election": "20240410",
+      "current_width": 0.20494568266783145,
+      "reports": {
+        "P2b": {
+          "maximum_remaining_width": 0.14415640086285045,
+          "fraction_removed": 0.29661167297437574,
+          "difference_from_shipped": 5.551115123125783e-17
+        },
+        "P2": {
+          "maximum_remaining_width": 0.10551493083912052,
+          "fraction_removed": 0.4851566060548087,
+          "difference_from_shipped": 1.3877787807814457e-17
+        }
+      },
+      "primary_suppression_below_20": {
+        "remaining_width_upper": 0.1500854995734361,
+        "guaranteed_reduction_lower": 0.2676815748459106,
+        "difference_from_shipped": 0.0
+      }
+    },
+    {
+      "election": "20250603",
+      "current_width": 0.23125410452706271,
+      "reports": {
+        "P2b": {
+          "maximum_remaining_width": 0.15748149970194378,
+          "fraction_removed": 0.3190110072899728,
+          "difference_from_shipped": 8.326672684688674e-17
+        },
+        "P2": {
+          "maximum_remaining_width": 0.08951371649732469,
+          "fraction_removed": 0.6129205287820123,
+          "difference_from_shipped": 8.326672684688674e-17
+        }
+      },
+      "primary_suppression_below_20": {
+        "remaining_width_upper": 0.1628991555233559,
+        "guaranteed_reduction_lower": 0.2955837222586789,
+        "difference_from_shipped": 0.0
+      }
+    },
+    {
+      "election": "20260603",
+      "current_width": 0.10136474716066338,
+      "reports": {
+        "P2b": {
+          "maximum_remaining_width": 0.04352401140628178,
+          "fraction_removed": 0.5706198394862455,
+          "difference_from_shipped": 8.326672684688674e-17
+        },
+        "P2": {
+          "maximum_remaining_width": 0.03170045815443562,
+          "fraction_removed": 0.6872634812161045,
+          "difference_from_shipped": 2.0816681711721685e-17
+        }
+      },
+      "primary_suppression_below_20": {
+        "remaining_width_upper": 0.05168529042899598,
+        "guaranteed_reduction_lower": 0.4901058614877748,
+        "difference_from_shipped": 7.632783294297951e-17
+      }
+    }
+  ],
+  "fixed_cap_zone_comparison": [
+    {
+      "zones": "no zone restriction",
+      "bounds": [
+        -0.038644206414991715,
+        0.2386151891570248
+      ],
+      "difference_from_shipped": 1.3877787807814457e-17
+    },
+    {
+      "zones": "statutory zones (main)",
+      "bounds": [
+        0.013704416012028701,
+        0.1952984169214906
+      ],
+      "difference_from_shipped": 1.734723475976807e-18
+    }
+  ]
+}

@@ -1,27 +1,32 @@
-Table: Table C20. Point-identified benchmarks: election-day voters and in-zone early stations
+Table: Table C20. Valid-vote shares: within-district slope
 
-| Election | Election-day voters: all | Election-day voters: without the three | In-zone stations: all | In-zone stations: without the three |
-|----------------|------------------|------------------|----------|----------|
-| *A. Within-district slope* | | | | |
-| 2012 | 0.087 | 0.057 | – | – |
-| 2017 | 0.013 | 0.001 | 0.014 | −0.004 |
-| 2022 | 0.097 | 0.079 | 0.091 | 0.066 |
-| 2024 | 0.102 | 0.078 | 0.090 | 0.058 |
-| 2025 | 0.063 | 0.041 | 0.055 | 0.029 |
-| 2026 | 0.086 | 0.069 | 0.102 | 0.073 |
-| *B. Higher- minus lower-price half (percentage points)* | | | | |
-| 2012 | 1.9 | 0.9 | – | – |
-| 2017 | 0.1 | −0.4 | 0.2 | −0.4 |
-| 2022 | 4.0 | 3.2 | 3.8 | 2.8 |
-| 2024 | 3.8 | 2.7 | 3.3 | 2.1 |
-| 2025 | 1.8 | 1.0 | 1.8 | 0.9 |
-| 2026 | 3.0 | 2.2 | 3.8 | 2.5 |
-| *C. Auxiliary diagnostics for the election-day slope: gu-clustered standard error; within-district permutation p-value* | | | | |
-| 2012 | (0.021); p <0.001 | (0.020); p <0.001 |  |  |
-| 2017 | (0.011); p 0.096 | (0.012); p 0.875 |  |  |
-| 2022 | (0.017); p <0.001 | (0.016); p <0.001 |  |  |
-| 2024 | (0.016); p <0.001 | (0.013); p <0.001 |  |  |
-| 2025 | (0.015); p <0.001 | (0.014); p <0.001 |  |  |
-| 2026 | (0.012); p <0.001 | (0.012); p <0.001 |  |  |
+| Election | Assumptions | Roll-based share (continuous range) | Valid-vote share, lower end: [outer bound, attainable] | upper end: [attainable, outer bound] |
+|----------|-----------------------------------------|--------------------|-------------------|-----------------|
+| 2012 | returns and rolls only | [0.008, 0.157] | [0.0069, 0.0070] | [0.1577, 0.1579] |
+| 2012 | minimal movement | [0.008, 0.157] | [0.0069, 0.0070] | [0.1577, 0.1579] |
+| 2012 | minimal movement, ±10 points | [0.027, 0.140] | [0.0356, 0.0359] | [0.1323, 0.1326] |
+| 2017 | returns and rolls only | **[−0.428, 0.450]** | [−0.4405, −0.4368] | [0.4577, 0.4618] |
+| 2017 | minimal movement | **[−0.136, 0.162]** | [−0.1440, −0.1422] | [0.1676, 0.1699] |
+| 2017 | minimal movement, ±10 points | **[−0.060, 0.085]** | [−0.0603, −0.0597] | [0.0857, 0.0863] |
+| 2022 | returns and rolls only | **[−0.615, 0.704]** | [−0.6208, −0.6195] | [0.7098, 0.7115] |
+| 2022 | minimal movement | **[−0.100, 0.264]** | [−0.1016, −0.1013] | [0.2658, 0.2663] |
+| 2022 | minimal movement, ±10 points | [0.014, 0.175] | [0.0187, 0.0203] | [0.1686, 0.1697] |
+| 2022 | mobility-calibrated movement, ±10 points | **[−0.283, 0.448]** | [−0.2849, −0.2832] | [0.4484, 0.4502] |
+| 2022 | + residents' early ballots resemble neighborhood | **[−0.026, 0.223]** | [−0.0258, −0.0237] | [0.2187, 0.2200] |
+| 2024 | returns and rolls only | **[−0.553, 0.683]** | [−0.5671, −0.5621] | [0.6937, 0.6971] |
+| 2024 | minimal movement | **[−0.077, 0.254]** | [−0.0829, −0.0817] | [0.2582, 0.2592] |
+| 2024 | minimal movement, ±10 points | [0.033, 0.164] | [0.0362, 0.0374] | [0.1587, 0.1594] |
+| 2024 | mobility-calibrated movement, ±10 points | **[−0.185, 0.372]** | [−0.1883, −0.1851] | [0.3734, 0.3759] |
+| 2024 | + residents' early ballots resemble neighborhood | [0.001, 0.206] | [0.0045, 0.0055] | [0.2027, 0.2039] |
+| 2025 | returns and rolls only | **[−0.468, 0.552]** | [−0.4821, −0.4784] | [0.5612, 0.5639] |
+| 2025 | minimal movement | **[−0.104, 0.232]** | [−0.1099, −0.1089] | [0.2358, 0.2367] |
+| 2025 | minimal movement, ±10 points | [0.002, 0.149] | [−0.0021, −0.0007] | [0.1512, 0.1523] |
+| 2025 | mobility-calibrated movement, ±10 points | **[−0.283, 0.411]** | [−0.2898, −0.2876] | [0.4160, 0.4178] |
+| 2025 | + residents' early ballots resemble neighborhood | **[−0.037, 0.194]** | [−0.0459, −0.0445] | [0.2010, 0.2024] |
+| 2026 | returns and rolls only | **[−0.279, 0.439]** | [−0.2874, −0.2854] | [0.4425, 0.4442] |
+| 2026 | minimal movement | **[−0.046, 0.234]** | [−0.0489, −0.0487] | [0.2351, 0.2354] |
+| 2026 | minimal movement, ±10 points | [0.072, 0.138] | [0.0696, 0.0698] | [0.1389, 0.1390] |
+| 2026 | mobility-calibrated movement, ±10 points | [0.010, 0.201] | [0.0063, 0.0070] | [0.2027, 0.2033] |
+| 2026 | + residents' early ballots resemble neighborhood | [0.054, 0.156] | [0.0493, 0.0496] | [0.1588, 0.1591] |
 
-*Notes.* Conservative candidate's valid-vote share. Election-day ballots are counted in the voter's own voting district, so these slopes and contrasts describe registered residents who voted on election day and need no allocation assumption. In-zone station shares are counted where cast and include voters from other neighborhoods of the zone; 2012 had no in-zone early voting. Weights as in Table 2 (gu fixed effects; median split within gu). Without the three: Gangnam, Seocho and Songpa excluded from the weights. Panel C, auxiliary diagnostics only: the slopes above describe the observed neighborhoods exactly. The permutation p-value (prices permuted within each gu, 5,000 permutations, two-sided) assumes that dongs are exchangeable within a gu and ignores spatial dependence; prices were not randomly assigned. The clustered standard error reads the dongs as draws from a larger population.
+*Notes.* Ranges and attainable values in this table concern continuous allocations; integer checks are separate (Table A2). The exact lower end of the valid-vote range lies between the two numbers given; it is negative, so the direction is not established, when the attainable value is negative.

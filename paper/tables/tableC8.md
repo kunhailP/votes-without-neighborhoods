@@ -1,11 +1,34 @@
-Table: Table C8. Is the early-vote gap related to price or age? (conservative share; coefficients, standard errors in parentheses)
+Table: Table C8. Sensitivity thresholds s\*(λ, δ) for a positive within-district slope
 
-| Election | Gu: in-zone early − election day, on log price | on share aged 60+ | Gu: out-of-zone early − election day, on log price | on share aged 60+ | Dong (within gu): station departure, on log price | on share aged 60+ | Mean gu gap γ^K (SD) |
-|----------|---------------|---------------|---------------|---------------|---------------|---------------|---------------|
-| 2017 | −0.014 (0.008) | 0.055 (0.070) | −0.009 (0.011) | −0.037 (0.075) | 0.000 (0.005) | 0.026 (0.025) | −0.043 (0.008) |
-| 2022 | −0.001 (0.010) | 0.130 (0.076) | −0.042 (0.021) | −0.139 (0.085) | −0.008 (0.006) | 0.010 (0.021) | −0.101 (0.010) |
-| 2024 | −0.021 (0.007) | 0.046 (0.059) | −0.029 (0.009) | −0.081 (0.075) | −0.019 (0.006) | −0.010 (0.026) | −0.120 (0.014) |
-| 2025 | −0.072 (0.012) | −0.179 (0.109) | −0.058 (0.013) | −0.361 (0.110) | −0.011 (0.007) | −0.042 (0.025) | −0.282 (0.024) |
-| 2026 | −0.025 (0.006) | −0.022 (0.088) | −0.037 (0.010) | −0.257 (0.068) | 0.012 (0.007) | −0.010 (0.022) | −0.263 (0.013) |
+| Movement | δ = 0.1 | 0.15 | 0.2 | 0.3 | 0.5 | 1 |
+|-----------------------------------------|----------|----------|----------|----------|----------|----------|
+| *2022* | | | | | | |
+| λ=0.5 | none | none | none | none | none | none |
+| λ=1 | none | none | none | none | none | none |
+| λ=1.5 | none | none | none | none | none | none |
+| λ=2 | none | none | none | none | none | none |
+| λ=3 | none | none | none | none | none | none |
+| unrestricted (η = 2; any η ≥ 1 leaves the cap slack) | none | none | none | none | none | none |
+| *2024* | | | | | | |
+| λ=0.5 | 0.025 | 0.004 | none | none | none | none |
+| λ=1 | 0.021 | none | none | none | none | none |
+| λ=1.5 | 0.018 | none | none | none | none | none |
+| λ=2 | 0.015 | none | none | none | none | none |
+| λ=3 | 0.011 | none | none | none | none | none |
+| unrestricted (η = 2; any η ≥ 1 leaves the cap slack) | none | none | none | none | none | none |
+| *2025* | | | | | | |
+| λ=0.5 | none | none | none | none | none | none |
+| λ=1 | none | none | none | none | none | none |
+| λ=1.5 | none | none | none | none | none | none |
+| λ=2 | none | none | none | none | none | none |
+| λ=3 | none | none | none | none | none | none |
+| unrestricted (η = 2; any η ≥ 1 leaves the cap slack) | none | none | none | none | none | none |
+| *2026* | | | | | | |
+| λ=0.5 | ∞ | ∞ | 0.144 | none | none | none |
+| λ=1 | ∞ | 0.204 | 0.087 | none | none | none |
+| λ=1.5 | 0.271 | 0.136 | 0.071 | none | none | none |
+| λ=2 | 0.184 | 0.115 | 0.064 | none | none | none |
+| λ=3 | 0.145 | 0.102 | 0.055 | none | none | none |
+| unrestricted (η = 2; any η ≥ 1 leaves the cap slack) | 0.122 | 0.079 | 0.006 | none | none | none |
 
-*Notes.* Gu level: one observation per jurisdiction (48 constituencies in 2024), joint regression on price and age, HC3 standard errors. Dong level: weighted by station ballots, jurisdiction fixed effects, standard errors clustered by jurisdiction. Stations mix residents and movers, so the dong-level test is an imperfect proxy. Age shares from April 2026 resident registration for all elections.
+*Notes.* ∞: positive with residents' early composition unrestricted. none: not positive at the smallest feasible slack. The sign is identified at every (λ, δ, s) with s below the entry. Bisection on [s_min, 0.30], width 0.3/256, lower end reported.

@@ -1,4 +1,4 @@
-"""Robustness under the residents' early-composition restriction (Section 4.5; Online Appendix Table C10):
+"""Robustness under the residents' early-composition restriction (Section 4.5; Online Appendix Table C23):
 slack s in {0.02, 0.05}, delta = 0.1, calibrated (lambda = 1) or unrestricted (eta = 2) movement; within-gu
 (and within-constituency in 2024). Variants: price measure, trimming, denominator weights, sparse prices.
 Output: results/robust_restricted_<sg>.csv"""

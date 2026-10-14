@@ -1,5 +1,5 @@
 """Identified sets for z slopes on the uniform-movement grid, conventional comparators and breakdown points eta*
-(Table 2, columns A-C; Online Appendix Table C1; with --no-zones, Section 4.4, Table 4 and Online Appendix Table C2).
+(Table 2, columns A-C; Online Appendix Table C4; with --no-zones, Section 4.4, Table 4 and Online Appendix Table C27).
 
 Cells: eta in {0, 0.05, 0.1, 0.2, 1} x delta in {0.1, 0.2, 1, delta_min(eta)}. eta = 1 removes the movement
 cap (the cap r_j + K_j can never bind), so (eta = 1, delta = 1) is the accounting-only set: the returns,

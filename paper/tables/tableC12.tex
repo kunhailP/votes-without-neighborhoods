@@ -1,39 +1,17 @@
-{\scriptsize
+\begin{table}[!htbp]
+\centering
+\footnotesize
 \setlength{\tabcolsep}{3.5pt}
-\begin{longtable}{>{\raggedright\arraybackslash}p{\dimexpr 0.180\linewidth-2\tabcolsep\relax}>{\raggedright\arraybackslash}p{\dimexpr 0.180\linewidth-2\tabcolsep\relax}>{\centering\arraybackslash}p{\dimexpr 0.122\linewidth-2\tabcolsep\relax}>{\centering\arraybackslash}p{\dimexpr 0.122\linewidth-2\tabcolsep\relax}>{\centering\arraybackslash}p{\dimexpr 0.122\linewidth-2\tabcolsep\relax}>{\centering\arraybackslash}p{\dimexpr 0.122\linewidth-2\tabcolsep\relax}>{\centering\arraybackslash}p{\dimexpr 0.122\linewidth-2\tabcolsep\relax}}
-\caption*{\textbf{Table C12.} Guaranteed share of the within-district range removed, by reporting change}\\
+\caption*{\textbf{Table C12.} Further restrictions: the out-of-zone tolerance, movers' composition and price-aligned out-of-zone departures (within-district slope, z)}
+\begin{tabularx}{\linewidth}{lCCCCCCC}
 \toprule
-Election & Assumptions & Current range & All pooled modes by neighborhood & Out-of-zone early only (proposal) & Headcounts only & Both \\
-\midrule\endfirsthead
-\toprule
-Election & Assumptions & Current range & All pooled modes by neighborhood & Out-of-zone early only (proposal) & Headcounts only & Both \\
-\midrule\endhead
-\bottomrule\endfoot
-2017 & minimal movement & 0.298 & 97\% & 85\% & 0\% & 22\% \\
-2022 & minimal movement & 0.364 & 92\% & 76\% & 0\% & 10\% \\
-2022 & half the mobility-calibrated movement & 0.692 & 29\% & 24\% & 0\% & 10\% \\
-2022 & mobility-calibrated movement & 0.841 & 20\% & 16\% & 0\% & 10\% \\
-2022 & mobility-calibrated movement, residents resemble & 0.591 & 82\% & 69\% & 6\% & 89\% \\
-2022 & mobility-calibrated movement, $\pm $10 points & 0.731 & 8\% & 4\% & 3\% & 7\% \\
-2022 & mobility-calibrated movement, $\pm $10 points, residents resemble & 0.249 & 57\% & 27\% & 3\% & 70\% \\
-2024 & minimal movement & 0.331 & 92\% & 83\% & 0\% & 12\% \\
-2024 & half the mobility-calibrated movement & 0.577 & 34\% & 30\% & 0\% & 12\% \\
-2024 & mobility-calibrated movement & 0.676 & 25\% & 22\% & 0\% & 12\% \\
-2024 & mobility-calibrated movement, residents resemble & 0.508 & 79\% & 72\% & 13\% & 88\% \\
-2024 & mobility-calibrated movement, $\pm $10 points & 0.557 & 9\% & 6\% & 4\% & 8\% \\
-2024 & mobility-calibrated movement, $\pm $10 points, residents resemble & 0.205 & 49\% & 30\% & 6\% & 63\% \\
-2025 & minimal movement & 0.335 & 94\% & 80\% & 0\% & 21\% \\
-2025 & half the mobility-calibrated movement & 0.665 & 28\% & 23\% & 0\% & 21\% \\
-2025 & mobility-calibrated movement & 0.787 & 20\% & 18\% & 0\% & 21\% \\
-2025 & mobility-calibrated movement, residents resemble & 0.532 & 83\% & 70\% & 16\% & 88\% \\
-2025 & mobility-calibrated movement, $\pm $10 points & 0.694 & 9\% & 6\% & 6\% & 15\% \\
-2025 & mobility-calibrated movement, $\pm $10 points, residents resemble & 0.231 & 61\% & 32\% & 4\% & 68\% \\
-2026 & minimal movement & 0.280 & 99\% & 95\% & 1\% & 44\% \\
-2026 & half the mobility-calibrated movement & 0.379 & 74\% & 71\% & 1\% & 44\% \\
-2026 & mobility-calibrated movement & 0.404 & 69\% & 66\% & 1\% & 44\% \\
-2026 & mobility-calibrated movement, residents resemble & 0.347 & 91\% & 87\% & 4\% & 93\% \\
-2026 & mobility-calibrated movement, $\pm $10 points & 0.191 & 33\% & 27\% & 10\% & 23\% \\
-2026 & mobility-calibrated movement, $\pm $10 points, residents resemble & 0.101 & 69\% & 57\% & 7\% & 72\% \\
-\end{longtable}
-\par\vspace{2pt}{\raggedright\scriptsize\textit{Notes.} Out-of-zone voters are unrestricted unless $\pm $10 points is stated. All pooled modes and Out-of-zone early only: share of the current range in the same row removed. Headcounts only and Both: share removed of the range under the same composition assumptions but with movement unrestricted, since a headcount report replaces the movement assumption. Whether a report reveals the direction of the slope: Table C16.\par}
-}
+Election & $\delta $* at s = 0.02: all & $\delta $*: without the three & s = 0.02 and movers within 10 points: all & Same, without the three & $\kappa _{P}$*: all & $\kappa _{P}$*: without the three & U, share of H \\
+\midrule
+2022 & 0.037 & none & \textbf{[$-$0.025, 0.222]} & \textbf{[$-$0.042, 0.203]} & 0.007 & none & 0.33\% \\
+2024 & 0.102 & none & [0.003, 0.202] & \textbf{[$-$0.026, 0.179]} & 0.015 & none & 0.40\% \\
+2025 & none & none & \textbf{[$-$0.037, 0.193]} & \textbf{[$-$0.063, 0.172]} & <0.001 & none & 0.25\% \\
+2026 & 0.261 & 0.176 & [0.060, 0.153] & [0.033, 0.135] & 0.082 & 0.060 & 0.03\% \\
+\bottomrule
+\end{tabularx}
+\par\vspace{2pt}{\raggedright\footnotesize\textit{Notes.} Mobility-calibrated movement throughout. $\delta $*: the largest out-of-zone tolerance at which the lower end of the range stays positive with s = 0.02 (none: not positive at the smallest feasible tolerance). Movers: residents who voted at another station of their zone vote within 10 points of their home station's composition, with s = 0.02 and $\delta $ = 0.1 (5 points gives nearly the same ranges). $\kappa _{P}$*: with $\delta $ removed and s = 0.02, the largest bound on the within-jurisdiction slope of residents' out-of-zone departures from their station's composition on log price at which the slope stays positive. U: removed residents who cast no counted ballot (allocated without restriction), as a share of H.\par}
+\end{table}

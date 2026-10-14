@@ -890,7 +890,7 @@ Additional tables generated from `results/` by `analysis/output/appendix_tables.
 | station+gap | calibrated | δ = 0.2, s = 0.05 | – | **[−0.096, 0.288]** | **[−0.063, 0.269]** | **[−0.107, 0.260]** | [0.008, 0.201] |
 | station+gap+price | calibrated | δ = 0.2, s = 0.05 | – | **[−0.102, 0.282]** | **[−0.064, 0.268]** | **[−0.104, 0.262]** | [0.007, 0.200] |
 
-*Notes.* station: K_ic/K_i. station+gap: plus the jurisdiction difference between out-of-zone and in-zone early composition. station+gap+price: plus (b_P − b_K)(x_i − x̄_g) for the conservative candidate (opposite for the Democratic), with b_P, b_K the cross-jurisdiction price slopes of the two gaps (Table C8). Infeasible: the band is smaller than the smallest feasible band in some jurisdiction.
+*Notes.* station: K_ic/K_i. station+gap: plus the jurisdiction difference between out-of-zone and in-zone early composition. station+gap+price: plus (b_P − b_K)(x_i − x̄_g) for the conservative candidate (opposite for the Democratic), with b_P, b_K the cross-jurisdiction price slopes of the two gaps (Table C5). Infeasible: the band is smaller than the smallest feasible band in some jurisdiction.
 
 
 **Table S27. Residents' in-zone early composition restricted (A^F): identified sets (z) and breakdown points**
@@ -1067,7 +1067,7 @@ Additional tables generated from `results/` by `analysis/output/appendix_tables.
 *Notes.* Bisection on [s_min, 0.30], where s_min is the smallest feasible slack (0 except where the restriction is infeasible at s = 0); reported at the lower end of the final interval (width 0.3/128). 0: not signed at s_min. ∞: signed with residents' early composition unrestricted.
 
 
-**Table S29. Allocations behind Table 5, by price tercile of residents' home dongs (within-district, calibrated movement)**
+**Table S29. Allocations behind Table C14, by price tercile of residents' home dongs (within-district, calibrated movement)**
 
 | Election | δ | Allocation | Tercile | Movers' share of residents' early ballots | Movers' conservative share | Stayers' conservative share | Residents' early conservative share | Benchmark a^F | Station share | Residents' out-of-zone conservative share |
 |----------|----------|-------------------------|----------|-----------|-------------|-------------|-------------|----------|----------|-------------|
@@ -1167,5 +1167,5 @@ Additional tables generated from `results/` by `analysis/output/appendix_tables.
 | gu-level price and age | [0.065, 0.230] | [0.089, 0.203] | [0.049, 0.173] | [0.104, 0.159] |
 | station-level price and age | [0.065, 0.229] | [0.089, 0.203] | [0.058, 0.177] | [0.106, 0.160] |
 
-*Notes.* The conservative benchmark is shifted by β_x(x_i − x̄_g) + β_a(a_i − ā_g), with the opposite shift for the Democratic candidate; coefficients from Table C8 (gu-level regression, or its 95% limits, or the dong-level station regression).
+*Notes.* The conservative benchmark is shifted by β_x(x_i − x̄_g) + β_a(a_i − ā_g), with the opposite shift for the Democratic candidate; coefficients from Table C5 (gu-level regression, or its 95% limits, or the dong-level station regression).
 

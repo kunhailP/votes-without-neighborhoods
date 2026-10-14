@@ -135,7 +135,7 @@ def F7():
         for r in q.itertuples():
             rows.append([Y[str(sg)], f"{dl:g}", al, r.tercile, num(r.move_share, 2), num(r.mover_cons, 2), num(r.stayer_cons, 2), num(r.resident_early_cons, 2),
                          num(r.benchmark_cons, 2), num(r.station_cons, 2), num(r.pooled_cons, 2)])
-    emit("F7", "Table F7. Allocations behind Table 5, by price tercile of residents' home dongs (within-gu, calibrated movement)",
+    emit("F7", "Table F7. Allocations behind Table RV, by price tercile of residents' home dongs (within-gu, calibrated movement)",
          ["Election", "δ", "Allocation", "Tercile", "Movers' share of residents' early ballots", "Movers' conservative share", "Stayers' conservative share",
           "Residents' early conservative share", "Benchmark a^F", "Station share", "Residents' out-of-district conservative share"], rows, long=True, size="scriptsize",
          colspec="lllcccccccc", notes="Shares include invalid ballots; averages over dongs weighted by the relevant ballot counts. Observed stations' departure from the "
@@ -570,7 +570,7 @@ def F15c():
          ["Election", "Assumptions", "Residence reporting", "Out-of-district only", "Residence + headcounts (no movement assumption)"], rows, size="scriptsize", colspec="llccc",
          notes="t* = max t subject to θ(ℓ) ≤ −t, θ(ℓ') ≥ t, Sℓ = Sℓ', with ℓ and ℓ' in Λ. A report reveals the direction iff no two allocations it cannot distinguish have "
                "slopes of strictly opposite sign, that is iff t* ≤ 0 (\"revealed\"). Where the current set already excludes zero every report reveals the direction; "
-               "the last column drops the movement assumption, as in Online Appendix Table C12.")
+               "the last column drops the movement assumption, as in Online Appendix Table F15bs.")
 
 
 def F19():
@@ -665,7 +665,7 @@ def VV():
             rows.append([Y[sg], l, iv(r.z_lo, r.z_hi), f"[{num(r.y_tight_lo, 4)}, {num(r.y_ach_lo, 4)}]", f"[{num(r.y_ach_hi, 4)}, {num(r.y_tight_hi, 4)}]"])
     emit("VV", "Table VV. Valid-vote shares: within-district slope", ["Election", "Assumptions", "Roll-based share (continuous range)", "Valid-vote share, lower end: [outer bound, attainable]",
          "upper end: [attainable, outer bound]"], rows, long=True, size="scriptsize", colspec="llccc",
-         notes="Ranges and attainable values in this table concern continuous allocations; integer checks are separate (Table A2). The exact lower end of the valid-vote range lies between the two numbers given; it is negative, so the direction is not established, when the attainable value is negative.")
+         notes="Ranges and attainable values in this table concern continuous allocations; integer checks are separate (Table IW). The exact lower end of the valid-vote range lies between the two numbers given; it is negative, so the direction is not established, when the attainable value is negative.")
 
 
 def F20s():
@@ -704,7 +704,7 @@ def F15bs():
         rows.append([Y[str(r.sg)], lab, num(r.W0), f("P2"), f("P2b"), f("P1"), f("P12")])
     emit("F15bs", "Table F15bs. Guaranteed share of the within-district range removed, by reporting change", ["Election", "Assumptions", "Current range", "All pooled modes by neighborhood", "Out-of-district early only (proposal)",
          "Headcounts only", "Both"], rows, long=True, size="scriptsize", colspec="ll" + "C" * 5,
-         notes="Out-of-district voters are unrestricted unless ±10 points is stated. All pooled modes and Out-of-district early only: share of the current range in the same row removed. Headcounts only and Both: share removed of the range under the same composition assumptions but with movement unrestricted, since a headcount report replaces the movement assumption. Whether a report reveals the direction of the slope: Table C16.")
+         notes="Out-of-district voters are unrestricted unless ±10 points is stated. All pooled modes and Out-of-district early only: share of the current range in the same row removed. Headcounts only and Both: share removed of the range under the same composition assumptions but with movement unrestricted, since a headcount report replaces the movement assumption. Whether a report reveals the direction of the slope: Table F15c.")
 
 
 def D2s():
@@ -822,8 +822,42 @@ def R4():
                "positive. U: removed residents who cast no counted ballot (allocated without restriction), as a share of H.")
 
 
-MAP = {"B1": "A1", "IW": "A2", "C1": "B1", "C2": "B2", "F1": "C1", "F3": "C2", "F4": "C3", "F6b": "C4", "F7b": "C5", "F7c": "C6", "F20s": "C7", "F8a": "C8", "F21s": "C9",
-       "F9": "C10", "F18": "C11", "F15bs": "C12", "F16": "C13", "F17a": "C14", "VV": "C15", "F15c": "C16", "SC": "C17", "SCy": "C18", "SCs": "C19", "ED": "C20", "OG": "C21", "DIR": "C22", "AT": "C23", "F13a": "C24", "R4": "C25", "PS": "C26", "AF": "C27", "PR": "C28", "ST": "C29", "D1": "D1", "D2s": "D2"}
+MAP = {'B1': 'A1',
+ 'IW': 'A2',
+ 'C1': 'B1',
+ 'C2': 'B2',
+ 'F1': 'C4',
+ 'F3': 'C27',
+ 'F4': 'C7',
+ 'F6b': 'C8',
+ 'F7b': 'C15',
+ 'F7c': 'C16',
+ 'F20s': 'C17',
+ 'F8a': 'C5',
+ 'F21s': 'C11',
+ 'F9': 'C23',
+ 'F18': 'C3',
+ 'F15bs': 'C28',
+ 'F16': 'C24',
+ 'F17a': 'C2',
+ 'VV': 'C20',
+ 'F15c': 'C29',
+ 'SC': 'C18',
+ 'SCy': 'C21',
+ 'SCs': 'C9',
+ 'ED': 'C1',
+ 'OG': 'C6',
+ 'DIR': 'C13',
+ 'AT': 'C22',
+ 'F13a': 'C26',
+ 'R4': 'C12',
+ 'PS': 'C30',
+ 'AF': 'C10',
+ 'PR': 'C25',
+ 'ST': 'C19',
+ 'D1': 'D1',
+ 'D2s': 'D2',
+ 'RV': 'C14'}
 
 
 def SC():
@@ -840,7 +874,7 @@ def SC():
     emit("SC", "Table SC. Beyond Gangnam: the within-district relation without 강남, 서초 and 송파",
          ["Election", "Conv.", "(A) Returns and rolls only", "(B) Minimal movement", "(C) = (B) + out-of-district within 10 points",
           "(D) Mobility-calibrated", "(E) Main"], rows, size="scriptsize", colspec="lc" + "C" * 5,
-         notes="Columns as in Table 2; roll-based share z. Valid-vote shares: Table C18.")
+         notes="Columns as in Table 2; roll-based share z. Valid-vote shares: Table SCy.")
 
 
 def SCy():
@@ -857,7 +891,7 @@ def SCy():
     emit("SCy", "Table SCy. Valid-vote slope lower bounds with and without the three southeastern districts",
          ["Election", "Slope: all", "Slope: without the three", "Contrast (points): all", "Contrast (points): without the three"], rows, size="footnotesize",
          colspec="l" + "C" * 4,
-         notes="Attainable values refer to feasible continuous allocations; integer checks are reported separately in Table A2. Each entry gives a guaranteed outer bound and an attainable value for the lower end of the valid-vote range; the exact lower end lies between "
+         notes="Attainable values refer to feasible continuous allocations; integer checks are reported separately in Table IW. Each entry gives a guaranteed outer bound and an attainable value for the lower end of the valid-vote range; the exact lower end lies between "
                "them. The direction is established when the first value is positive and not established when the second is negative.")
 
 
@@ -903,7 +937,7 @@ def PS():
     emit('PS', 'Table PS. Conservative reporting gains with primary suppression',
          ['Election', 'Current width', 'Exact counts', 'Suppress counts <5', 'Suppress counts <10', 'Suppress counts <20'],
          rows, colspec='l'+'C'*5, size='footnotesize',
-         notes="Main assumptions, within-district z slope. Out-of-zone early counts by registered neighborhood and candidate, including invalid ballots; other pooled modes stay pooled. Exact counts reproduce Table 6. Other columns express guaranteed reductions relative to the current continuous range, using an upper bound on remaining integer uncertainty under a release that shows counts >=k exactly and marks smaller counts suppressed. A continuous paired-allocation relaxation allows each count to differ by up to k-1 and can overstate the maximum remaining width. These are not sharp suppression bounds or fractions of an exactly solved integer prior range. Complementary suppression of larger cells and a full privacy assessment are not covered (Appendix A.3).")
+         notes="Main assumptions, within-district z slope. Out-of-zone early counts by registered neighborhood and candidate, including invalid ballots; other pooled modes stay pooled. Exact counts reproduce Table 5. Other columns express guaranteed reductions relative to the current continuous range, using an upper bound on remaining integer uncertainty under a release that shows counts >=k exactly and marks smaller counts suppressed. A continuous paired-allocation relaxation allows each count to differ by up to k-1 and can overstate the maximum remaining width. These are not sharp suppression bounds or fractions of an exactly solved integer prior range. Complementary suppression of larger cells and a full privacy assessment are not covered (Appendix A.3).")
 
 
 def AF():
@@ -951,12 +985,12 @@ def ST():
          notes=f"Mobility-calibrated movement and out-of-zone tolerance delta = 0.10. Price cutoffs are computed among the 357 priced neighborhoods outside the three districts, and every accounting constraint is retained. Ranges are continuous-allocation bounds for z; bold ranges include zero. Separately omitting each of the other 22 districts at s = 0.02 yields lower bounds from {loo.lower.min():.4f} to {loo.lower.max():.4f}, all positive. Full district results are in the replication files.")
 
 def renumber_and_supplement():
-    """One naming scheme: main tables table1-table6, Online Appendix tableA1 ... tableD2 (MAP), supplementary tables S1 ...
+    """One naming scheme: main tables table1-table5, Online Appendix tableA1 ... tableD2 (MAP), supplementary tables S1 ...
     (collected in docs/supplementary_results.md). Cross-references between tables are rewritten to the final numbers;
     intermediate files are removed from paper/tables."""
     import re, glob as gl, os
     from vwn.paths import TAB, ROOT
-    main = {f"table{k}" for k in range(1, 7)}
+    main = {f"table{k}" for k in range(1, 6)}
     final = main | {f"table{v}" for v in MAP.values()}
     names = {os.path.basename(f)[:-3] for f in gl.glob(str(TAB / "*.md"))}
     rest = sorted(names - final - set(MAP))

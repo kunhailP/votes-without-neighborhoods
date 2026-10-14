@@ -1,4 +1,4 @@
-"""Observed reference for the out-of-zone tolerance delta (Section 3.4; Online Appendix Table C21).
+"""Observed reference for the out-of-zone tolerance delta (Section 3.4; Online Appendix Table C6).
 
 For every counting jurisdiction, the conservative valid-vote share among its out-of-zone early ballots minus the share among
 its in-zone early-station ballots: the gap between the two groups of early voters that delta bounds dong by dong. Also the

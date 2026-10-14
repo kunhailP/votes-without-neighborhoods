@@ -1,18 +1,31 @@
-Table: Table C28. 2025 slopes using prices rebuilt from a newly retrieved source snapshot
+Table: Table C28. Guaranteed share of the within-district range removed, by reporting change
 
-| Assumption column | Archived price summary | Rebuilt price summary |
-|--------------------------|--------------------|--------------------|
-| *All Seoul* | | |
-| A | **[−0.468, 0.552]** | **[−0.461, 0.550]** |
-| C | [0.002, 0.149] | [0.002, 0.148] |
-| D | **[−0.283, 0.411]** | **[−0.279, 0.408]** |
-| E | **[−0.037, 0.194]** | **[−0.036, 0.192]** |
-| E, common support (n=419) | **[−0.037, 0.194]** | **[−0.038, 0.193]** |
-| *Without the three districts* | | |
-| A | **[−0.523, 0.557]** | **[−0.512, 0.554]** |
-| C | **[−0.026, 0.127]** | **[−0.025, 0.126]** |
-| D | **[−0.317, 0.400]** | **[−0.311, 0.396]** |
-| E | **[−0.064, 0.173]** | **[−0.061, 0.171]** |
-| E, common support (n=353) | **[−0.063, 0.172]** | **[−0.065, 0.172]** |
+| Election | Assumptions | Current range | All pooled modes by neighborhood | Out-of-zone early only (proposal) | Headcounts only | Both |
+|----------|-----------------------------------------|----------|-------------|------------|-----------|----------|
+| 2017 | minimal movement | 0.298 | 97% | 85% | 0% | 22% |
+| 2022 | minimal movement | 0.364 | 92% | 76% | 0% | 10% |
+| 2022 | half the mobility-calibrated movement | 0.692 | 29% | 24% | 0% | 10% |
+| 2022 | mobility-calibrated movement | 0.841 | 20% | 16% | 0% | 10% |
+| 2022 | mobility-calibrated movement, residents resemble | 0.591 | 82% | 69% | 6% | 89% |
+| 2022 | mobility-calibrated movement, ±10 points | 0.731 | 8% | 4% | 3% | 7% |
+| 2022 | mobility-calibrated movement, ±10 points, residents resemble | 0.249 | 57% | 27% | 3% | 70% |
+| 2024 | minimal movement | 0.331 | 92% | 83% | 0% | 12% |
+| 2024 | half the mobility-calibrated movement | 0.577 | 34% | 30% | 0% | 12% |
+| 2024 | mobility-calibrated movement | 0.676 | 25% | 22% | 0% | 12% |
+| 2024 | mobility-calibrated movement, residents resemble | 0.508 | 79% | 72% | 13% | 88% |
+| 2024 | mobility-calibrated movement, ±10 points | 0.557 | 9% | 6% | 4% | 8% |
+| 2024 | mobility-calibrated movement, ±10 points, residents resemble | 0.205 | 49% | 30% | 6% | 63% |
+| 2025 | minimal movement | 0.335 | 94% | 80% | 0% | 21% |
+| 2025 | half the mobility-calibrated movement | 0.665 | 28% | 23% | 0% | 21% |
+| 2025 | mobility-calibrated movement | 0.787 | 20% | 18% | 0% | 21% |
+| 2025 | mobility-calibrated movement, residents resemble | 0.532 | 83% | 70% | 16% | 88% |
+| 2025 | mobility-calibrated movement, ±10 points | 0.694 | 9% | 6% | 6% | 15% |
+| 2025 | mobility-calibrated movement, ±10 points, residents resemble | 0.231 | 61% | 32% | 4% | 68% |
+| 2026 | minimal movement | 0.280 | 99% | 95% | 1% | 44% |
+| 2026 | half the mobility-calibrated movement | 0.379 | 74% | 71% | 1% | 44% |
+| 2026 | mobility-calibrated movement | 0.404 | 69% | 66% | 1% | 44% |
+| 2026 | mobility-calibrated movement, residents resemble | 0.347 | 91% | 87% | 4% | 93% |
+| 2026 | mobility-calibrated movement, ±10 points | 0.191 | 33% | 27% | 10% | 23% |
+| 2026 | mobility-calibrated movement, ±10 points, residents resemble | 0.101 | 69% | 57% | 7% | 72% |
 
-*Notes.* Columns A, C, D and E follow Table 2. The alternative uses June 2024-May 2025 MOLIT records retrieved on 14 October 2026 and a separately extended address crosswalk. It does not reconstruct the original download or generating code. Rows A-E use each source's available neighborhoods; the final row restricts both regressions to their common priced neighborhoods. Appendix B.3 reports coverage and measurement differences. Accounting and composition restrictions are unchanged. The historical analysis inputs are retained. Ranges concern the within-district roll-based slope; bold ranges include zero.
+*Notes.* Out-of-zone voters are unrestricted unless ±10 points is stated. All pooled modes and Out-of-zone early only: share of the current range in the same row removed. Headcounts only and Both: share removed of the range under the same composition assumptions but with movement unrestricted, since a headcount report replaces the movement assumption. Whether a report reveals the direction of the slope: Table C29.

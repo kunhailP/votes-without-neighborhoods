@@ -1,47 +1,29 @@
-{\scriptsize
+\begin{table}[!htbp]
+\centering
+\footnotesize
 \setlength{\tabcolsep}{3.5pt}
-\begin{longtable}{>{\raggedright\arraybackslash}p{\dimexpr 0.180\linewidth-2\tabcolsep\relax}>{\raggedright\arraybackslash}p{\dimexpr 0.180\linewidth-2\tabcolsep\relax}>{\centering\arraybackslash}p{\dimexpr 0.122\linewidth-2\tabcolsep\relax}>{\centering\arraybackslash}p{\dimexpr 0.122\linewidth-2\tabcolsep\relax}>{\centering\arraybackslash}p{\dimexpr 0.122\linewidth-2\tabcolsep\relax}>{\centering\arraybackslash}p{\dimexpr 0.122\linewidth-2\tabcolsep\relax}>{\centering\arraybackslash}p{\dimexpr 0.122\linewidth-2\tabcolsep\relax}}
-\caption*{\textbf{Table C10.} Robustness of the within-district lower bound (z; $\delta $ = 0.1)}\\
+\caption*{\textbf{Table C10.} Out-of-zone tolerance measured from the feasibility boundary}
+\begin{tabularx}{\linewidth}{lCCCC}
 \toprule
-Election & Specification & Calibrated, residents' composition unrestricted & Calibrated, s = 0.02 & Calibrated, s = 0.05 & Unrestricted movement, s = 0.02 & Unrestricted movement, s = 0.05 \\
-\midrule\endfirsthead
-\toprule
-Election & Specification & Calibrated, residents' composition unrestricted & Calibrated, s = 0.02 & Calibrated, s = 0.05 & Unrestricted movement, s = 0.02 & Unrestricted movement, s = 0.05 \\
-\midrule\endhead
-\bottomrule\endfoot
-2022 & log median (baseline) & \textbf{$-$0.283} & \textbf{$-$0.026} & \textbf{$-$0.051} & \textbf{$-$0.048} & \textbf{$-$0.066} \\
-2022 & excl. top 5\% by price & \textbf{$-$0.314} & \textbf{$-$0.044} & \textbf{$-$0.070} & \textbf{$-$0.069} & \textbf{$-$0.087} \\
-2022 & excl. top 10\% by price & \textbf{$-$0.355} & \textbf{$-$0.068} & \textbf{$-$0.095} & \textbf{$-$0.092} & \textbf{$-$0.111} \\
-2022 & denominator ($H_{i}$) weights & \textbf{$-$0.275} & \textbf{$-$0.011} & \textbf{$-$0.037} & \textbf{$-$0.028} & \textbf{$-$0.048} \\
-2022 & log mean & \textbf{$-$0.295} & \textbf{$-$0.024} & \textbf{$-$0.051} & \textbf{$-$0.047} & \textbf{$-$0.067} \\
-2022 & linear median & \textbf{not signed} & \textbf{not signed} & \textbf{not signed} & \textbf{not signed} & \textbf{not signed} \\
-2022 & linear mean & \textbf{not signed} & \textbf{not signed} & \textbf{not signed} & \textbf{not signed} & \textbf{not signed} \\
-2022 & excl. dongs with < 30 transactions & \textbf{$-$0.342} & \textbf{$-$0.041} & \textbf{$-$0.069} & \textbf{$-$0.067} & \textbf{$-$0.086} \\
-2024 & log median (baseline) & \textbf{$-$0.185} & 0.001 & \textbf{$-$0.024} & \textbf{$-$0.019} & \textbf{$-$0.037} \\
-2024 & excl. top 5\% by price & \textbf{$-$0.221} & \textbf{$-$0.018} & \textbf{$-$0.045} & \textbf{$-$0.041} & \textbf{$-$0.060} \\
-2024 & excl. top 10\% by price & \textbf{$-$0.255} & \textbf{$-$0.041} & \textbf{$-$0.070} & \textbf{$-$0.065} & \textbf{$-$0.085} \\
-2024 & denominator ($H_{i}$) weights & \textbf{$-$0.153} & 0.017 & \textbf{$-$0.009} & 0.001 & \textbf{$-$0.019} \\
-2024 & log mean & \textbf{$-$0.189} & 0.005 & \textbf{$-$0.022} & \textbf{$-$0.015} & \textbf{$-$0.035} \\
-2024 & linear median & \textbf{not signed} & positive & \textbf{not signed} & positive & \textbf{not signed} \\
-2024 & linear mean & \textbf{not signed} & positive & positive & positive & \textbf{not signed} \\
-2024 & excl. dongs with < 30 transactions & \textbf{$-$0.228} & \textbf{$-$0.010} & \textbf{$-$0.041} & \textbf{$-$0.034} & \textbf{$-$0.057} \\
-2024 & constituency fixed effects & \textbf{$-$0.269} & \textbf{$-$0.035} & \textbf{$-$0.066} & \textbf{$-$0.059} & \textbf{$-$0.083} \\
-2025 & log median (baseline) & \textbf{$-$0.283} & \textbf{$-$0.037} & \textbf{$-$0.058} & \textbf{$-$0.055} & \textbf{$-$0.069} \\
-2025 & excl. top 5\% by price & \textbf{$-$0.321} & \textbf{$-$0.056} & \textbf{$-$0.078} & \textbf{$-$0.075} & \textbf{$-$0.090} \\
-2025 & excl. top 10\% by price & \textbf{$-$0.375} & \textbf{$-$0.087} & \textbf{$-$0.111} & \textbf{$-$0.108} & \textbf{$-$0.124} \\
-2025 & denominator ($H_{i}$) weights & \textbf{$-$0.277} & \textbf{$-$0.028} & \textbf{$-$0.049} & \textbf{$-$0.041} & \textbf{$-$0.057} \\
-2025 & log mean & \textbf{$-$0.286} & \textbf{$-$0.032} & \textbf{$-$0.053} & \textbf{$-$0.049} & \textbf{$-$0.064} \\
-2025 & linear median & \textbf{not signed} & \textbf{not signed} & \textbf{not signed} & \textbf{not signed} & \textbf{not signed} \\
-2025 & linear mean & \textbf{not signed} & \textbf{not signed} & \textbf{not signed} & \textbf{not signed} & \textbf{not signed} \\
-2025 & excl. dongs with < 30 transactions & \textbf{$-$0.342} & \textbf{$-$0.050} & \textbf{$-$0.073} & \textbf{$-$0.071} & \textbf{$-$0.087} \\
-2026 & log median (baseline) & 0.010 & 0.054 & 0.043 & 0.043 & 0.033 \\
-2026 & excl. top 5\% by price & \textbf{$-$0.010} & 0.041 & 0.027 & 0.028 & 0.016 \\
-2026 & excl. top 10\% by price & \textbf{$-$0.051} & 0.008 & \textbf{$-$0.007} & \textbf{$-$0.007} & \textbf{$-$0.020} \\
-2026 & denominator ($H_{i}$) weights & 0.030 & 0.066 & 0.055 & 0.057 & 0.046 \\
-2026 & log mean & 0.016 & 0.060 & 0.048 & 0.048 & 0.038 \\
-2026 & linear median & positive & positive & positive & positive & positive \\
-2026 & linear mean & positive & positive & positive & positive & positive \\
-2026 & excl. dongs with < 30 transactions & 0.008 & 0.055 & 0.043 & 0.043 & 0.031 \\
-\end{longtable}
-\par\vspace{2pt}{\raggedright\scriptsize\textit{Notes.} Bold marks lower bounds at or below zero. Linear-price slopes are in different units; only their sign is shown.\par}
-}
+Excess tolerance & Largest minimum band & Smallest main-band margin & All Seoul & Without the three districts \\
+\midrule
+\addlinespace[3pt]\multicolumn{5}{l}{\textit{2022}} \\
+0.02 & 0.0306 & 0.0694 & [0.002, 0.198] & \textbf{[$-$0.013, 0.180]} \\
+0.05 & 0.0306 & 0.0694 & \textbf{[$-$0.010, 0.208]} & \textbf{[$-$0.026, 0.190]} \\
+0.10 & 0.0306 & 0.0694 & \textbf{[$-$0.031, 0.228]} & \textbf{[$-$0.049, 0.210]} \\
+\addlinespace[3pt]\multicolumn{5}{l}{\textit{2024}} \\
+0.02 & 0.0463 & 0.0537 & [0.028, 0.183] & [0.001, 0.161] \\
+0.05 & 0.0463 & 0.0537 & [0.016, 0.193] & \textbf{[$-$0.012, 0.171]} \\
+0.10 & 0.0463 & 0.0537 & \textbf{[$-$0.004, 0.211]} & \textbf{[$-$0.033, 0.190]} \\
+\addlinespace[3pt]\multicolumn{5}{l}{\textit{2025}} \\
+0.02 & 0.0606 & 0.0394 & \textbf{[$-$0.018, 0.177]} & \textbf{[$-$0.044, 0.156]} \\
+0.05 & 0.0606 & 0.0394 & \textbf{[$-$0.034, 0.191]} & \textbf{[$-$0.061, 0.171]} \\
+0.10 & 0.0606 & 0.0394 & \textbf{[$-$0.059, 0.214]} & \textbf{[$-$0.088, 0.195]} \\
+\addlinespace[3pt]\multicolumn{5}{l}{\textit{2026}} \\
+0.02 & 0.0732 & 0.0268 & [0.069, 0.141] & [0.044, 0.124] \\
+0.05 & 0.0732 & 0.0268 & [0.057, 0.152] & [0.032, 0.136] \\
+0.10 & 0.0732 & 0.0268 & [0.040, 0.170] & [0.012, 0.155] \\
+\bottomrule
+\end{tabularx}
+\par\vspace{2pt}{\raggedright\footnotesize\textit{Notes.} Calibrated movement and residents' in-zone composition slack s=0.02 are held fixed. Each jurisdiction's minimum out-of-zone band is found by bisection (feasible upper endpoint; width <=0.00001). The main-band margin is 0.10 minus that minimum. Bounds use the jurisdiction-specific minimum plus the stated excess tolerance, capped at one. Thus these scenarios need not nest the constant 0.10 scenario. Compatibility with the counts is not validation of a restriction. Ranges concern the within-district roll-based slope; bold ranges include zero.\par}
+\end{table}

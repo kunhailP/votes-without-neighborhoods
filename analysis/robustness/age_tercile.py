@@ -1,4 +1,4 @@
-"""Age composition and the tercile contrast (Section 4.5; Online Appendix Table C23).
+"""Age composition and the tercile contrast (Section 4.5; Online Appendix Table C22).
 
 Two further summaries of the within-district relation, for all of Seoul and without 강남, 서초 and 송파:
   * the within-gu slope on log price holding neighborhood age composition fixed (Frisch-Waugh-Lovell weights from a

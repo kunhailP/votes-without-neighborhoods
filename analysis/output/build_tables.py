@@ -11,7 +11,7 @@ from vwn.paths import RES, TAB, DATA
 from vwn.data import ELECTIONS, YEAR, setup
 from tablelib import emit, iv, num, bp
 
-Y = YEAR; C4 = ["20220309", "20240410", "20250603", "20260603"]; C5 = ["20170509"] + C4
+Y = YEAR; C8 = ["20220309", "20240410", "20250603", "20260603"]; C15 = ["20170509"] + C8
 SPN = {"guFE": "Within-gu", "pooled": "City-wide", "sggFE": "Within-constituency"}
 NUM = {}
 
@@ -83,7 +83,7 @@ def table_sets():
     for sp in ["guFE", "sggFE"]:
         for sg in ELECTIONS:
             if sp == "sggFE" and sg != "20240410": continue
-            cal = sg in C4
+            cal = sg in C8
             r = [Y[sg], edv(sg, "slope") if sp == "guFE" else "–", iv(*grid(sg, sp, 1.0, 1.0)), iv(*grid(sg, sp, 0.0, 1.0)), iv(*grid(sg, sp, 0.0, 0.1)),
                  iv(*calib(sg, sp, 0.1)) if cal else "–", iv(*comp(sg, sp, 0.1, ("slack", 0.02), 1.0)) if cal else "–", iv(*gapadj(sg, sp)) if cal else "–"]
             if sp == "guFE": rows.append(r)
@@ -103,7 +103,7 @@ def table_sets():
          notes="Bold ranges include zero; their sign is not identified. Slope of the conservative share among residents (roll-based share z) on log median apartment price per square "
                "meter; 0.1 means a neighborhood with prices twice as high has a share about 7 points higher. Within National Assembly constituencies in 2024 "
                f"the ranges are {sgg[2].strip('*')} (A), {sgg[4].strip('*')} (C), {sgg[5].strip('*')} (D) and {sgg[6].strip('*')} (E). "
-               "Election day: point-identified valid-vote share among election-day voters (Online Appendix Table C20). Conventional estimates: Table C1. High-minus-low contrasts: Table 3 and Table C11. "
+               "Election day: point-identified valid-vote share among election-day voters (Online Appendix Table C1). Conventional estimates: Table C4. High-minus-low contrasts: Table 3 and Table C3. "
                "(A) every allocation consistent with the counts, rolls and statutory zones; (B) minimal movement; (C) adds out-of-zone ballots within 10 points of the station; "
                "(D) replaces (B) with mobility-calibrated movement; (E) adds residents' early ballots within their station's departure plus 2 points of the benchmark; "
                "(F) price-dependent benchmark. Definitions in Section 3.4 and Online Appendix A.")
@@ -112,7 +112,7 @@ def table_sets():
 # ---------------------------------------------------------------- Table 5: what a reversal requires
 def table_reversal():
     ld = rd("least_departure.csv"); det = rd("least_departure_detail.csv"); rows = []
-    for sg in C4:
+    for sg in C8:
         ep = rd(f"edge_profile_{sg}.csv"); rg = rd(f"region_{sg}.csv")
         for dl in [0.1, 0.2]:
             q = ld[(ld.sg == int(sg)) & (ld.delta == dl)]; lb = q[q.alloc == "lower bound"].iloc[0]
@@ -128,7 +128,7 @@ def table_reversal():
             rows.append([Y[sg], f"{100 * dl:.0f}", "∞" if np.isinf(sstar) else ("none" if sstar == 0 else num(sstar)), gap, early])
             put(f"lb_{sg}_{dl}", dict(slope=lb.slope, med=lb.abs_dep_median))
             put(f"edge_{sg}_{dl}", None if len(e) == 0 else dict(s=float(x.s_lo), gap_min=float((e.mover_cons - e.stayer_cons).min()), gap_max=float((e.mover_cons - e.stayer_cons).max())))
-    emit("table5", "Table 5. Assumptions and allocations that permit a non-positive slope",
+    emit("RV", "Table RV. Assumptions and allocations that permit a non-positive slope",
          ["Election", "Out-of-district voters within (points)", "Largest additional tolerance s with a positive slope",
           "First reversing allocation: movers minus stayers, conservative share (points)", "Fewest residents' early ballots that must depart to reverse"],
          rows, colspec="l" + "C" * 4, size="footnotesize",
@@ -136,14 +136,14 @@ def table_reversal():
                "station's departure plus s; ∞: positive however much they depart; none: not positive even when they depart only as much as their station. "
                "First reversing allocation: the one with the lowest slope at s just above that value; movers voted at another station of their zone, stayers at "
                "their own; range over price terciles. Last column: among allocations with a non-positive slope, the fewest residents' conservative early ballots "
-               "departing from the benchmark (out-of-district departures and concentration in Online Appendix Table C6). Each reversal is minimal only in its own "
+               "departing from the benchmark (out-of-district departures and concentration in Online Appendix Table C16). Each reversal is minimal only in its own "
                "metric, with other assumptions fixed.")
 
 
 def table_disclosure():
     g = pd.concat([pd.read_csv(f) for f in sorted(glob.glob(f"{RES}/disclosure_guarantee_2*.csv"))])
     rows = []
-    for sg in C5:
+    for sg in C15:
         q = g[g.sg == int(sg)].set_index("config")
         rem = lambda cfg, p="P2": (1 - q.loc[cfg, f"Wmax_{p}"] / (q.loc[cfg, "W0"] if p in ("P2", "P2b") else q.loc[cfg, "W0_free"])) if cfg in q.index else np.nan
         pct = lambda v: "–" if pd.isna(v) else f"{100 * v:.0f}%"
@@ -154,13 +154,13 @@ def table_disclosure():
         rows.append(r)
         for cfg in q.index:
             put(f"guar_{sg}_{cfg}", {p: rem(cfg, p) for p in ["P2", "P2b", "P1", "P12"]} | dict(W0=q.loc[cfg, "W0"], W0_free=q.loc[cfg, "W0_free"]))
-    emit("table6", "Table 6. Guaranteed reductions in uncertainty under residence reporting",
+    emit("table5", "Table 5. Guaranteed reductions in uncertainty under residence reporting",
          ["Election", "Current range width", "Proposal: out-of-district early ballots by neighborhood, share removed", "Proposal: maximum remaining width",
           "All pooled modes by neighborhood, share removed", "All pooled modes: maximum remaining width"], rows, colspec="l" + "C" * 5, size="footnotesize",
          notes="All columns describe the width of the within-district slope range or the guaranteed fraction of that width removed. Main assumptions: Table 2, column E. Proposal: out-of-district early ballots reported as aggregate counts by the voter's registered neighborhood, at-home "
                "and overseas ballots kept pooled. All pooled modes: out-of-district early, at-home and overseas ballots by neighborhood. Maximum remaining width: the largest "
                "difference in the within-district slope between two allocations that the report could not tell apart, which bounds the range left whatever the true "
-               "allocation. Counts are released exactly, without cell suppression. Suppression sensitivity: Online Appendix Table C26. Other assumptions and headcount reporting: Table C12.")
+               "allocation. Counts are released exactly, without cell suppression. Suppression sensitivity: Online Appendix Table C30. Other assumptions and headcount reporting: Table C28.")
 
 
 # ---------------------------------------------------------------- Table 3: beyond Gangnam
@@ -180,7 +180,7 @@ def table_scope():
                 for c in d[(d["sample"] == smp) & (d.spec == sp)].column.unique():
                     q = d[(d["sample"] == smp) & (d.spec == sp) & (d.column == c)].iloc[0]
                     put(f"scope_{smp}_{sp}_{c}_{sg}", [float(q.z_lo), float(q.z_hi), float(q.y_tight_lo), float(q.y_ach_lo), float(q.y_ach_hi), float(q.y_tight_hi)])
-    # Panel B: how far the 2026 conclusions survive relaxing residents' early composition (same source as Online Appendix C19)
+    # Panel B: how far the 2026 conclusions survive relaxing residents' early composition (same source as Online Appendix C9)
     ss = pd.concat([pd.read_csv(f) for f in sorted(glob.glob(str(RES / "scope_sstar_*.csv")))])
     ss = ss[ss.sg == 20260603]
     def sstar(r):
@@ -200,7 +200,7 @@ def table_scope():
          notes="Bold ranges include zero; their sign is not identified. Across districts: slope of the valid-vote share on log price across districts (point values, no allocation assumption). "
                "Within districts: ranges in z under the main assumptions (Table 2, column E); 2012 under column A and 2017 under column C, as those elections lack mobility data. "
                "Without the three: Gangnam, Seocho and Songpa dropped from the regression and the contrast, all accounting constraints kept. Panel B: s* with movement and the out-of-zone tolerance "
-               "(±10 or ±20 points) held fixed; a relation is established at the main setting when s* exceeds 0.02. ∞: positive however much residents' early ballots depart; none: not positive for any s (Online Appendix Table C19).")
+               "(±10 or ±20 points) held fixed; a relation is established at the main setting when s* exceeds 0.02. ∞: positive however much residents' early ballots depart; none: not positive for any s (Online Appendix Table C9).")
 
 
 # ---------------------------------------------------------------- Table 4: the 2026 zones
@@ -219,7 +219,7 @@ def table_zones():
          rows, colspec="L" + "C" * 2, size="footnotesize",
          notes="Bold ranges include zero; their sign is not identified. Roll-based share z. The zones are the 155 district-council constituencies, about three neighborhoods each. Rows with uniform movement hold the "
                "amount of movement fixed, so the comparison isolates the zone rule; the mobility-calibrated rows recalibrate movement to the zone definition. "
-               "Adding the council contest's published headcounts changes the statutory-zone ranges by at most 0.003 (Online Appendix Table C2).")
+               "Adding the council contest's published headcounts changes the statutory-zone ranges by at most 0.003 (Online Appendix Table C27).")
 
 
 if __name__ == "__main__":

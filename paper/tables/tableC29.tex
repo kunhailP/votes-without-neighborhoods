@@ -1,21 +1,29 @@
 \begin{table}[!htbp]
 \centering
-\footnotesize
+\scriptsize
 \setlength{\tabcolsep}{3.5pt}
-\caption*{\textbf{Table C29.} Price-tail sensitivity outside Gangnam, Seocho and Songpa, 2026}
-\begin{tabularx}{\linewidth}{lcC}
+\caption*{\textbf{Table C29.} Opposite-signed slopes compatible with the same report: maximum margin t*}
+\begin{tabularx}{\linewidth}{llccc}
 \toprule
-Additional price exclusion & Priced neighborhoods & Within-district slope range \\
+Election & Assumptions & Residence reporting & Out-of-zone only & Residence + headcounts (no movement assumption) \\
 \midrule
-\addlinespace[3pt]\multicolumn{3}{l}{\textit{Residents composition slack s = 0.02}} \\
-None & 357 & [0.0292, 0.1388] \\
-Top 5\% & 339 & [0.0004, 0.1304] \\
-Top 10\% & 321 & \textbf{[$-$0.0093, 0.1302]} \\
-\addlinespace[3pt]\multicolumn{3}{l}{\textit{Residents composition slack s = 0.05}} \\
-None & 357 & [0.0168, 0.1514] \\
-Top 5\% & 339 & \textbf{[$-$0.0147, 0.1454]} \\
-Top 10\% & 321 & \textbf{[$-$0.0257, 0.1467]} \\
+2022 & mobility-calibrated movement & 0.337 & 0.342 & 0.594 \\
+2022 & + residents' early ballots (s = 0.02) & 0.053 & 0.090 & 0.042 \\
+2022 & + out-of-zone $\pm $10 points & 0.283 & 0.283 & 0.591 \\
+2022 & main (Table 2, column E) & 0.026 & 0.026 & 0.032 \\
+2024 & mobility-calibrated movement & 0.248 & 0.248 & 0.545 \\
+2024 & + residents' early ballots (s = 0.02) & 0.052 & 0.071 & 0.043 \\
+2024 & + out-of-zone $\pm $10 points & 0.185 & 0.185 & 0.527 \\
+2024 & main (Table 2, column E) & revealed & revealed & 0.019 \\
+2025 & mobility-calibrated movement & 0.315 & 0.325 & 0.404 \\
+2025 & + residents' early ballots (s = 0.02) & 0.045 & 0.079 & 0.041 \\
+2025 & + out-of-zone $\pm $10 points & 0.283 & 0.283 & 0.404 \\
+2025 & main (Table 2, column E) & 0.035 & 0.037 & 0.033 \\
+2026 & mobility-calibrated movement & 0.064 & 0.069 & 0.200 \\
+2026 & + residents' early ballots (s = 0.02) & 0.016 & 0.022 & 0.018 \\
+2026 & + out-of-zone $\pm $10 points & revealed & revealed & 0.168 \\
+2026 & main (Table 2, column E) & revealed & revealed & revealed \\
 \bottomrule
 \end{tabularx}
-\par\vspace{2pt}{\raggedright\footnotesize\textit{Notes.} Mobility-calibrated movement and out-of-zone tolerance delta = 0.10. Price cutoffs are computed among the 357 priced neighborhoods outside the three districts, and every accounting constraint is retained. Ranges are continuous-allocation bounds for z; bold ranges include zero. Separately omitting each of the other 22 districts at s = 0.02 yields lower bounds from 0.0187 to 0.0338, all positive. Full district results are in the replication files.\par}
+\par\vspace{2pt}{\raggedright\scriptsize\textit{Notes.} t* = max t subject to $\theta $(ℓ) $\leq $ $-$t, $\theta $(ℓ') $\geq $ t, Sℓ = Sℓ', with ℓ and ℓ' in Λ. A report reveals the direction iff no two allocations it cannot distinguish have slopes of strictly opposite sign, that is iff t* $\leq $ 0 ("revealed"). Where the current set already excludes zero every report reveals the direction; the last column drops the movement assumption, as in Online Appendix Table C28.\par}
 \end{table}

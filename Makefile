@@ -34,7 +34,7 @@ R       := results
 LOG     := logs
 $(shell mkdir -p $(R) $(LOG))
 
-.PHONY: all test verify results tables figures paper data clean review-package
+.PHONY: all test verify verify-reporting results tables figures paper data clean review-package
 
 all: paper
 
@@ -44,6 +44,10 @@ test:
 # Re-solve headline bounds and audit saved integer allocations without replacing results/.
 verify:
 	$(PY) $(call S,review_check) --output $(LOG)/review_verification.json
+
+# Re-solve the institutional comparisons without replacing supplied results.
+verify-reporting:
+	$(PY) $(call S,reporting_check) --output $(LOG)/institutional_verification.json
 
 # New source-snapshot and feasibility checks; no network or credentials needed.
 .PHONY: verify-additions

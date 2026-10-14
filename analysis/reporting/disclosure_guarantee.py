@@ -1,4 +1,4 @@
-"""Guaranteed information value of reporting changes (Section 5; Table 6; Online Appendix Table C12).
+"""Guaranteed information value of reporting changes (Section 5; Table 5; Online Appendix Table C28).
 
 For a reporting change that publishes S·l (a linear function of the allocation l), the largest within-gu width that
 can remain, whatever the true allocation in Lambda, is

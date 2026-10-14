@@ -1,4 +1,4 @@
-"""Is the residents' early-composition benchmark mis-centered? (Sections 1 and 4.5; Table 2 column F; Online Appendix Table C8)
+"""Is the residents' early-composition benchmark mis-centered? (Sections 1 and 4.5; Table 2 column F; Online Appendix Table C5)
 
 (1) Tests of the common early-vote gap with the jurisdiction-level gaps, which are observed exactly:
     gamma^K_g (in-zone early - election day) and gamma^P_g (out-of-zone early - election day),

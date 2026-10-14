@@ -1,10 +1,20 @@
-Table: Table C18. Valid-vote slope lower bounds with and without the three southeastern districts
+Table: Table C18. Beyond Gangnam: the within-district relation without Gangnam, Seocho and Songpa
 
-| Election | Slope: all | Slope: without the three | Contrast (points): all | Contrast (points): without the three |
-|----------|-----------------|-----------------|-------------|-------------|
-| 2022 | [−0.026, −0.024] | [−0.044, −0.042] | [−3.3, −3.2] | [−4.0, −3.9] |
-| 2024 | [0.004, 0.005] | [−0.026, −0.025] | [−1.5, −1.4] | [−2.7, −2.6] |
-| 2025 | [−0.046, −0.045] | [−0.072, −0.071] | [−4.7, −4.6] | [−5.6, −5.5] |
-| 2026 | [0.049, 0.050] | [0.024, 0.024] | [0.4, 0.5] | [−0.6, −0.6] |
+| Election | Conv. | (A) Returns and rolls only | (B) Minimal movement | (C) = (B) + out-of-zone within 10 points | (D) Mobility-calibrated | (E) Main |
+|----------------|----------|--------------------|--------------------|--------------------|--------------------|--------------------|
+| *A. Within-district slope without Gangnam, Seocho and Songpa (z)* | | | | | | |
+| 2012 | 0.058 | **[−0.021, 0.129]** | **[−0.021, 0.129]** | [0.001, 0.110] | – | – |
+| 2017 | 0.000 | **[−0.471, 0.441]** | **[−0.158, 0.150]** | **[−0.074, 0.071]** | – | – |
+| 2022 | 0.076 | **[−0.656, 0.716]** | **[−0.129, 0.253]** | **[−0.007, 0.157]** | **[−0.300, 0.432]** | **[−0.042, 0.204]** |
+| 2024 | 0.075 | **[−0.602, 0.689]** | **[−0.112, 0.235]** | [0.001, 0.140] | **[−0.224, 0.357]** | **[−0.027, 0.184]** |
+| 2025 | 0.051 | **[−0.523, 0.557]** | **[−0.140, 0.216]** | **[−0.026, 0.127]** | **[−0.317, 0.400]** | **[−0.064, 0.173]** |
+| 2026 | 0.082 | **[−0.315, 0.446]** | **[−0.079, 0.228]** | [0.047, 0.119] | **[−0.020, 0.188]** | [0.029, 0.139] |
+| *B. Higher- minus lower-price half without the three (z, points)* | | | | | | |
+| 2012 | 0.9 | **[−2.6, 4.1]** | **[−2.6, 4.1]** | **[−1.3, 2.9]** | – | – |
+| 2017 | −0.4 | **[−16.1, 15.1]** | **[−5.4, 4.8]** | **[−3.1, 2.3]** | – | – |
+| 2022 | 3.1 | **[−43.9, 46.6]** | **[−9.6, 14.7]** | **[−1.4, 7.6]** | **[−19.5, 25.6]** | **[−3.9, 10.5]** |
+| 2024 | 2.7 | **[−32.0, 37.0]** | **[−6.5, 11.2]** | **[−0.8, 5.9]** | **[−13.0, 18.4]** | **[−2.6, 8.3]** |
+| 2025 | 1.7 | **[−26.5, 28.9]** | **[−7.9, 10.3]** | **[−2.6, 5.6]** | **[−18.4, 21.4]** | **[−5.1, 8.4]** |
+| 2026 | 2.8 | **[−20.2, 24.1]** | **[−7.0, 11.7]** | [0.8, 5.0] | **[−3.6, 9.3]** | **[−0.3, 6.2]** |
 
-*Notes.* Attainable values refer to feasible continuous allocations; integer checks are reported separately in Table S2. Each entry gives a guaranteed outer bound and an attainable value for the lower end of the valid-vote range; the exact lower end lies between them. The direction is established when the first value is positive and not established when the second is negative.
+*Notes.* Columns as in Table 2; roll-based share z. Valid-vote shares: Table C21.

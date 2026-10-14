@@ -1,17 +1,11 @@
-Table: Table C6. Least-departure reversal: components and concentration (within-district, calibrated movement)
+Table: Table C6. Out-of-zone and in-zone early voters by counting jurisdiction (conservative valid-vote share, percentage points)
 
-| Election | δ | Residents' early ballots departing | Dongs with > 10 | Largest in one dong | Share in top-decile-leverage dongs | Out-of-zone ballots departing | Needed for feasibility | Dongs with > 10 | Share in top-decile-leverage dongs |
-|----------|----------|-----------|----------|----------|--------------------|------------|------------|----------|--------------------|
-| 2022 | 0.1 | 16,685 | 31 | 1,710 | 95% | 5,366 | 2,015 | 30 | 32% |
-| 2022 | 0.2 | 15,340 | 31 | 1,410 | 94% | 6,336 | 2,015 | 27 | 49% |
-| 2022 | 1 | 8,659 | 27 | 892 | 100% | 12,152 | 2,015 | 22 | 71% |
-| 2024 | 0.1 | 32,177 | 62 | 2,218 | 61% | 11,397 | 8,312 | 72 | 5% |
-| 2024 | 0.2 | 30,103 | 58 | 2,218 | 63% | 12,534 | 8,312 | 60 | 11% |
-| 2024 | 1 | 17,966 | 55 | 1,210 | 62% | 23,393 | 8,312 | 63 | 41% |
-| 2025 | 0.1 | 13,539 | 26 | 2,197 | 96% | 3,554 | 1,063 | 24 | 36% |
-| 2025 | 0.2 | 12,512 | 26 | 2,197 | 96% | 4,377 | 1,063 | 19 | 55% |
-| 2025 | 1 | 8,452 | 23 | 1,442 | 98% | 8,162 | 1,063 | 21 | 72% |
-| 2026 | 0.2 | 69,384 | 268 | 1,303 | 15% | 64,253 | 18,583 | 244 | 10% |
-| 2026 | 1 | 17,423 | 167 | 461 | 20% | 59,329 | 18,583 | 108 | 39% |
+| Election | Jurisdictions | Out-of-zone minus in-zone: median | Range | Largest absolute gap | In-zone stations: median absolute deviation from their jurisdiction | Largest station deviation |
+|----------|--------------|------------|-------------|----------|-------------|----------|
+| 2017 | 25 | −3.5 | −5.4 to −0.6 | 5.4 | 1.7 | 14.8 |
+| 2022 | 25 | 1.7 | −3.2 to 3.4 | 3.4 | 2.2 | 19.9 |
+| 2024 | 48 | −2.5 | −6.0 to 0.1 | 6.0 | 1.8 | 19.2 |
+| 2025 | 25 | 0.4 | −2.3 to 2.7 | 2.7 | 1.4 | 21.9 |
+| 2026 | 25 | 3.6 | 1.7 to 7.7 | 7.7 | 1.9 | 25.7 |
 
-*Notes.* Departing ballots: absolute departure of residents' conservative ballots from a^F (in-zone early) or from the station anchor (out-of-zone). Needed for feasibility: the smallest out-of-zone departure of any allocation in Lambda, without the slope constraint. Leverage: \|w_i\|/H_i.
+*Notes.* Each jurisdiction's out-of-zone early ballots are published as one total, so the first three columns describe whole districts (constituencies in 2024). The tolerance δ bounds the same difference for each neighborhood's residents, which is not observed and may vary more within a district than these district-level gaps; the station columns show how far neighborhoods' in-zone shares depart from their district's in-zone share. These are references for δ, not tests of it.

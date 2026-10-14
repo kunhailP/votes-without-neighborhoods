@@ -1,10 +1,10 @@
-"""Additional restriction families and sensitivity analyses (Section 4.5; Online Appendix Tables C7, C9; supplementary results, docs/supplementary_results.md).
+"""Additional restriction families and sensitivity analyses (Section 4.5; Online Appendix Tables C17, C11; supplementary results, docs/supplementary_results.md).
 
 mode "anchor": the out-of-zone anchor shifted like the in-zone benchmark.
     station           a_tilde = K_ic / K_i (main specification)
     station+gap       a_tilde = clip(K_ic/K_i + gamma^PK_gc), gamma^PK = out-of-zone minus in-zone early composition (jurisdiction)
     station+gap+price as station+gap, plus (b_P - b_K)(x_i - xbar_g) for the conservative candidate (opposite for the Democratic),
-                      b_P, b_K the cross-jurisdiction price slopes of the out-of-zone and in-zone gaps (Online Appendix Table C8)
+                      b_P, b_K the cross-jurisdiction price slopes of the out-of-zone and in-zone gaps (Online Appendix Table C5)
 mode "mover": movers' composition. Residents of i who vote at another station of the zone vote within t of the composition of
     their home station, t in {0.05, 0.1, 0.2, 0.3}; t* = largest t at which the lower bound is positive.
 mode "intercept": the calibrated cap r_j + nu (r_rho_j - r_j) + lambda C_j, nu in {0, 0.5, 1}, separating the intercept from the

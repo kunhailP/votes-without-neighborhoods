@@ -1,4 +1,4 @@
-"""Point-identified benchmarks for the within-district relation (Section 4.2; Table 2; Online Appendix Table C20).
+"""Point-identified benchmarks for the within-district relation (Section 4.2; Table 2; Online Appendix Table C1).
 
 Election-day ballots are counted in the voter's own voting district, so the conservative share among a dong's election-day
 voters is a residence-based quantity that needs no allocation assumption. The within-gu slope and the high-minus-low contrast

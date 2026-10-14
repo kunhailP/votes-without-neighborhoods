@@ -1,11 +1,10 @@
-Table: Table C21. Out-of-zone and in-zone early voters by counting jurisdiction (conservative valid-vote share, percentage points)
+Table: Table C21. Valid-vote slope lower bounds with and without the three southeastern districts
 
-| Election | Jurisdictions | Out-of-zone minus in-zone: median | Range | Largest absolute gap | In-zone stations: median absolute deviation from their jurisdiction | Largest station deviation |
-|----------|--------------|------------|-------------|----------|-------------|----------|
-| 2017 | 25 | −3.5 | −5.4 to −0.6 | 5.4 | 1.7 | 14.8 |
-| 2022 | 25 | 1.7 | −3.2 to 3.4 | 3.4 | 2.2 | 19.9 |
-| 2024 | 48 | −2.5 | −6.0 to 0.1 | 6.0 | 1.8 | 19.2 |
-| 2025 | 25 | 0.4 | −2.3 to 2.7 | 2.7 | 1.4 | 21.9 |
-| 2026 | 25 | 3.6 | 1.7 to 7.7 | 7.7 | 1.9 | 25.7 |
+| Election | Slope: all | Slope: without the three | Contrast (points): all | Contrast (points): without the three |
+|----------|-----------------|-----------------|-------------|-------------|
+| 2022 | [−0.026, −0.024] | [−0.044, −0.042] | [−3.3, −3.2] | [−4.0, −3.9] |
+| 2024 | [0.004, 0.005] | [−0.026, −0.025] | [−1.5, −1.4] | [−2.7, −2.6] |
+| 2025 | [−0.046, −0.045] | [−0.072, −0.071] | [−4.7, −4.6] | [−5.6, −5.5] |
+| 2026 | [0.049, 0.050] | [0.024, 0.024] | [0.4, 0.5] | [−0.6, −0.6] |
 
-*Notes.* Each jurisdiction's out-of-zone early ballots are published as one total, so the first three columns describe whole districts (constituencies in 2024). The tolerance δ bounds the same difference for each neighborhood's residents, which is not observed and may vary more within a district than these district-level gaps; the station columns show how far neighborhoods' in-zone shares depart from their district's in-zone share. These are references for δ, not tests of it.
+*Notes.* Attainable values refer to feasible continuous allocations; integer checks are reported separately in Table A2. Each entry gives a guaranteed outer bound and an attainable value for the lower end of the valid-vote range; the exact lower end lies between them. The direction is established when the first value is positive and not established when the second is negative.

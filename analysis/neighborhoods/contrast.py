@@ -1,4 +1,4 @@
-"""Within-gu contrast between high- and low-price dongs (Section 4.2; Table 2, panel B; Online Appendix Table C11).
+"""Within-gu contrast between high- and low-price dongs (Section 4.2; Table 2, panel B; Online Appendix Table C3).
 
 Definition:
   groups   within each gu (each counting jurisdiction's real gu; 2024 uses the gu), dongs with a price above the gu median

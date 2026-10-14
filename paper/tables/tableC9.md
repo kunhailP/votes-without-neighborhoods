@@ -1,7 +1,22 @@
-Table: Table C9. The benchmark for out-of-zone voters (within-district slope, mobility-calibrated movement, ±10 points)
+Table: Table C9. Sensitivity thresholds s\* with and without the three southeastern districts
 
-| Benchmark | Smallest feasible tolerance, median (2022/2024/2025/2026) | 2022 | 2024 | 2025 | 2026 | 2022, + residents' early ballots | 2024 | 2025 | 2026 |
-|--------------------------------------|------------------------------|--------------------|--------------------|--------------------|---------------|--------------------|---------------|--------------------|---------------|
-| station shares (main) | 0.025 / 0.020 / 0.062 / 0.044 | **[−0.283, 0.448]** | **[−0.185, 0.372]** | **[−0.283, 0.411]** | [0.010, 0.201] | **[−0.026, 0.223]** | [0.001, 0.206] | **[−0.037, 0.194]** | [0.054, 0.156] |
-| shifted by district out-of-zone gap | 0.001 / 0.001 / 0.001 / 0.002 | **[−0.283, 0.448]** | **[−0.186, 0.373]** | **[−0.283, 0.411]** | [0.007, 0.203] | **[−0.028, 0.223]** | [0.001, 0.208] | **[−0.039, 0.194]** | [0.051, 0.158] |
-| shifted by gap and its price relation | 0.001 / 0.001 / 0.001 / 0.002 | **[−0.284, 0.448]** | **[−0.186, 0.373]** | **[−0.283, 0.411]** | [0.006, 0.202] | **[−0.035, 0.217]** | [0.001, 0.207] | **[−0.037, 0.196]** | [0.050, 0.157] |
+| Election | Movement | Out-of-zone tolerance (points) | Slope: all | Slope: without the three | Contrast: all | Contrast: without the three |
+|----------|--------------------|------------|----------|----------|----------|----------|
+| 2022 | mobility-calibrated | ±10 | none | none | none | none |
+| 2022 | mobility-calibrated | ±20 | none | none | none | none |
+| 2022 | unrestricted | ±10 | none | none | none | none |
+| 2022 | unrestricted | ±20 | none | none | none | none |
+| 2024 | mobility-calibrated | ±10 | 0.021 | none | none | none |
+| 2024 | mobility-calibrated | ±20 | none | none | none | none |
+| 2024 | unrestricted | ±10 | none | none | none | none |
+| 2024 | unrestricted | ±20 | none | none | none | none |
+| 2025 | mobility-calibrated | ±10 | none | none | none | none |
+| 2025 | mobility-calibrated | ±20 | none | none | none | none |
+| 2025 | unrestricted | ±10 | none | none | none | none |
+| 2025 | unrestricted | ±20 | none | none | none | none |
+| 2026 | mobility-calibrated | ±10 | ∞ | 0.103 | 0.049 | 0.010 |
+| 2026 | mobility-calibrated | ±20 | 0.087 | 0.001 | none | none |
+| 2026 | unrestricted | ±10 | 0.122 | 0.067 | 0.019 | none |
+| 2026 | unrestricted | ±20 | 0.006 | none | none | none |
+
+*Notes.* s\*: the largest slack s at which the lower end of the range of the within-district slope (or of the higher-minus-lower-price contrast) is positive, with movement and the out-of-zone tolerance held fixed; bisection width 0.0012, lower end reported. The main setting uses s = 0.02, so a relation is established there when s\* exceeds 0.02. ∞: positive however much residents' early ballots depart; none: not positive for any s.

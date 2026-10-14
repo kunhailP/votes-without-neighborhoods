@@ -1,20 +1,10 @@
-Table: Table C13. Stability of headline sets to resampling prices and dongs (z, δ = 0.1)
+Table: Table C13. How far residents' early-vote departures may align with price before the within-district slope loses its sign
 
-| Election | Slope | Movement | Slack s | Identified set | SD of bounds, transactions resampled | SD of bounds, dongs and transactions resampled | [5th pct of lower, 95th pct of upper] | Replications with positive lower bound | Replications |
-|----------|--------------------|-------------|----------|--------------------|-------------|-------------|----------------|-------------|-------------|
-| 2022 | Within-district | calibrated | 0.02 | **[−0.026, 0.223]** | 0.002, 0.004 | 0.010, 0.012 | [−0.078, 0.268] | 0% | 200 |
-| 2022 | Citywide | calibrated | 0.02 | [0.080, 0.216] | 0.002, 0.003 | 0.008, 0.010 | [0.034, 0.256] | 100% | 200 |
-| 2022 | Citywide | calibrated | – | **[−0.062, 0.340]** | 0.002, 0.004 | 0.013, 0.015 | [−0.163, 0.422] | 0% | 200 |
-| 2024 | Within-district | calibrated | – | **[−0.185, 0.372]** | 0.004, 0.008 | 0.017, 0.020 | [−0.280, 0.453] | 0% | 200 |
-| 2024 | Within-district | calibrated | 0.02 | [0.001, 0.206] | 0.002, 0.004 | 0.010, 0.011 | [−0.042, 0.242] | 0% | 200 |
-| 2024 | Within-constituency | calibrated | 0.02 | **[−0.035, 0.221]** | 0.002, 0.006 | 0.011, 0.013 | [−0.082, 0.257] | 0% | 200 |
-| 2024 | Citywide | calibrated | 0.02 | [0.102, 0.194] | 0.002, 0.002 | 0.007, 0.007 | [0.063, 0.224] | 100% | 200 |
-| 2024 | Citywide | calibrated | – | [0.018, 0.268] | 0.002, 0.003 | 0.010, 0.010 | [−0.068, 0.340] | 0% | 200 |
-| 2026 | Within-district | calibrated | – | [0.010, 0.201] | 0.002, 0.002 | 0.009, 0.009 | [−0.031, 0.237] | 4% | 200 |
-| 2026 | Within-district | calibrated | 0.02 | [0.054, 0.156] | 0.001, 0.002 | 0.007, 0.007 | [0.030, 0.176] | 100% | 200 |
-| 2026 | Within-district | calibrated | 0.05 | [0.043, 0.168] | 0.001, 0.002 | 0.008, 0.008 | [0.015, 0.191] | 100% | 200 |
-| 2026 | Within-district | unrestricted | 0.02 | [0.043, 0.168] | 0.001, 0.002 | 0.008, 0.008 | [0.011, 0.194] | 100% | 200 |
-| 2026 | Citywide | calibrated | 0.02 | [0.111, 0.154] | 0.001, 0.001 | 0.006, 0.005 | [0.088, 0.172] | 100% | 200 |
-| 2026 | Citywide | calibrated | – | [0.092, 0.174] | 0.001, 0.001 | 0.007, 0.006 | [0.054, 0.205] | 100% | 200 |
+| Election | κ\*: all, out-of-zone ±10 | κ\*: all, out-of-zone unrestricted | κ\*: without the three, ±10 | κ\*: without the three, unrestricted | Station gradient: median | Station gradient: largest absolute | Between-jurisdiction reference |
+|----------|------------|-------------|----------|-------------|----------|----------|---------------------|
+| 2022 | 0.042 | 0.042 | 0.028 | 0.028 | −0.003 | 0.016 | 0.007 |
+| 2024 | 0.052 | 0.038 | 0.015 | <0.001 | −0.003 | 0.047 | 0.008 |
+| 2025 | 0.032 | 0.032 | 0.011 | 0.011 | −0.001 | 0.026 | 0.021 |
+| 2026 | ∞ | 0.095 | 0.091 | 0.075 | 0.004 | 0.013 | 0.006 |
 
-*Notes.* The returns, rolls and movement caps, which define the polytope, are held fixed. Transactions resampled: each dong's median price is recomputed from a resample of its transactions; this measures sensitivity to price measurement. Dongs and transactions resampled: dongs are also resampled with replacement within jurisdictions, which duplicates high-leverage dongs and mechanically pushes the extrema outward, so these columns overstate instability and are not confidence intervals.
+*Notes.* Mobility-calibrated movement; the restriction on residents' early-vote composition (s) is replaced by \|g_u\| ≤ κ, where g_u is the slope, within counting jurisdiction u, of residents' early-vote departures from their benchmarks (in-zone and out-of-zone, as a share of the roll) on log price. κ\*: the largest κ at which the lower end of the within-district slope range stays positive (bisection width 0.0002; ∞: positive without the restriction). Station gradient: the same slope computed for observed in-zone station ballots, over jurisdictions; stations also count non-residents. Between-jurisdiction reference: the slope residents' departures would have if, within jurisdictions, early-vote gaps varied with price as they do across counting jurisdictions (gu; National Assembly constituencies in 2024), \|b_K\| (in-zone early ballots / H) + \|b_B − b_K\| (out-of-zone ballots / H), with b_K and b_B the cross-district slopes of the in-zone and out-of-zone early minus election-day gaps on log price. The slope is identified as positive when residents' departures are no more aligned with price than κ\*.

@@ -1,4 +1,4 @@
-"""How far the residents' early-composition assumption can be relaxed, with and without 강남, 서초 and 송파 (Section 4.3; Table 3, panel B; Online Appendix Table C19).
+"""How far the residents' early-composition assumption can be relaxed, with and without 강남, 서초 and 송파 (Section 4.3; Table 3, panel B; Online Appendix Table C9).
 
 For the within-gu slope and the median-split contrast, s* is the largest slack on residents' in-zone early composition at
 which the lower end of the range stays positive, holding movement (mobility-calibrated, lambda = 1, or unrestricted) and the

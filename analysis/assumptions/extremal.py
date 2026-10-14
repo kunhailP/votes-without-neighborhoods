@@ -1,4 +1,4 @@
-"""What a sign reversal requires (Section 4.5; Table 5; Online Appendix Table C6).
+"""What a sign reversal requires (Section 4.5; Table C14; Online Appendix Table C16).
 
 Setting: within-gu slope, calibrated movement (lambda = 1), out-of-zone band delta, residents' in-zone
 early composition unrestricted.

@@ -1,5 +1,5 @@
 """Pooled headcounts, at-home ballots, gu-specific bands (supplementary results, docs/supplementary_results.md) and the 2026
-zones and cross-contest information (Sections 3.1, 4.4 and 4.5; Table 4; Online Appendix Table C2).
+zones and cross-contest information (Sections 3.1, 4.4 and 4.5; Table 4; Online Appendix Table C27).
 
 Part 1 (calibrated movement, delta = 0.1 unless stated):
   H1  each dong's out-of-zone early headcount within [0.5, 2] x jurisdiction rate x removed residents

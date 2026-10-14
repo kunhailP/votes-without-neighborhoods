@@ -9,6 +9,13 @@ Replication materials for **"Votes Without Neighborhoods: Housing Prices and the
 - [Replication map](docs/replication_map.md): tables and figures mapped to inputs, scripts and results
 - [Data provenance and coverage](data/README.md)
 
+Current paper: **JJPS submission-preparation v6 (14 October 2026)**. The main
+text has five tables and four figures; the Online Appendix groups its evidence
+by observed patterns, identifying restrictions, reversals, measurement and
+institutional information. The revision preserves all supplied numerical
+results. Main text: 10,883 words from the PDF, including table and figure text,
+captions and references, excluding margin numbers and the separate appendix.
+
 The paper asks how widely housing-related electoral alignment extends in Seoul: between neighborhoods within districts (gu), beyond Gangnam, Seocho and Songpa, and from election-day voters to residents using every voting mode. Korean neighborhood returns count in-zone early ballots where they were cast and pool out-of-zone, at-home and overseas ballots at the district or constituency level. A neighborhood's (dong's) published return therefore does not identify its residents' vote. Linear programs bound the associations over allocations consistent with returns, electoral rolls and statutory zones, then show what additional restrictions establish. The assembled dataset covers six elections (2012–2026); it is not an exhaustive or prespecified sample of Seoul elections.
 
 ## Quick start
@@ -22,6 +29,7 @@ python3 -m venv .venv
 python -m pip install -r requirements.txt
 make test                # mathematical and document-packaging regression tests
 make verify              # re-solve 14 headline bounds; audit 246 saved integer allocations
+make verify-reporting    # re-solve residence reporting, suppression and fixed-cap zones
 make verify-additions    # recompute feasibility, 2025-price and joint price-tail checks
 make paper-from-results  # rebuild tables, figures and paper from supplied results/ (minutes)
 make -j32 all            # full analysis and paper; earlier benchmark about 1 hour on 32+ cores
@@ -34,6 +42,12 @@ and fonts listed below. `make verify` writes
 checks execution and arithmetic consistency; it does not validate the
 substantive assumptions or authenticate the source records. Building the paper
 from supplied results does not recompute the underlying analyses.
+
+`make verify-reporting` separately recomputes the main-assumption exact residence
+reporting guarantees and the primary-suppression bound at a threshold of 20 for
+the four recent elections, plus the 2026 statutory-zone comparison at the same
+uniform movement cap. It compares each calculation with the supplied results,
+writes `logs/institutional_verification.json`, and leaves `results/` unchanged.
 
 For authors preparing a locally revised paper before committing, run
 `python3 paper/review_package.py ../vwn_review_package.zip --working-tree`.
@@ -51,7 +65,8 @@ tree (or under an excluded `paper/submission/` directory).
 ## Automated checks
 
 The `Replication checks` GitHub Actions workflow runs the tests, headline
-numerical verification and anonymous-package checks on pushes and pull requests.
+numerical verification, reporting verification and anonymous-package checks on
+pushes and pull requests.
 It also runs the tests from an extracted archive without Git metadata. It does
 not run the full analysis or rebuild PDF/Word documents. The same checks can be
 run locally using the commands above. The workflow follows the
@@ -62,17 +77,17 @@ run locally using the commands above. The workflow follows the
 | Claim | Evidence | What the data support |
 |---|---|---|
 | Expensive districts vote more conservatively | district returns (fully counted) | Every election for all of Seoul, **no allocation assumption**; in 2012 and 2017 the slope falls by more than half without Gangnam, Seocho and Songpa (Table 3, Figure 2A) |
-| Within districts, election-day voters in more expensive neighborhoods vote more conservatively | election-day ballots, counted in the voter's own voting district | Positive in 2012 and in every sampled election from 2022, also without the three southeastern gu; close to zero in 2017; **no allocation assumption** (Table 2, Online Appendix C20) |
-| ... and so do all residents, early voters included | ranges over every allocation consistent with the returns | Not established by the returns alone in any election with nationwide early voting. Under the main assumptions: positive in **2026** ([0.054, 0.156]; without the three gu [0.029, 0.139], holding for out-of-zone tolerances up to about 0.18), narrowly positive and fragile in 2024, undetermined in 2022 and 2025. Outside the three districts, trimming the highest-price 10% leaves the 2026 sign unresolved (Tables 2–3; Online Appendix C19, C25, C29) |
-| Which further assumption would settle the open signs | a bound on how far residents' early-vote departures align with price | For all of Seoul, bounds at the scale of observed station patterns would make the slope positive in every sampled election from 2022; this is an additional, unverifiable restriction (Online Appendix C22) |
-| Higher- vs lower-price groups within districts | median-split and tercile contrasts | Positive for all of Seoul in 2026; borderline without the three gu ([−0.3, 6.2] and [0.1, 7.9] points) (Table 3, Online Appendix C23) |
+| Within districts, election-day voters in more expensive neighborhoods vote more conservatively | election-day ballots, counted in the voter's own voting district | Positive in 2012 and in every sampled election from 2022, also without the three southeastern gu; close to zero in 2017; **no allocation assumption** (Table 2, Online Appendix C1) |
+| ... and so do all residents, early voters included | ranges over every allocation consistent with the returns | Not established by the returns alone in any election with nationwide early voting. Under the main assumptions: positive in **2026** ([0.054, 0.156]; without the three gu [0.029, 0.139], holding for out-of-zone tolerances up to about 0.18), narrowly positive and fragile in 2024, undetermined in 2022 and 2025. Outside the three districts, trimming the highest-price 10% leaves the 2026 sign unresolved (Tables 2–3; Online Appendix C9, C12, C19) |
+| Which further assumption would settle the open signs | a bound on how far residents' early-vote departures align with price | For all of Seoul, bounds at the scale of observed station patterns would make the slope positive in every sampled election from 2022; this is an additional, unverifiable restriction (Online Appendix C13) |
+| Higher- vs lower-price groups within districts | median-split and tercile contrasts | Positive for all of Seoul in 2026; borderline without the three gu ([−0.3, 6.2] and [0.1, 7.9] points) (Table 3, Online Appendix C22) |
 | How much the counting rule matters | the same 2026 returns with and without the statutory zones | Under weaker assumptions the zones decide whether the direction is established; under the main assumptions they narrow the range by about a quarter (Table 4) |
-| How much better reporting would reveal | guaranteed reduction for every allocation | Under the main assumptions, 27–57% (out-of-zone early ballots by registered dong), 49–69% (all pooled modes); the direction is not guaranteed to be revealed (Table 6, Online Appendix C16) |
+| How much better reporting would reveal | guaranteed reduction for every allocation | Under the main assumptions, 27–57% (out-of-zone early ballots by registered dong), 49–69% (all pooled modes); the direction is not guaranteed to be revealed (Table 5, Online Appendix C29) |
 
-Table 6 assumes exact aggregate disclosure. For a specific primary-suppression
+Table 5 assumes exact aggregate disclosure. For a specific primary-suppression
 rule that marks out-of-zone neighborhood-by-candidate counts below 20 and
 releases larger counts exactly, conservative remaining-width bounds imply
-reductions of 24–49% relative to the current continuous range (Appendix C26).
+reductions of 24–49% relative to the current continuous range (Appendix C30).
 This exercise does not cover complementary suppression or certify privacy.
 Appendix A2 supplies 246 saved integer allocations under the main assumptions;
 a separate arithmetic checker verifies their accounting, zones, movement and
@@ -103,10 +118,10 @@ paper/                   manuscript.md, appendix.md, alt_text.md (figure descrip
                          word_layout.py (Word table panels, repeat headers and landscape pages), build/BUILD_INFO.txt
 tests/                   zone restriction across solver paths, stale-cache regression,
                          direction-revealing criterion, calibration alignment, suppression and document checks
-docs/                    replication map (where every number comes from) and supplementary results (Tables S1-S31)
+docs/                    replication map (where every number comes from) and supplementary results (Tables S1-S30)
 ```
 
-Tables are named by their number in the paper: `paper/tables/table1`–`table6` (main text), `tableA1`–`tableD2` (Online Appendix). Supplementary tables are numbered S1–S31 in `docs/supplementary_results.md`.
+Tables are named by their number in the paper: `paper/tables/table1`–`table5` (main text), `tableA1`–`tableD2` (Online Appendix). Supplementary tables are numbered S1–S30 in `docs/supplementary_results.md`.
 
 ## Reproducing
 
@@ -134,7 +149,7 @@ make paper            # paper/build/manuscript.pdf, appendix.pdf (+ .docx)
 
 The `Makefile` tracks dependencies: each result file depends on its script, the core library `vwn/` and the inputs in `data/`; tables depend on every result file, figures on tables, and the paper on tables, figures and sources. `make -j32 all` therefore never tabulates before computing, and editing the core re-runs everything that uses it (and clears the dong-bound cache in `results/ydong/`). On a fresh clone file times are arbitrary, so `make all` may recompute everything; use `make paper-from-results` to rebuild only the paper from the shipped results. Each build writes `paper/build/BUILD_INFO.txt` with the source commit, tool versions and a hash of `results/`.
 
-**Rebuilding the inputs (optional).** `make data` rebuilds the election returns, available trade-level inputs, council files and mobility calibration from saved sources. It preserves the certified-electorate and price-summary snapshots used in the analysis. `python build/build_trades.py --summaries <sg>` additionally rebuilds available price summaries; run this in a copy if retaining the supplied inputs. `python analysis/robustness/price_lineage.py` does that audit in isolation: 2022, 2024 and 2026 medians agree, while three 2012/2017 medians differ by up to 0.65%, with checked slope endpoints changing by less than 0.00004 and no sign conclusions changing. The original 2025 download and generating code remain unavailable. The package now includes a separately dated MOLIT snapshot (73,319 records), an extended address crosswalk and `analysis/robustness/price_2025_audit.py`, which reconstructs an alternative price measure and checks A/C/D/E slopes in both geographic scopes plus the main setting on common support. Its source and mapping differences must not be mistaken for recovery of the original summary. `make verify-additions` runs this audit, the jurisdiction-specific feasibility-band analysis and the joint geographic/price-tail check (Table C29) offline. It refreshes the corresponding result files; use a copy to preserve every supplied file byte-for-byte. Re-downloading source data requires API keys for data.go.kr and juso.go.kr in a local `.env` (see `.env.example`; never commit `.env`).
+**Rebuilding the inputs (optional).** `make data` rebuilds the election returns, available trade-level inputs, council files and mobility calibration from saved sources. It preserves the certified-electorate and price-summary snapshots used in the analysis. `python build/build_trades.py --summaries <sg>` additionally rebuilds available price summaries; run this in a copy if retaining the supplied inputs. `python analysis/robustness/price_lineage.py` does that audit in isolation: 2022, 2024 and 2026 medians agree, while three 2012/2017 medians differ by up to 0.65%, with checked slope endpoints changing by less than 0.00004 and no sign conclusions changing. The original 2025 download and generating code remain unavailable. The package now includes a separately dated MOLIT snapshot (73,319 records), an extended address crosswalk and `analysis/robustness/price_2025_audit.py`, which reconstructs an alternative price measure and checks A/C/D/E slopes in both geographic scopes plus the main setting on common support. Its source and mapping differences must not be mistaken for recovery of the original summary. `make verify-additions` runs this audit, the jurisdiction-specific feasibility-band analysis and the joint geographic/price-tail check (Table C19) offline. It refreshes the corresponding result files; use a copy to preserve every supplied file byte-for-byte. Re-downloading source data requires API keys for data.go.kr and juso.go.kr in a local `.env` (see `.env.example`; never commit `.env`).
 
 **Verification scope.** The numerical verification checks the 14 headline bound
 configurations and all 246 saved integer allocations. The price-construction
