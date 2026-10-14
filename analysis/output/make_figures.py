@@ -28,12 +28,12 @@ def fig_flow():
     def box(x, y, w, h, text, fc, ec="#444"):
         ax.add_patch(FancyBboxPatch((x, y), w, h, boxstyle="round,pad=0.02,rounding_size=0.12", fc=fc, ec=ec, lw=0.8))
         ax.text(x + w / 2, y + h / 2, text, ha="center", va="center", fontsize=7.6, color=INK, linespacing=1.25)
-    box(0.1, 2.4, 1.7, 1.2, "Registered\nresidents of\ndong i", "#efefec")
-    modes = [("Election day\n(own voting district)", "Reported for dong i\n(attributed to residents)", "#d9ecd9"),
-             ("In-zone early,\nown dong's station", "Reported for dong i\n(attributed to residents)", "#d9ecd9"),
-             ("In-zone early, station j of\nanother dong in the same zone", "Reported for dong j\n(misattributed)", "#f6d3d3"),
-             ("Out-of-zone early\n(return envelope)", "Pooled at gu level\n(constituency level\nin 2024)", "#fbe6cc"),
-             ("At-home, shipboard,\noverseas", "Pooled at gu level\n(constituency level\nin 2024)", "#fbe6cc")]
+    box(0.1, 2.4, 1.7, 1.2, "Registered\nresidents of\nneighborhood i", "#efefec")
+    modes = [("Election day\n(own voting district)", "Reported in neighborhood i\n(residence matches)", "#d9ecd9"),
+             ("In-zone early,\nown neighborhood's station", "Reported in neighborhood i\n(residence matches)", "#d9ecd9"),
+             ("In-zone early, another\nneighborhood's station", "Reported in neighborhood j\n(residence differs)", "#f6d3d3"),
+             ("Out-of-zone early\n(return envelope)", "District total\n(constituency total in 2024)", "#fbe6cc"),
+             ("At-home, shipboard,\noverseas", "District total\n(constituency total in 2024)", "#fbe6cc")]
     for k, (m, r, c) in enumerate(modes):
         y = 4.9 - k * 1.15
         box(2.6, y, 3.5, 0.9, m, "white"); box(7.0, y, 2.8, 0.9, r, c)
@@ -68,12 +68,12 @@ def fig_ladder():
     axs[0].set_yticks(ys); axs[0].set_yticklabels(yt, fontsize=7.6); axs[0].set_xlim(-0.02, 0.25)
     axs[0].set_title("A. Across districts", loc="left"); axs[1].set_title("B. Within-district slope", loc="left")
     axs[2].set_title("C. Within-district contrast", loc="left")
-    axs[0].set_xlabel("Slope of valid-vote share y\non log price (point estimates)"); axs[1].set_xlabel("Slope of roll-based share z\n(range under stated assumptions)")
-    axs[2].set_xlabel("Difference in z, percentage points\n(range under stated assumptions)")
+    axs[0].set_xlabel("Valid-vote share y\nslope on log price"); axs[1].set_xlabel("Roll-based share z\nslope on log price")
+    axs[2].set_xlabel("Higher–lower price contrast\nin z (percentage points)")
     axs[1].set_xlim(-0.12, 0.26); axs[2].set_xlim(-6.5, 12.5)
-    h = [Line2D([0], [0], marker="o", color=ALL, lw=1.4, ms=4.5, label="All of Seoul (A: line = range dropping one district at a time)"),
-         Line2D([0], [0], marker="D", color=EX, ls="", ms=4, label="Without Gangnam, Seocho and Songpa"),
-         Line2D([0], [0], color=ALL, lw=3.4, label="All of Seoul: range (B, C)"), Line2D([0], [0], color=EX, lw=3.4, label="Without the three: range (B, C)")]
+    h = [Line2D([0], [0], marker="o", color=ALL, lw=1.4, ms=4.5, label="All Seoul: point and omission range (A)"),
+         Line2D([0], [0], marker="D", color=EX, ls="", ms=4, label="Excluding the three districts: point (A)"),
+         Line2D([0], [0], color=ALL, lw=3.4, label="All Seoul: bounds (B, C)"), Line2D([0], [0], color=EX, lw=3.4, label="Excluding the three districts: bounds (B, C)")]
     fig.legend(handles=h, loc="upper center", ncol=2, frameon=False, fontsize=7.0, bbox_to_anchor=(0.5, -0.04))
     save(fig, "fig2_scope")
 
@@ -100,6 +100,9 @@ def fig_region():
                 x = r[(r.movement == mv) & (r.delta == dl)].iloc[0]; c, t = cls(x); M[a, b] = c
                 ax.text(b, a, t, ha="center", va="center", fontsize=8.0, color="white" if c >= 4 else INK)
         ax.imshow(M, cmap=cmap, norm=norm, aspect="auto"); ax.set_title(LAB[sg], fontsize=8.5)
+        if np.all(M == 0):
+            ax.text(0.5, 0.5, "No positive lower bound\nin the settings shown",
+                    transform=ax.transAxes, ha="center", va="center", fontsize=8, color=MUTED)
         from matplotlib.patches import Rectangle
         ax.add_patch(Rectangle((-0.5, 0.5), 1, 1, fill=False, ec=CAT[1], lw=1.6, zorder=5))   # main setting: lambda = 1, delta = 0.1
         ax.set_xticks(range(len(dels))); ax.set_xticklabels([f"{d:g}" for d in dels], fontsize=8); ax.set_xlabel("δ (out-of-zone tolerance)", fontsize=8)

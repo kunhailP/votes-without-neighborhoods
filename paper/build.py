@@ -43,6 +43,9 @@ def build(name, meta):
     src = (P / f"{name}.md").read_text()
     pdf_md = inject(src, "pdf", barrier=(name == "appendix"))
     docx_md = re.sub(r"\(figures/([\w\-]+)\.pdf\)", r"(figures/\1.png)", inject(src, "docx"))   # Word cannot display embedded PDFs
+    # A literal text asterisk avoids LibreOffice interpreting a bare
+    # superscript * as an incomplete multiplication operator.
+    docx_md = docx_md.replace("^*", r"^{\text{*}}")
     k = iter(range(1, 1000))                         # pandoc does not number Word figure captions; LaTeX does
     docx_md = re.sub(r"^!\[", lambda m: f"![Figure {next(k)}. ", docx_md, flags=re.M)
     (OUT / f"{name}_pdf.md").write_text(pdf_md); (OUT / f"{name}_docx.md").write_text(docx_md)
@@ -63,7 +66,7 @@ def provenance(counts):
     """Record which commit, tools and inputs produced the files in paper/build/."""
     import datetime, platform, hashlib
     run = lambda *a: subprocess.run(a, capture_output=True, text=True, cwd=P.parent).stdout.strip()
-    dirty = run("git", "status", "--porcelain", "--", "vwn", "analysis", "results", "data", "paper")
+    dirty = run("git", "status", "--porcelain", "--", "vwn", "analysis", "results", "data", "paper", ":(exclude)paper/build")
     res = sorted((P.parent / "results").glob("*.csv"))
     h = hashlib.sha256(b"".join(f.read_bytes() for f in res)).hexdigest()[:16]
     lines = [f"built: {datetime.datetime.now().isoformat(timespec='seconds')}",

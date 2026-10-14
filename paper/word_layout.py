@@ -53,6 +53,9 @@ def format_docx(path):
         caption = table._tbl.getprevious()
         caption_text = ''.join(caption.itertext()) if caption is not None else ''
         landscape = ncol >= 8
+        # Short main-text tables fit on one page; keep their rows and notes
+        # together instead of leaving the final election rows on the next page.
+        compact_main = path.stem == 'manuscript' and caption_text.startswith('Table ') and len(table.rows) <= 10
         # The full definitions are already in Table 2's Notes. Short Word headers
         # leave room for intervals while keeping the same A–F column references.
         if 'Table 2.' in caption_text:
@@ -89,7 +92,7 @@ def format_docx(path):
                     fmt.space_before = Pt(0)
                     fmt.space_after = Pt(2)
                     fmt.line_spacing = 1
-                    fmt.keep_with_next = row_index == 0 or bool(panel)
+                    fmt.keep_with_next = row_index == 0 or bool(panel) or (compact_main and row_index < len(table.rows) - 1)
                     fmt.keep_together = True
                     paragraph.alignment = WD_ALIGN_PARAGRAPH.LEFT if i == 0 else WD_ALIGN_PARAGRAPH.CENTER
                     for run in paragraph.runs:
@@ -103,6 +106,11 @@ def format_docx(path):
             from docx.text.paragraph import Paragraph
             notes = Paragraph(following, table._parent)
             if notes.text.startswith('Notes.'):
+                if compact_main:
+                    for cell in table.rows[-1].cells:
+                        for paragraph in cell.paragraphs:
+                            paragraph.paragraph_format.keep_with_next = True
+                    notes.paragraph_format.keep_together = True
                 notes.paragraph_format.line_spacing = 1
                 notes.paragraph_format.space_before = Pt(4)
                 notes.paragraph_format.space_after = Pt(6)
