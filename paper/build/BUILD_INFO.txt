@@ -1,6 +1,6 @@
-built: 2026-10-12T17:05:55
-commit: 42bb872ce4f7f758512a95216c8b4eaf6882a3e3
+built: 2026-10-14T06:44:31
+commit: 70400066341c8b4b0f8d074dd6e32f04105b2a71 (uncommitted changes in sources)
 python: 3.12.3; pandoc: pandoc 3.1.3
-results: 162 csv files, sha256 prefix ebe2db0c8f69321d
-words, manuscript: 11514
-words, appendix: 11192
+results: 186 csv files, sha256 prefix 814c3a00e8bed93c
+words, manuscript: 11520
+words, appendix: 13344
